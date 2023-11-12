@@ -7,7 +7,7 @@
     <meta name="keywords" content="Male_Fashion, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Male-Fashion | Template</title>
+    <title>Class Outfitters</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap"
@@ -83,16 +83,8 @@
                         <ul>
                             <li><a href="./index.php">Home</a></li>
                             <li class="active"><a href="./shop.php">Shop</a></li>
-                            <li><a href="#">Pages</a>
-                                <ul class="dropdown">
-                                    <li><a href="./about.php">About Us</a></li>
-                                    <li><a href="./shop-details.php">Shop Details</a></li>
-                                    <li><a href="./shopping-cart.php">Shopping Cart</a></li>
-                                    <li><a href="./checkout.php">Check Out</a></li>
-                                    <li><a href="./blog-details.php">Blog Details</a></li>
-                                </ul>
-                            </li>
                             <li><a href="./blog.php">Blog</a></li>
+                            <li><a href="./about.php">About Us</a></li>
                             <li><a href="./contact.php">Contacts</a></li>
                         </ul>
                     </nav>
@@ -317,7 +309,7 @@
                             <script>
                                 document.write(new Date().getFullYear());
                             </script>
-                            All rights reserved | ClassOutfitters 
+                            All rights reserved | Class Outfitters
                         </p>
                     </div>
                 </div>
