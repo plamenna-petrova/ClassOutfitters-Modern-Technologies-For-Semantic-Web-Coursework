@@ -134,7 +134,7 @@ ol {
 .set-bg {
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: top center;
+	background-position: top center !important;
 }
 
 .spad {
@@ -973,7 +973,7 @@ ol {
 }
 
 .product__item__pic {
-	height: 260px;
+	height: 370px;
 	position: relative;
 	background-position: center center;
 }

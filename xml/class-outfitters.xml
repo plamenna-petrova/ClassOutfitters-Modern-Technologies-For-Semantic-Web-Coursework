@@ -57,7 +57,7 @@
         <presentationImage></presentationImage>
         <product number="PIC4197006000001" category="Jackets and Blazers">
             <name>Blazer 'Bossy'</name>
-            <price>86.90</price>
+            <price>$86.90</price>
             <brand>Pieces</brand>
             <images>
                 <modelCenterImage>../img/fallWinterClothingCollection/abdd5a2286b9dc59401194e816afa03a.avif</modelCenterImage>
@@ -106,12 +106,12 @@
                     If the returns label is missing from your delivery, you can always request a new one from our customer service. 
                     Please feel free to contact us if you have any questions:
                 </shippingAndReturns>
-                <ribbon>regular</ribbon>
+                <tag>regular</tag>
             </details>
         </product>
         <product number="MGObpss002000004" category="Jackets and Blazers">
             <name>Blazer 'Charlott'</name>
-            <price>230.90</price>
+            <price>$230.90</price>
             <brand>Pieces</brand>
             <images>
                 <modelCenterImage>../img/fallWinterClothingCollection/b201e4bee57754d438e8d7b9a0789821.avif</modelCenterImage>
@@ -144,6 +144,7 @@
                 <materialAndCareInstructions>
                     <material>40% Polyester - PES (recycled), 33% Viscose, 25% Polyester, 2% Elastane</material>
                     <lining>100% Polyester</lining>
+                    <countryOfOrigin>China</countryOfOrigin>
                     <countryOfOrigin>Cambodia</countryOfOrigin>
                 </materialAndCareInstructions>
                 <shippingAndReturns>
@@ -153,7 +154,385 @@
                     In case the return label is not attached to your shipment, you can order a new one by contacting 
                     our customer service department.
                 </shippingAndReturns>
-                <ribbon>regular</ribbon>
+                <tag>regular</tag>
+            </details>
+        </product>
+        <product number="PIC4197005000001" category="Jackets and Blazers">
+            <name>Blazer 'Classy'</name>
+            <price>$62.90</price>
+            <brand>Pieces</brand>
+            <images>
+                <modelCenterImage>../img/fallWinterClothingCollection/568dfe8d502fdfc8667715360bb9244e.avif</modelCenterImage>
+                <modelSideImage>../img/fallWinterClothingCollection/77e4f746eafe9e26e38264e0e8859309.avif</modelSideImage>
+                <productFocusImage>../img/fallWinterClothingCollection/435724e06c04956bef465ad66661511d.avif</productFocusImage>
+                <productZoomImage>../img/fallWinterClothingCollection/76b254745ff6042a96479b2f1f870ee1.avif</productZoomImage>
+            </images>
+            <availableSizes>
+                <size>XS</size>
+                <size>S</size>
+                <size>M</size>
+                <size>L</size>
+                <size>XL</size>
+            </availableSizes>
+            <color>lightbrown</color>
+            <details>
+                <designAndExtras>
+                    <feature>Plain colored</feature>
+                    <feature>Lapel collar</feature>
+                    <feature>Back slit</feature>
+                    <feature>Flap pocket</feature>
+                    <feature>Without fastening</feature>
+                    <featute>Tonal seams</featute>
+                    <feature>Soft feel</feature>
+                    <feature>Lightly lined</feature>
+                </designAndExtras>
+                <fit>
+                    <sleeveLength>Longsleeve</sleeveLength>
+                    <length>Normal length</length>
+                    <styleFit>Loose fit</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>88% Polyester - PES, 12% Elastane</material>
+                    <lining>100% Polyester - PES</lining>
+                    <countryOfOrigin>China</countryOfOrigin>
+                    <careInstruction>Not dryer safe</careInstruction>
+                    <careInstruction>Iron medium heat</careInstruction>
+                    <careInstruction>Do not bleach</careInstruction>
+                    <careInstruction>30°C delicate wash</careInstruction>
+                </materialAndCareInstructions>
+                <shippingAndReturns>
+                    Class Outfitters covers the postage for shipping. Orders with several products may be shipped separately. 
+                    Please note that charges for return shipments will apply.          
+                    Standard Shipping – $ 0
+                    Immediately available articles are usually delivered by within 8-12 working days.                 
+                    If the returns label is missing from your delivery, you can always request a new one from our customer service.
+                </shippingAndReturns>
+                <tag>regular</tag>
+            </details>
+        </product>
+        <product number="PIC4197027000001" category="Jackets and Blazers">
+            <name>Blazer 'Sky Blue'</name>
+            <price>$49.90</price>
+            <brand>Pieces</brand>
+            <images>
+                <modelCenterImage>../img/fallWinterClothingCollection/60a5e3df4a63db4309bf9e70931360de.avif</modelCenterImage>
+                <modelSideImage>../img/fallWinterClothingCollection/789e08dc29c1820c1a98a6e1ce6b5852.avif</modelSideImage>
+                <productFocusImage>../img/fallWinterClothingCollection/e72cdb5af17fd6708adca45fd806295f.avif</productFocusImage>
+                <productZoomImage>../img/fallWinterClothingCollection/4cded9b71ad1353dbac6ee62222242b4.avif</productZoomImage>
+            </images>
+            <availableSizes>
+                <size>XS</size>
+                <size>S</size>
+                <size>M</size>
+                <size>L</size>
+            </availableSizes>
+            <color>skyblue</color>
+            <details>
+                <designAndExtras>
+                    <feature>Plain colored</feature>
+                    <feature>Falling lapels</feature>
+                    <feature>Straight hem</feature>
+                    <feature>Back slit</feature>
+                    <feature>Flap pocket</feature>
+                    <featute>Without fastening</featute>
+                    <feature>Tonal seams</feature>
+                    <feature>Cool feel</feature>
+                    <feature>Lightly lined</feature>
+                </designAndExtras>
+                <fit>
+                    <sleeveLength>Longsleeve</sleeveLength>
+                    <length>Normal length</length>
+                    <styleFit>Loose fit</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>88% Polyester - PES, 12% Elastane</material>
+                    <lining>100% Polyester - PES</lining>
+                    <countryOfOrigin>China</countryOfOrigin>
+                    <careInstruction>Not dryer safe</careInstruction>
+                    <careInstruction>Dry cleaning with perchloroethylene</careInstruction>
+                    <careInstruction>Do not iron hot</careInstruction>
+                    <careInstruction>Do not bleach</careInstruction>
+                    <careInstruction>30°C easy-care wash</careInstruction>
+                </materialAndCareInstructions>
+                <shippingAndReturns>
+                    Class Outfitters covers the postage for shipping. Orders with several products may be shipped separately. 
+                    Please note that charges for return shipments will apply.          
+                    Standard Shipping – $ 0
+                    Immediately available articles are usually delivered by within 8-12 working days.                 
+                    If the returns label is missing from your delivery, you can always request a new one from our customer service.
+                </shippingAndReturns>
+                <tag>regular</tag>
+            </details>
+        </product>
+        <product number="PIC4197008000001" category="Jackets and Blazers">
+            <name>Blazer 'Light Blue'</name>
+            <price>$54.90</price>
+            <brand>Pieces</brand>
+            <images>
+                <modelCenterImage>../img/fallWinterClothingCollection/64ae30b730a23ae30e6a4ae971fa33bd.avif</modelCenterImage>
+                <modelSideImage>../img/fallWinterClothingCollection/9bfd8b0ba0cadb13e0504705be6e366b.avif</modelSideImage>
+                <productFocusImage>../img/fallWinterClothingCollection/ce21c91c1bf1f9c101b2d83c40eacbd2.avif</productFocusImage>
+                <productZoomImage>../img/fallWinterClothingCollection/6afa3795140b0a4fe3627633d5494476.avif</productZoomImage>
+            </images>
+            <availableSizes>
+                <size>XS</size>
+                <size>S</size>
+                <size>M</size>
+                <size>L</size>
+                <size>XL</size>
+            </availableSizes>
+            <color>lighblue</color>
+            <details>
+                <designAndExtras>
+                    <feature>Plain colored</feature>
+                    <feature>Lapel collar</feature>
+                    <feature>Flap pocket</feature>
+                    <featute>Without fastening</featute>
+                    <feature>Tonal seams</feature>
+                    <feature>Sleek fabric</feature>
+                    <feature>Lightly lined</feature>
+                </designAndExtras>
+                <fit>
+                    <sleeveLength>Longsleeve</sleeveLength>
+                    <length>Normal length</length>
+                    <styleFit>Loose fit</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>88% Polyester - PES, 12% Elastane</material>
+                    <lining>100% Polyester - PES</lining>
+                    <countryOfOrigin>China</countryOfOrigin>
+                    <careInstruction>Not dryer safe</careInstruction>
+                    <careInstruction>Iron medium heat</careInstruction>
+                    <careInstruction>Do not bleach</careInstruction>
+                    <careInstruction>30°C delicate wash</careInstruction>
+                    <careInstruction>Dry at low temperature</careInstruction>
+                </materialAndCareInstructions>
+                <shippingAndReturns>
+                    Class Outfitters covers the postage for shipping. Orders with several products may be shipped separately. 
+                    Please note that charges for return shipments will apply.          
+                    Standard Shipping – $ 0
+                    Immediately available articles are usually delivered by within 8-12 working days.                 
+                    If the returns label is missing from your delivery, you can always request a new one from our customer service.
+                </shippingAndReturns>
+                <tag>regular</tag>
+            </details>
+        </product>
+        <product number="NAS2269001000004" category="Jackets and Blazers">
+            <name>Blazer 'Gray Melange'</name>
+            <price>$356.90</price>
+            <brand>Nasty Gal</brand>
+            <images>
+                <modelCenterImage>../img/fallWinterClothingCollection/eb8d921136b8a7d9bb368d27d7482915.avif</modelCenterImage>
+                <modelSideImage>../img/fallWinterClothingCollection/8d8a633b31e2e690790283cc5a8bc18e.avif</modelSideImage>
+                <productFocusImage>../img/fallWinterClothingCollection/78ab96652d49167b1b7315fe5cb9dc62.avif</productFocusImage>
+                <productZoomImage>../img/fallWinterClothingCollection81ed3a5a8fccdde8b19b6ce7cd7237a8.avif</productZoomImage>
+            </images>
+            <availableSizes>
+                <size>XS</size>
+                <size>S</size>
+                <size>M</size>
+                <size>L</size>
+                <size>XL</size>
+            </availableSizes>
+            <color>gray</color>
+            <details>
+                <designAndExtras>
+                    <feature>Melange</feature>
+                    <feature>Cuffs with 1 button</feature>
+                    <feature>Straight cuffs</feature>
+                    <featute>Lapel collar</featute>
+                    <feature>Chest pocket</feature>
+                    <feature>Flap pockets</feature>
+                    <feature>Solid colored tiles</feature>
+                    <feature>Light material</feature>
+                    <feature>Lightly padded</feature>
+                    <feature>With buttons</feature>
+                </designAndExtras>
+                <fit>
+                    <sleeveLength>Longsleeve</sleeveLength>
+                    <length>Normal length</length>
+                    <styleFit>Normal shape</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>65% Polyester - PES, 32% Viscose, 3% Elastane</material>
+                    <lining>100% Polyester - PES</lining>
+                    <countryOfOrigin>Turkey</countryOfOrigin>
+                    <careInstruction>Do not wash</careInstruction>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>Dry cleaning with perchlorethylene</careInstruction>
+                    <careInstruction>Do not iron</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                </materialAndCareInstructions>
+                <shippingAndReturns>
+                    For orders over $60.90, delivery is free. If the value of the order is lower, 
+                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
+                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
+                    All available items can be delivered with our Econt partners within 4-6 working days.
+                    In case the return label is not attached to your shipment, 
+                    you can order a new one by contacting our customer service department
+                </shippingAndReturns>
+                <tag>regular</tag>
+            </details>
+        </product>
+        <product number="PUB9a78001000003" category="Jackets and Blazers">
+            <name>Blazer 'Striped Light Brown'</name>
+            <price>$180.95</price>
+            <brand>Pull and Bear</brand>
+            <images>
+                <modelCenterImage>../img/fallWinterClothingCollection/02a62900a0598cfda6617a8f6239d5af.avif</modelCenterImage>
+                <modelSideImage>../img/fallWinterClothingCollection/4c4823be7660af6f1de16b4fac732e01.avif</modelSideImage>
+                <productFocusImage>../img/fallWinterClothingCollection/391283f5eb6efc06eceaf09319487b6c.avif</productFocusImage>
+                <productZoomImage>../img/fallWinterClothingCollection/57aa349151d706de194ccce66ce495d9.avif</productZoomImage>
+            </images>
+            <availableSizes>
+                <size>XS</size>
+                <size>S</size>
+                <size>L</size>
+                <size>XL</size>
+            </availableSizes>
+            <color>lightbrown</color>
+            <details>
+                <designAndExtras>
+                    <feature>Lapel collar</feature>
+                    <feature>Stitched pockets</feature>
+                    <featute>Full pattern</featute>
+                    <feature>Chest pocket</feature>
+                    <feature>Fixed handle</feature>
+                    <feature>Lightly padded</feature>
+                    <feature>With buttons</feature>
+                </designAndExtras>
+                <fit>
+                    <sleeveLength>Longsleeve</sleeveLength>
+                    <length>Normal length</length>
+                    <styleFit>Free cut</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>65% Polyester - PES, 32% Viscose, 3% Elastane</material>
+                    <lining>100% Polyester</lining>
+                    <countryOfOrigin>Turkey</countryOfOrigin>
+                    <careInstruction>Do not wash</careInstruction>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>Dry cleaning with perchlorethylene</careInstruction>
+                    <careInstruction>Do not iron</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                </materialAndCareInstructions>
+                <shippingAndReturns>
+                    For orders over $60.90, delivery is free. If the value of the order is lower, 
+                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
+                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
+                    All available items can be delivered with our Econt partners within 4-6 working days.
+                    In case the return label is not attached to your shipment, 
+                    you can order a new one by contacting our customer service department
+                </shippingAndReturns>
+                <tag>regular</tag>
+            </details>
+        </product>
+        <product number="PUB1285001000003" category="Jackets and Blazers">
+            <name>Blazer 'Khaki'</name>
+            <price>$199.99</price>
+            <brand>Pull and Bear</brand>
+            <images>
+                <modelCenterImage>../img/fallWinterClothingCollection/44b67ec205f941239d55e6602992a9d5.avif</modelCenterImage>
+                <modelSideImage>../img/fallWinterClothingCollection/d3eaf8c593d11ae7d56f411775d72a27.avif</modelSideImage>
+                <productFocusImage>../img/fallWinterClothingCollection/fbddfeac078415026cde86bc3ac56a4d.avif</productFocusImage>
+                <productZoomImage>../img/fallWinterClothingCollection/7f4cc487814f3ad265bafa1373d4bd9f.avif</productZoomImage>
+            </images>
+            <availableSizes>
+                <size>XS</size>
+                <size>S</size>
+                <size>L</size>
+                <size>XL</size>
+            </availableSizes>
+            <color>khaki</color>
+            <details>
+                <designAndExtras>
+                    <feature>Plaid</feature>
+                    <feature>Lapel collar</feature>
+                    <feature>Flap pockets</feature>
+                    <featute>Full pattern</featute>
+                    <feature>Soft touch handle</feature>
+                    <feature>Light material</feature>
+                    <feature>Lightly padded</feature>
+                    <feature>With buttons</feature>
+                </designAndExtras>
+                <fit>
+                    <sleeveLength>Longsleeve</sleeveLength>
+                    <length>Normal length</length>
+                    <styleFit>Normal Shape</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>64% Polyester - PES, 32% Viscose, 2% Elastane</material>
+                    <lining>100% Polyester</lining>
+                    <countryOfOrigin>Turkey</countryOfOrigin>
+                    <careInstruction>Do not wash</careInstruction>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>Dry cleaning with perchlorethylene</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                </materialAndCareInstructions>
+                <shippingAndReturns>
+                    For orders over $60.90, delivery is free. If the value of the order is lower, 
+                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
+                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
+                    All available items can be delivered with our Econt partners within 4-6 working days.
+                    In case the return label is not attached to your shipment, 
+                    you can order a new one by contacting our customer service department
+                </shippingAndReturns>
+                <tag>regular</tag>
+            </details>
+        </product>
+        <product number="GST5430001000003" category="Jackets and Blazers">
+            <name>Blazer 'Dark Blue'</name>
+            <price>$899.99</price>
+            <brand>G-Star Raw</brand>
+            <images>
+                <modelCenterImage>../img/fallWinterClothingCollection/cff9607743692c59a3ed646b67c6d0c1.avif</modelCenterImage>
+                <modelSideImage>../img/fallWinterClothingCollection/a634a64488965e03f7c0b4e1ea399ddb.avif</modelSideImage>
+                <productFocusImage>../img/fallWinterClothingCollection/8d5c327430ae900144541f9db851df11.avif</productFocusImage>
+                <productZoomImage>../img/fallWinterClothingCollection/8c367a6b1e1ad801b529485658d57089.avif</productZoomImage>
+            </images>
+            <availableSizes>
+                <size>XS</size>
+                <size>S</size>
+                <size>XL</size>
+            </availableSizes>
+            <color>darkblue</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Lapel collar</feature>
+                    <feature>Chest pocket</feature>
+                    <featute>Flap pockets</featute>
+                    <feature>Free cut</feature>
+                    <feature>Patch/Brand Nameplate</feature>
+                    <feature>Prototypically produced</feature>
+                    <feature>Lightly padded</feature>
+                    <feature>With buttons</feature>
+                    <feature>Recycled polyester</feature>
+                </designAndExtras>
+                <fit>
+                    <sleeveLength>Longsleeve</sleeveLength>
+                    <length>Normal length</length>
+                    <styleFit>Loose fit</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>75% Polyester - PES, 14% Lyocell (TENCEL™), 8% Wool, 3% Elastane</material>
+                    <lining>100% Polyester</lining>
+                    <countryOfOrigin>Switzerland</countryOfOrigin>
+                    <careInstruction>Do not wash</careInstruction>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>Dry cleaning with perchlorethylene</careInstruction>
+                    <careInstruction>Do not iron at a high temperature</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                </materialAndCareInstructions>
+                <shippingAndReturns>
+                    For orders over $60.90, delivery is free. If the value of the order is lower, 
+                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
+                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
+                    All available items can be delivered with our Econt partners within 4-6 working days.
+                    In case the return label is not attached to your shipment, 
+                    you can order a new one by contacting our customer service department
+                </shippingAndReturns>
+                <tag>regular</tag>
             </details>
         </product>
     </collection>
