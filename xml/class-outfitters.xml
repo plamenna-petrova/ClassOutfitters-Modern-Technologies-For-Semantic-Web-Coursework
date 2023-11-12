@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./class-outfitters.xsl"?>
+<shop yearOfEstablishment="2018" phoneNumber="+1 (646) 555-3890">
+    <name>Class Outfitters</name>
+    <email>class_outfitters@gmail.com</email>
+    <address>9th Street. 47 W 15th St, New York, NY 10011</address>
+    <googleMapsLocation></googleMapsLocation>
+    <socials>
+        <facebook></facebook>
+        <x></x>
+        <pinterest></pinterest>
+        <instagram></instagram>
+    </socials>
+    <whoWeAre>Contextual advertising programs sometimes have strict policies that need to be adhered too. 
+        Let’s take Google as an example.
+    </whoWeAre>
+    <whatWeDo>
+        In this digital generation where information can be easily obtained within seconds, 
+        business cards still have retained their importance.
+    </whatWeDo>
+    <whyChooseUs>
+        A two or three storey house is the ideal way to maximise the 
+        piece of earth on which our home sits, but for older or infirm people.
+    </whyChooseUs>
+    <quote>
+        <author>Augusta Schultz</author>
+        <area>Fashion Design</area>
+        <content>“Going out after work? Take your butane curling iron with you to the office, heat it up, 
+            style your hair before you leave the office and you won’t have to make a trip back home.”</content>
+    </quote>
+    <internationalClients>102</internationalClients>
+    <nationalClients>50</nationalClients>
+    <totalCategories>30</totalCategories>
+    <happyCustomersPercentage>98%</happyCustomersPercentage>
+    <teamMember>
+        <name>John Smith</name>
+        <position>Fashion Design</position>
+        <image></image>
+    </teamMember>
+    <teamMember>
+        <name>Christine Wise</name>
+        <position>C.E.O</position>
+        <image></image>
+    </teamMember>
+    <teamMember>
+        <name>Sean Robbins</name>
+        <position>Manager</position>
+        <image></image>
+    </teamMember>
+    <teamMember>
+        <name>Lucy Myers</name>
+        <position>Delivery</position>
+        <image></image>
+    </teamMember>
+    <collection totalProducts="">
+        <name>Fall - Winter Clothing Collection 2023/2024"</name>
+        <presentationImage></presentationImage>
+        <product number="PIC4197006000001" category="Jackets and Blazers">
+            <name>Blazer 'Bossy'</name>
+            <price>86.90</price>
+            <brand>Pieces</brand>
+            <images>
+                <modelCenterImage>../img/fallWinterClothingCollection/abdd5a2286b9dc59401194e816afa03a.avif</modelCenterImage>
+                <modelSideImage>../img/fallWinterClothingCollection/a94812e9e7f2ddf183f8027898a130d4.avif</modelSideImage>
+                <productFocusImage>../img/fallWinterClothingCollection/ce0471f447e9f5f2825feb8f707f0625.avif</productFocusImage>
+                <productZoomImage>../img/fallWinterClothingCollection/587655e88207a3be67b431e8d3ae0b49.avif</productZoomImage>
+            </images>
+            <availableSizes>
+                <size>XS</size>
+                <size>S</size>
+                <size>M</size>
+                <size>L</size>
+                <size>XL</size>
+            </availableSizes>
+            <color>white</color>
+            <details>
+                <designAndExtras>
+                    <feature>Plain colored</feature>
+                    <feature>Lapel collar</feature>
+                    <feature>Flap pocket</feature>
+                    <feature>Without fastening</feature>
+                    <featute>Tonal seams</featute>
+                    <feature>Sleek fabric</feature>
+                    <feature>Lightly lined</feature>
+                </designAndExtras>
+                <fit>
+                    <sleeveLength>Longsleeve</sleeveLength>
+                    <length>Normal length</length>
+                    <styleFit>Loose fit</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>88% Polyester - PES, 12% Elastane</material>
+                    <lining>100% Polyester - PES</lining>
+                    <countryOfOrigin>China</countryOfOrigin>
+                    <careInstruction>Not dryer safe</careInstruction>
+                    <careInstruction>Iron medium heat</careInstruction>
+                    <careInstruction>Do not bleach</careInstruction>
+                    <careInstruction>30°C delicate wash</careInstruction>
+                    <careInstruction>Dry at low temperature</careInstruction>
+                </materialAndCareInstructions>
+                <shippingAndReturns>
+                    Class Outfitters covers the postage for shipping. Orders with several products may be shipped separately. 
+                    Please note that charges for return shipments will apply.     
+                    Standard Shipping – $ 0
+                    Immediately available articles are usually delivered by within 8-12 working days.
+                    If the returns label is missing from your delivery, you can always request a new one from our customer service. 
+                    Please feel free to contact us if you have any questions:
+                </shippingAndReturns>
+                <ribbon>regular</ribbon>
+            </details>
+        </product>
+        <product number="MGObpss002000004" category="Jackets and Blazers">
+            <name>Blazer 'Charlott'</name>
+            <price>230.90</price>
+            <brand>Pieces</brand>
+            <images>
+                <modelCenterImage>../img/fallWinterClothingCollection/b201e4bee57754d438e8d7b9a0789821.avif</modelCenterImage>
+                <modelSideImage>../img/fallWinterClothingCollection/a1b654edeaa5f01f84fb039d1e6773b7.avif</modelSideImage>
+                <productFocusImage>../img/fallWinterClothingCollection/1ed7a62a8e3a74c01ad8dec931f90144.avif</productFocusImage>
+                <productZoomImage>../img/fallWinterClothingCollection/7f4cc487814f3ad265bafa1373d4bd9f.avif</productZoomImage>
+            </images>
+            <availableSizes>
+                <size>XS</size>
+                <size>S</size>
+                <size>M</size>
+                <size>L</size>
+                <size>XL</size>
+            </availableSizes>
+            <color>darkbrown</color>
+            <details>
+                <designAndExtras>
+                    <feature>Melange</feature>
+                    <feature>Straight hem</feature>
+                    <feature>Welted pockets</feature>
+                    <feature>Without fastening</feature>
+                    <featute>Lightly padded</featute>
+                    <feature>With buttons</feature>
+                </designAndExtras>
+                <fit>
+                    <sleeveLength>Longsleeve</sleeveLength>
+                    <length>Normal length</length>
+                    <styleFit>Normal Shape</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>40% Polyester - PES (recycled), 33% Viscose, 25% Polyester, 2% Elastane</material>
+                    <lining>100% Polyester</lining>
+                    <countryOfOrigin>Cambodia</countryOfOrigin>
+                </materialAndCareInstructions>
+                <shippingAndReturns>
+                    For orders over BGN 29.90, delivery is free. If the value of the order is lower, 
+                    delivery charges of BGN 4.90 including VAT per order apply. For orders containing several products, 
+                    it is possible, in some cases, to be delivered in more than one package.
+                    In case the return label is not attached to your shipment, you can order a new one by contacting 
+                    our customer service department.
+                </shippingAndReturns>
+                <ribbon>regular</ribbon>
+            </details>
+        </product>
+    </collection>
+    <collection>
+        <name>Shoes Winter Collection 2023/2024</name>
+    </collection>
+    <collection>
+        <name>Accessories Fall Collection 2023</name>
+    </collection>
+    <blog>
+        <post>
+        </post>
+    </blog>
+</shop>
