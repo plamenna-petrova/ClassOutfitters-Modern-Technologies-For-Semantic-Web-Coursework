@@ -11,9 +11,9 @@
         <pinterest></pinterest>
         <instagram></instagram>
     </socials>
-    <whoWeAre>Contextual advertising programs sometimes have strict policies that need to be adhered too. 
+    <whoAreWe>Contextual advertising programs sometimes have strict policies that need to be adhered too. 
         Let’s take Google as an example.
-    </whoWeAre>
+    </whoAreWe>
     <whatWeDo>
         In this digital generation where information can be easily obtained within seconds, 
         business cards still have retained their importance.
@@ -48,7 +48,7 @@
         <image></image>
     </teamMember>
     <teamMember>
-        <name>Lucy Myers</name>
+        <name>Lucca Myers</name>
         <position>Delivery</position>
         <image></image>
     </teamMember>
@@ -482,7 +482,7 @@
         </product>
         <product number="GST5430001000003" category="Jackets and Blazers">
             <name>Blazer 'Dark Blue'</name>
-            <price>$899.99</price>
+            <price>$499.99</price>
             <brand>G-Star Raw</brand>
             <images>
                 <modelCenterImage>../img/fallWinterClothingCollection/cff9607743692c59a3ed646b67c6d0c1.avif</modelCenterImage>

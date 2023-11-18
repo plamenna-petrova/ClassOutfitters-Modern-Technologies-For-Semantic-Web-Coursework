@@ -1,6 +1,32 @@
+<?php
+if (file_exists('./xml/class-outfitters.xml')) {
+    $classOutfittersXMLData = simplexml_load_file('./xml/class-outfitters.xml');
+    $shopArray = convertXMLObjectToArray($classOutfittersXMLData);
+} else {
+    exit('Failed to open test.xml.');
+}
+
+$shopNode = $classOutfittersXMLData->shop;
+
+$whoAreWe = $shopArray["whoAreWe"];
+$whatWeDo = $shopArray["whatWeDo"];
+$whyChooseUs = $shopArray["whyChooseUs"];
+$quoteAuthor = $shopArray["quote"]["author"];
+$quoteArea = $shopArray["quote"]["area"];
+$quoteContent = $shopArray["quote"]["content"];
+
+function convertXMLObjectToArray($xmlObject, $xmlOutputArray = array())
+{
+    foreach ((array) $xmlObject as $index => $node) {
+        $xmlOutputArray[$index] = (is_object($node)) ? convertXMLObjectToArray($node) : $node;
+    }
+
+    return $xmlOutputArray;
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Male_Fashion Template">
@@ -133,23 +159,26 @@
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="about__item">
-                        <h4>Who We Are ?</h4>
-                        <p>Contextual advertising programs sometimes have strict policies that need to be adhered too.
-                        Let’s take Google as an example.</p>
+                        <h4>Who Are We ?</h4>
+                        <?php
+                            echo "<p>$whoAreWe</p>"; 
+                        ?>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="about__item">
-                        <h4>Who We Do ?</h4>
-                        <p>In this digital generation where information can be easily obtained within seconds, business
-                        cards still have retained their importance.</p>
+                        <h4>What We Do ?</h4>
+                        <?php
+                            echo "<p>$whatWeDo</p>"; 
+                        ?>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="about__item">
                         <h4>Why Choose Us</h4>
-                        <p>A two or three storey house is the ideal way to maximise the piece of earth on which our home
-                        sits, but for older or infirm people.</p>
+                        <?php
+                            echo "<p>$whyChooseUs</p>"; 
+                        ?>
                     </div>
                 </div>
             </div>
@@ -164,18 +193,18 @@
                 <div class="col-lg-6 p-0">
                     <div class="testimonial__text">
                         <span class="icon_quotations"></span>
-                        <p>“Going out after work? Take your butane curling iron with you to the office, heat it up,
-                            style your hair before you leave the office and you won’t have to make a trip back home.”
-                        </p>
-                        <div class="testimonial__author">
-                            <div class="testimonial__author__pic">
-                                <img src="img/about/testimonial-author.jpg" alt="">
-                            </div>
-                            <div class="testimonial__author__text">
-                                <h5>Augusta Schultz</h5>
-                                <p>Fashion Design</p>
-                            </div>
-                        </div>
+                        <?php
+                            echo '<p>' . $quoteContent . '</p>' . 
+                                '<div class="testimonial__author">' .
+                                    '<div class="testimonial__author__pic">' . 
+                                        '<img src="img/about/testimonial-author.jpg" alt="">' .
+                                    '</div>' .
+                                    '<div class="testimonial__author__text">' .
+                                        '<h5>' . $quoteAuthor . '</h5>' .
+                                        '<p>' . $quoteArea . '</p>' . 
+                                    '</div>' .
+                                '</div>'; 
+                        ?>
                     </div>
                 </div>
                 <div class="col-lg-6 p-0">

@@ -1,5 +1,7 @@
 <?xml version="1.0" ?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:key name="category" match="*[@category]" use="@category"/>
+    <xsl:key name="brand" match="*[brand]" use="brand" />
     <xsl:template match="/">
         <html>
             <head>
@@ -28,7 +30,6 @@
                     </div>
                     <div class="offcanvas__nav__option">
                         <a href="#" class="search-switch"><img src="../img/icon/search.png" alt="" /></a>
-                        <a href="#"><img src="../img/icon/heart.png" alt="" /></a>
                         <a href="#"><img src="../img/icon/cart.png" alt="" /> <span>0</span></a>
                         <div class="price">$0.00</div>
                     </div>
@@ -80,7 +81,6 @@
                             <div class="col-lg-3 col-md-3">
                                 <div class="header__nav__option">
                                     <a href="#" class="search-switch"><img src="../img/icon/search.png" alt="" /></a>
-                                    <a href="#"><img src="../img/icon/heart.png" alt="" /></a>
                                     <a href="#"><img src="../img/icon/cart.png" alt="" /> <span>0</span></a>
                                     <div class="price">$0.00</div>
                                 </div>
@@ -131,15 +131,11 @@
                                                     <div class="card-body">
                                                         <div class="shop__sidebar__categories">
                                                             <ul class="nice-scroll">
-                                                                <li><a href="#">Men (20)</a></li>
-                                                                <li><a href="#">Women (20)</a></li>
-                                                                <li><a href="#">Bags (20)</a></li>
-                                                                <li><a href="#">Clothing (20)</a></li>
-                                                                <li><a href="#">Shoes (20)</a></li>
-                                                                <li><a href="#">Accessories (20)</a></li>
-                                                                <li><a href="#">Kids (20)</a></li>
-                                                                <li><a href="#">Kids (20)</a></li>
-                                                                <li><a href="#">Kids (20)</a></li>
+                                                                <xsl:for-each select="//*[generate-id() = generate-id(key('category',@category)[1])]">
+                                                                    <li>
+                                                                        <a href="#"><xsl:value-of select="@category"/></a>
+                                                                    </li>
+                                                                </xsl:for-each>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -153,10 +149,11 @@
                                                     <div class="card-body">
                                                         <div class="shop__sidebar__brand">
                                                             <ul>
-                                                                <li><a href="#">Louis Vuitton</a></li>
-                                                                <li><a href="#">Chanel</a></li>
-                                                                <li><a href="#">Hermes</a></li>
-                                                                <li><a href="#">Gucci</a></li>
+                                                                <xsl:for-each select="//*[generate-id() = generate-id(key('brand',brand)[1])]">
+                                                                    <li>
+                                                                        <a href="#"><xsl:value-of select="brand"/></a>
+                                                                    </li>
+                                                                </xsl:for-each>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -264,7 +261,7 @@
                                                             <a href="#">Product</a>
                                                             <a href="#">Bags</a>
                                                             <a href="#">Shoes</a>
-                                                            <a href="#">Fashio</a>
+                                                            <a href="#">Fashion</a>
                                                             <a href="#">Clothing</a>
                                                             <a href="#">Hats</a>
                                                             <a href="#">Accessories</a>
@@ -289,8 +286,7 @@
                                                 <p>Sort by Price:</p>
                                                 <select>
                                                     <option value="">Low To High</option>
-                                                    <option value="">$0 - $55</option>
-                                                    <option value="">$55 - $100</option>
+                                                    <option value="">High To Low</option>
                                                 </select>
                                             </div>
                                         </div>
