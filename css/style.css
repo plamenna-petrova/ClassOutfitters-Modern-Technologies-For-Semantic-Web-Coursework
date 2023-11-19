@@ -961,6 +961,10 @@ ol {
 	right: 20px;
 	opacity: 1;
 }
+.product__item:hover .product__item__pic .product__hover button {
+	border: none;
+	padding: 0;
+}
 
 .product__item:hover .product__item__text a {
 	top: 22px;
@@ -1610,6 +1614,11 @@ ol {
 	margin-left: -28px;
 }
 
+.product__details__pic__item img {
+	max-width: 600px;
+	max-height: 600px;
+}
+
 .product__details__text {
 	text-align: center;
 }
@@ -1920,6 +1929,10 @@ ol {
 
 .product__details__tab__content__item p {
 	margin-bottom: 0;
+}
+
+.product__details__tab__content__item ul {
+	margin-left: 17px;
 }
 
 /*---------------------

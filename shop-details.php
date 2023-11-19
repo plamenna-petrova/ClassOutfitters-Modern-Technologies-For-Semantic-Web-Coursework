@@ -1,3 +1,25 @@
+<?php
+if (file_exists('./xml/class-outfitters.xml')) {
+    $shopNode = simplexml_load_file('./xml/class-outfitters.xml');
+    $productNumber = $_GET['productNumber'];
+    $productCategory = $_GET['productCategory'];
+    $productByXPathQuery = $shopNode->xpath("collection/product[@number='$productNumber']")[0];
+    $productName = $productByXPathQuery->name;
+    $productPrice = $productByXPathQuery->price;
+    $productImages = $productByXPathQuery->images;
+    $productAvailableSizes = $productByXPathQuery->availableSizes;
+    $productDesignAndExtras = $productByXPathQuery->details->designAndExtras;
+    $productFit = $productByXPathQuery->details->fit;
+    $productMaterialAndCareInstructions = $productByXPathQuery->details->materialAndCareInstructions;
+    $productShippingAndReturns = $productByXPathQuery->details->shippingAndReturns;
+    $relatedProducts = $shopNode->xpath("collection/product[@category='$productCategory' and @number!='$productNumber']");
+    shuffle($relatedProducts);
+    $relatedProducts = array_slice($relatedProducts, 0, 4);
+} else {
+    exit('Failed to open class-outfitters.xml');
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -118,56 +140,62 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-3">
                         <ul class="nav nav-tabs" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab">
-                                    <div class="product__thumb__pic set-bg" data-setbg="img/shop-details/thumb-1.png">
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab">
-                                    <div class="product__thumb__pic set-bg" data-setbg="img/shop-details/thumb-2.png">
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#tabs-3" role="tab">
-                                    <div class="product__thumb__pic set-bg" data-setbg="img/shop-details/thumb-3.png">
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#tabs-4" role="tab">
-                                    <div class="product__thumb__pic set-bg" data-setbg="img/shop-details/thumb-4.png">
-                                        <i class="fa fa-play"></i>
-                                    </div>
-                                </a>
-                            </li>
+                            <?php
+                                echo "
+                                    <li class='nav-item'>
+                                        <a class='nav-link active' data-toggle='tab' href='#tabs-1' role='tab'>
+                                            <div class='product__thumb__pic set-bg' data-setbg='$productImages->modelCenterImage'>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class='nav-item'>
+                                        <a class='nav-link' data-toggle='tab' href='#tabs-2' role='tab'>
+                                            <div class='product__thumb__pic set-bg' data-setbg='$productImages->modelSideImage'>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class='nav-item'>
+                                        <a class='nav-link' data-toggle='tab' href='#tabs-3' role='tab'>
+                                            <div class='product__thumb__pic set-bg' data-setbg='$productImages->productFocusImage'>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class='nav-item'>
+                                        <a class='nav-link' data-toggle='tab' href='#tabs-4' role='tab'>
+                                            <div class='product__thumb__pic set-bg' data-setbg='$productImages->productZoomImage'>
+                                            </div>
+                                        </a>
+                                    </li>
+                                ";
+                            ?>
                         </ul>
                     </div>
                     <div class="col-lg-6 col-md-9">
                         <div class="tab-content">
-                            <div class="tab-pane active" id="tabs-1" role="tabpanel">
-                                <div class="product__details__pic__item">
-                                    <img src="img/shop-details/product-big-2.png" alt="">
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="tabs-2" role="tabpanel">
-                                <div class="product__details__pic__item">
-                                    <img src="img/shop-details/product-big-3.png" alt="">
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="tabs-3" role="tabpanel">
-                                <div class="product__details__pic__item">
-                                    <img src="img/shop-details/product-big.png" alt="">
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="tabs-4" role="tabpanel">
-                                <div class="product__details__pic__item">
-                                    <img src="img/shop-details/product-big-4.png" alt="">
-                                    <a href="https://www.youtube.com/watch?v=8PJ3_p7VqHw&list=RD8PJ3_p7VqHw&start_radio=1" class="video-popup"><i class="fa fa-play"></i></a>
-                                </div>
-                            </div>
+                            <?php
+                                echo "
+                                    <div class='tab-pane active' id='tabs-1' role='tabpanel'>
+                                        <div class='product__details__pic__item'>
+                                            <img src='$productImages->modelCenterImage' alt=''>
+                                        </div>
+                                    </div>
+                                    <div class='tab-pane' id='tabs-2' role='tabpanel'>
+                                        <div class='product__details__pic__item'>
+                                            <img src='$productImages->modelSideImage' alt=''>
+                                        </div>
+                                    </div>
+                                    <div class='tab-pane' id='tabs-3' role='tabpanel'>
+                                        <div class='product__details__pic__item'>
+                                            <img src='$productImages->productFocusImage' alt=''>
+                                        </div>
+                                    </div>
+                                    <div class='tab-pane' id='tabs-4' role='tabpanel'>
+                                        <div class='product__details__pic__item'>
+                                            <img src='$productImages->productZoomImage' alt=''>
+                                        </div>
+                                    </div>
+                                ";
+                            ?>
                         </div>
                     </div>
                 </div>
@@ -178,23 +206,23 @@
                 <div class="row d-flex justify-content-center">
                     <div class="col-lg-8">
                         <div class="product__details__text">
-                            <h4>Hooded thermal anorak</h4>
-                            <h3>$270.00</h3>
+                            <?php
+                                echo "
+                                    <h4>$productName</h4>
+                                    <h3>$productPrice</h3>
+                                ";
+                            ?>
                             <div class="product__details__cart__option">
                                 <div class="product__details__option__size">
                                     <span>Size:</span>
-                                    <label for="xxl">xxl
-                                        <input type="radio" id="xxl">
-                                    </label>
-                                    <label class="active" for="xl">xl
-                                        <input type="radio" id="xl">
-                                    </label>
-                                    <label for="l">l
-                                        <input type="radio" id="l">
-                                    </label>
-                                    <label for="sm">s
-                                        <input type="radio" id="sm">
-                                    </label>
+                                    <?php
+                                        foreach ($productAvailableSizes->size as $sizeNode) {
+                                            $sizeNodeValue = (string) $sizeNode;
+                                            echo "<label for='$sizeNodeValue'>$sizeNodeValue
+                                                <input type='radio' id='$sizeNodeValue'>
+                                            </label>";
+                                        }
+                                    ?>
                                 </div>
                                 <div class="quantity">
                                     <div class="pro-qty">
@@ -221,35 +249,63 @@
                             <div class="tab-content">
                                 <div class="tab-pane active" id="tabs-5" role="tabpanel">
                                     <div class="product__details__tab__content">
-                                        <p class="note">Nam tempus turpis at metus scelerisque placerat nulla deumantos
-                                            solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis
-                                            ut risus. Sedcus faucibus an sullamcorper mattis drostique des commodo
-                                        pharetras loremos.</p>
-                                        <div class="product__details__tab__content__item">
-                                            <h5>Products Infomation</h5>
-                                            <p>A Pocket PC is a handheld computer, which features many of the same
-                                                capabilities as a modern PC. These handy little devices allow
-                                                individuals to retrieve and store e-mail messages, create a contact
-                                                file, coordinate appointments, surf the internet, exchange text messages
-                                                and more. Every product that is labeled as a Pocket PC must be
-                                                accompanied with specific software to operate the unit and must feature
-                                            a touchscreen and touchpad.</p>
-                                            <p>As is the case with any new technology product, the cost of a Pocket PC
-                                                was substantial during it’s early release. For approximately $700.00,
-                                                consumers could purchase one of top-of-the-line Pocket PCs in 2003.
-                                                These days, customers are finding that prices have become much more
-                                                reasonable now that the newness is wearing off. For approximately
-                                            $350.00, a new Pocket PC can now be purchased.</p>
-                                        </div>
-                                        <div class="product__details__tab__content__item">
-                                            <h5>Material used</h5>
-                                            <p>Polyester is deemed lower quality due to its none natural quality’s. Made
-                                                from synthetic materials, not natural like wool. Polyester suits become
-                                                creased easily and are known for not being breathable. Polyester suits
-                                                tend to have a shine to them compared to wool and cotton suits, this can
-                                                make the suit look cheap. The texture of velvet is luxurious and
-                                                breathable. Velvet is a great choice for dinner party jacket and can be
-                                            worn all year round.</p>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="product__details__tab__content__item">
+                                                    <h5>Design and Extras</h5>
+                                                    <?php
+                                                        echo "<ul>";
+
+                                                        foreach ($productDesignAndExtras->feature as $featureNode) {
+                                                            $featureNodeValue = (string) $featureNode;
+                                                            echo "<li>$featureNodeValue</li>";
+                                                        }
+
+                                                        echo "</ul>";
+                                                    ?>
+                                                </div>
+                                                <div class="product__details__tab__content__item">
+                                                    <h5>Fit</h5>
+                                                    <?php
+                                                        echo "<ul>";
+                                                            if ($productFit->sleeveLength->count()) {
+                                                                echo "<li>$productFit->sleeveLength</li>";
+                                                            }
+                                                            echo "<li>$productFit->length</li>";
+                                                            echo "<li>$productFit->styleFit</li>";
+                                                            if ($productFit->waistline->count() ) {
+                                                                echo "<li>$productFit->waistline</li>";
+                                                            }
+                                                        echo "</ul>";
+                                                    ?>        
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="product__details__tab__content__item">
+                                                    <h5>Material used</h5>
+                                                    <?php
+                                                        echo "
+                                                            <h6>$productMaterialAndCareInstructions->material</h6>
+                                                            <br />
+                                                            <h6>Lining: $productMaterialAndCareInstructions->lining</h6>
+                                                            <br />
+                                                            <h6>Country Of Origin: $productMaterialAndCareInstructions->countryOfOrigin</h6>
+                                                            <br />
+                                                            <h6>Care Instructions:</h6>
+                                                            <br />
+                                                        ";
+
+                                                        echo "<ul>";
+
+                                                        foreach ($productMaterialAndCareInstructions->careInstruction as $careInstructionNode) {
+                                                            $careInstructionValue = (string) $careInstructionNode;
+                                                            echo "<li>$careInstructionValue</li>";
+                                                        }
+
+                                                        echo "</ul>";
+                                                    ?>
+                                                </div>            
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -257,30 +313,9 @@
                                     <div class="product__details__tab__content">
                                         <p class="note"></p>
                                         <div class="product__details__tab__content__item">
-                                            <h5>Products Infomation</h5>
-                                            <p>A Pocket PC is a handheld computer, which features many of the same
-                                                capabilities as a modern PC. These handy little devices allow
-                                                individuals to retrieve and store e-mail messages, create a contact
-                                                file, coordinate appointments, surf the internet, exchange text messages
-                                                and more. Every product that is labeled as a Pocket PC must be
-                                                accompanied with specific software to operate the unit and must feature
-                                            a touchscreen and touchpad.</p>
-                                            <p>As is the case with any new technology product, the cost of a Pocket PC
-                                                was substantial during it’s early release. For approximately $700.00,
-                                                consumers could purchase one of top-of-the-line Pocket PCs in 2003.
-                                                These days, customers are finding that prices have become much more
-                                                reasonable now that the newness is wearing off. For approximately
-                                            $350.00, a new Pocket PC can now be purchased.</p>
-                                        </div>
-                                        <div class="product__details__tab__content__item">
-                                            <h5>Material used</h5>
-                                            <p>Polyester is deemed lower quality due to its none natural quality’s. Made
-                                                from synthetic materials, not natural like wool. Polyester suits become
-                                                creased easily and are known for not being breathable. Polyester suits
-                                                tend to have a shine to them compared to wool and cotton suits, this can
-                                                make the suit look cheap. The texture of velvet is luxurious and
-                                                breathable. Velvet is a great choice for dinner party jacket and can be
-                                            worn all year round.</p>
+                                            <?php
+                                              echo "<p>$productShippingAndReturns</p>"; 
+                                            ?>
                                         </div>
                                     </div>
                                 </div>
@@ -298,70 +333,42 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h3 class="related-title">Related Product</h3>
+                    <h3 class="related-title">Related Products</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6 col-sm-6">
-                    <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/product/product-1.jpg">
-                            <span class="label">New</span>
-                            <ul class="product__hover">
-                                <li><a href="#"><img src="img/icon/heart.png" alt=""></a></li>
-                                <li><a href="#"><img src="img/icon/compare.png" alt=""> <span>Compare</span></a></li>
-                                <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
-                            </ul>
-                        </div>
-                        <div class="product__item__text">
-                            <h6>Piqué Biker Jacket</h6>
-                            <a href="#" class="add-cart">+ Add To Cart</a>
-                            <h5>$67.24</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-sm-6">
-                    <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/product/product-2.jpg">
-                            <ul class="product__hover">
-                                <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
-                            </ul>
-                        </div>
-                        <div class="product__item__text">
-                            <h6>Piqué Biker Jacket</h6>
-                            <a href="#" class="add-cart">+ Add To Cart</a>
-                            <h5>$67.24</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-sm-6">
-                    <div class="product__item sale">
-                        <div class="product__item__pic set-bg" data-setbg="img/product/product-3.jpg">
-                            <span class="label">Sale</span>
-                            <ul class="product__hover">
-                                <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
-                            </ul>
-                        </div>
-                        <div class="product__item__text">
-                            <h6>Multi-pocket Chest Bag</h6>
-                            <a href="#" class="add-cart">+ Add To Cart</a>
-                            <h5>$43.48</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-sm-6">
-                    <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/product/product-4.jpg">
-                            <ul class="product__hover">
-                                <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
-                            </ul>
-                        </div>
-                        <div class="product__item__text">
-                            <h6>Diagonal Textured Cap</h6>
-                            <a href="#" class="add-cart">+ Add To Cart</a>
-                            <h5>$60.9</h5>
-                        </div>
-                    </div>
-                </div>
+                <?php
+                    foreach ($relatedProducts as $relatedProduct) {
+                      $currentProductImages = $relatedProduct->images;
+                      $currentProductTagValue = (string) $relatedProduct->tag;
+                      $currentProductNumber = $relatedProduct->attributes()->number;
+                      $currentProductCategory = $relatedProduct->attributes()->category;
+
+                       echo "<div class='col-lg-3 col-md-6 col-sm-6 col-sm-6'>
+                            <div class='product__item'>
+                                <div class='product__item__pic set-bg' data-setbg='$currentProductImages->modelCenterImage'>
+                                    " . ($currentProductTagValue != 'regular' ? "<span class='label'>$currentProductTagValue</span>" : '') . "
+                                    <ul class='product__hover'>
+                                        <li>
+                                            <form method='get' action='shop-details.php'>
+                                                <input type='hidden' name='productNumber' value='$currentProductNumber' />
+                                                <input type='hidden' name='productCategory' value='$currentProductCategory' />
+                                                <button type='submit'>
+                                                    <img src='img/icon/search.png' alt='' />
+                                                </button>
+                                            </form> 
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class='product__item__text'>
+                                    <h6>$relatedProduct->name</h6>
+                                    <a href='#' class='add-cart'>+ Add To Cart</a>
+                                    <h5>$relatedProduct->price</h5>
+                                </div>
+                            </div>
+                        </div>";
+                    }
+                ?>
             </div>
         </div>
     </section>

@@ -298,7 +298,15 @@
                                             <div class="product__item">
                                                 <div class="product__item__pic set-bg" data-setbg="{images/modelCenterImage}">
                                                     <ul class="product__hover">
-                                                        <li><a href="#"><img src="../img/icon/search.png" alt="" /></a></li>
+                                                        <li>
+                                                            <form method="get" action="shop-details.php">
+                                                                <input type="hidden" name="productNumber" value="{@number}" />
+                                                                <input type="hidden" name="productCategory" value="{@category}" />
+                                                                <button type="submit">
+                                                                    <img src="../img/icon/search.png" alt="" />
+                                                                </button>
+                                                            </form>
+                                                        </li>
                                                     </ul>
                                                 </div>
                                                 <div class="product__item__text">
