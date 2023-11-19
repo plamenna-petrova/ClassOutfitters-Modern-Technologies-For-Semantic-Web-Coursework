@@ -1,27 +1,8 @@
 <?php
 if (file_exists('./xml/class-outfitters.xml')) {
-    $classOutfittersXMLData = simplexml_load_file('./xml/class-outfitters.xml');
-    $shopArray = convertXMLObjectToArray($classOutfittersXMLData);
+    $shopNode = simplexml_load_file('./xml/class-outfitters.xml');
 } else {
     exit('Failed to open test.xml.');
-}
-
-$shopNode = $classOutfittersXMLData->shop;
-
-$whoAreWe = $shopArray["whoAreWe"];
-$whatWeDo = $shopArray["whatWeDo"];
-$whyChooseUs = $shopArray["whyChooseUs"];
-$quoteAuthor = $shopArray["quote"]["author"];
-$quoteArea = $shopArray["quote"]["area"];
-$quoteContent = $shopArray["quote"]["content"];
-
-function convertXMLObjectToArray($xmlObject, $xmlOutputArray = array())
-{
-    foreach ((array) $xmlObject as $index => $node) {
-        $xmlOutputArray[$index] = (is_object($node)) ? convertXMLObjectToArray($node) : $node;
-    }
-
-    return $xmlOutputArray;
 }
 ?>
 
@@ -161,7 +142,7 @@ function convertXMLObjectToArray($xmlObject, $xmlOutputArray = array())
                     <div class="about__item">
                         <h4>Who Are We ?</h4>
                         <?php
-                            echo "<p>$whoAreWe</p>"; 
+                            echo "<p>$shopNode->whoAreWe</p>"; 
                         ?>
                     </div>
                 </div>
@@ -169,7 +150,7 @@ function convertXMLObjectToArray($xmlObject, $xmlOutputArray = array())
                     <div class="about__item">
                         <h4>What We Do ?</h4>
                         <?php
-                            echo "<p>$whatWeDo</p>"; 
+                            echo "<p>$shopNode->whatWeDo</p>"; 
                         ?>
                     </div>
                 </div>
@@ -177,7 +158,7 @@ function convertXMLObjectToArray($xmlObject, $xmlOutputArray = array())
                     <div class="about__item">
                         <h4>Why Choose Us</h4>
                         <?php
-                            echo "<p>$whyChooseUs</p>"; 
+                            echo "<p>$shopNode->whyChooseUs</p>"; 
                         ?>
                     </div>
                 </div>
@@ -194,14 +175,14 @@ function convertXMLObjectToArray($xmlObject, $xmlOutputArray = array())
                     <div class="testimonial__text">
                         <span class="icon_quotations"></span>
                         <?php
-                            echo '<p>' . $quoteContent . '</p>' . 
+                            echo '<p>' . $shopNode->quote->content . '</p>' . 
                                 '<div class="testimonial__author">' .
                                     '<div class="testimonial__author__pic">' . 
                                         '<img src="img/about/testimonial-author.jpg" alt="">' .
                                     '</div>' .
                                     '<div class="testimonial__author__text">' .
-                                        '<h5>' . $quoteAuthor . '</h5>' .
-                                        '<p>' . $quoteArea . '</p>' . 
+                                        '<h5>' . $shopNode->quote->author . '</h5>' .
+                                        '<p>' . $shopNode->quote->are . '</p>' . 
                                     '</div>' .
                                 '</div>'; 
                         ?>
@@ -220,37 +201,45 @@ function convertXMLObjectToArray($xmlObject, $xmlOutputArray = array())
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="counter__item">
-                        <div class="counter__item__number">
-                            <h2 class="cn_num">102</h2>
-                        </div>
-                        <span>Our <br />Clients</span>
-                    </div>
+                    <?php
+                        echo '<div class="counter__item">' . 
+                                '<div class="counter__item__number">' . 
+                                    '<h2 class="cn_num">' . $shopNode->internationalClients . '</h2>' .
+                                '</div>' . 
+                                '<span>' . 'International' . '</br>' . 'Clients' . '</span>' .
+                            '</div>'; 
+                    ?>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="counter__item">
-                        <div class="counter__item__number">
-                            <h2 class="cn_num">30</h2>
-                        </div>
-                        <span>Total <br />Categories</span>
-                    </div>
+                    <?php
+                        echo '<div class="counter__item">' .
+                                '<div class="counter__item__number">' .
+                                    '<h2 class="cn_num">' . $shopNode->nationalClients . '</h2>' .
+                                '</div>' .
+                                '<span>' . 'National' . '</br>' . 'Clients' . '</span>' .
+                            '</div>';
+                    ?>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="counter__item">
-                        <div class="counter__item__number">
-                            <h2 class="cn_num">102</h2>
-                        </div>
-                        <span>In <br />Country</span>
-                    </div>
+                    <?php
+                        echo '<div class="counter__item">' .
+                                '<div class="counter__item__number">' .
+                                    '<h2 class="cn_num">' . $shopNode->totalCategories . '</h2>' .
+                                '</div>' .
+                                '<span>' . 'Total' . '</br>' . 'Categories' . '</span>' .
+                            '</div>';
+                    ?>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="counter__item">
-                        <div class="counter__item__number">
-                            <h2 class="cn_num">98</h2>
-                            <strong>%</strong>
-                        </div>
-                        <span>Happy <br />Customer</span>
-                    </div>
+                    <?php
+                        echo '<div class="counter__item">' .
+                                '<div class="counter__item__number">' .
+                                    '<h2 class="cn_num">' . $shopNode->happyCustomersPercentage . '</h2>' .
+                                    '<strong>' . '%' . '</strong>' .
+                                '</div>' .
+                                '<span>' . 'Happy' . '</br>' . 'Customers' . '</span>' .
+                            '</div>';
+                        ?>
                 </div>
             </div>
         </div>
@@ -269,34 +258,17 @@ function convertXMLObjectToArray($xmlObject, $xmlOutputArray = array())
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="team__item">
-                        <img src="img/about/team-1.jpg" alt="">
-                        <h4>John Smith</h4>
-                        <span>Fashion Design</span>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="team__item">
-                        <img src="img/about/team-2.jpg" alt="">
-                        <h4>Christine Wise</h4>
-                        <span>C.E.O</span>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="team__item">
-                        <img src="img/about/team-3.jpg" alt="">
-                        <h4>Sean Robbins</h4>
-                        <span>Manager</span>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="team__item">
-                        <img src="img/about/team-4.jpg" alt="">
-                        <h4>Lucy Myers</h4>
-                        <span>Delivery</span>
-                    </div>
-                </div>
+                <?php
+                    foreach ($shopNode->teamMember as $teamMemberNode) {
+                        echo "<div class='col-lg-3 col-md-6 col-sm-6'>
+                                <div class='team__item'>
+                                    <img src=" . $teamMemberNode->image . " alt=''>
+                                    <h4>" . $teamMemberNode->name . "</h4>
+                                    <span>" . $teamMemberNode->position ."</span>
+                                </div>
+                            </div>";
+                    }
+                ?>
             </div>
         </div>
     </section>
