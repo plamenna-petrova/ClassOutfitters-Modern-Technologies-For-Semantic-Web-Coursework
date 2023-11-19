@@ -888,7 +888,7 @@
                 <size>S</size>
                 <size>M</size>
             </availableSizes>
-            <color>black</color>
+            <color>darkgreen</color>
             <details>
                 <designAndExtras>
                     <feature>One color</feature>
@@ -909,6 +909,438 @@
                     <careInstruction>Not suitable for tumble drying</careInstruction>
                     <careInstruction>Dry cleaning with perchlorethylene</careInstruction>
                     <careInstruction>Do not use bleach</careInstruction>
+                </materialAndCareInstructions>
+                <shippingAndReturns>
+                    For orders over $60.90, delivery is free. If the value of the order is lower, 
+                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
+                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
+                    All available items can be delivered with our Econt partners within 4-6 working days.
+                    In case the return label is not attached to your shipment, 
+                    you can order a new one by contacting our customer service department
+                </shippingAndReturns>
+                <tag>regular</tag>
+            </details>
+        </product>
+        <product number="BKA6396004000001" category="Jumpers">
+            <name>Jumper 'Ivory'</name>
+            <price>$45.95</price>
+            <brand>Bershka</brand>
+            <images>
+                <modelCenterImage>../img/fallWinterClothingCollection/e0493db509f3b5a999b0dbf596aaaa50.avif</modelCenterImage>
+                <modelSideImage>../img/fallWinterClothingCollection/0980adbb3ed9806b801ad5c819bfcf8e.avif</modelSideImage>
+                <productFocusImage>../img/fallWinterClothingCollection/ff41b7673afd6302550ac239d9f00969.avif</productFocusImage>
+                <productZoomImage>../img/fallWinterClothingCollection/a2db0c25f935265f6561c1ad2e290cc3.avif</productZoomImage>
+            </images>
+            <availableSizes>
+                <size>XS</size>
+                <size>S</size>
+                <size>M</size>
+                <size>L</size>
+                <size>XL</size>
+            </availableSizes>
+            <color>ivory</color>
+            <details>
+                <designAndExtras>
+                    <feature>Striped</feature>
+                    <feature>Round neckline</feature>
+                    <feature>Elastic knit collar</feature>
+                    <feature>Straight hem</feature>
+                    <feature>Ribbed tricot</feature>
+                    <feature>Dropped shoulders</feature>
+                    <feature>A soft touch</feature>
+                </designAndExtras>
+                <fit>
+                    <sleeveLength>Long sleeve</sleeveLength>
+                    <length>Normal length</length>
+                    <styleFit>Loose cut</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>53% Polyester, 28% Polyacrylic, 16% Nylon, 3% Wool</material>
+                    <lining>Fine knit</lining>
+                    <countryOfOrigin>China</countryOfOrigin>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>No dry cleaning</careInstruction>
+                    <careInstruction>Do not iron at a high temperature</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                    <careInstruction>Delicate wash 30°C</careInstruction>
+                </materialAndCareInstructions>
+                <shippingAndReturns>
+                    For orders over $60.90, delivery is free. If the value of the order is lower, 
+                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
+                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
+                    All available items can be delivered with our Econt partners within 4-6 working days.
+                    In case the return label is not attached to your shipment, 
+                    you can order a new one by contacting our customer service department
+                </shippingAndReturns>
+                <tag>regular</tag>
+            </details>
+        </product>
+        <product number="BKA6396001000004" category="Jumpers">
+            <name>Jumper 'Sandy'</name>
+            <price>$45.95</price>
+            <brand>Bershka</brand>
+            <images>
+                <modelCenterImage>../img/fallWinterClothingCollection/8b7b662b9120018246db554d01f584a3.avif</modelCenterImage>
+                <modelSideImage>../img/fallWinterClothingCollection/682a559c61097551a96dbd494e98a112.avif</modelSideImage>
+                <productFocusImage>../img/fallWinterClothingCollection/0e63eb1d0259980e5646ec2ce34b3828.avif</productFocusImage>
+                <productZoomImage>../img/fallWinterClothingCollection/41697817568ac4a4b8c8fe0d0b62b69e.avif</productZoomImage>
+            </images>
+            <availableSizes>
+                <size>M</size>
+                <size>L</size>
+                <size>XL</size>
+            </availableSizes>
+            <color>sandybrown</color>
+            <details>
+                <designAndExtras>
+                    <feature>Striped</feature>
+                    <feature>Round neckline</feature>
+                    <feature>Elastic knit collar</feature>
+                    <feature>Ribbed tricot</feature>
+                    <feature>Dropped shoulders</feature>
+                    <feature>Fully fashioned</feature>
+                    <feature>A soft touch</feature>
+                </designAndExtras>
+                <fit>
+                    <sleeveLength>Long sleeve</sleeveLength>
+                    <length>Normal length</length>
+                    <styleFit>Loose cut</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>Material: 40% Polyester - PES (recycled), 28% Polyacrylic, 16% Polyamide, 13% Polyester, 3% Wool</material>
+                    <lining>Fine knit</lining>
+                    <countryOfOrigin>China</countryOfOrigin>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>Dry cleaning with perchlorethylene</careInstruction>
+                    <careInstruction>Do not iron at a high temperature</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                    <careInstruction>Delicate wash 30°C</careInstruction>
+                </materialAndCareInstructions>
+                <shippingAndReturns>
+                    For orders over $60.90, delivery is free. If the value of the order is lower, 
+                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
+                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
+                    All available items can be delivered with our Econt partners within 4-6 working days.
+                    In case the return label is not attached to your shipment, 
+                    you can order a new one by contacting our customer service department
+                </shippingAndReturns>
+                <tag>regular</tag>
+            </details>
+        </product>
+        <product number="BKA6396002000002" category="Jumpers">
+            <name>Jumper 'Black'</name>
+            <price>$45.95</price>
+            <brand>Bershka</brand>
+            <images>
+                <modelCenterImage>../img/fallWinterClothingCollection/d158deee4fb6a075bd33dd21f02bf4ca.avif</modelCenterImage>
+                <modelSideImage>../img/fallWinterClothingCollection/3218a09469123693d85dfb47f0419ce9.avif</modelSideImage>
+                <productFocusImage>../img/fallWinterClothingCollection/9cb0da762f485fc3b3024eee890b1b4c.avif</productFocusImage>
+                <productZoomImage>../img/fallWinterClothingCollection/41697817568ac4a4b8c8fe0d0b62b69e.avif</productZoomImage>
+            </images>
+            <availableSizes>
+                <size>M</size>
+                <size>L</size>
+                <size>XL</size>
+            </availableSizes>
+            <color>sandybrown</color>
+            <details>
+                <designAndExtras>
+                    <feature>Striped</feature>
+                    <feature>Round neckline</feature>
+                    <feature>Elastic knit collar</feature>
+                    <feature>Ribbed tricot</feature>
+                    <feature>A soft touch</feature>
+                </designAndExtras>
+                <fit>
+                    <sleeveLength>Long sleeve</sleeveLength>
+                    <length>Normal length</length>
+                    <styleFit>Loose cut</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>53% Polyester, 28% Polyacrylic - PC, 16% Polyamide, 3% Wool</material>
+                    <lining>Fine knit</lining>
+                    <countryOfOrigin>China</countryOfOrigin>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>Dry cleaning with perchlorethylene</careInstruction>
+                    <careInstruction>Do not iron at a high temperature</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                    <careInstruction>Delicate wash 30°C</careInstruction>
+                </materialAndCareInstructions>
+                <shippingAndReturns>
+                    For orders over $60.90, delivery is free. If the value of the order is lower, 
+                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
+                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
+                    All available items can be delivered with our Econt partners within 4-6 working days.
+                    In case the return label is not attached to your shipment, 
+                    you can order a new one by contacting our customer service department
+                </shippingAndReturns>
+                <tag>regular</tag>
+            </details>
+        </product>
+        <product number="BKA6396003000003" category="Jumpers">
+            <name>Jumper 'Gray Melange'</name>
+            <price>$45.95</price>
+            <brand>Bershka</brand>
+            <images>
+                <modelCenterImage>../img/fallWinterClothingCollection/d85e678a71fd5315cd35a841d17e6024.avif</modelCenterImage>
+                <modelSideImage>../img/fallWinterClothingCollection/ff9722b402db3e20a7204b9083d50d59.avif</modelSideImage>
+                <productFocusImage>../img/fallWinterClothingCollection/9434df2eea593fb407653b93048c924b.avif</productFocusImage>
+                <productZoomImage>../img/fallWinterClothingCollection/008bff40f1367f2aa7fd78294915fc72.avif</productZoomImage>
+            </images>
+            <availableSizes>
+                <size>XS</size>
+                <size>S</size>
+                <size>M</size>
+                <size>L</size>
+                <size>XL</size>
+            </availableSizes>
+            <color>gray</color>
+            <details>
+                <designAndExtras>
+                    <feature>Melange</feature>
+                    <feature>Round neckline</feature>
+                    <feature>Elastic knit collar</feature>
+                    <feature>Ribbed tricot</feature>
+                    <feature>Side slits</feature>
+                    <feature>Dropped shoulders</feature>
+                    <feature>Textured to the touch</feature>
+                    <feature>A soft touch</feature>
+                </designAndExtras>
+                <fit>
+                    <sleeveLength>Long sleeve</sleeveLength>
+                    <length>Normal length</length>
+                    <styleFit>Loose cut</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>40% Polyester - PES (recycled), 28% Polyacrylic, 16% Polyamide, 13% Polyester, 3% Wool</material>
+                    <lining>Fine knit</lining>
+                    <countryOfOrigin>China</countryOfOrigin>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>Dry cleaning with perchlorethylene</careInstruction>
+                    <careInstruction>Do not iron at a high temperature</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                    <careInstruction>Delicate wash 30°C</careInstruction>
+                </materialAndCareInstructions>
+                <shippingAndReturns>
+                    For orders over $60.90, delivery is free. If the value of the order is lower, 
+                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
+                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
+                    All available items can be delivered with our Econt partners within 4-6 working days.
+                    In case the return label is not attached to your shipment, 
+                    you can order a new one by contacting our customer service department
+                </shippingAndReturns>
+                <tag>regular</tag>
+            </details>
+        </product>
+        <product number="GAP9b18005000001" category="Jumpers">
+            <name>Jumper 'Gray Polka Dot'</name>
+            <price>$104.90</price>
+            <brand>Gap</brand>
+            <images>
+                <modelCenterImage>../img/fallWinterClothingCollection/82f53aa1199d800a711dad5202dfc997.avif</modelCenterImage>
+                <modelSideImage>../img/fallWinterClothingCollection/dd08e9f009beb018ce9e5dbc5f5cf9e3.avif</modelSideImage>
+                <productFocusImage>../img/fallWinterClothingCollection/480d6c5ae08809043f4ac8edf3f28c24.avif</productFocusImage>
+                <productZoomImage>../img/fallWinterClothingCollection/8b5b6af24f29d588f02994468402bc00.avif</productZoomImage>
+            </images>
+            <availableSizes>
+                <size>XS</size>
+                <size>S</size>
+                <size>M</size>
+                <size>L</size>
+                <size>XL</size>
+            </availableSizes>
+            <color>gray</color>
+            <details>
+                <designAndExtras>
+                    <feature>Polka Dot</feature>
+                    <feature>Cotton</feature>
+                    <feature>Round neckline</feature>
+                    <feature>Elastic knit collar</feature>
+                    <feature>Ribbed tricot</feature>
+                    <feature>Dropped shoulders</feature>
+                    <feature>Full pattern</feature>
+                    <feature>A soft touch</feature>
+                </designAndExtras>
+                <fit>
+                    <sleeveLength>Long sleeve</sleeveLength>
+                    <length>Normal length</length>
+                    <styleFit>Normal shape</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>53% Cotton, 24% Nylon, 23% Polyacrylic</material>
+                    <lining>Fine knit</lining>
+                    <countryOfOrigin>Vietnam</countryOfOrigin>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>Dry cleaning with perchlorethylene</careInstruction>
+                    <careInstruction>30°C easy to maintain</careInstruction>
+                    <careInstruction>Dry in a horizontal position</careInstruction>
+                    <careInstruction>Oxygen bleaching</careInstruction>
+                </materialAndCareInstructions>
+                <shippingAndReturns>
+                    For orders over $60.90, delivery is free. If the value of the order is lower, 
+                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
+                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
+                    All available items can be delivered with our Econt partners within 4-6 working days.
+                    In case the return label is not attached to your shipment, 
+                    you can order a new one by contacting our customer service department
+                </shippingAndReturns>
+                <tag>regular</tag>
+            </details>
+        </product>
+        <product number="GAP9b18003000003" category="Jumpers">
+            <name>Jumper 'Beige Polka Dot'</name>
+            <price>$104.90</price>
+            <brand>Gap</brand>
+            <images>
+                <modelCenterImage>../img/fallWinterClothingCollection/38df248b9ff2f3a784d2455e64b32734.avif</modelCenterImage>
+                <modelSideImage>../img/fallWinterClothingCollection/659afd33013738055bce3745acc564b9.avif</modelSideImage>
+                <productFocusImage>../img/fallWinterClothingCollection/abc89d77db3656b14d31468eb0981aa8.avif</productFocusImage>
+                <productZoomImage>../img/fallWinterClothingCollection/1e6b277cca11ec682e89a0b33e7be036.avif</productZoomImage>
+            </images>
+            <availableSizes>
+                <size>XS</size>
+                <size>S</size>
+                <size>M</size>
+                <size>L</size>
+                <size>XL</size>
+            </availableSizes>
+            <color>gray</color>
+            <details>
+                <designAndExtras>
+                    <feature>Polka Dot</feature>
+                    <feature>Cotton</feature>
+                    <feature>Round neckline</feature>
+                    <feature>Elastic knit collar</feature>
+                    <feature>Ribbed tricot</feature>
+                    <feature>Full pattern</feature>
+                    <feature>Fully fashioned</feature>
+                    <feature>A soft touch</feature>
+                </designAndExtras>
+                <fit>
+                    <sleeveLength>Long sleeve</sleeveLength>
+                    <length>Normal length</length>
+                    <styleFit>Normal shape</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>53% Cotton, 24% Nylon, 23% Polyacrylic</material>
+                    <lining>Fine knit</lining>
+                    <countryOfOrigin>Vietnam</countryOfOrigin>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>Dry cleaning with perchlorethylene</careInstruction>
+                    <careInstruction>Do not iron at a high temperature</careInstruction>
+                    <careInstruction>30°C easy to maintain</careInstruction>
+                    <careInstruction>Dry in a horizontal position</careInstruction>
+                    <careInstruction>Oxygen bleaching</careInstruction>
+                </materialAndCareInstructions>
+                <shippingAndReturns>
+                    For orders over $60.90, delivery is free. If the value of the order is lower, 
+                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
+                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
+                    All available items can be delivered with our Econt partners within 4-6 working days.
+                    In case the return label is not attached to your shipment, 
+                    you can order a new one by contacting our customer service department
+                </shippingAndReturns>
+                <tag>regular</tag>
+            </details>
+        </product>
+        <product number="THS9f95001000003" category="Jumpers">
+            <name>Jumper 'Gray with Red, White and Blue Accents'</name>
+            <price>$329.90</price>
+            <brand>Tommy Hilfiger</brand>
+            <images>
+                <modelCenterImage>../img/fallWinterClothingCollection/064392ff3927786f37d93c747c906756.avif</modelCenterImage>
+                <modelSideImage>../img/fallWinterClothingCollection/905cf2a7f473ebaffe5472ddfcbc22ba.avif</modelSideImage>
+                <productFocusImage>../img/fallWinterClothingCollection/371951cbf836950f25870b38e7e2f2d6.avif</productFocusImage>
+                <productZoomImage>../img/fallWinterClothingCollection/bab4a914e3106bd0eff7572791ddd5cd.avif</productZoomImage>
+            </images>
+            <availableSizes>
+                <size>S</size>
+                <size>M</size>
+                <size>L</size>
+                <size>XL</size>
+            </availableSizes>
+            <color>gray</color>
+            <details>
+                <designAndExtras>
+                    <feature>Straight collar</feature>
+                    <feature>Elastic knit collar</feature>
+                    <feature>Straight hem</feature>
+                    <feature>Ribbed tricot</feature>
+                    <feature>Dropped shoulders</feature>
+                    <feature>Fully fashioned</feature>
+                    <feature>A soft touch</feature>
+                    <feature>Recycled cotton</feature>
+                </designAndExtras>
+                <fit>
+                    <sleeveLength>Long sleeve</sleeveLength>
+                    <length>Normal length</length>
+                    <styleFit>Normal shape</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>90% Wool (recycled), 10% Cashmere</material>
+                    <lining>Fine knit</lining>
+                    <countryOfOrigin>Vietnam</countryOfOrigin>
+                    <careInstruction>Hand wash</careInstruction>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>No dry cleaning</careInstruction>
+                    <careInstruction>Do not iron at a high temperature</careInstruction>
+                    <careInstruction>Not to be squeezed</careInstruction>
+                    <careInstruction>Oxygen bleaching</careInstruction>
+                </materialAndCareInstructions>
+                <shippingAndReturns>
+                    For orders over $60.90, delivery is free. If the value of the order is lower, 
+                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
+                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
+                    All available items can be delivered with our Econt partners within 4-6 working days.
+                    In case the return label is not attached to your shipment, 
+                    you can order a new one by contacting our customer service department
+                </shippingAndReturns>
+                <tag>regular</tag>
+            </details>
+        </product>
+        <product number="THS9f95002000003" category="Jumpers">
+            <name>Jumper 'White with Red and Blue Accents'</name>
+            <price>$329.90</price>
+            <brand>Tommy Hilfiger</brand>
+            <images>
+                <modelCenterImage>../img/fallWinterClothingCollection/9705346aa881800e6d93e966531f9850.avif</modelCenterImage>
+                <modelSideImage>../img/fallWinterClothingCollection/de7ecee998e4d6bd40e28fd7a963a820.avif</modelSideImage>
+                <productFocusImage>../img/fallWinterClothingCollection/4b9597314ad93267ad722e1b01d6b199.avif</productFocusImage>
+                <productZoomImage>../img/fallWinterClothingCollection/de7ecee998e4d6bd40e28fd7a963a820.avif</productZoomImage>
+            </images>
+            <availableSizes>
+                <size>XS</size>
+                <size>S</size>
+                <size>M</size>
+                <size>XL</size>
+            </availableSizes>
+            <color>white</color>
+            <details>
+                <designAndExtras>
+                    <feature>Two colors</feature>
+                    <feature>Straight collar</feature>
+                    <feature>Elastic knit collar</feature>
+                    <feature>Ribbed tricot</feature>
+                    <feature>Dropped shoulders</feature>
+                    <feature>Brand plate</feature>
+                    <feature>Kashmir</feature>
+                    <feature>Recycled wool</feature>
+                </designAndExtras>
+                <fit>
+                    <sleeveLength>Long sleeve</sleeveLength>
+                    <length>Normal length</length>
+                    <styleFit>Normal shape</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>Material: 90% Wool (recycled), 10% Cashmere</material>
+                    <lining>Fine knit</lining>
+                    <countryOfOrigin>Vietnam</countryOfOrigin>
+                    <careInstruction>Hand wash</careInstruction>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>No dry cleaning</careInstruction>
+                    <careInstruction>Do not iron at a high temperature</careInstruction>
+                    <careInstruction>Not to be squeezed</careInstruction>
+                    <careInstruction>Oxygen bleaching</careInstruction>
                 </materialAndCareInstructions>
                 <shippingAndReturns>
                     For orders over $60.90, delivery is free. If the value of the order is lower, 

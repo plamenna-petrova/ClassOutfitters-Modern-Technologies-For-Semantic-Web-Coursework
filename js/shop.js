@@ -5,7 +5,7 @@ const paginatedList = document.getElementById("paginated-list");
 const paginationItemsColumns = paginatedList.querySelectorAll(".product__item__col");
 const shownPaginationResultsParagraph = document.querySelector("div.shop__product__option__left p");
 
-const paginationLimit = 9;
+const paginationLimit = 12;
 const pagesCount = Math.ceil(paginationItemsColumns.length / paginationLimit);
 
 let currentPage = 1;
