@@ -1353,6 +1353,498 @@
                 <tag>regular</tag>
             </details>
         </product>
+        <product number="UCB3406001000001" category="Pants">
+            <name>Black wide fit pants with a set</name>
+            <price>$157.90</price>
+            <brand>United Colors of Beneton</brand>
+            <images>
+                <modelCenterImage>../img/fallWinterClothingCollection/f35567c8d74f9d7622579eeefe9c30bf.avif</modelCenterImage>
+                <modelSideImage>../img/fallWinterClothingCollection/4b6901476a6f63bd35f62703174a75d5.avif</modelSideImage>
+                <productFocusImage>../img/fallWinterClothingCollection/b616b5aa4899bae933767034495a535a.avif</productFocusImage>
+                <productZoomImage>../img/fallWinterClothingCollection/4c5e8651478abd7e25010122dec55105.avif</productZoomImage>
+            </images>
+            <availableSizes>
+                <size>XS</size>
+                <size>S</size>
+                <size>M</size>
+                <size>XL</size>
+            </availableSizes>
+            <color>black</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Folds</feature>
+                    <feature>Machine hem</feature>
+                    <feature>Elastic hem</feature>
+                    <feature>Hidden zipper</feature>
+                    <feature>Welted pockets</feature>
+                    <feature>Side pockets</feature>
+                    <feature>With buttons</feature>
+                    <feature>Solid colored tiles</feature>
+                    <feature>Slightly falling material</feature>
+                    <feature>Belt nuts</feature>
+                </designAndExtras>
+                <fit>
+                    <length>Long/Maxi</length>
+                    <styleFit>Wide fit</styleFit>
+                    <waistline>High waisted</waistline>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>69% Polyester, 27% Viscose, 4% Elastane</material>
+                    <lining>Loose</lining>
+                    <countryOfOrigin>China</countryOfOrigin>
+                    <careInstruction>Hand wash</careInstruction>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>Do not iron at a high temperature</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                    <careInstruction>30°C easy to maintain</careInstruction>
+                    <careInstruction>Gentle cleaning with perchlorethylene</careInstruction>
+                </materialAndCareInstructions>
+                <shippingAndReturns>
+                    For orders over $60.90, delivery is free. If the value of the order is lower, 
+                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
+                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
+                    All available items can be delivered with our Econt partners within 4-6 working days.
+                    In case the return label is not attached to your shipment, 
+                    you can order a new one by contacting our customer service department
+                </shippingAndReturns>
+                <tag>regular</tag>
+            </details>
+        </product>
+        <product number="UCB3406001000001" category="Pants">
+            <name>Beige wide fit pants with a set</name>
+            <price>$157.90</price>
+            <brand>United Colors of Beneton</brand>
+            <images>
+                <modelCenterImage>../img/fallWinterClothingCollection/8041305bc7d6ee331979745cec64b3be.avif</modelCenterImage>
+                <modelSideImage>../img/fallWinterClothingCollection/5942ea7ae5e9e68e48702ef5ebfc28cf.avif</modelSideImage>
+                <productFocusImage>../img/fallWinterClothingCollection/af1d29792f257865c769a35e227fd7c1.avif</productFocusImage>
+                <productZoomImage>../img/fallWinterClothingCollection/d6fd171f1a97dd0e08d912a9d790bafd.avif</productZoomImage>
+            </images>
+            <availableSizes>
+                <size>XS</size>
+                <size>S</size>
+                <size>M</size>
+                <size>XL</size>
+            </availableSizes>
+            <color>beige</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Folds</feature>
+                </designAndExtras>
+                <fit>
+                    <length>Long/Maxi</length>
+                    <styleFit>Wide fit</styleFit>
+                    <waistline>High waisted</waistline>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>69% Polyester, 27% Viscose, 4% Elastane</material>
+                    <lining>Loose</lining>
+                    <countryOfOrigin>China</countryOfOrigin>
+                    <careInstruction>Hand wash</careInstruction>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>Do not iron at a high temperature</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                    <careInstruction>30°C easy to maintain</careInstruction>
+                    <careInstruction>Gentle cleaning with perchlorethylene</careInstruction>
+                </materialAndCareInstructions>
+                <shippingAndReturns>
+                    For orders over $60.90, delivery is free. If the value of the order is lower, 
+                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
+                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
+                    All available items can be delivered with our Econt partners within 4-6 working days.
+                    In case the return label is not attached to your shipment, 
+                    you can order a new one by contacting our customer service department
+                </shippingAndReturns>
+                <tag>regular</tag>
+            </details>
+        </product>
+        <product number="HOL7688001000003" category="Pants">
+            <name>Navy wide leg pants with a set</name>
+            <price>$88.11</price>
+            <brand>Hollister</brand>
+            <images>
+                <modelCenterImage>../img/fallWinterClothingCollection/a8009326a807066606c4de92bb6300da.avif</modelCenterImage>
+                <modelSideImage>../img/fallWinterClothingCollection/61914fe535b58d4cf6551192cf68566c.avif</modelSideImage>
+                <productFocusImage>../img/fallWinterClothingCollection/f00a910e61ee7d14ef56a14238cec21f.avif</productFocusImage>
+                <productZoomImage>../img/fallWinterClothingCollection/2b2677f15eb5385b26cd90cf4cbdaeba.avif</productZoomImage>
+            </images>
+            <availableSizes>
+                <size>XS</size>
+                <size>S</size>
+                <size>M</size>
+                <size>XL</size>
+            </availableSizes>
+            <color>navyblue</color>
+            <details>
+                <designAndExtras>
+                    <feature>Plaid pinstripes</feature>
+                    <feature>Folds</feature>
+                    <feature>Machine hem</feature>
+                    <feature>Side pockets</feature>
+                    <feature>Full pattern</feature>
+                    <feature>Belt nuts</feature>
+                    <feature>Zip</feature>
+                </designAndExtras>
+                <fit>
+                    <length>Long/Maxi</length>
+                    <styleFit>Wide leg</styleFit>
+                    <waistline>Medium waist</waistline>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>64% Polyester, 34% Viscose, 2% Elastane</material>
+                    <lining>Loose</lining>
+                    <countryOfOrigin>China</countryOfOrigin>
+                    <careInstruction>Wash at 30 °C</careInstruction>
+                    <careInstruction>No dry cleaning</careInstruction>
+                    <careInstruction>Iron on medium heat</careInstruction>
+                    <careInstruction>Oxygen bleaching</careInstruction>
+                    <careInstruction>Dry at low temperature</careInstruction>
+                </materialAndCareInstructions>
+                <shippingAndReturns>
+                    For orders over $60.90, delivery is free. If the value of the order is lower, 
+                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
+                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
+                    All available items can be delivered with our Econt partners within 4-6 working days.
+                    In case the return label is not attached to your shipment, 
+                    you can order a new one by contacting our customer service department
+                </shippingAndReturns>
+                <tag>regular</tag>
+            </details>
+        </product>
+        <product number="BKA6845001000001" category="Pants">
+            <name>Gray melange wide leg pants with a set</name>
+            <price>$69.90</price>
+            <brand>Bershka</brand>
+            <images>
+                <modelCenterImage>../img/fallWinterClothingCollection/13c59d1cb0e135dd665584e0c21b2b7f.avif</modelCenterImage>
+                <modelSideImage>../img/fallWinterClothingCollection/5f9b8df35fb67b973c4283caa8763e72.avif</modelSideImage>
+                <productFocusImage>../img/fallWinterClothingCollection/f99408ccc4ed8fac110af6afb52f24b2.avif</productFocusImage>
+                <productZoomImage>../img/fallWinterClothingCollection/bf1225fd2e46db289a3848048925fa22.avif</productZoomImage>
+            </images>
+            <availableSizes>
+                <size>XS</size>
+                <size>S</size>
+                <size>M</size>
+                <size>L</size>
+                <size>XL</size>
+            </availableSizes>
+            <color>gray</color>
+            <details>
+                <designAndExtras>
+                    <feature>Striped</feature>
+                    <feature>Folds</feature>
+                    <feature>Hidden zipper</feature>
+                    <feature>Cargo pockets</feature>
+                    <feature>Back pockets</feature>
+                    <feature>Side pockets</feature>
+                    <feature>Full pattern</feature>
+                    <feature>Belt nuts</feature>
+                    <feature>Zip</feature>
+                </designAndExtras>
+                <fit>
+                    <length>Long/Maxi</length>
+                    <styleFit>Wide leg</styleFit>
+                    <waistline>Medium waist</waistline>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>79% Polyester - PES, 19% Viscose, 2% Elastane</material>
+                    <lining>Loose</lining>
+                    <countryOfOrigin>Turkey</countryOfOrigin>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>Dry cleaning with perchlorethylene</careInstruction>
+                    <careInstruction>Iron on medium heat</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                    <careInstruction>Delicate wash 30°C</careInstruction>
+                </materialAndCareInstructions>
+                <shippingAndReturns>
+                    For orders over $60.90, delivery is free. If the value of the order is lower, 
+                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
+                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
+                    All available items can be delivered with our Econt partners within 4-6 working days.
+                    In case the return label is not attached to your shipment, 
+                    you can order a new one by contacting our customer service department
+                </shippingAndReturns>
+                <tag>regular</tag>
+            </details>
+        </product>
+        <product number="PUB1669003000001" category="Pants">
+            <name>Bordeaux wide leg pants with a set</name>
+            <price>$41.36</price>
+            <brand>Pull and Bear</brand>
+            <images>
+                <modelCenterImage>../img/fallWinterClothingCollection/ade14f4fa67cdefddc41ec9bec32563d.avif</modelCenterImage>
+                <modelSideImage>../img/fallWinterClothingCollection/6a8054d0419178b5e1557bb9c0b32668.avif</modelSideImage>
+                <productFocusImage>../img/fallWinterClothingCollection/c2730e152428d599b29e3ebaaf170033.avif</productFocusImage>
+                <productZoomImage>../img/fallWinterClothingCollection/fd7e441dafb89c152b9b49518f6f6337.avif</productZoomImage>
+            </images>
+            <availableSizes>
+                <size>XS</size>
+                <size>S</size>
+                <size>M</size>
+                <size>L</size>
+                <size>XL</size>
+            </availableSizes>
+            <color>wine</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Folds</feature>
+                    <feature>Machine hem</feature>
+                    <feature>Zip closure</feature>
+                    <feature>Welted pockets</feature>
+                    <feature>Side pockets</feature>
+                    <feature>Full pattern</feature>
+                    <feature>Solid colored tiles</feature>
+                    <feature>A soft touch</feature>
+                    <feature>Zip</feature>
+                </designAndExtras>
+                <fit>
+                    <length>Long/Maxi</length>
+                    <styleFit>Wide leg</styleFit>
+                    <waistline>High waisted</waistline>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>62% Polyester, 34% Viscose, 4% Elastane</material>
+                    <lining>Loose</lining>
+                    <countryOfOrigin>Turkey</countryOfOrigin>
+                    <careInstruction>Wash at 40 °C</careInstruction>
+                    <careInstruction>Dry cleaning with perchlorethylene</careInstruction>
+                    <careInstruction>Iron on medium heat</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                    <careInstruction>Dry at low temperature</careInstruction>
+                </materialAndCareInstructions>
+                <shippingAndReturns>
+                    For orders over $60.90, delivery is free. If the value of the order is lower, 
+                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
+                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
+                    All available items can be delivered with our Econt partners within 4-6 working days.
+                    In case the return label is not attached to your shipment, 
+                    you can order a new one by contacting our customer service department
+                </shippingAndReturns>
+                <tag>regular</tag>
+            </details>
+        </product>
+        <product number="GES0645001000001" category="Pants">
+            <name>Wide Fit 'Paula' Set Pants</name>
+            <price>$173.61</price>
+            <brand>Gestuz</brand>
+            <images>
+                <modelCenterImage>../img/fallWinterClothingCollection/6fd51e3736a2b5f97be9831c909244ae.avif</modelCenterImage>
+                <modelSideImage>../img/fallWinterClothingCollection/71bd1a2d231aa37c1294ae39f5000707.avif</modelSideImage>
+                <productFocusImage>../img/fallWinterClothingCollection/bd0a5cd2e1075709371e12165fcf0742.avif</productFocusImage>
+                <productZoomImage>../img/fallWinterClothingCollection/7d8cf9763bd8051cfdf20bfa838f3c61.avif</productZoomImage>
+            </images>
+            <availableSizes>
+                <size>XS</size>
+                <size>S</size>
+                <size>M</size>
+                <size>L</size>
+                <size>XL</size>
+            </availableSizes>
+            <color>lightblue</color>
+            <details>
+                <designAndExtras>
+                    <feature>Striped</feature>
+                    <feature>Folds</feature>
+                    <feature>Machine hem</feature>
+                    <feature>Hidden zipper</feature>
+                    <feature>Full pattern</feature>
+                    <feature>Belt nuts</feature>
+                </designAndExtras>
+                <fit>
+                    <length>Long/Maxi</length>
+                    <styleFit>Wide fit</styleFit>
+                    <waistline>High waisted</waistline>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>68% Polyester, 30% Viscose, 2% Elastane</material>
+                    <lining>Loose</lining>
+                    <countryOfOrigin>Turkey</countryOfOrigin>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>Dry cleaning with perchlorethylene</careInstruction>
+                    <careInstruction>Do not iron at a high temperature</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                    <careInstruction>30°C easy to maintain</careInstruction>
+                </materialAndCareInstructions>
+                <shippingAndReturns>
+                    For orders over $60.90, delivery is free. If the value of the order is lower, 
+                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
+                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
+                    All available items can be delivered with our Econt partners within 4-6 working days.
+                    In case the return label is not attached to your shipment, 
+                    you can order a new one by contacting our customer service department
+                </shippingAndReturns>
+                <tag>regular</tag>
+            </details>
+        </product>
+        <product number="MNK3892002000001" category="Pants">
+            <name>Gray Wide fit Trousers with a set</name>
+            <price>$46.71</price>
+            <brand>Monki</brand>
+            <images>
+                <modelCenterImage>../img/fallWinterClothingCollection/35cf1f9da8569932ea297eb9f69707cd.avif</modelCenterImage>
+                <modelSideImage>../img/fallWinterClothingCollection/99b37a461cf5b39a94844237e429a858.avif</modelSideImage>
+                <productFocusImage>../img/fallWinterClothingCollection/7765135d2e495d00cb4bf7053b4a2b65.avif</productFocusImage>
+                <productZoomImage>../img/fallWinterClothingCollection/d888d8d7cb94761ad5228856adbe2059.avif</productZoomImage>
+            </images>
+            <availableSizes>
+                <size>XS</size>
+                <size>S</size>
+                <size>M</size>
+                <size>L</size>
+                <size>XL</size>
+            </availableSizes>
+            <color>gray</color>
+            <details>
+                <designAndExtras>
+                    <feature>Plaid pinstripes</feature>
+                    <feature>Folds</feature>
+                    <feature>Machine hem</feature>
+                    <feature>Hidden zipper</feature>
+                    <feature>Welted pockets</feature>
+                    <feature>Full pattern</feature>
+                    <feature>A soft touch</feature>
+                    <feature>Zip</feature>
+                </designAndExtras>
+                <fit>
+                    <length>Long/Maxi</length>
+                    <styleFit>Wide fit</styleFit>
+                    <waistline>High waisted</waistline>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>81% Polyester, 17% Viscose, 2% Elastane</material>
+                    <lining>100% Plyester</lining>
+                    <countryOfOrigin>China</countryOfOrigin>
+                    <careInstruction>Wash at 40 °C</careInstruction>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>Dry cleaning with perchlorethylene</careInstruction>
+                    <careInstruction>Iron on medium heat</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                </materialAndCareInstructions>
+                <shippingAndReturns>
+                    For orders over $60.90, delivery is free. If the value of the order is lower, 
+                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
+                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
+                    All available items can be delivered with our Econt partners within 4-6 working days.
+                    In case the return label is not attached to your shipment, 
+                    you can order a new one by contacting our customer service department
+                </shippingAndReturns>
+                <tag>regular</tag>
+            </details>
+        </product>
+        <product number="OBJ2867018000001" category="Pants">
+            <name>Wide Leg 'Lisa' Set Pants</name>
+            <price>$69.21</price>
+            <brand>.Object</brand>
+            <images>
+                <modelCenterImage>../img/fallWinterClothingCollection/137fe89b7a9368de560e9bdfa4ca45c6.avif</modelCenterImage>
+                <modelSideImage>../img/fallWinterClothingCollection/00d9c67b2746793380e9df355e40231e.avif</modelSideImage>
+                <productFocusImage>../img/fallWinterClothingCollection/8664fa1276fa571aae4006dd4e9cdb72.avif</productFocusImage>
+                <productZoomImage>../img/fallWinterClothingCollection/e6739b3648ded5ab67a80d20b9ee821a.avif</productZoomImage>
+            </images>
+            <availableSizes>
+                <size>XS</size>
+                <size>S</size>
+                <size>M</size>
+                <size>L</size>
+                <size>XL</size>
+            </availableSizes>
+            <color>lightblue</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Draped</feature>
+                    <feature>Machine hem</feature>
+                    <feature>Elastic hem</feature>
+                    <feature>Back pockets</feature>
+                    <feature>Side pockets</feature>
+                    <feature>Solid colored tiles</feature>
+                    <feature>Belt nuts</feature>
+                    <feature>Zip</feature>
+                </designAndExtras>
+                <fit>
+                    <length>Long/Maxi</length>
+                    <styleFit>Wide leg</styleFit>
+                    <waistline>Medium waist</waistline>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>63% Polyester, 32% Viscose, 5% Elastane</material>
+                    <lining>100% Polyester</lining>
+                    <countryOfOrigin>China</countryOfOrigin>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>Dry cleaning with perchlorethylene</careInstruction>
+                    <careInstruction>Iron on medium heat</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                    <careInstruction>Delicate wash at 40°C</careInstruction>
+                </materialAndCareInstructions>
+                <shippingAndReturns>
+                    For orders over $60.90, delivery is free. If the value of the order is lower, 
+                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
+                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
+                    All available items can be delivered with our Econt partners within 4-6 working days.
+                    In case the return label is not attached to your shipment, 
+                    you can order a new one by contacting our customer service department
+                </shippingAndReturns>
+                <tag>regular</tag>
+            </details>
+        </product>
+        <product number="AAF6320001000004" category="Pants">
+            <name>Wide fit 'SLOANE' set trousers</name>
+            <price>$167.90</price>
+            <brand>Abercrombie and Fitch</brand>
+            <images>
+                <modelCenterImage>../img/fallWinterClothingCollection/58248061bb9f45da7b1fb78a015b1a65.avif</modelCenterImage>
+                <modelSideImage>../img/fallWinterClothingCollection/6c35fe7eb141df34a15e03134d96374b.avif</modelSideImage>
+                <productFocusImage>../img/fallWinterClothingCollection/2fa47a3ca752489565ef340f75d7a2e0.avif</productFocusImage>
+                <productZoomImage>../img/fallWinterClothingCollection/2801be98083a128d5b6a6da6b62c4e75.avif</productZoomImage>
+            </images>
+            <availableSizes>
+                <size>XS</size>
+                <size>S</size>
+                <size>M</size>
+                <size>L</size>
+                <size>XL</size>
+            </availableSizes>
+            <color>ligthgray</color>
+            <details>
+                <designAndExtras>
+                    <feature>Melange</feature>
+                    <feature>Folds</feature>
+                    <feature>Hidden zipper</feature>
+                    <feature>Welted pockets</feature>
+                    <feature>Side pockets</feature>
+                    <feature>A soft touch</feature>
+                    <feature>Belt nuts</feature>
+                    <feature>Zip</feature>
+                </designAndExtras>
+                <fit>
+                    <length>7/8 length</length>
+                    <styleFit>Wide fit</styleFit>
+                    <waistline>Medium waist</waistline>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>63% Polyester, 33% Viscose, 4% Elastane</material>
+                    <lining>100% Polyester</lining>
+                    <countryOfOrigin>Vietnam</countryOfOrigin>
+                    <careInstruction>Wash at 30 °C</careInstruction>
+                    <careInstruction>No dry cleaning</careInstruction>
+                    <careInstruction>Iron on medium heat</careInstruction>
+                    <careInstruction>Oxygen bleaching</careInstruction>
+                    <careInstruction>Dry at low temperature</careInstruction>
+                </materialAndCareInstructions>
+                <shippingAndReturns>
+                    For orders over $60.90, delivery is free. If the value of the order is lower, 
+                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
+                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
+                    All available items can be delivered with our Econt partners within 4-6 working days.
+                    In case the return label is not attached to your shipment, 
+                    you can order a new one by contacting our customer service department
+                </shippingAndReturns>
+                <tag>regular</tag>
+            </details>
+        </product>
     </collection>
     <collection>
         <name>Shoes Winter Collection 2023/2024</name>
