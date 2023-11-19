@@ -2,7 +2,7 @@
 if (file_exists('./xml/class-outfitters.xml')) {
     $shopNode = simplexml_load_file('./xml/class-outfitters.xml');
 } else {
-    exit('Failed to open test.xml.');
+    exit('Failed to open class-outfitters.xml');
 }
 ?>
 
