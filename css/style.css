@@ -935,6 +935,10 @@ ol {
 	color: #111111;
 }
 
+.product__item__col.hidden {
+	display: none;
+}
+
 .product__item {
 	overflow: hidden;
 	margin-bottom: 40px;
@@ -1478,6 +1482,7 @@ ol {
 	border-radius: 50%;
 	line-height: 30px;
 	text-align: center;
+	cursor: pointer;
 }
 
 .product__pagination a.active {

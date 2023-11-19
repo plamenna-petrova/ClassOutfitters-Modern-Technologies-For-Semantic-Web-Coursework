@@ -292,9 +292,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
+                                <div class="row" id="paginated-list">
                                     <xsl:for-each select="shop/collection/product">
-                                        <div class="col-lg-4 col-md-6 col-sm-6">
+                                        <div class="col-lg-4 col-md-6 col-sm-6 product__item__col">
                                             <div class="product__item">
                                                 <div class="product__item__pic set-bg" data-setbg="{images/modelCenterImage}">
                                                     <ul class="product__hover">
@@ -312,13 +312,11 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-12">
-                                        <div class="product__pagination">
-                                            <a class="active" href="#">1</a>
-                                            <a href="#">2</a>
-                                            <a href="#">3</a>
-                                            <span>...</span>
-                                            <a href="#">21</a>
-                                        </div>
+                                        <nav class="pagination-container product__pagination">
+                                            <div id="pagination-numbers">
+                                                
+                                            </div>
+                                        </nav>
                                     </div>
                                 </div>
                             </div>
@@ -412,6 +410,7 @@
                 <script src="../js/mixitup.min.js"></script>
                 <script src="../js/owl.carousel.min.js"></script>
                 <script src="../js/main.js"></script>
+                <script src="../js/shop.js"></script>
             </body>
         </html>
     </xsl:template>
