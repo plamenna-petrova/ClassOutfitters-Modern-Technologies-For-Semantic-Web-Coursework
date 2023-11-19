@@ -1,1 +1,1 @@
-# ClassOutfitters-Modern-Technologies-For-Semantic-Web-Coursework
+## Class Outfitters
