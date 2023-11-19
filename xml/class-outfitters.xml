@@ -52,7 +52,7 @@
         <position>Delivery</position>
         <image>../img/about/team-4.jpg</image>
     </teamMember>
-    <collection totalProducts="">
+    <collection>
         <name>Fall - Winter Clothing Collection 2023/2024"</name>
         <presentationImage></presentationImage>
         <product number="PIC4197006000001" category="Jackets and Blazers">
@@ -522,6 +522,392 @@
                     <careInstruction>Not suitable for tumble drying</careInstruction>
                     <careInstruction>Dry cleaning with perchlorethylene</careInstruction>
                     <careInstruction>Do not iron at a high temperature</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                </materialAndCareInstructions>
+                <shippingAndReturns>
+                    For orders over $60.90, delivery is free. If the value of the order is lower, 
+                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
+                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
+                    All available items can be delivered with our Econt partners within 4-6 working days.
+                    In case the return label is not attached to your shipment, 
+                    you can order a new one by contacting our customer service department
+                </shippingAndReturns>
+                <tag>regular</tag>
+            </details>
+        </product>
+        <product number="BKA6659001000003" category="Coats">
+            <name>Coat 'Winter White'</name>
+            <price>$77.90</price>
+            <brand>Bershka</brand>
+            <images>
+                <modelCenterImage>../img/fallWinterClothingCollection/4310d0884344258e55aac06e4d64621f.avif</modelCenterImage>
+                <modelSideImage>../img/fallWinterClothingCollection/964416aedbd0e51efbef4773eb182403.avif</modelSideImage>
+                <productFocusImage>../img/fallWinterClothingCollection/cd6202472b92dc55b259f1761e5b024a.avif</productFocusImage>
+                <productZoomImage>../img/fallWinterClothingCollection/881322dd51b795dbfbf04f0af2db3229.avif</productZoomImage>
+            </images>
+            <availableSizes>
+                <size>XS</size>
+                <size>S</size>
+                <size>M</size>
+                <size>L</size>
+            </availableSizes>
+            <color>white</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Classic coat</feature>
+                    <feature>Straight hem</feature>
+                    <featute>Ribbon with buttons</featute>
+                    <feature>Lapel collar</feature>
+                    <feature>Dropped shoulders</feature>
+                    <feature>Side pockets</feature>
+                    <feature>Soft touch handle</feature>
+                    <feature>Heavy fabric</feature>
+                    <feature>Lightly padded</feature>
+                    <feature>With buttons</feature>
+                </designAndExtras>
+                <fit>
+                    <length>Normal length</length>
+                    <styleFit>Normal fit</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>100% Polyester</material>
+                    <lining>100% Polyester</lining>
+                    <countryOfOrigin>Bangladesh</countryOfOrigin>
+                    <careInstruction>No dry cleaning</careInstruction>
+                    <careInstruction>Do not iron at a high temperature</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                    <careInstruction>Delicate wash 30°C</careInstruction>
+                    <careInstruction>Dry at low temperature</careInstruction>
+                </materialAndCareInstructions>
+                <shippingAndReturns>
+                    For orders over $60.90, delivery is free. If the value of the order is lower, 
+                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
+                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
+                    All available items can be delivered with our Econt partners within 4-6 working days.
+                    In case the return label is not attached to your shipment, 
+                    you can order a new one by contacting our customer service department
+                </shippingAndReturns>
+                <tag>regular</tag>
+            </details>
+        </product>
+        <product number="BKA5353002000003" category="Coats">
+            <name>Coat 'Light Brown'</name>
+            <price>$139.00</price>
+            <brand>Bershka</brand>
+            <images>
+                <modelCenterImage>../img/fallWinterClothingCollection/900b7ddb9e4932c1add16d6149622711.avif</modelCenterImage>
+                <modelSideImage>../img/fallWinterClothingCollection/9a6f3a8f4d37306772e9cecd1d63d431.avif</modelSideImage>
+                <productFocusImage>../img/fallWinterClothingCollection/e326a0a5f94db5f15b65b59976c89380.avif</productFocusImage>
+                <productZoomImage>../img/fallWinterClothingCollection/e304fceb9dfa0d3397214f0f5e090dfe.avif</productZoomImage>
+            </images>
+            <availableSizes>
+                <size>XS</size>
+                <size>S</size>
+                <size>M</size>
+                <size>L</size>
+            </availableSizes>
+            <color>lightbrown</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Trench coats</feature>
+                    <feature>Straight hem</feature>
+                    <featute>Back slit</featute>
+                    <feature>High lapel</feature>
+                    <feature>Inverted collar</feature>
+                    <feature>Welted pockets</feature>
+                    <feature>Shoulder strap</feature>
+                    <feature>Solid colored tiles</feature>
+                    <feature>Fixed handle</feature>
+                    <feature>Lightly padded</feature>
+                    <feature>With buttons</feature>
+                    <feature>Recycled polyester</feature>
+                </designAndExtras>
+                <fit>
+                    <length>Long cut</length>
+                    <styleFit>Loose cut</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>70% Polyester - PES (recycled), 20% Wool (recycled), 6% Wool, 4% Other fibers</material>
+                    <lining>100% Polyester</lining>
+                    <countryOfOrigin>Bangladesh</countryOfOrigin>
+                    <careInstruction>Do not wash</careInstruction>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>Dry cleaning with perchlorethylene</careInstruction>
+                    <careInstruction>Do not iron at a high temperature</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                </materialAndCareInstructions>
+                <shippingAndReturns>
+                    For orders over $60.90, delivery is free. If the value of the order is lower, 
+                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
+                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
+                    All available items can be delivered with our Econt partners within 4-6 working days.
+                    In case the return label is not attached to your shipment, 
+                    you can order a new one by contacting our customer service department
+                </shippingAndReturns>
+                <tag>regular</tag>
+            </details>
+        </product>
+        <product number="BSB4326001000001" category="Coats">
+            <name>Coat 'Captiva Black'</name>
+            <price>$879.90</price>
+            <brand>Boss</brand>
+            <images>
+                <modelCenterImage>../img/fallWinterClothingCollection/0a7a3ae430957dc0405883f944bcc434.avif</modelCenterImage>
+                <modelSideImage>../img/fallWinterClothingCollection/592dc57e35a58340a2d2e51c2a048c21.avif</modelSideImage>
+                <productFocusImage>../img/fallWinterClothingCollection/96a90a2ebe1dbbf634f2b3bbb06232a1.avif</productFocusImage>
+                <productZoomImage>../img/fallWinterClothingCollection/c55daf66fed49041fac20e60857ddedd.avif</productZoomImage>
+            </images>
+            <availableSizes>
+                <size>XS</size>
+                <size>S</size>
+                <size>M</size>
+                <size>L</size>
+            </availableSizes>
+            <color>black</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Wool</feature>
+                    <feature>Classic coat</feature>
+                    <featute>Machine hem</featute>
+                    <feature>Stitches on the back</feature>
+                    <feature>Inverted collar</feature>
+                    <feature>Side pockets</feature>
+                    <feature>Brand plate</feature>
+                    <feature>Solid colored tiles</feature>
+                    <feature>Lightly padded</feature>
+                    <feature>With buttons</feature>
+                </designAndExtras>
+                <fit>
+                    <length>Short cut</length>
+                    <styleFit>Normal shape</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>72% Wool, 25% Polyamide - RA, 3% Cashmere</material>
+                    <lining>54% Viscose, 43% Nylon, 3% Elastane</lining>
+                    <countryOfOrigin>Bangladesh</countryOfOrigin>
+                    <careInstruction>Do not wash</careInstruction>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>Do not iron at a high temperature</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                    <careInstruction>Gentle cleaning with perchlorethylene</careInstruction>
+                </materialAndCareInstructions>
+                <shippingAndReturns>
+                    For orders over $60.90, delivery is free. If the value of the order is lower, 
+                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
+                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
+                    All available items can be delivered with our Econt partners within 4-6 working days.
+                    In case the return label is not attached to your shipment, 
+                    you can order a new one by contacting our customer service department
+                </shippingAndReturns>
+                <tag>regular</tag>
+            </details>
+        </product>
+        <product number="BSB4326002000003" category="Coats">
+            <name>Coat 'Captiva Camel'</name>
+            <price>$879.90</price>
+            <brand>Boss</brand>
+            <images>
+                <modelCenterImage>../img/fallWinterClothingCollection/489a38eccda82d99d71b3a58993f6507.avif</modelCenterImage>
+                <modelSideImage>../img/fallWinterClothingCollection/e9fb9af2493225a91726610905dca696.avif</modelSideImage>
+                <productFocusImage>../img/fallWinterClothingCollection/f51d88ddde57cc4a185f1c9b33c1a2d9.avif</productFocusImage>
+                <productZoomImage>../img/fallWinterClothingCollection/cdc3304814460839af0a954a63182c0a.avif</productZoomImage>
+            </images>
+            <availableSizes>
+                <size>XS</size>
+                <size>S</size>
+                <size>M</size>
+                <size>L</size>
+                <size>XL</size>
+            </availableSizes>
+            <color>camel</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Wool</feature>
+                    <feature>Classic coat</feature>
+                    <featute>Inverted collar</featute>
+                    <feature>Side pockets</feature>
+                    <feature>Kashmir</feature>
+                    <feature>Heavy fabrics</feature>
+                    <feature>Lightly padded</feature>
+                    <feature>With buttons</feature>
+                </designAndExtras>
+                <fit>
+                    <length>Short cut</length>
+                    <styleFit>Normal shape</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>72% Wool, 25% Nylon, 3% Cashmere (recycled)</material>
+                    <lining>54% Viscose, 43% Nylon, 3% Elastane</lining>
+                    <countryOfOrigin>Bangladesh</countryOfOrigin>
+                    <careInstruction>Do not wash</careInstruction>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>Do not iron at a high temperature</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                    <careInstruction>Gentle cleaning with perchlorethylene</careInstruction>
+                </materialAndCareInstructions>
+                <shippingAndReturns>
+                    For orders over $60.90, delivery is free. If the value of the order is lower, 
+                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
+                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
+                    All available items can be delivered with our Econt partners within 4-6 working days.
+                    In case the return label is not attached to your shipment, 
+                    you can order a new one by contacting our customer service department
+                </shippingAndReturns>
+                <tag>regular</tag>
+            </details>
+        </product>
+        <product number="PUB9aiw002000001" category="Coats">
+            <name>Coat 'Dark Gray'</name>
+            <price>$139.00 </price>
+            <brand>Pull and Bear</brand>
+            <images>
+                <modelCenterImage>../img/fallWinterClothingCollection/c84541aa7eec63490926b2551104d0de.avif</modelCenterImage>
+                <modelSideImage>../img/fallWinterClothingCollection/b0f54274ec567bfc344bbfaf77770f44.avif</modelSideImage>
+                <productFocusImage>../img/fallWinterClothingCollection/533e68c5e0476f71f22cf1aa1c50b21f.avif</productFocusImage>
+                <productZoomImage>../img/fallWinterClothingCollection/3d35b4a5575ee27de510ea12ba324ad8.avif</productZoomImage>
+            </images>
+            <availableSizes>
+                <size>XS</size>
+                <size>S</size>
+                <size>M</size>
+                <size>L</size>
+            </availableSizes>
+            <color>darkgray</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Classic coat</feature>
+                    <feature>Ribbon with buttons</feature>
+                    <featute>Lapel collar</featute>
+                    <feature>Belt</feature>
+                    <feature>Dropped shoulders</feature>
+                    <feature>Side pockets</feature>
+                    <feature>Shoulder strap</feature>
+                    <feature>Solid colored tiles</feature>
+                    <feature>Slightly falling material</feature>
+                    <feature>Lightly padded</feature>
+                    <feature>With buttons</feature>
+                </designAndExtras>
+                <fit>
+                    <length>Normal length</length>
+                    <styleFit>Loose cut</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>100% Polyester</material>
+                    <lining>100% Polyester</lining>
+                    <countryOfOrigin>Myanmar</countryOfOrigin>
+                    <careInstruction>Do not wash</careInstruction>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>Dry cleaning with perchlorethylene</careInstruction>
+                    <careInstruction>Do not iron at a high temperature</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                </materialAndCareInstructions>
+                <shippingAndReturns>
+                    For orders over $60.90, delivery is free. If the value of the order is lower, 
+                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
+                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
+                    All available items can be delivered with our Econt partners within 4-6 working days.
+                    In case the return label is not attached to your shipment, 
+                    you can order a new one by contacting our customer service department
+                </shippingAndReturns>
+                <tag>regular</tag>
+            </details>
+        </product>
+        <product number="ONL9ibh001000003" category="Coats">
+            <name>Coat 'Emma'</name>
+            <price>$107.90 </price>
+            <brand>Only</brand>
+            <images>
+                <modelCenterImage>../img/fallWinterClothingCollection/cb0b5eadd7d2f0df40531fca81639eb7.avif</modelCenterImage>
+                <modelSideImage>../img/fallWinterClothingCollection/850c22819b0942b9311b8a28ae300f29.avif</modelSideImage>
+                <productFocusImage>../img/fallWinterClothingCollection/0e04379155cb24bf28ee41edd853eaf1.avif</productFocusImage>
+                <productZoomImage>../img/fallWinterClothingCollection/42c77988a8fa2cba9120be7c7bf64048.avif</productZoomImage>
+            </images>
+            <availableSizes>
+                <size>XS</size>
+                <size>S</size>
+                <size>M</size>
+                <size>L</size>
+                <size>XL</size>
+            </availableSizes>
+            <color>black</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Classic coat</feature>
+                    <feature>Straight hem</feature>
+                    <featute>Straight cut</featute>
+                    <feature>Lapel collar</feature>
+                    <feature>Side pockets</feature>
+                    <feature>Solid colored tiles</feature>
+                    <feature>A soft touch</feature>
+                    <feature>Lightly padded</feature>
+                    <feature>With buttons</feature>
+                </designAndExtras>
+                <fit>
+                    <length>Normal length</length>
+                    <styleFit>Normal shape</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>100% Polyester</material>
+                    <lining>100% Polyester</lining>
+                    <countryOfOrigin>Myanmar</countryOfOrigin>
+                    <careInstruction>Do not wash</careInstruction>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>Dry cleaning with perchlorethylene</careInstruction>
+                    <careInstruction>Do not iron at a high temperature</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                </materialAndCareInstructions>
+                <shippingAndReturns>
+                    For orders over $60.90, delivery is free. If the value of the order is lower, 
+                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
+                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
+                    All available items can be delivered with our Econt partners within 4-6 working days.
+                    In case the return label is not attached to your shipment, 
+                    you can order a new one by contacting our customer service department
+                </shippingAndReturns>
+                <tag>regular</tag>
+            </details>
+        </product>
+        <product number="GMK3725001000003" category="Coats">
+            <name>Coat 'Romina'</name>
+            <price>$272.90</price>
+            <brand>Guido Maria Kretschmer</brand>
+            <images>
+                <modelCenterImage>../img/fallWinterClothingCollection/87d73e832a669d9862a4e5449cade54a.avif</modelCenterImage>
+                <modelSideImage>../img/fallWinterClothingCollection/c5452f79417e1f6b4fe3f6feb1f49c23.avif</modelSideImage>
+                <productFocusImage>../img/fallWinterClothingCollection/8c574945471b8f850b098a02744ca6a6.avif</productFocusImage>
+                <productZoomImage>../img/fallWinterClothingCollection/d585868a1921f283e9b2d3fe333b386a.avif</productZoomImage>
+            </images>
+            <availableSizes>
+                <size>XS</size>
+                <size>S</size>
+                <size>M</size>
+            </availableSizes>
+            <color>black</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Wool</feature>
+                    <feature>Classic coat</feature>
+                    <feature>Lightly padded</feature>
+                    <feature>With buttons</feature>
+                </designAndExtras>
+                <fit>
+                    <length>Long cut</length>
+                    <styleFit>Loose cut</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>55% Wool, 45% Polyester</material>
+                    <lining>100% Polyester</lining>
+                    <countryOfOrigin>Bangladesh</countryOfOrigin>
+                    <careInstruction>Do not wash</careInstruction>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>Dry cleaning with perchlorethylene</careInstruction>
                     <careInstruction>Do not use bleach</careInstruction>
                 </materialAndCareInstructions>
                 <shippingAndReturns>

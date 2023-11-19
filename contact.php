@@ -134,7 +134,13 @@ if (file_exists('./xml/class-outfitters.xml')) {
                                 <h4>USA</h4>
                                 <?php
                                     $phoneNumber = $shopNode->attributes()->phoneNumber;
-                                    echo "<p> $shopNode->address <br/>Phone Number: $phoneNumber <br/> Email: $shopNode->email</p>"; 
+                                    $yearOfEstablishment = $shopNode->attributes()->yearOfEstablishment;
+
+                                    echo "<p> $shopNode->address <br/>
+                                            Phone Number: $phoneNumber <br/> 
+                                            Email: $shopNode->email <br/>
+                                            Delivering quality products since $yearOfEstablishment
+                                        </p>"; 
                                 ?>
                             </li>
                         </ul>

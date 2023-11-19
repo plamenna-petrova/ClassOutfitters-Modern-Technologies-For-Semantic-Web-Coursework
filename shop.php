@@ -10,14 +10,14 @@
 </head>
 <body>
 <?php
-$classOutfittersXSL = new DOMDocument();
-$classOutfittersXSL->load('./xml/class-outfitters.xsl');
-$classOutfittersXSLTProcessor = new XSLTProcessor();
-$classOutfittersXSLTProcessor->importStylesheet($classOutfittersXSL);
-$classOutfittersXML = new DOMDocument();
-$classOutfittersXML->load('./xml/class-outfitters.xml');
-$processedAndTransformedXML = $classOutfittersXSLTProcessor->transformToXML($classOutfittersXML);
-echo $processedAndTransformedXML;
+    $classOutfittersXSL = new DOMDocument();
+    $classOutfittersXSL->load('./xml/class-outfitters.xsl');
+    $classOutfittersXSLTProcessor = new XSLTProcessor();
+    $classOutfittersXSLTProcessor->importStylesheet($classOutfittersXSL);
+    $classOutfittersXML = new DOMDocument();
+    $classOutfittersXML->load('./xml/class-outfitters.xml');
+    $processedAndTransformedXML = $classOutfittersXSLTProcessor->transformToXML($classOutfittersXML);
+    echo $processedAndTransformedXML;
 ?>
 </body>
 </html>

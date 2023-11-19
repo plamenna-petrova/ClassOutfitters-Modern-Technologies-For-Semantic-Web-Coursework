@@ -57,7 +57,11 @@ const setCurrentPage = (pageNumber) => {
         }
     });
 
-    shownPaginationResultsParagraph.innerHTML = `Showing ${previousPagesRange + 1}-${nextPagesRange} results out of ${paginationItemsColumns.length}`;
+    console.log(nextPagesRange);
+
+    shownPaginationResultsParagraph.innerHTML = `Showing ${previousPagesRange + 1}-` +
+        `${nextPagesRange > paginationItemsColumns.length ? paginationItemsColumns.length : nextPagesRange } ` +
+        `results out of ${paginationItemsColumns.length}`;
 }
 
 const handleActivePageNumber = () => {
