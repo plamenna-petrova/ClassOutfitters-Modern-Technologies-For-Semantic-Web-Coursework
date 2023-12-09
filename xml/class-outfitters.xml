@@ -32,6 +32,14 @@
     <nationalClients>50</nationalClients>
     <totalCategories>30</totalCategories>
     <happyCustomersPercentage>98%</happyCustomersPercentage>
+    <shippingAndReturnsPolicy>
+        For orders over $60.90, delivery is free. If the value of the order is lower, 
+        delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
+        it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
+        All available items can be delivered with our Econt partners within 4-6 working days.
+        In case the return label is not attached to your shipment, 
+        you can order a new one by contacting our customer service department
+    </shippingAndReturnsPolicy>
     <teamMember>
         <name>John Smith</name>
         <position>Fashion Design</position>
@@ -52,8 +60,7 @@
         <position>Delivery</position>
         <image>../img/about/team-4.jpg</image>
     </teamMember>
-    <collection>
-        <name>Fall - Winter Clothing Collection 2023/2024"</name>
+    <collection name="Fall - Winter Clothing Collection 2023/2024">
         <presentationImage></presentationImage>
         <product number="PIC4197006000001" category="Jackets and Blazers">
             <name>Blazer 'Bossy'</name>
@@ -98,14 +105,6 @@
                     <careInstruction>30°C delicate wash</careInstruction>
                     <careInstruction>Dry at low temperature</careInstruction>
                 </materialAndCareInstructions>
-                <shippingAndReturns>
-                    Class Outfitters covers the postage for shipping. Orders with several products may be shipped separately. 
-                    Please note that charges for return shipments will apply.     
-                    Standard Shipping – $ 0
-                    Immediately available articles are usually delivered by within 8-12 working days.
-                    If the returns label is missing from your delivery, you can always request a new one from our customer service. 
-                    Please feel free to contact us if you have any questions:
-                </shippingAndReturns>
             </details>
             <tag>regular</tag>
         </product>
@@ -147,13 +146,6 @@
                     <countryOfOrigin>China</countryOfOrigin>
                     <countryOfOrigin>Cambodia</countryOfOrigin>
                 </materialAndCareInstructions>
-                <shippingAndReturns>
-                    For orders over BGN 29.90, delivery is free. If the value of the order is lower, 
-                    delivery charges of BGN 4.90 including VAT per order apply. For orders containing several products, 
-                    it is possible, in some cases, to be delivered in more than one package.
-                    In case the return label is not attached to your shipment, you can order a new one by contacting 
-                    our customer service department.
-                </shippingAndReturns>
             </details>
             <tag>regular</tag>
         </product>
@@ -200,13 +192,6 @@
                     <careInstruction>Do not bleach</careInstruction>
                     <careInstruction>30°C delicate wash</careInstruction>
                 </materialAndCareInstructions>
-                <shippingAndReturns>
-                    Class Outfitters covers the postage for shipping. Orders with several products may be shipped separately. 
-                    Please note that charges for return shipments will apply.          
-                    Standard Shipping – $ 0
-                    Immediately available articles are usually delivered by within 8-12 working days.                 
-                    If the returns label is missing from your delivery, you can always request a new one from our customer service.
-                </shippingAndReturns>
             </details>
             <tag>regular</tag>
         </product>
@@ -254,13 +239,6 @@
                     <careInstruction>Do not bleach</careInstruction>
                     <careInstruction>30°C easy-care wash</careInstruction>
                 </materialAndCareInstructions>
-                <shippingAndReturns>
-                    Class Outfitters covers the postage for shipping. Orders with several products may be shipped separately. 
-                    Please note that charges for return shipments will apply.          
-                    Standard Shipping – $ 0
-                    Immediately available articles are usually delivered by within 8-12 working days.                 
-                    If the returns label is missing from your delivery, you can always request a new one from our customer service.
-                </shippingAndReturns>
             </details>
             <tag>regular</tag>
         </product>
@@ -307,13 +285,6 @@
                     <careInstruction>30°C delicate wash</careInstruction>
                     <careInstruction>Dry at low temperature</careInstruction>
                 </materialAndCareInstructions>
-                <shippingAndReturns>
-                    Class Outfitters covers the postage for shipping. Orders with several products may be shipped separately. 
-                    Please note that charges for return shipments will apply.          
-                    Standard Shipping – $ 0
-                    Immediately available articles are usually delivered by within 8-12 working days.                 
-                    If the returns label is missing from your delivery, you can always request a new one from our customer service.
-                </shippingAndReturns>
             </details>
             <tag>regular</tag>
         </product>
@@ -363,14 +334,6 @@
                     <careInstruction>Do not iron</careInstruction>
                     <careInstruction>Do not use bleach</careInstruction>
                 </materialAndCareInstructions>
-                <shippingAndReturns>
-                    For orders over $60.90, delivery is free. If the value of the order is lower, 
-                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
-                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
-                    All available items can be delivered with our Econt partners within 4-6 working days.
-                    In case the return label is not attached to your shipment, 
-                    you can order a new one by contacting our customer service department
-                </shippingAndReturns>
             </details>
             <tag>regular</tag>
         </product>
@@ -416,14 +379,6 @@
                     <careInstruction>Do not iron</careInstruction>
                     <careInstruction>Do not use bleach</careInstruction>
                 </materialAndCareInstructions>
-                <shippingAndReturns>
-                    For orders over $60.90, delivery is free. If the value of the order is lower, 
-                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
-                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
-                    All available items can be delivered with our Econt partners within 4-6 working days.
-                    In case the return label is not attached to your shipment, 
-                    you can order a new one by contacting our customer service department
-                </shippingAndReturns>
             </details>
             <tag>regular</tag>
         </product>
@@ -469,14 +424,6 @@
                     <careInstruction>Dry cleaning with perchlorethylene</careInstruction>
                     <careInstruction>Do not use bleach</careInstruction>
                 </materialAndCareInstructions>
-                <shippingAndReturns>
-                    For orders over $60.90, delivery is free. If the value of the order is lower, 
-                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
-                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
-                    All available items can be delivered with our Econt partners within 4-6 working days.
-                    In case the return label is not attached to your shipment, 
-                    you can order a new one by contacting our customer service department
-                </shippingAndReturns>
             </details>
             <tag>regular</tag>
         </product>
@@ -524,14 +471,6 @@
                     <careInstruction>Do not iron at a high temperature</careInstruction>
                     <careInstruction>Do not use bleach</careInstruction>
                 </materialAndCareInstructions>
-                <shippingAndReturns>
-                    For orders over $60.90, delivery is free. If the value of the order is lower, 
-                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
-                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
-                    All available items can be delivered with our Econt partners within 4-6 working days.
-                    In case the return label is not attached to your shipment, 
-                    you can order a new one by contacting our customer service department
-                </shippingAndReturns>
             </details>
             <tag>regular</tag>
         </product>
@@ -580,14 +519,6 @@
                     <careInstruction>Delicate wash 30°C</careInstruction>
                     <careInstruction>Dry at low temperature</careInstruction>
                 </materialAndCareInstructions>
-                <shippingAndReturns>
-                    For orders over $60.90, delivery is free. If the value of the order is lower, 
-                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
-                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
-                    All available items can be delivered with our Econt partners within 4-6 working days.
-                    In case the return label is not attached to your shipment, 
-                    you can order a new one by contacting our customer service department
-                </shippingAndReturns>
             </details>
             <tag>regular</tag>
         </product>
@@ -638,14 +569,6 @@
                     <careInstruction>Do not iron at a high temperature</careInstruction>
                     <careInstruction>Do not use bleach</careInstruction>
                 </materialAndCareInstructions>
-                <shippingAndReturns>
-                    For orders over $60.90, delivery is free. If the value of the order is lower, 
-                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
-                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
-                    All available items can be delivered with our Econt partners within 4-6 working days.
-                    In case the return label is not attached to your shipment, 
-                    you can order a new one by contacting our customer service department
-                </shippingAndReturns>
             </details>
             <tag>regular</tag>
         </product>
@@ -694,14 +617,6 @@
                     <careInstruction>Do not use bleach</careInstruction>
                     <careInstruction>Gentle cleaning with perchlorethylene</careInstruction>
                 </materialAndCareInstructions>
-                <shippingAndReturns>
-                    For orders over $60.90, delivery is free. If the value of the order is lower, 
-                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
-                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
-                    All available items can be delivered with our Econt partners within 4-6 working days.
-                    In case the return label is not attached to your shipment, 
-                    you can order a new one by contacting our customer service department
-                </shippingAndReturns>
             </details>
             <tag>regular</tag>
         </product>
@@ -749,14 +664,6 @@
                     <careInstruction>Do not use bleach</careInstruction>
                     <careInstruction>Gentle cleaning with perchlorethylene</careInstruction>
                 </materialAndCareInstructions>
-                <shippingAndReturns>
-                    For orders over $60.90, delivery is free. If the value of the order is lower, 
-                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
-                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
-                    All available items can be delivered with our Econt partners within 4-6 working days.
-                    In case the return label is not attached to your shipment, 
-                    you can order a new one by contacting our customer service department
-                </shippingAndReturns>
             </details>
             <tag>regular</tag>
         </product>
@@ -806,14 +713,6 @@
                     <careInstruction>Do not iron at a high temperature</careInstruction>
                     <careInstruction>Do not use bleach</careInstruction>
                 </materialAndCareInstructions>
-                <shippingAndReturns>
-                    For orders over $60.90, delivery is free. If the value of the order is lower, 
-                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
-                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
-                    All available items can be delivered with our Econt partners within 4-6 working days.
-                    In case the return label is not attached to your shipment, 
-                    you can order a new one by contacting our customer service department
-                </shippingAndReturns>
             </details>
             <tag>regular</tag>
         </product>
@@ -862,14 +761,6 @@
                     <careInstruction>Do not iron at a high temperature</careInstruction>
                     <careInstruction>Do not use bleach</careInstruction>
                 </materialAndCareInstructions>
-                <shippingAndReturns>
-                    For orders over $60.90, delivery is free. If the value of the order is lower, 
-                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
-                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
-                    All available items can be delivered with our Econt partners within 4-6 working days.
-                    In case the return label is not attached to your shipment, 
-                    you can order a new one by contacting our customer service department
-                </shippingAndReturns>
             </details>
             <tag>regular</tag>
         </product>
@@ -910,14 +801,6 @@
                     <careInstruction>Dry cleaning with perchlorethylene</careInstruction>
                     <careInstruction>Do not use bleach</careInstruction>
                 </materialAndCareInstructions>
-                <shippingAndReturns>
-                    For orders over $60.90, delivery is free. If the value of the order is lower, 
-                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
-                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
-                    All available items can be delivered with our Econt partners within 4-6 working days.
-                    In case the return label is not attached to your shipment, 
-                    you can order a new one by contacting our customer service department
-                </shippingAndReturns>
             </details>
             <tag>regular</tag>
         </product>
@@ -964,14 +847,6 @@
                     <careInstruction>Do not use bleach</careInstruction>
                     <careInstruction>Delicate wash 30°C</careInstruction>
                 </materialAndCareInstructions>
-                <shippingAndReturns>
-                    For orders over $60.90, delivery is free. If the value of the order is lower, 
-                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
-                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
-                    All available items can be delivered with our Econt partners within 4-6 working days.
-                    In case the return label is not attached to your shipment, 
-                    you can order a new one by contacting our customer service department
-                </shippingAndReturns>
             </details>
             <tag>regular</tag>
         </product>
@@ -1016,14 +891,6 @@
                     <careInstruction>Do not use bleach</careInstruction>
                     <careInstruction>Delicate wash 30°C</careInstruction>
                 </materialAndCareInstructions>
-                <shippingAndReturns>
-                    For orders over $60.90, delivery is free. If the value of the order is lower, 
-                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
-                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
-                    All available items can be delivered with our Econt partners within 4-6 working days.
-                    In case the return label is not attached to your shipment, 
-                    you can order a new one by contacting our customer service department
-                </shippingAndReturns>
             </details>
             <tag>regular</tag>
         </product>
@@ -1066,14 +933,6 @@
                     <careInstruction>Do not use bleach</careInstruction>
                     <careInstruction>Delicate wash 30°C</careInstruction>
                 </materialAndCareInstructions>
-                <shippingAndReturns>
-                    For orders over $60.90, delivery is free. If the value of the order is lower, 
-                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
-                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
-                    All available items can be delivered with our Econt partners within 4-6 working days.
-                    In case the return label is not attached to your shipment, 
-                    you can order a new one by contacting our customer service department
-                </shippingAndReturns>
             </details>
             <tag>regular</tag>
         </product>
@@ -1121,14 +980,6 @@
                     <careInstruction>Do not use bleach</careInstruction>
                     <careInstruction>Delicate wash 30°C</careInstruction>
                 </materialAndCareInstructions>
-                <shippingAndReturns>
-                    For orders over $60.90, delivery is free. If the value of the order is lower, 
-                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
-                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
-                    All available items can be delivered with our Econt partners within 4-6 working days.
-                    In case the return label is not attached to your shipment, 
-                    you can order a new one by contacting our customer service department
-                </shippingAndReturns>
             </details>
             <tag>regular</tag>
         </product>
@@ -1176,14 +1027,6 @@
                     <careInstruction>Dry in a horizontal position</careInstruction>
                     <careInstruction>Oxygen bleaching</careInstruction>
                 </materialAndCareInstructions>
-                <shippingAndReturns>
-                    For orders over $60.90, delivery is free. If the value of the order is lower, 
-                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
-                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
-                    All available items can be delivered with our Econt partners within 4-6 working days.
-                    In case the return label is not attached to your shipment, 
-                    you can order a new one by contacting our customer service department
-                </shippingAndReturns>
             </details>
             <tag>regular</tag>
         </product>
@@ -1232,14 +1075,6 @@
                     <careInstruction>Dry in a horizontal position</careInstruction>
                     <careInstruction>Oxygen bleaching</careInstruction>
                 </materialAndCareInstructions>
-                <shippingAndReturns>
-                    For orders over $60.90, delivery is free. If the value of the order is lower, 
-                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
-                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
-                    All available items can be delivered with our Econt partners within 4-6 working days.
-                    In case the return label is not attached to your shipment, 
-                    you can order a new one by contacting our customer service department
-                </shippingAndReturns>
             </details>
             <tag>regular</tag>
         </product>
@@ -1287,14 +1122,6 @@
                     <careInstruction>Not to be squeezed</careInstruction>
                     <careInstruction>Oxygen bleaching</careInstruction>
                 </materialAndCareInstructions>
-                <shippingAndReturns>
-                    For orders over $60.90, delivery is free. If the value of the order is lower, 
-                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
-                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
-                    All available items can be delivered with our Econt partners within 4-6 working days.
-                    In case the return label is not attached to your shipment, 
-                    you can order a new one by contacting our customer service department
-                </shippingAndReturns>
             </details>
             <tag>regular</tag>
         </product>
@@ -1342,14 +1169,6 @@
                     <careInstruction>Not to be squeezed</careInstruction>
                     <careInstruction>Oxygen bleaching</careInstruction>
                 </materialAndCareInstructions>
-                <shippingAndReturns>
-                    For orders over $60.90, delivery is free. If the value of the order is lower, 
-                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
-                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
-                    All available items can be delivered with our Econt partners within 4-6 working days.
-                    In case the return label is not attached to your shipment, 
-                    you can order a new one by contacting our customer service department
-                </shippingAndReturns>
             </details>
             <tag>regular</tag>
         </product>
@@ -1400,14 +1219,6 @@
                     <careInstruction>30°C easy to maintain</careInstruction>
                     <careInstruction>Gentle cleaning with perchlorethylene</careInstruction>
                 </materialAndCareInstructions>
-                <shippingAndReturns>
-                    For orders over $60.90, delivery is free. If the value of the order is lower, 
-                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
-                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
-                    All available items can be delivered with our Econt partners within 4-6 working days.
-                    In case the return label is not attached to your shipment, 
-                    you can order a new one by contacting our customer service department
-                </shippingAndReturns>
             </details>
             <tag>regular</tag>
         </product>
@@ -1449,14 +1260,6 @@
                     <careInstruction>30°C easy to maintain</careInstruction>
                     <careInstruction>Gentle cleaning with perchlorethylene</careInstruction>
                 </materialAndCareInstructions>
-                <shippingAndReturns>
-                    For orders over $60.90, delivery is free. If the value of the order is lower, 
-                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
-                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
-                    All available items can be delivered with our Econt partners within 4-6 working days.
-                    In case the return label is not attached to your shipment, 
-                    you can order a new one by contacting our customer service department
-                </shippingAndReturns>
             </details>
             <tag>regular</tag>
         </product>
@@ -1502,14 +1305,6 @@
                     <careInstruction>Oxygen bleaching</careInstruction>
                     <careInstruction>Dry at low temperature</careInstruction>
                 </materialAndCareInstructions>
-                <shippingAndReturns>
-                    For orders over $60.90, delivery is free. If the value of the order is lower, 
-                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
-                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
-                    All available items can be delivered with our Econt partners within 4-6 working days.
-                    In case the return label is not attached to your shipment, 
-                    you can order a new one by contacting our customer service department
-                </shippingAndReturns>
             </details>
             <tag>regular</tag>
         </product>
@@ -1558,14 +1353,6 @@
                     <careInstruction>Do not use bleach</careInstruction>
                     <careInstruction>Delicate wash 30°C</careInstruction>
                 </materialAndCareInstructions>
-                <shippingAndReturns>
-                    For orders over $60.90, delivery is free. If the value of the order is lower, 
-                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
-                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
-                    All available items can be delivered with our Econt partners within 4-6 working days.
-                    In case the return label is not attached to your shipment, 
-                    you can order a new one by contacting our customer service department
-                </shippingAndReturns>
             </details>
             <tag>regular</tag>
         </product>
@@ -1615,14 +1402,6 @@
                     <careInstruction>Do not use bleach</careInstruction>
                     <careInstruction>Dry at low temperature</careInstruction>
                 </materialAndCareInstructions>
-                <shippingAndReturns>
-                    For orders over $60.90, delivery is free. If the value of the order is lower, 
-                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
-                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
-                    All available items can be delivered with our Econt partners within 4-6 working days.
-                    In case the return label is not attached to your shipment, 
-                    you can order a new one by contacting our customer service department
-                </shippingAndReturns>
             </details>
             <tag>regular</tag>
         </product>
@@ -1668,14 +1447,6 @@
                     <careInstruction>Do not use bleach</careInstruction>
                     <careInstruction>30°C easy to maintain</careInstruction>
                 </materialAndCareInstructions>
-                <shippingAndReturns>
-                    For orders over $60.90, delivery is free. If the value of the order is lower, 
-                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
-                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
-                    All available items can be delivered with our Econt partners within 4-6 working days.
-                    In case the return label is not attached to your shipment, 
-                    you can order a new one by contacting our customer service department
-                </shippingAndReturns>
             </details>
             <tag>regular</tag>
         </product>
@@ -1723,14 +1494,6 @@
                     <careInstruction>Iron on medium heat</careInstruction>
                     <careInstruction>Do not use bleach</careInstruction>
                 </materialAndCareInstructions>
-                <shippingAndReturns>
-                    For orders over $60.90, delivery is free. If the value of the order is lower, 
-                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
-                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
-                    All available items can be delivered with our Econt partners within 4-6 working days.
-                    In case the return label is not attached to your shipment, 
-                    you can order a new one by contacting our customer service department
-                </shippingAndReturns>
             </details>
             <tag>regular</tag>
         </product>
@@ -1779,14 +1542,6 @@
                     <careInstruction>Do not use bleach</careInstruction>
                     <careInstruction>Delicate wash at 40°C</careInstruction>
                 </materialAndCareInstructions>
-                <shippingAndReturns>
-                    For orders over $60.90, delivery is free. If the value of the order is lower, 
-                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
-                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
-                    All available items can be delivered with our Econt partners within 4-6 working days.
-                    In case the return label is not attached to your shipment, 
-                    you can order a new one by contacting our customer service department
-                </shippingAndReturns>
             </details>
             <tag>regular</tag>
         </product>
@@ -1834,23 +1589,288 @@
                     <careInstruction>Oxygen bleaching</careInstruction>
                     <careInstruction>Dry at low temperature</careInstruction>
                 </materialAndCareInstructions>
-                <shippingAndReturns>
-                    For orders over $60.90, delivery is free. If the value of the order is lower, 
-                    delivery charges of $8.90 including VAT per order apply. For orders containing several products, 
-                    it is possible, in some cases, to be delivered in more than one package. Delivery with Econt
-                    All available items can be delivered with our Econt partners within 4-6 working days.
-                    In case the return label is not attached to your shipment, 
-                    you can order a new one by contacting our customer service department
-                </shippingAndReturns>
             </details>
             <tag>regular</tag>
         </product>
     </collection>
-    <collection>
-        <name>Shoes Winter Collection 2023/2024</name>
+    <collection name="Shoes Winter Collection 2023/2024">
+        <product number="GUE9b8d001000001" category="Boots">
+            <name>'BISSONN' lace-up ankle boots</name>
+            <price>$283.41</price>
+            <brand>Guess</brand>
+            <images>
+                <modelCenterImage>../img/shoesWinterCollection/cbce8778e32b7da26de3a03d443cfaab.avif</modelCenterImage>
+                <modelSideImage>../img/shoesWinterCollection/23e4932207d3478ba1a309ed7ce01562.avif</modelSideImage>
+                <productFocusImage>../img/shoesWinterCollection/a256c4579e1a2de5f8789a8986bdd4dc.avif</productFocusImage>
+            </images>
+            <availableSizes>
+                <size>36</size>
+                <size>37</size>
+                <size>38</size>
+                <size>39</size>
+                <size>40</size>
+                <size>41</size>
+            </availableSizes>
+            <color>mintcream</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Shoes with a thick heel/sole</feature>
+                    <feature>Flat platform</feature>
+                    <feature>Rounded top</feature>
+                    <feature>Gripper sole</feature>
+                    <feature>Reinforced heel</feature>
+                    <feature>Raised on the heel</feature>
+                    <feature>Padded shaft edge</feature>
+                    <feature>Flexible sole</feature>
+                    <feature>Metal eyelets</feature>
+                    <feature>Hiking shoes</feature>
+                    <feature>Imitation leather</feature>
+                    <feature>With laces</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Heel/Sole Height: Medium Heel/Sole (3-7cm)</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <outerMaterial>Synthetics</outerMaterial>
+                    <innerMaterial>Synthetic, Textile</innerMaterial>
+                    <outerSole>Plastic</outerSole>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="THS9f3d001000001" category="Boots">
+            <name>Beige Low boots with laces</name>
+            <price>$263.61</price>
+            <brand>Tommy Hilfiger</brand>
+            <images>
+                <modelCenterImage>../img/shoesWinterCollection/37946ea940c83f9d8671d710128b4038.avif</modelCenterImage>
+                <modelSideImage>../img/shoesWinterCollection/424d964e19f38e1dd60e8220cd84f4d0.avif</modelSideImage>
+                <productFocusImage>../img/shoesWinterCollection/5f71b1d779c61dff54243444b766e564.avif</productFocusImage>
+            </images>
+            <availableSizes>
+                <size>36</size>
+                <size>37</size>
+                <size>38</size>
+                <size>39</size>
+                <size>40</size>
+                <size>41</size>
+                <size>42</size>
+            </availableSizes>
+            <color>beige</color>
+            <details>
+                <designAndExtras>
+                    <feature>Melange</feature>
+                    <feature>Shoes with a thick heel/sole</feature>
+                    <feature>Flat platform</feature>
+                    <feature>Rounded top</feature>
+                    <feature>Gripper sole</feature>
+                    <feature>Reinforced heel</feature>
+                    <feature>8 hole lacing</feature>
+                    <feature>Raised on the heel</feature>
+                    <feature>Canvas</feature>
+                    <feature>Solid colored tiles</feature>
+                    <feature>Non-slip insole</feature>
+                    <feature>Brand print</feature>
+                    <feature>Metal eyelets</feature>
+                    <feature>Textile</feature>
+                    <feature>With laces</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Heel/Sole Height: Medium Heel/Sole (3-7cm)</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <outerMaterial>Textile</outerMaterial>
+                    <innerMaterial>Leather, Textile</innerMaterial>
+                    <outerSole>Rubber</outerSole>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="NIS6083004000001" category="Boots">
+            <name>City Classic lace-up ankle boots</name>
+            <price>$209.61</price>
+            <brand>Nike Sportswear</brand>
+            <images>
+                <modelCenterImage>../img/shoesWinterCollection/6a2ad3341d69757b8b1622fec751e7ab.avif</modelCenterImage>
+                <modelSideImage>../img/shoesWinterCollection/b51c1ed309b05054bfde65fa6496a075.avif</modelSideImage>
+                <productFocusImage>../img/shoesWinterCollection/a256c4579e1a2de5f8789a8986bdd4dc.avif</productFocusImage>
+            </images>
+            <availableSizes>
+                <size>36</size>
+                <size>36,5</size>
+                <size>37</size>
+                <size>37,5</size>
+                <size>38</size>
+                <size>38,5</size>
+                <size>39</size>
+                <size>40</size>
+                <size>40,5</size>
+                <size>41</size>
+                <size>42</size>
+                <size>43</size>
+            </availableSizes>
+            <color>lightgrey</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Leather</feature>
+                    <feature>Flat platform</feature>
+                    <feature>Rounded top</feature>
+                    <feature>Gripper sole</feature>
+                    <feature>Reinforced heel</feature>
+                    <feature>A mix of materials</feature>
+                    <feature>Finger guard</feature>
+                    <feature>Brand print</feature>
+                    <feature>Flexible sole</feature>
+                    <feature>Suede leather</feature>
+                    <feature>With laces</feature>
+                    <feature>With warm lining</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Heel/Sole Height: Low Heel/Sole (0-3cm)</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <outerMaterial>Leather, Synthetics</outerMaterial>
+                    <innerMaterial>Textile</innerMaterial>
+                    <outerSole>Plastic</outerSole>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="TMR5723001000001" category="Boots">
+            <name>Beige low boots with laces</name>
+            <price>$161.10</price>
+            <brand>Tamaris</brand>
+            <images>
+                <modelCenterImage>../img/shoesWinterCollection/6a2ad3341d69757b8b1622fec751e7ab.avif</modelCenterImage>
+                <modelSideImage>../img/shoesWinterCollection/b51c1ed309b05054bfde65fa6496a075.avif</modelSideImage>
+                <productFocusImage>../img/shoesWinterCollection/a256c4579e1a2de5f8789a8986bdd4dc.avif</productFocusImage>
+            </images>
+            <availableSizes>
+                <size>37</size>
+                <size>38</size>
+                <size>39</size>
+                <size>40</size>
+            </availableSizes>
+            <color>beige</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Shoes with a thick heel/sole</feature>
+                    <feature>Flat platform</feature>
+                    <feature>Rounded top</feature>
+                    <feature>Side zipper</feature>
+                    <feature>Gripper sole</feature>
+                    <feature>Reinforced heel</feature>
+                    <feature>A mix of materials</feature>
+                    <feature>Raised on the heel</feature>
+                    <feature>Sturdy material</feature>
+                    <feature>Flexible sole</feature>
+                    <feature>Imitation leather</feature>
+                    <feature>With laces</feature>
+                    <feature>With warm lining</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Heel/Sole Height: Medium Heel/Sole (3-7cm)</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <outerMaterial>Synthetic, Textile</outerMaterial>
+                    <innerMaterial>Synthetic, Textile</innerMaterial>
+                    <outerSole>Rubber</outerSole>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="TMR6259001000001" category="Boots">
+            <name>Black low boots with laces</name>
+            <price>$161.10</price>
+            <brand>Tamaris</brand>
+            <images>
+                <modelCenterImage>../img/shoesWinterCollection/bae5bc5e85daca78fc845edfbca31d89.avif</modelCenterImage>
+                <modelSideImage>../img/shoesWinterCollection/89a2a2f330cef83f56fb31bb12401f2c.avif</modelSideImage>
+                <productFocusImage>../img/shoesWinterCollection/cee2b560e6752ef0d1832767f4d860ca.avif</productFocusImage>
+            </images>
+            <availableSizes>
+                <size>36</size>
+                <size>37</size>
+                <size>38</size>
+                <size>39</size>
+                <size>40</size>
+            </availableSizes>
+            <color>black</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Rounded top</feature>
+                    <feature>Side zipper</feature>
+                    <feature>Gripper sole</feature>
+                    <feature>Reinforced heel</feature>
+                    <feature>A mix of materials</feature>
+                    <feature>Raised on the heel</feature>
+                    <feature>Velor</feature>
+                    <feature>Padded shaft edge</feature>
+                    <feature>Flexible sole</feature>
+                    <feature>Imitation leather</feature>
+                    <feature>With laces</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Heel/Sole Height: Low Heel/Sole (0-3cm)</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <outerMaterial>Synthetic, Textile</outerMaterial>
+                    <innerMaterial>Synthetic, Textile</innerMaterial>
+                    <outerSole>Rubber</outerSole>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="TMR5671001000001" category="Boots">
+            <name>Brown low boots with laces</name>
+            <price>$139.30</price>
+            <brand>Tamaris</brand>
+            <images>
+                <modelCenterImage>../img/shoesWinterCollection/bae5bc5e85daca78fc845edfbca31d89.avif</modelCenterImage>
+                <modelSideImage>../img/shoesWinterCollection/89a2a2f330cef83f56fb31bb12401f2c.avif</modelSideImage>
+                <productFocusImage>../img/shoesWinterCollection/cee2b560e6752ef0d1832767f4d860ca.avif</productFocusImage>
+            </images>
+            <availableSizes>
+                <size>36</size>
+                <size>37</size>
+                <size>38</size>
+                <size>39</size>
+                <size>40</size>
+            </availableSizes>
+            <color>brown</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Rounded top</feature>
+                    <feature>Side zipper</feature>
+                    <feature>Gripper sole</feature>
+                    <feature>Reinforced heel</feature>
+                    <feature>A mix of materials</feature>
+                    <feature>Raised on the heel</feature>
+                    <feature>Velor</feature>
+                    <feature>Padded shaft edge</feature>
+                    <feature>Flexible sole</feature>
+                    <feature>Imitation leather</feature>
+                    <feature>With laces</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Heel/Sole Height: Low Heel/Sole (0-3cm)</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <outerMaterial>Synthetic, Textile</outerMaterial>
+                    <innerMaterial>Synthetic, Textile</innerMaterial>
+                    <outerSole>Rubber</outerSole>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
     </collection>
-    <collection>
-        <name>Accessories Fall Collection 2023</name>
+    <collection name="Accessories Fall Collection 2023">
+       
     </collection>
     <blog>
         <post>

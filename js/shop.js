@@ -36,7 +36,6 @@ const appendPageNumber = (index) => {
 
 const getPaginationNumbers = () => {
     for (let i = 1; i <= pagesCount; i++) {
-        console.log('appending');
         appendPageNumber(i);
     }
 }
@@ -56,8 +55,6 @@ const setCurrentPage = (pageNumber) => {
             paginationListItem.classList.remove("hidden");
         }
     });
-
-    console.log(nextPagesRange);
 
     shownPaginationResultsParagraph.innerHTML = `Showing ${previousPagesRange + 1}-` +
         `${nextPagesRange > paginationItemsColumns.length ? paginationItemsColumns.length : nextPagesRange } ` +

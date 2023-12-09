@@ -11,7 +11,7 @@ if (file_exists('./xml/class-outfitters.xml')) {
     $productDesignAndExtras = $productByXPathQuery->details->designAndExtras;
     $productFit = $productByXPathQuery->details->fit;
     $productMaterialAndCareInstructions = $productByXPathQuery->details->materialAndCareInstructions;
-    $productShippingAndReturns = $productByXPathQuery->details->shippingAndReturns;
+    $shippingAndReturnsPolicy = $shopNode->shippingAndReturnsPolicy;
     $relatedProducts = $shopNode->xpath("collection/product[@category='$productCategory' and @number!='$productNumber']");
     shuffle($relatedProducts);
     $relatedProducts = array_slice($relatedProducts, 0, 4);
@@ -314,7 +314,7 @@ if (file_exists('./xml/class-outfitters.xml')) {
                                         <p class="note"></p>
                                         <div class="product__details__tab__content__item">
                                             <?php
-                                              echo "<p>$productShippingAndReturns</p>"; 
+                                              echo "<p>$shippingAndReturnsPolicy</p>"; 
                                             ?>
                                         </div>
                                     </div>
