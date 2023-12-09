@@ -1594,7 +1594,7 @@
         </product>
     </collection>
     <collection name="Shoes Winter Collection 2023/2024">
-        <product number="GUE9b8d001000001" category="Boots">
+        <product number="GUE9b8d001000001" category="Low Boots">
             <name>'BISSONN' lace-up ankle boots</name>
             <price>$283.41</price>
             <brand>Guess</brand>
@@ -1639,7 +1639,7 @@
             </details>
             <tag>regular</tag>
         </product>
-        <product number="THS9f3d001000001" category="Boots">
+        <product number="THS9f3d001000001" category="Low Boots">
             <name>Beige Low boots with laces</name>
             <price>$263.61</price>
             <brand>Tommy Hilfiger</brand>
@@ -1687,7 +1687,7 @@
             </details>
             <tag>regular</tag>
         </product>
-        <product number="NIS6083004000001" category="Boots">
+        <product number="NIS6083004000001" category="Low Boots">
             <name>City Classic lace-up ankle boots</name>
             <price>$209.61</price>
             <brand>Nike Sportswear</brand>
@@ -1738,51 +1738,7 @@
             </details>
             <tag>regular</tag>
         </product>
-        <product number="TMR5723001000001" category="Boots">
-            <name>Beige low boots with laces</name>
-            <price>$161.10</price>
-            <brand>Tamaris</brand>
-            <images>
-                <modelCenterImage>../img/shoesWinterCollection/6a2ad3341d69757b8b1622fec751e7ab.avif</modelCenterImage>
-                <modelSideImage>../img/shoesWinterCollection/b51c1ed309b05054bfde65fa6496a075.avif</modelSideImage>
-                <productFocusImage>../img/shoesWinterCollection/a256c4579e1a2de5f8789a8986bdd4dc.avif</productFocusImage>
-            </images>
-            <availableSizes>
-                <size>37</size>
-                <size>38</size>
-                <size>39</size>
-                <size>40</size>
-            </availableSizes>
-            <color>beige</color>
-            <details>
-                <designAndExtras>
-                    <feature>One color</feature>
-                    <feature>Shoes with a thick heel/sole</feature>
-                    <feature>Flat platform</feature>
-                    <feature>Rounded top</feature>
-                    <feature>Side zipper</feature>
-                    <feature>Gripper sole</feature>
-                    <feature>Reinforced heel</feature>
-                    <feature>A mix of materials</feature>
-                    <feature>Raised on the heel</feature>
-                    <feature>Sturdy material</feature>
-                    <feature>Flexible sole</feature>
-                    <feature>Imitation leather</feature>
-                    <feature>With laces</feature>
-                    <feature>With warm lining</feature>
-                </designAndExtras>
-                <fit>
-                    <styleFit>Heel/Sole Height: Medium Heel/Sole (3-7cm)</styleFit>
-                </fit>
-                <materialAndCareInstructions>
-                    <outerMaterial>Synthetic, Textile</outerMaterial>
-                    <innerMaterial>Synthetic, Textile</innerMaterial>
-                    <outerSole>Rubber</outerSole>
-                </materialAndCareInstructions>
-            </details>
-            <tag>regular</tag>
-        </product>
-        <product number="TMR6259001000001" category="Boots">
+        <product number="TMR6259001000001" category="Low Boots">
             <name>Black low boots with laces</name>
             <price>$161.10</price>
             <brand>Tamaris</brand>
@@ -1825,14 +1781,14 @@
             </details>
             <tag>regular</tag>
         </product>
-        <product number="TMR5671001000001" category="Boots">
+        <product number="TMR5671001000001" category="Low Boots">
             <name>Brown low boots with laces</name>
             <price>$139.30</price>
             <brand>Tamaris</brand>
             <images>
-                <modelCenterImage>../img/shoesWinterCollection/bae5bc5e85daca78fc845edfbca31d89.avif</modelCenterImage>
-                <modelSideImage>../img/shoesWinterCollection/89a2a2f330cef83f56fb31bb12401f2c.avif</modelSideImage>
-                <productFocusImage>../img/shoesWinterCollection/cee2b560e6752ef0d1832767f4d860ca.avif</productFocusImage>
+                <modelCenterImage>../img/shoesWinterCollection/8f0c5f16dca8652e56a7d4e59bba44ca.avif</modelCenterImage>
+                <modelSideImage>../img/shoesWinterCollection/893323893e7c8027dcf23671b5400719.avif</modelSideImage>
+                <productFocusImage>../img/shoesWinterCollection/a2fc62077922c4a21b79774037e9fb0d.avif</productFocusImage>
             </images>
             <availableSizes>
                 <size>36</size>
@@ -1863,6 +1819,516 @@
                 <materialAndCareInstructions>
                     <outerMaterial>Synthetic, Textile</outerMaterial>
                     <innerMaterial>Synthetic, Textile</innerMaterial>
+                    <outerSole>Rubber</outerSole>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="LAS51100010000021" category="Low Boots">
+            <name>Mocca low boots with laces</name>
+            <price>$98.95</price>
+            <brand>Lascana</brand>
+            <images>
+                <modelCenterImage>../img/shoesWinterCollection/ea7c2b707e5f859ac7a5f87024d891bc.avif</modelCenterImage>
+                <modelSideImage>../img/shoesWinterCollection/0b75b54781afdda4caebc5d27555174b.avif</modelSideImage>
+                <productFocusImage>../img/shoesWinterCollection/fe60f5417395e4ceeb99506fd17527a6.avif</productFocusImage>
+            </images>
+            <availableSizes>
+                <size>36</size>
+            </availableSizes>
+            <color>saddlebrown</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Leather</feature>
+                    <feature>Shoes with a thick heel/sole</feature>
+                    <feature>Flat platform</feature>
+                    <feature>Rounded top</feature>
+                    <feature>Suede leather</feature>
+                    <feature>With laces</feature>
+                    <feature>With warm lining</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Heel/Sole Height: Medium Heel/Sole (3-7cm)</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <outerMaterial>Leather</outerMaterial>
+                    <innerMaterial>Textile, Synthetic</innerMaterial>
+                    <outerSole>Rubber</outerSole>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="TOT9c9n001000001" category="Low Boots">
+            <name>Khaki low boots with laces</name>
+            <price>$75.53</price>
+            <brand>Tom Tailor</brand>
+            <images>
+                <modelCenterImage>../img/shoesWinterCollection/490b96eb71e0936d8cb8d6924b1703a9.avif</modelCenterImage>
+                <modelSideImage>../img/shoesWinterCollection/b0238614967d4e1960acf40bb628e19a.avif</modelSideImage>
+                <productFocusImage>../img/shoesWinterCollection/8ef2c9c69e9a4edbc5fc46db2ee9c660.avif</productFocusImage>
+            </images>
+            <availableSizes>
+                <size>36</size>
+                <size>37</size>
+                <size>38</size>
+                <size>40</size>
+            </availableSizes>
+            <color>khaki</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Rounded top</feature>
+                    <feature>Gripper sole</feature>
+                    <feature>Reinforced heel</feature>
+                    <feature>Flexible sole</feature>
+                    <feature>Metal eyelets</feature>
+                    <feature>Imitation leather</feature>
+                    <feature>With laces</feature>
+                    <feature>With warm lining</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Heel/Sole Height: Low Heel/Sole (0-3cm)</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <outerMaterial>Synthetics</outerMaterial>
+                    <innerMaterial>Textile</innerMaterial>
+                    <outerSole>Plastics</outerSole>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="LAS6360002000001" category="Low Boots">
+            <name>Red low boots with laces</name>
+            <price>$98.95</price>
+            <brand>Lascana</brand>
+            <images>
+                <modelCenterImage>../img/shoesWinterCollection/7a60d63b7aa9d2d0c4da9ca66cc58466.avif</modelCenterImage>
+                <modelSideImage>../img/shoesWinterCollection/140ac4fd358bf4d3bef0dc04c4210581.avif</modelSideImage>
+                <productFocusImage>../img/shoesWinterCollection/8bf9c49bae1335e70625b81b09e7d125.avif</productFocusImage>
+            </images>
+            <availableSizes>
+                <size>36</size>
+            </availableSizes>
+            <color>red</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Leather</feature>
+                    <feature>Shoes with a thick heel/sole</feature>
+                    <feature>Rounded top</feature>
+                    <feature>Solid colored tiles</feature>
+                    <feature>Smooth skin</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Heel/Sole Height: Low Heel/Sole (0-3cm)</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <outerMaterial>Leather</outerMaterial>
+                    <innerMaterial>Textile</innerMaterial>
+                    <outerSole>Rubber</outerSole>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="LAS6360001000006" category="Low Boots">
+            <name>Beige low boots with laces</name>
+            <price>$98.95</price>
+            <brand>Lascana</brand>
+            <images>
+                <modelCenterImage>../img/shoesWinterCollection/01a0f336a872f64d61063e5f27f9dd97.avif</modelCenterImage>
+                <modelSideImage>../img/shoesWinterCollection/51d12bc7ea7dd13cd9a1d8e5875de6dd.avif</modelSideImage>
+                <productFocusImage>../img/shoesWinterCollection/6b7bef259edd1c4e624ed2856675e5cf.avif</productFocusImage>
+            </images>
+            <availableSizes>
+                <size>37</size>
+            </availableSizes>
+            <color>beige</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Leather</feature>
+                    <feature>Shoes with a thick heel/sole</feature>
+                    <feature>Rounded top</feature>
+                    <feature>Smooth skin</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Heel/Sole Height: Low Heel/Sole (0-3cm)</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <outerMaterial>Leather</outerMaterial>
+                    <innerMaterial>Textile</innerMaterial>
+                    <outerSole>Synthetics</outerSole>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="LAS6410001000003" category="Tall Boots">
+            <name>Light brown tall boots</name>
+            <price>$187.92</price>
+            <brand>Lascana</brand>
+            <images>
+                <modelCenterImage>../img/shoesWinterCollection/d1815ad79420cd9dcab66eecda196173.avif</modelCenterImage>
+                <modelSideImage>../img/shoesWinterCollection/bebb323d6fa89b3c4014b4477823ac66.avif</modelSideImage>
+                <productFocusImage>../img/shoesWinterCollection/e906d1b1e3ea013115d447540fa69b8d.avif</productFocusImage>
+            </images>
+            <availableSizes>
+                <size>36</size>
+                <size>37</size>
+                <size>38</size>
+                <size>39</size>
+                <size>40</size>
+            </availableSizes>
+            <color>lightbrown</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Leather</feature>
+                    <feature>Shoes with a thick heel/sole</feature>
+                    <feature>Rounded top</feature>
+                    <feature>Smooth skin</feature>
+                    <feature>Zip</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Heel/Sole Height: Low Heel/Sole (0-3cm)</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <outerMaterial>Leather</outerMaterial>
+                    <innerMaterial>Textile</innerMaterial>
+                    <outerSole>Synthetics</outerSole>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="LAS6480002000003" category="Tall Boots">
+            <name>Dark brown tall boots</name>
+            <price>$197.90</price>
+            <brand>Lascana</brand>
+            <images>
+                <modelCenterImage>../img/shoesWinterCollection/86e62f6c3a0108a49ffd29fcb5bbda9f.avif</modelCenterImage>
+                <modelSideImage>../img/shoesWinterCollection/d2e0faa09112425ab017d82c4e196fdb.avif</modelSideImage>
+                <productFocusImage>../img/shoesWinterCollection/6d4f10f371d452993b7f9c4f85de1e90.avif</productFocusImage>
+            </images>
+            <availableSizes>
+                <size>36</size>
+                <size>37</size>
+                <size>38</size>
+                <size>39</size>
+                <size>40</size>
+            </availableSizes>
+            <color>darkbrown</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Shoes with a thick heel/sole</feature>
+                    <feature>Rounded top</feature>
+                    <feature>Imitation leather</feature>
+                    <feature>Zip</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Heel/Sole Height: Low Heel/Sole (0-3cm)</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <outerMaterial>Synthetics</outerMaterial>
+                    <innerMaterial>Synthetics</innerMaterial>
+                    <outerSole>Synthetics</outerSole>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="LAS6480004000001" category="Tall Boots">
+            <name>Black tall boots</name>
+            <price>$98.95</price>
+            <brand>Lascana</brand>
+            <images>
+                <modelCenterImage>../img/shoesWinterCollection/56154eabd6a4f56533303ab59263f50e.avif</modelCenterImage>
+                <modelSideImage>../img/shoesWinterCollection/a9e2674e8dc548fc479ca1ecff07b13c.avif</modelSideImage>
+                <productFocusImage>../img/shoesWinterCollection/7d541be77a338e9ac02db5d3d4859921.avif</productFocusImage>
+            </images>
+            <availableSizes>
+                <size>37</size>
+            </availableSizes>
+            <color>black</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Shoes with a thick heel/sole</feature>
+                    <feature>Rounded top</feature>
+                    <feature>Imitation leather</feature>
+                    <feature>Zip</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Heel/Sole Height: Low Heel/Sole (0-3cm)</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <outerMaterial>Textile</outerMaterial>
+                    <innerMaterial>Textile</innerMaterial>
+                    <outerSole>Synthetics</outerSole>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="LAS6480001000001" category="Tall Boots">
+            <name>Saddle brown tall boots</name>
+            <price>$98.95</price>
+            <brand>Lascana</brand>
+            <images>
+                <modelCenterImage>../img/shoesWinterCollection/8adf789474b0355788c4e8168cedf8de.avif</modelCenterImage>
+                <modelSideImage>../img/shoesWinterCollection/5ddde3fc3008e1245256cb616a1d36cf.avif</modelSideImage>
+                <productFocusImage>../img/shoesWinterCollection/1afe94dfe7432330e6cea7bf8e987356.avif</productFocusImage>
+            </images>
+            <availableSizes>
+                <size>39</size>
+            </availableSizes>
+            <color>saddlebrown</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Shoes with a thick heel/sole</feature>
+                    <feature>Rounded top</feature>
+                    <feature>Imitation leather</feature>
+                    <feature>Zip</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Heel/Sole Height: Low Heel/Sole (0-3cm)</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <outerMaterial>Textile</outerMaterial>
+                    <innerMaterial>Textile</innerMaterial>
+                    <outerSole>Rubber</outerSole>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="LAS6480003000001" category="Tall Boots">
+            <name>Saddle brown tall boots</name>
+            <price>$98.95</price>
+            <brand>Lascana</brand>
+            <images>
+                <modelCenterImage>../img/shoesWinterCollection/4f2c9951f607e68c8bf03c5f9ef25da1.avif</modelCenterImage>
+                <modelSideImage>../img/shoesWinterCollection/e1d406743f4673eb280c50960d0527c9.avif</modelSideImage>
+                <productFocusImage>../img/shoesWinterCollection/a78e54c9622e8e46888ea201765ff154.avif</productFocusImage>
+            </images>
+            <availableSizes>
+                <size>38</size>
+                <size>39</size>
+            </availableSizes>
+            <color>darkblue</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Shoes with a thick heel/sole</feature>
+                    <feature>Rounded top</feature>
+                    <feature>Imitation leather</feature>
+                    <feature>Zip</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Heel/Sole Height: Low Heel/Sole (0-3cm)</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <outerMaterial>Textile</outerMaterial>
+                    <innerMaterial>Textile</innerMaterial>
+                    <outerSole>Synthetics</outerSole>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="MUT0838002000001" category="Tall Boots">
+            <name>Saddle brown tall boots with laces</name>
+            <price>$151.22</price>
+            <brand>Mustang</brand>
+            <images>
+                <modelCenterImage>../img/shoesWinterCollection/5aee8903ec92d686a23a6843c05bcdfe.avif</modelCenterImage>
+                <modelSideImage>../img/shoesWinterCollection/6c71a73b88de0f76d5e5cebae3cd85cb.avif</modelSideImage>
+                <productFocusImage>../img/shoesWinterCollection/3c6c2ab7be856bc2e2b58ee1e2c4337f.avif</productFocusImage>
+            </images>
+            <availableSizes>
+                <size>36</size>
+                <size>38</size>
+                <size>39</size>
+                <size>40</size>
+            </availableSizes>
+            <color>saddlebrown</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Rounded top</feature>
+                    <feature>Zip</feature>
+                    <feature>Gripper sole</feature>
+                    <feature>Reinforced heel</feature>
+                    <feature>Patch/Brand Nameplate</feature>
+                    <feature>Brand print</feature>
+                    <feature>Metal eyelets</feature>
+                    <feature>Hiking shoes</feature>
+                    <feature>Imitation leather</feature>
+                    <feature>With laces</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Heel/Sole Height: Low Heel/Sole (0-3cm)</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <outerMaterial>Synthetics</outerMaterial>
+                    <innerMaterial>Synthetics</innerMaterial>
+                    <outerSole>Rubber</outerSole>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="MUT0309004000001" category="Tall Boots">
+            <name>Black tall boots with laces</name>
+            <price>$133.43</price>
+            <brand>Mustang</brand>
+            <images>
+                <modelCenterImage>../img/shoesWinterCollection/ce0671a376c948a7c644c092829cdaff.avif</modelCenterImage>
+                <modelSideImage>../img/shoesWinterCollection/1514ee91affa39f75e07fe4310f05a0d.avif</modelSideImage>
+                <productFocusImage>../img/shoesWinterCollection/940c2989780c3fbd90f9c1b37cf61568.avif</productFocusImage>
+            </images>
+            <availableSizes>
+                <size>36</size>
+                <size>37</size>
+                <size>38</size>
+                <size>39</size>
+                <size>40</size>
+            </availableSizes>
+            <color>black</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Rounded top</feature>
+                    <feature>Multilayer heel</feature>
+                    <feature>Gripper sole</feature>
+                    <feature>Reinforced heel</feature>
+                    <feature>Patch/Brand Nameplate</feature>
+                    <feature>Flexible sole</feature>
+                    <feature>Metal eyelets</feature>
+                    <feature>Imitation leather</feature>
+                    <feature>With laces</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Heel/Sole Height: Low Heel/Sole (0-3cm)</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <outerMaterial>Synthetics</outerMaterial>
+                    <innerMaterial>Textile</innerMaterial>
+                    <outerSole>Rubber</outerSole>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="EDT4794002000001" category="Tall Boots">
+            <name>White Tall boots 'Gilberta'</name>
+            <price>$194.95</price>
+            <brand>Edited</brand>
+            <images>
+                <modelCenterImage>../img/shoesWinterCollection/da36c3f9f1716939aebcae4e3ead2500.avif</modelCenterImage>
+                <modelSideImage>../img/shoesWinterCollection/90b4a2d7c40854bcdc6d8415c1f9da99.avif</modelSideImage>
+                <productFocusImage>../img/shoesWinterCollection/28e6abc493cf3fb59134423786dfe494.avif</productFocusImage>
+            </images>
+            <availableSizes>
+                <size>36</size>
+                <size>37</size>
+                <size>38</size>
+                <size>39</size>
+                <size>40</size>
+                <size>41</size>
+            </availableSizes>
+            <color>white</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Leather</feature>
+                    <feature>Shoes with a thick heel/sole</feature>
+                    <feature>Flat platform</feature>
+                    <feature>Rounded top</feature>
+                    <feature>Smooth skin</feature>
+                    <feature>With a slip</feature>
+                    <feature>Leather Working Group</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Heel/Sole Height: Low Heel/Sole (0-3cm)</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <outerMaterial>Leather</outerMaterial>
+                    <innerMaterial>Polyester, Polyurethane</innerMaterial>
+                    <outerSole>Rubber</outerSole>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="EDT4794001000001" category="Tall Boots">
+            <name>Black Tall boots 'Gilberta'</name>
+            <price>$331.42</price>
+            <brand>Edited</brand>
+            <images>
+                <modelCenterImage>../img/shoesWinterCollection/949cf309f3382090dac83986ae944f00.avif</modelCenterImage>
+                <modelSideImage>../img/shoesWinterCollection/d1ab423706c656af89e329db7d6e830b.avif</modelSideImage>
+                <productFocusImage>../img/shoesWinterCollection/49ea61901f13810d7f53fbfae0b4b344.avif</productFocusImage>
+            </images>
+            <availableSizes>
+                <size>36</size>
+                <size>37</size>
+                <size>39</size>
+                <size>40</size>
+                <size>41</size>
+            </availableSizes>
+            <color>black</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Leather</feature>
+                    <feature>Shoes with a thick heel/sole</feature>
+                    <feature>Flat platform</feature>
+                    <feature>Rounded top</feature>
+                    <feature>Smooth skin</feature>
+                    <feature>With a slip</feature>
+                    <feature>Leather Working Group</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Heel/Sole Height: Low Heel/Sole (0-3cm)</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <outerMaterial>Leather</outerMaterial>
+                    <innerMaterial>Polyester, Polyurethane</innerMaterial>
+                    <outerSole>Rubber</outerSole>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="EDT4794004000001" category="Tall Boots">
+            <name>Brown Tall boots 'Gilberta'</name>
+            <price>$194.95</price>
+            <brand>Edited</brand>
+            <images>
+                <modelCenterImage>../img/shoesWinterCollection/9bb2f3ee9fa33dbc34e3c8bc9398d8b1.avif</modelCenterImage>
+                <modelSideImage>../img/shoesWinterCollection/7261419c6871735051529e139f23e755.avif</modelSideImage>
+                <productFocusImage>../img/shoesWinterCollection/4a20db20ab0a6a9d354a932fcdbaa96c.avif</productFocusImage>
+            </images>
+            <availableSizes>
+                <size>36</size>
+                <size>37</size>
+                <size>38</size>
+                <size>39</size>
+                <size>40</size>
+                <size>41</size>
+            </availableSizes>
+            <color>brown</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Leather</feature>
+                    <feature>Shoes with a thick heel/sole</feature>
+                    <feature>Flat platform</feature>
+                    <feature>Rounded top</feature>
+                    <feature>Smooth skin</feature>
+                    <feature>With a slip</feature>
+                    <feature>Leather Working Group</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Heel/Sole Height: Low Heel/Sole (0-3cm)</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <outerMaterial>Leather</outerMaterial>
+                    <innerMaterial>Polyester, Polyurethane</innerMaterial>
                     <outerSole>Rubber</outerSole>
                 </materialAndCareInstructions>
             </details>

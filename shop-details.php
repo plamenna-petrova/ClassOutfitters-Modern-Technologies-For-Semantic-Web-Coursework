@@ -160,13 +160,18 @@ if (file_exists('./xml/class-outfitters.xml')) {
                                             </div>
                                         </a>
                                     </li>
-                                    <li class='nav-item'>
-                                        <a class='nav-link' data-toggle='tab' href='#tabs-4' role='tab'>
-                                            <div class='product__thumb__pic set-bg' data-setbg='$productImages->productZoomImage'>
-                                            </div>
-                                        </a>
-                                    </li>
                                 ";
+
+                                if ($productImages->productZoomImage) {
+                                    echo "
+                                        <li class='nav-item'>
+                                            <a class='nav-link' data-toggle='tab' href='#tabs-4' role='tab'>
+                                                <div class='product__thumb__pic set-bg' data-setbg='$productImages->productZoomImage'>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    ";
+                                }
                             ?>
                         </ul>
                     </div>
@@ -189,12 +194,17 @@ if (file_exists('./xml/class-outfitters.xml')) {
                                             <img src='$productImages->productFocusImage' alt=''>
                                         </div>
                                     </div>
-                                    <div class='tab-pane' id='tabs-4' role='tabpanel'>
-                                        <div class='product__details__pic__item'>
-                                            <img src='$productImages->productZoomImage' alt=''>
-                                        </div>
-                                    </div>
                                 ";
+
+                                if ($productImages->productZoomImage) {
+                                    echo "
+                                        <div class='tab-pane' id='tabs-4' role='tabpanel'>
+                                            <div class='product__details__pic__item'>
+                                                <img src='$productImages->productZoomImage' alt=''>
+                                            </div>
+                                        </div>
+                                    ";
+                                }
                             ?>
                         </div>
                     </div>
@@ -271,8 +281,12 @@ if (file_exists('./xml/class-outfitters.xml')) {
                                                             if ($productFit->sleeveLength->count()) {
                                                                 echo "<li>$productFit->sleeveLength</li>";
                                                             }
-                                                            echo "<li>$productFit->length</li>";
-                                                            echo "<li>$productFit->styleFit</li>";
+                                                            if ($productFit->length->count()) {
+                                                                echo "<li>$productFit->length</li>";
+                                                            }
+                                                            if ($productFit->styleFit->count()) {
+                                                                echo "<li>$productFit->styleFit</li>";
+                                                            }
                                                             if ($productFit->waistline->count() ) {
                                                                 echo "<li>$productFit->waistline</li>";
                                                             }
@@ -282,27 +296,54 @@ if (file_exists('./xml/class-outfitters.xml')) {
                                             </div>
                                             <div class="col-lg-6">
                                                 <div class="product__details__tab__content__item">
-                                                    <h5>Material used</h5>
                                                     <?php
-                                                        echo "
-                                                            <h6>$productMaterialAndCareInstructions->material</h6>
-                                                            <br />
-                                                            <h6>Lining: $productMaterialAndCareInstructions->lining</h6>
-                                                            <br />
-                                                            <h6>Country Of Origin: $productMaterialAndCareInstructions->countryOfOrigin</h6>
-                                                            <br />
-                                                            <h6>Care Instructions:</h6>
-                                                            <br />
-                                                        ";
+                                                        if ($productMaterialAndCareInstructions) { 
+                                                            echo "<h5>Materials Used</h5>";
+                                                            
+                                                            if ($productMaterialAndCareInstructions->material) {
+                                                                echo "<h6>Material: $productMaterialAndCareInstructions->material</h6>";
+                                                                echo "<br />";
+                                                            }
 
-                                                        echo "<ul>";
+                                                            if ($productMaterialAndCareInstructions->lining) {
+                                                                echo "<h6>Lining: $productMaterialAndCareInstructions->lining</h6>";
+                                                                echo "<br />";
+                                                            }     
 
-                                                        foreach ($productMaterialAndCareInstructions->careInstruction as $careInstructionNode) {
-                                                            $careInstructionValue = (string) $careInstructionNode;
-                                                            echo "<li>$careInstructionValue</li>";
+                                                            if ($productMaterialAndCareInstructions->countryOfOrigin) {
+                                                                echo "<h6>Country Of Origin: $productMaterialAndCareInstructions->countryOfOrigin</h6>";
+                                                                echo "<br />";
+                                                            }
+
+                                                            if ($productMaterialAndCareInstructions->outerMaterial) {
+                                                                echo "<h6>Outer Material: $productMaterialAndCareInstructions->outerMaterial</h6>";
+                                                                echo "<br />";
+                                                            }
+
+                                                            if ($productMaterialAndCareInstructions->innerMaterial) {
+                                                                echo "<h6>Inner Material: $productMaterialAndCareInstructions->innerMaterial</h6>";
+                                                                echo "<br />";
+                                                            }
+
+                                                            if ($productMaterialAndCareInstructions->outerSole) {
+                                                                echo "<h6>Outer Sole: $productMaterialAndCareInstructions->outerSole</h6>";
+                                                                echo "<br />";
+                                                            }
+
+                                                            if (sizeof($productMaterialAndCareInstructions->careInstruction) !== 0) {
+                                                                echo "<h6>Care Instructions:</h6>";
+                                                                echo "<br />";
+              
+                                                                echo "<ul>";
+
+                                                                foreach ($productMaterialAndCareInstructions->careInstruction as $careInstructionNode) {
+                                                                    $careInstructionValue = (string) $careInstructionNode;
+                                                                    echo "<li>$careInstructionValue</li>";
+                                                                }
+
+                                                                echo "</ul>";
+                                                            }
                                                         }
-
-                                                        echo "</ul>";
                                                     ?>
                                                 </div>            
                                             </div>
