@@ -961,6 +961,7 @@ ol {
 	right: 20px;
 	opacity: 1;
 }
+
 .product__item:hover .product__item__pic .product__hover button {
 	border: none;
 	padding: 0;
@@ -1326,6 +1327,32 @@ ol {
 	display: inline-block;
 	margin-bottom: 10px;
 	cursor: pointer;
+}
+
+.shop__sidebar__categories ul li a.active {
+	color: black;
+}
+
+.shop__sidebar__brand ul li a.active {
+	color: black;
+}
+
+.shop__sidebar__price ul li a.active {
+	color: black;
+}
+
+.shop__sidebar__size label.active {
+	background-color: #000;
+	color: white;
+}
+
+.shop__sidebar__color label.active:after {
+	border: 1px solid #000;
+}
+
+.shop__sidebar__tags a.active {
+	background-color: #000;
+	color: white;
 }
 
 .shop__sidebar__color label.c-1 {

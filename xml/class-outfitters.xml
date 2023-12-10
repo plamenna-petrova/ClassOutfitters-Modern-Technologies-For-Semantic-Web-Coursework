@@ -65,7 +65,7 @@
         <bannerImage>img/banner/clothingCollection.png</bannerImage>
         <product number="PIC4197006000001" category="Jackets and Blazers">
             <name>Blazer 'Bossy'</name>
-            <price>$86.90</price>
+            <price>86.90</price>
             <brand>Pieces</brand>
             <images>
                 <modelCenterImage>img/fallWinterClothingCollection/abdd5a2286b9dc59401194e816afa03a.avif</modelCenterImage>
@@ -111,7 +111,7 @@
         </product>
         <product number="MGObpss002000004" category="Jackets and Blazers">
             <name>Blazer 'Charlott'</name>
-            <price>$230.90</price>
+            <price>230.90</price>
             <brand>Pieces</brand>
             <images>
                 <modelCenterImage>img/fallWinterClothingCollection/b201e4bee57754d438e8d7b9a0789821.avif</modelCenterImage>
@@ -152,7 +152,7 @@
         </product>
         <product number="PIC4197005000001" category="Jackets and Blazers">
             <name>Blazer 'Classy'</name>
-            <price>$62.90</price>
+            <price>62.90</price>
             <brand>Pieces</brand>
             <images>
                 <modelCenterImage>img/fallWinterClothingCollection/568dfe8d502fdfc8667715360bb9244e.avif</modelCenterImage>
@@ -198,7 +198,7 @@
         </product>
         <product number="PIC4197027000001" category="Jackets and Blazers">
             <name>Blazer 'Sky Blue'</name>
-            <price>$49.90</price>
+            <price>49.90</price>
             <brand>Pieces</brand>
             <images>
                 <modelCenterImage>img/fallWinterClothingCollection/60a5e3df4a63db4309bf9e70931360de.avif</modelCenterImage>
@@ -245,7 +245,7 @@
         </product>
         <product number="PIC4197008000001" category="Jackets and Blazers">
             <name>Blazer 'Light Blue'</name>
-            <price>$54.90</price>
+            <price>54.90</price>
             <brand>Pieces</brand>
             <images>
                 <modelCenterImage>img/fallWinterClothingCollection/64ae30b730a23ae30e6a4ae971fa33bd.avif</modelCenterImage>
@@ -291,7 +291,7 @@
         </product>
         <product number="NAS2269001000004" category="Jackets and Blazers">
             <name>Blazer 'Gray Melange'</name>
-            <price>$356.90</price>
+            <price>356.90</price>
             <brand>Nasty Gal</brand>
             <images>
                 <modelCenterImage>img/fallWinterClothingCollection/eb8d921136b8a7d9bb368d27d7482915.avif</modelCenterImage>
@@ -340,7 +340,7 @@
         </product>
         <product number="PUB9a78001000003" category="Jackets and Blazers">
             <name>Blazer 'Striped Light Brown'</name>
-            <price>$180.95</price>
+            <price>180.95</price>
             <brand>Pull and Bear</brand>
             <images>
                 <modelCenterImage>img/fallWinterClothingCollection/02a62900a0598cfda6617a8f6239d5af.avif</modelCenterImage>
@@ -385,7 +385,7 @@
         </product>
         <product number="PUB1285001000003" category="Jackets and Blazers">
             <name>Blazer 'Khaki'</name>
-            <price>$199.99</price>
+            <price>199.99</price>
             <brand>Pull and Bear</brand>
             <images>
                 <modelCenterImage>img/fallWinterClothingCollection/44b67ec205f941239d55e6602992a9d5.avif</modelCenterImage>
@@ -430,7 +430,7 @@
         </product>
         <product number="GST5430001000003" category="Jackets and Blazers">
             <name>Blazer 'Dark Blue'</name>
-            <price>$499.99</price>
+            <price>499.99</price>
             <brand>G-Star Raw</brand>
             <images>
                 <modelCenterImage>img/fallWinterClothingCollection/cff9607743692c59a3ed646b67c6d0c1.avif</modelCenterImage>
@@ -477,7 +477,7 @@
         </product>
         <product number="BKA6659001000003" category="Coats">
             <name>Coat 'Winter White'</name>
-            <price>$77.90</price>
+            <price>77.90</price>
             <brand>Bershka</brand>
             <images>
                 <modelCenterImage>img/fallWinterClothingCollection/4310d0884344258e55aac06e4d64621f.avif</modelCenterImage>
@@ -525,7 +525,7 @@
         </product>
         <product number="BKA5353002000003" category="Coats">
             <name>Coat 'Light Brown'</name>
-            <price>$139.00</price>
+            <price>139.00</price>
             <brand>Bershka</brand>
             <images>
                 <modelCenterImage>img/fallWinterClothingCollection/900b7ddb9e4932c1add16d6149622711.avif</modelCenterImage>
@@ -575,7 +575,7 @@
         </product>
         <product number="BSB4326001000001" category="Coats">
             <name>Coat 'Captiva Black'</name>
-            <price>$879.90</price>
+            <price>879.90</price>
             <brand>Boss</brand>
             <images>
                 <modelCenterImage>img/fallWinterClothingCollection/0a7a3ae430957dc0405883f944bcc434.avif</modelCenterImage>
@@ -623,7 +623,7 @@
         </product>
         <product number="BSB4326002000003" category="Coats">
             <name>Coat 'Captiva Camel'</name>
-            <price>$879.90</price>
+            <price>879.90</price>
             <brand>Boss</brand>
             <images>
                 <modelCenterImage>img/fallWinterClothingCollection/489a38eccda82d99d71b3a58993f6507.avif</modelCenterImage>
@@ -670,7 +670,7 @@
         </product>
         <product number="PUB9aiw002000001" category="Coats">
             <name>Coat 'Dark Gray'</name>
-            <price>$139.00 </price>
+            <price>139.00 </price>
             <brand>Pull and Bear</brand>
             <images>
                 <modelCenterImage>img/fallWinterClothingCollection/c84541aa7eec63490926b2551104d0de.avif</modelCenterImage>
@@ -719,7 +719,7 @@
         </product>
         <product number="ONL9ibh001000003" category="Coats">
             <name>Coat 'Emma'</name>
-            <price>$107.90 </price>
+            <price>107.90</price>
             <brand>Only</brand>
             <images>
                 <modelCenterImage>img/fallWinterClothingCollection/cb0b5eadd7d2f0df40531fca81639eb7.avif</modelCenterImage>
@@ -767,7 +767,7 @@
         </product>
         <product number="GMK3725001000003" category="Coats">
             <name>Coat 'Romina'</name>
-            <price>$272.90</price>
+            <price>272.90</price>
             <brand>Guido Maria Kretschmer</brand>
             <images>
                 <modelCenterImage>img/fallWinterClothingCollection/87d73e832a669d9862a4e5449cade54a.avif</modelCenterImage>
@@ -807,7 +807,7 @@
         </product>
         <product number="BKA6396004000001" category="Jumpers">
             <name>Jumper 'Ivory'</name>
-            <price>$45.95</price>
+            <price>45.95</price>
             <brand>Bershka</brand>
             <images>
                 <modelCenterImage>img/fallWinterClothingCollection/e0493db509f3b5a999b0dbf596aaaa50.avif</modelCenterImage>
@@ -853,7 +853,7 @@
         </product>
         <product number="BKA6396001000004" category="Jumpers">
             <name>Jumper 'Sandy'</name>
-            <price>$45.95</price>
+            <price>45.95</price>
             <brand>Bershka</brand>
             <images>
                 <modelCenterImage>img/fallWinterClothingCollection/8b7b662b9120018246db554d01f584a3.avif</modelCenterImage>
@@ -897,7 +897,7 @@
         </product>
         <product number="BKA6396002000002" category="Jumpers">
             <name>Jumper 'Black'</name>
-            <price>$45.95</price>
+            <price>45.95</price>
             <brand>Bershka</brand>
             <images>
                 <modelCenterImage>img/fallWinterClothingCollection/d158deee4fb6a075bd33dd21f02bf4ca.avif</modelCenterImage>
@@ -910,7 +910,7 @@
                 <size>L</size>
                 <size>XL</size>
             </availableSizes>
-            <color>sandybrown</color>
+            <color>black</color>
             <details>
                 <designAndExtras>
                     <feature>Striped</feature>
@@ -939,7 +939,7 @@
         </product>
         <product number="BKA6396003000003" category="Jumpers">
             <name>Jumper 'Gray Melange'</name>
-            <price>$45.95</price>
+            <price>45.95</price>
             <brand>Bershka</brand>
             <images>
                 <modelCenterImage>img/fallWinterClothingCollection/d85e678a71fd5315cd35a841d17e6024.avif</modelCenterImage>
@@ -986,7 +986,7 @@
         </product>
         <product number="GAP9b18005000001" category="Jumpers">
             <name>Jumper 'Gray Polka Dot'</name>
-            <price>$104.90</price>
+            <price>104.90</price>
             <brand>Gap</brand>
             <images>
                 <modelCenterImage>img/fallWinterClothingCollection/82f53aa1199d800a711dad5202dfc997.avif</modelCenterImage>
@@ -1033,7 +1033,7 @@
         </product>
         <product number="GAP9b18003000003" category="Jumpers">
             <name>Jumper 'Beige Polka Dot'</name>
-            <price>$104.90</price>
+            <price>104.90</price>
             <brand>Gap</brand>
             <images>
                 <modelCenterImage>img/fallWinterClothingCollection/38df248b9ff2f3a784d2455e64b32734.avif</modelCenterImage>
@@ -1048,7 +1048,7 @@
                 <size>L</size>
                 <size>XL</size>
             </availableSizes>
-            <color>gray</color>
+            <color>beige</color>
             <details>
                 <designAndExtras>
                     <feature>Polka Dot</feature>
@@ -1081,7 +1081,7 @@
         </product>
         <product number="THS9f95001000003" category="Jumpers">
             <name>Jumper 'Gray with Red, White and Blue Accents'</name>
-            <price>$329.90</price>
+            <price>329.90</price>
             <brand>Tommy Hilfiger</brand>
             <images>
                 <modelCenterImage>img/fallWinterClothingCollection/064392ff3927786f37d93c747c906756.avif</modelCenterImage>
@@ -1128,7 +1128,7 @@
         </product>
         <product number="THS9f95002000003" category="Jumpers">
             <name>Jumper 'White with Red and Blue Accents'</name>
-            <price>$329.90</price>
+            <price>329.90</price>
             <brand>Tommy Hilfiger</brand>
             <images>
                 <modelCenterImage>img/fallWinterClothingCollection/9705346aa881800e6d93e966531f9850.avif</modelCenterImage>
@@ -1175,7 +1175,7 @@
         </product>
         <product number="UCB3406001000001" category="Pants">
             <name>Black wide fit pants with a set</name>
-            <price>$157.90</price>
+            <price>157.90</price>
             <brand>United Colors of Beneton</brand>
             <images>
                 <modelCenterImage>img/fallWinterClothingCollection/f35567c8d74f9d7622579eeefe9c30bf.avif</modelCenterImage>
@@ -1225,7 +1225,7 @@
         </product>
         <product number="UCB3406002000001" category="Pants">
             <name>Beige wide fit pants with a set</name>
-            <price>$157.90</price>
+            <price>157.90</price>
             <brand>United Colors of Beneton</brand>
             <images>
                 <modelCenterImage>img/fallWinterClothingCollection/8041305bc7d6ee331979745cec64b3be.avif</modelCenterImage>
@@ -1266,7 +1266,7 @@
         </product>
         <product number="HOL7688001000003" category="Pants">
             <name>Navy wide leg pants with a set</name>
-            <price>$88.11</price>
+            <price>88.11</price>
             <brand>Hollister</brand>
             <images>
                 <modelCenterImage>img/fallWinterClothingCollection/a8009326a807066606c4de92bb6300da.avif</modelCenterImage>
@@ -1311,7 +1311,7 @@
         </product>
         <product number="BKA6845001000001" category="Pants">
             <name>Gray melange wide leg pants with a set</name>
-            <price>$69.90</price>
+            <price>69.90</price>
             <brand>Bershka</brand>
             <images>
                 <modelCenterImage>img/fallWinterClothingCollection/13c59d1cb0e135dd665584e0c21b2b7f.avif</modelCenterImage>
@@ -1359,7 +1359,7 @@
         </product>
         <product number="PUB1669003000001" category="Pants">
             <name>Bordeaux wide leg pants with a set</name>
-            <price>$41.36</price>
+            <price>41.36</price>
             <brand>Pull and Bear</brand>
             <images>
                 <modelCenterImage>img/fallWinterClothingCollection/ade14f4fa67cdefddc41ec9bec32563d.avif</modelCenterImage>
@@ -1408,7 +1408,7 @@
         </product>
         <product number="GES0645001000001" category="Pants">
             <name>Wide Fit 'Paula' Set Pants</name>
-            <price>$173.61</price>
+            <price>173.61</price>
             <brand>Gestuz</brand>
             <images>
                 <modelCenterImage>img/fallWinterClothingCollection/6fd51e3736a2b5f97be9831c909244ae.avif</modelCenterImage>
@@ -1453,7 +1453,7 @@
         </product>
         <product number="MNK3892002000001" category="Pants">
             <name>Gray Wide fit Trousers with a set</name>
-            <price>$46.71</price>
+            <price>46.71</price>
             <brand>Monki</brand>
             <images>
                 <modelCenterImage>img/fallWinterClothingCollection/35cf1f9da8569932ea297eb9f69707cd.avif</modelCenterImage>
@@ -1500,7 +1500,7 @@
         </product>
         <product number="OBJ2867018000001" category="Pants">
             <name>Wide Leg 'Lisa' Set Pants</name>
-            <price>$69.21</price>
+            <price>69.21</price>
             <brand>.Object</brand>
             <images>
                 <modelCenterImage>img/fallWinterClothingCollection/137fe89b7a9368de560e9bdfa4ca45c6.avif</modelCenterImage>
@@ -1548,7 +1548,7 @@
         </product>
         <product number="AAF6320001000004" category="Pants">
             <name>Wide fit 'SLOANE' set trousers</name>
-            <price>$167.90</price>
+            <price>167.90</price>
             <brand>Abercrombie and Fitch</brand>
             <images>
                 <modelCenterImage>img/fallWinterClothingCollection/58248061bb9f45da7b1fb78a015b1a65.avif</modelCenterImage>
@@ -1599,7 +1599,7 @@
         <bannerImage>img/banner/shoesCollection.webp</bannerImage>
         <product number="GUE9b8d001000001" category="Low Boots">
             <name>'BISSONN' lace-up ankle boots</name>
-            <price>$283.41</price>
+            <price>283.41</price>
             <brand>Guess</brand>
             <images>
                 <modelCenterImage>img/shoesWinterCollection/cbce8778e32b7da26de3a03d443cfaab.avif</modelCenterImage>
@@ -1644,7 +1644,7 @@
         </product>
         <product number="THS9f3d001000001" category="Low Boots">
             <name>Beige Low boots with laces</name>
-            <price>$263.61</price>
+            <price>263.61</price>
             <brand>Tommy Hilfiger</brand>
             <images>
                 <modelCenterImage>img/shoesWinterCollection/37946ea940c83f9d8671d710128b4038.avif</modelCenterImage>
@@ -1692,7 +1692,7 @@
         </product>
         <product number="NIS6083004000001" category="Low Boots">
             <name>City Classic lace-up ankle boots</name>
-            <price>$209.61</price>
+            <price>209.61</price>
             <brand>Nike Sportswear</brand>
             <images>
                 <modelCenterImage>img/shoesWinterCollection/6a2ad3341d69757b8b1622fec751e7ab.avif</modelCenterImage>
@@ -1743,7 +1743,7 @@
         </product>
         <product number="TMR6259001000001" category="Low Boots">
             <name>Black low boots with laces</name>
-            <price>$161.10</price>
+            <price>161.10</price>
             <brand>Tamaris</brand>
             <images>
                 <modelCenterImage>img/shoesWinterCollection/bae5bc5e85daca78fc845edfbca31d89.avif</modelCenterImage>
@@ -1786,7 +1786,7 @@
         </product>
         <product number="TMR5513001000001" category="Low Boots">
             <name>Black leather low boots with laces</name>
-            <price>$161.10</price>
+            <price>161.10</price>
             <brand>Tamaris</brand>
             <images>
                 <modelCenterImage>img/shoesWinterCollection/439a9bcc64166cf44b79ff70f9eaa9c0.avif</modelCenterImage>
@@ -1832,7 +1832,7 @@
         </product>
         <product number="TMR5671001000001" category="Low Boots">
             <name>Brown low boots with laces</name>
-            <price>$139.30</price>
+            <price>139.30</price>
             <brand>Tamaris</brand>
             <images>
                 <modelCenterImage>img/shoesWinterCollection/8f0c5f16dca8652e56a7d4e59bba44ca.avif</modelCenterImage>
@@ -1875,7 +1875,7 @@
         </product>
         <product number="LAS51100010000021" category="Low Boots">
             <name>Mocca low boots with laces</name>
-            <price>$98.95</price>
+            <price>98.95</price>
             <brand>Lascana</brand>
             <images>
                 <modelCenterImage>img/shoesWinterCollection/ea7c2b707e5f859ac7a5f87024d891bc.avif</modelCenterImage>
@@ -1910,7 +1910,7 @@
         </product>
         <product number="TOT9c9n001000001" category="Low Boots">
             <name>Khaki low boots with laces</name>
-            <price>$75.53</price>
+            <price>75.53</price>
             <brand>Tom Tailor</brand>
             <images>
                 <modelCenterImage>img/shoesWinterCollection/490b96eb71e0936d8cb8d6924b1703a9.avif</modelCenterImage>
@@ -1949,7 +1949,7 @@
         </product>
         <product number="LAS6360002000001" category="Low Boots">
             <name>Red low boots with laces</name>
-            <price>$98.95</price>
+            <price>98.95</price>
             <brand>Lascana</brand>
             <images>
                 <modelCenterImage>img/shoesWinterCollection/7a60d63b7aa9d2d0c4da9ca66cc58466.avif</modelCenterImage>
@@ -1982,7 +1982,7 @@
         </product>
         <product number="LAS6360001000006" category="Low Boots">
             <name>Beige low boots with laces</name>
-            <price>$98.95</price>
+            <price>98.95</price>
             <brand>Lascana</brand>
             <images>
                 <modelCenterImage>img/shoesWinterCollection/01a0f336a872f64d61063e5f27f9dd97.avif</modelCenterImage>
@@ -2014,7 +2014,7 @@
         </product>
         <product number="LAS6410001000003" category="Tall Boots">
             <name>Light brown tall boots</name>
-            <price>$187.92</price>
+            <price>187.92</price>
             <brand>Lascana</brand>
             <images>
                 <modelCenterImage>img/shoesWinterCollection/d1815ad79420cd9dcab66eecda196173.avif</modelCenterImage>
@@ -2051,7 +2051,7 @@
         </product>
         <product number="LAS6480002000003" category="Tall Boots">
             <name>Dark brown tall boots</name>
-            <price>$197.90</price>
+            <price>197.90</price>
             <brand>Lascana</brand>
             <images>
                 <modelCenterImage>img/shoesWinterCollection/86e62f6c3a0108a49ffd29fcb5bbda9f.avif</modelCenterImage>
@@ -2087,7 +2087,7 @@
         </product>
         <product number="LAS6480004000001" category="Tall Boots">
             <name>Black tall boots</name>
-            <price>$98.95</price>
+            <price>98.95</price>
             <brand>Lascana</brand>
             <images>
                 <modelCenterImage>img/shoesWinterCollection/56154eabd6a4f56533303ab59263f50e.avif</modelCenterImage>
@@ -2119,7 +2119,7 @@
         </product>
         <product number="LAS6480001000001" category="Tall Boots">
             <name>Saddle brown tall boots</name>
-            <price>$98.95</price>
+            <price>98.95</price>
             <brand>Lascana</brand>
             <images>
                 <modelCenterImage>img/shoesWinterCollection/8adf789474b0355788c4e8168cedf8de.avif</modelCenterImage>
@@ -2151,7 +2151,7 @@
         </product>
         <product number="LAS6480003000001" category="Tall Boots">
             <name>Saddle brown tall boots</name>
-            <price>$98.95</price>
+            <price>98.95</price>
             <brand>Lascana</brand>
             <images>
                 <modelCenterImage>img/shoesWinterCollection/4f2c9951f607e68c8bf03c5f9ef25da1.avif</modelCenterImage>
@@ -2184,7 +2184,7 @@
         </product>
         <product number="MUT0838002000001" category="Tall Boots">
             <name>Saddle brown tall boots with laces</name>
-            <price>$151.22</price>
+            <price>151.22</price>
             <brand>Mustang</brand>
             <images>
                 <modelCenterImage>img/shoesWinterCollection/5aee8903ec92d686a23a6843c05bcdfe.avif</modelCenterImage>
@@ -2225,7 +2225,7 @@
         </product>
         <product number="MUT0309004000001" category="Tall Boots">
             <name>Black tall boots with laces</name>
-            <price>$133.43</price>
+            <price>133.43</price>
             <brand>Mustang</brand>
             <images>
                 <modelCenterImage>img/shoesWinterCollection/ce0671a376c948a7c644c092829cdaff.avif</modelCenterImage>
@@ -2266,7 +2266,7 @@
         </product>
         <product number="EDT4794002000001" category="Tall Boots">
             <name>White Tall boots 'Gilberta'</name>
-            <price>$194.95</price>
+            <price>194.95</price>
             <brand>Edited</brand>
             <images>
                 <modelCenterImage>img/shoesWinterCollection/da36c3f9f1716939aebcae4e3ead2500.avif</modelCenterImage>
@@ -2306,7 +2306,7 @@
         </product>
         <product number="EDT4794001000001" category="Tall Boots">
             <name>Black Tall boots 'Gilberta'</name>
-            <price>$331.42</price>
+            <price>331.42</price>
             <brand>Edited</brand>
             <images>
                 <modelCenterImage>img/shoesWinterCollection/949cf309f3382090dac83986ae944f00.avif</modelCenterImage>
@@ -2345,7 +2345,7 @@
         </product>
         <product number="EDT4794004000001" category="Tall Boots">
             <name>Brown Tall boots 'Gilberta'</name>
-            <price>$194.95</price>
+            <price>194.95</price>
             <brand>Edited</brand>
             <images>
                 <modelCenterImage>img/shoesWinterCollection/9bb2f3ee9fa33dbc34e3c8bc9398d8b1.avif</modelCenterImage>
@@ -2388,7 +2388,7 @@
         <bannerImage>img/banner/accessoriesCollection.jpg</bannerImage>
         <product number="HID9b7b003000001" category="Hats">
             <name>Navy blue knitted hat</name>
-            <price>$58.90</price>
+            <price>58.90</price>
             <brand>Tommy Jeans</brand>
             <images>
                 <modelCenterImage>img/accessoriesFallCollection/1ffaa76684c9edf196800cd0d8b40bda.avif</modelCenterImage>
@@ -2413,7 +2413,7 @@
         </product>
         <product number="HID9b7b008000001" category="Hats">
             <name>Red knitted hat</name>
-            <price>$58.90</price>
+            <price>58.90</price>
             <brand>Tommy Jeans</brand>
             <images>
                 <modelCenterImage>img/accessoriesFallCollection/a1583928005752e7399e1ed52f0c5b1a.avif</modelCenterImage>
@@ -2449,7 +2449,7 @@
         </product>
         <product number="HID9b7b007000001" category="Hats">
             <name>Green knitted hat</name>
-            <price>$58.90</price>
+            <price>58.90</price>
             <brand>Tommy Jeans</brand>
             <images>
                 <modelCenterImage>img/accessoriesFallCollection/ef0e8f5136456f8b5fe79e2c54617e4d.avif</modelCenterImage>
@@ -2485,7 +2485,7 @@
         </product>
         <product number="HID9b7b006000001" category="Hats">
             <name>Beige knitted hat</name>
-            <price>$58.90</price>
+            <price>58.90</price>
             <brand>Tommy Jeans</brand>
             <images>
                 <modelCenterImage>img/accessoriesFallCollection/9fc8d661c10d290e9ee4b2242894e696.avif</modelCenterImage>
@@ -2519,7 +2519,7 @@
         </product>
         <product number="HID9b7b002000001" category="Hats">
             <name>Black knitted hat</name>
-            <price>$58.90</price>
+            <price>58.90</price>
             <brand>Tommy Jeans</brand>
             <images>
                 <modelCenterImage>img/accessoriesFallCollection/ab455dfc8ab9c96e52b0d59f104533b5.avif</modelCenterImage>
@@ -2551,7 +2551,7 @@
         </product>
         <product number="HID9b7b001000001" category="Hats">
             <name>White knitted hat</name>
-            <price>$58.90</price>
+            <price>58.90</price>
             <brand>Tommy Jeans</brand>
             <images>
                 <modelCenterImage>img/accessoriesFallCollection/9a504fa8eaddd28e248ee90227b4b4b2.avif</modelCenterImage>
@@ -2586,7 +2586,7 @@
         </product>
         <product number="HID9b7b005000001" category="Hats">
             <name>Grey knitted hat</name>
-            <price>$58.90</price>
+            <price>58.90</price>
             <brand>Tommy Jeans</brand>
             <images>
                 <modelCenterImage>img/accessoriesFallCollection/493c6df05c1a3c139ac41fb089a8037a.avif</modelCenterImage>
@@ -2622,7 +2622,7 @@
         </product>
         <product number="HID9b7b004000001" category="Hats">
             <name>Royal blue knitted hat</name>
-            <price>$58.90</price>
+            <price>58.90</price>
             <brand>Tommy Jeans</brand>
             <images>
                 <modelCenterImage>img/accessoriesFallCollection/5af2aa85cdf98c910ceba57143785fb0.avif</modelCenterImage>
@@ -2656,7 +2656,7 @@
         </product>
         <product number="THS9h8b002000001" category="Hats">
             <name>Dark blue knitted hat</name>
-            <price>$102.32</price>
+            <price>102.32</price>
             <brand>Tommy Hilfiger</brand>
             <images>
                 <modelCenterImage>img/accessoriesFallCollection/9fccce6c8663257851aec7608b168496.avif</modelCenterImage>
@@ -2682,7 +2682,7 @@
         </product>
         <product number="THS9h8b004000001" category="Hats">
             <name>Gray Melange knitted hat</name>
-            <price>$102.32</price>
+            <price>102.32</price>
             <brand>Tommy Hilfiger</brand>
             <images>
                 <modelCenterImage>img/accessoriesFallCollection/39330a2b22d4910579a7e4c4a1842016.avif</modelCenterImage>
@@ -2714,7 +2714,7 @@
         </product>
         <product number="BSB3918003000001" category="Hats">
             <name>Dark Blue knitted hat 'Pedro'</name>
-            <price>$117.90</price>
+            <price>117.90</price>
             <brand>Boss</brand>
             <images>
                 <modelCenterImage>img/accessoriesFallCollection/30d732d6a92319ae2331aa87b8b0a5d6.avif</modelCenterImage>
@@ -2747,7 +2747,7 @@
         </product>
         <product number="BSB3918002000001" category="Hats">
             <name>Silver knitted hat 'Pedro'</name>
-            <price>$117.90</price>
+            <price>117.90</price>
             <brand>Boss</brand>
             <images>
                 <modelCenterImage>img/accessoriesFallCollection/1163f6ad05afc5c42518755e5e594e6c.avif</modelCenterImage>
@@ -2781,7 +2781,7 @@
         </product>
         <product number="AYO2937001000001" category="Scarfs">
             <name>Blackish scarf 'Joyce'</name>
-            <price>$53.01</price>
+            <price>53.01</price>
             <brand>Criss</brand>
             <images>
                 <modelCenterImage>img/accessoriesFallCollection/30b871972cbcec33e7da9f93e53ffc70.avif</modelCenterImage>
@@ -2808,7 +2808,7 @@
         </product>
         <product number="AYO2937004000001" category="Scarfs">
             <name>Dark brownish scarf 'Joyce'</name>
-            <price>$53.01</price>
+            <price>53.01</price>
             <brand>Criss</brand>
             <images>
                 <modelCenterImage>img/accessoriesFallCollection/3d583150102d0b69bd5e0dafa00e8a67.avif</modelCenterImage>
@@ -2836,7 +2836,7 @@
         </product>
         <product number="AYO2937005000001" category="Scarfs">
             <name>Light brownish scarf 'Joyce'</name>
-            <price>$53.01</price>
+            <price>53.01</price>
             <brand>Criss</brand>
             <images>
                 <modelCenterImage>img/accessoriesFallCollection/6893a3dcbf62a6e4dccd1d2cda652535.avif</modelCenterImage>
@@ -2864,7 +2864,7 @@
         </product>
         <product number="AYO2937003000001" category="Scarfs">
             <name>Greyish scarf 'Joyce'</name>
-            <price>$53.01</price>
+            <price>53.01</price>
             <brand>Criss</brand>
             <images>
                 <modelCenterImage>img/accessoriesFallCollection/9a2332b5d13f58c5501c19cab956cf47.avif</modelCenterImage>
@@ -2892,7 +2892,7 @@
         </product>
         <product number="AYO2937002000001" category="Scarfs">
             <name>Pale pink scarf 'Joyce'</name>
-            <price>$53.01</price>
+            <price>53.01</price>
             <brand>Criss</brand>
             <images>
                 <modelCenterImage>img/accessoriesFallCollection/6e88cde3e3992da27c2a2831b5e8d744.avif</modelCenterImage>
@@ -2920,7 +2920,7 @@
         </product>
         <product number="THS9h89001000001" category="Scarfs">
             <name>Red formal scarf</name>
-            <price>$170.32</price>
+            <price>170.32</price>
             <brand>Tommy Hilfiger</brand>
             <images>
                 <modelCenterImage>img/accessoriesFallCollection/dbeef443c74de3dbcd24d0778c5b7b42.avif</modelCenterImage>
@@ -2952,7 +2952,7 @@
         </product>
         <product number="GMK3834001000001" category="Scarfs">
             <name>Light blue checked scarf</name>
-            <price>$58.74</price>
+            <price>58.74</price>
             <brand>Guido Maria Kretschmer</brand>
             <images>
                 <modelCenterImage>img/accessoriesFallCollection/e841f9cf3eb1c9773f5f8ff5eccde04b.avif</modelCenterImage>
@@ -2979,7 +2979,7 @@
         </product>
         <product number="GMK3834003000001" category="Scarfs">
             <name>Light brown checked scarf</name>
-            <price>$58.74</price>
+            <price>58.74</price>
             <brand>Guido Maria Kretschmer</brand>
             <images>
                 <modelCenterImage>img/accessoriesFallCollection/fde2a8d1caca7daab7d9911586df6d9a.avif</modelCenterImage>
@@ -3006,7 +3006,7 @@
         </product>
         <product number="GMK3834002000001" category="Scarfs">
             <name>Pink and blue checked scarf</name>
-            <price>$58.74</price>
+            <price>58.74</price>
             <brand>Guido Maria Kretschmer</brand>
             <images>
                 <modelCenterImage>img/accessoriesFallCollection/17725240b46dd175be1acf484e18b9b9.avif</modelCenterImage>
@@ -3034,7 +3034,7 @@
         </product>
         <product number="VAN0192001000001" category="Belts">
             <name>White belt</name>
-            <price>$46.95</price>
+            <price>46.95</price>
             <brand>Vanzetti</brand>
             <images>
                 <modelCenterImage>img/accessoriesFallCollection/19e6e82f6f3b46c04b7c60411c3821a1.avif</modelCenterImage>
@@ -3059,7 +3059,7 @@
         </product>
         <product number="VAN0192004000001" category="Belts">
             <name>Navy blue belt</name>
-            <price>$65.73</price>
+            <price>65.73</price>
             <brand>Vanzetti</brand>
             <images>
                 <modelCenterImage>img/accessoriesFallCollection/53fedadccd9b8f76c9691800707cd7bf.avif</modelCenterImage>
@@ -3085,7 +3085,7 @@
         </product>
         <product number="VAN0192003000001" category="Belts">
             <name>Red belt</name>
-            <price>$46.95</price>
+            <price>46.95</price>
             <brand>Vanzetti</brand>
             <images>
                 <modelCenterImage>img/accessoriesFallCollection/8c71914b5fabda9aeeeb9489a810e99a.avif</modelCenterImage>
@@ -3110,7 +3110,7 @@
         </product>
         <product number="VAN0192002000001" category="Belts">
             <name>Light brown belt</name>
-            <price>$36.72</price>
+            <price>36.72</price>
             <brand>Vanzetti</brand>
             <images>
                 <modelCenterImage>img/accessoriesFallCollection/695031a4825c70a5a13075c4c4e064c7.avif</modelCenterImage>
@@ -3138,7 +3138,7 @@
         </product>
         <product number="VAN0192005000001" category="Belts">
             <name>Black belt</name>
-            <price>$65.73</price>
+            <price>65.73</price>
             <brand>Vanzetti</brand>
             <images>
                 <modelCenterImage>img/accessoriesFallCollection/0a3657f090b3d488e3f4c5d2158f3809.avif</modelCenterImage>
@@ -3165,7 +3165,7 @@
         </product>
         <product number="LEV1470002000008" category="Belts">
             <name>Black sturdy belt</name>
-            <price>$68.90</price>
+            <price>68.90</price>
             <brand>Levi's</brand>
             <images>
                 <modelCenterImage>img/accessoriesFallCollection/fe15b54307c3d1990f0314554060f746.avif</modelCenterImage>
@@ -3190,7 +3190,7 @@
         </product>
         <product number="LEV1470001000008" category="Belts">
             <name>Brown sturdy belt</name>
-            <price>$68.90</price>
+            <price>68.90</price>
             <brand>Levi's</brand>
             <images>
                 <modelCenterImage>img/accessoriesFallCollection/1e5275c93a5f28b8ee92bee8cb799e1a.avif</modelCenterImage>
