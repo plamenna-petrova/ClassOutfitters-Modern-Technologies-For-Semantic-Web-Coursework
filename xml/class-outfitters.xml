@@ -1782,6 +1782,52 @@
                     <outerSole>Rubber</outerSole>
                 </materialAndCareInstructions>
             </details>
+            <tag>best seller</tag>
+        </product>
+        <product number="TMR5513001000001" category="Low Boots">
+            <name>Black leather low boots with laces</name>
+            <price>$161.10</price>
+            <brand>Tamaris</brand>
+            <images>
+                <modelCenterImage>img/shoesWinterCollection/439a9bcc64166cf44b79ff70f9eaa9c0.avif</modelCenterImage>
+                <modelSideImage>img/shoesWinterCollection/f2981cd8c18294c332e109ef917a393f.avif</modelSideImage>
+                <productFocusImage>img/shoesWinterCollection/a5cbf98bcbc08c032c70fb335a0fe005.avif</productFocusImage>
+                <productZoomImage>img/shoesWinterCollection/6fc801039cbcc809934994975659aa75.avif</productZoomImage>
+            </images>
+            <availableSizes>
+                <size>36</size>
+                <size>37</size>
+                <size>38</size>
+                <size>39</size>
+                <size>40</size>
+            </availableSizes>
+            <color>black</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Shoes with a thick heel/sole</feature>
+                    <feature>Flat platform</feature>
+                    <feature>Rounded top</feature>
+                    <feature>Side zipper</feature>
+                    <feature>7 hole lacing</feature>
+                    <feature>Gripper sole</feature>
+                    <feature>Reinforced heel</feature>
+                    <feature>Raised on the heel</feature>
+                    <feature>Shiny</feature>
+                    <feature>Smooth material</feature>
+                    <feature>Varnish</feature>
+                    <feature>Zip</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Heel/Sole Height: Medium Heel/Sole (3-7cm)</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <outerMaterial>Synthetics</outerMaterial>
+                    <innerMaterial>Synthetic, Textile</innerMaterial>
+                    <outerSole>Synthetics</outerSole>
+                    <countryOfOrigin>China</countryOfOrigin>
+                </materialAndCareInstructions>
+            </details>
             <tag>regular</tag>
         </product>
         <product number="TMR5671001000001" category="Low Boots">
@@ -2256,7 +2302,7 @@
                     <outerSole>Rubber</outerSole>
                 </materialAndCareInstructions>
             </details>
-            <tag>best seller</tag>
+            <tag>regular</tag>
         </product>
         <product number="EDT4794001000001" category="Tall Boots">
             <name>Black Tall boots 'Gilberta'</name>

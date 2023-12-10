@@ -71,7 +71,14 @@
                                 <nav class="header__menu mobile-menu">
                                     <ul>
                                         <li><a href="../../index.php">Home</a></li>
-                                        <li class="active"><a href="./shop.php">Shop</a></li>
+                                        <li>
+                                            <a href="#">Shop</a>
+                                            <ul class="dropdown">
+                                                <li><a href="./fallWinterClothingCollection.php">Clothing</a></li>
+                                                <li><a href="./shoesWinterCollection.php">Shoes</a></li>
+                                                <li><a href="./accessoriesFallCollection.php">Accessories</a></li>
+                                            </ul>
+                                        </li>
                                         <li><a href="../../blog.php">Blog</a></li>
                                         <li><a href="../../about.php">About Us</a></li>
                                         <li><a href="../../contact.php">Contacts</a></li>
@@ -293,12 +300,66 @@
                                     </div>
                                 </div>
                                 <div class="row" id="paginated-list">
-                                    <xsl:for-each select="shop/collection/product">
-                                        <div class="col-lg-4 col-md-6 col-sm-6 product__item__col">
+                                    <xsl:for-each select="shop/collection[@name='Fall-Winter Clothing Collection 2023/2024']/product">
+                                        <div class="col-lg-4 col-md-6 col-sm-6 product__item__col fall-winter-clothing-collection">
                                             <div class="product__item">
                                                 <div class="product__item__pic set-bg" data-setbg="{images/modelCenterImage}">
                                                     <xsl:if test="tag != 'regular'">
                                                        <span class="label"><xsl:value-of select="tag" /></span>     
+                                                    </xsl:if>
+                                                    <ul class="product__hover">
+                                                        <li>
+                                                            <form method="get" action="shop-details.php">
+                                                                <input type="hidden" name="productNumber" value="{@number}" />
+                                                                <input type="hidden" name="productCategory" value="{@category}" />
+                                                                <button type="submit">
+                                                                    <img src="../img/icon/search.png" alt="" />
+                                                                </button>
+                                                            </form>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="product__item__text">
+                                                    <h6><xsl:value-of select="name" /></h6>
+                                                    <a href="#" class="add-cart">+ Add To Cart</a>
+                                                    <h5><xsl:value-of select="price" /></h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </xsl:for-each>
+                                    <xsl:for-each select="shop/collection[@name='Shoes Winter Collection 2023/2024']/product">
+                                        <div class="col-lg-4 col-md-6 col-sm-6 product__item__col shoes-winter-collection">
+                                            <div class="product__item">
+                                                <div class="product__item__pic set-bg" data-setbg="{images/modelCenterImage}">
+                                                    <xsl:if test="tag != 'regular'">
+                                                        <span class="label"><xsl:value-of select="tag" /></span>     
+                                                    </xsl:if>
+                                                    <ul class="product__hover">
+                                                        <li>
+                                                            <form method="get" action="shop-details.php">
+                                                                <input type="hidden" name="productNumber" value="{@number}" />
+                                                                <input type="hidden" name="productCategory" value="{@category}" />
+                                                                <button type="submit">
+                                                                    <img src="../img/icon/search.png" alt="" />
+                                                                </button>
+                                                            </form>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="product__item__text">
+                                                    <h6><xsl:value-of select="name" /></h6>
+                                                    <a href="#" class="add-cart">+ Add To Cart</a>
+                                                    <h5><xsl:value-of select="price" /></h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </xsl:for-each>
+                                    <xsl:for-each select="shop/collection[@name='Accessories Fall Collection 2023']/product">
+                                        <div class="col-lg-4 col-md-6 col-sm-6 product__item__col accessories-fall-collection">
+                                            <div class="product__item">
+                                                <div class="product__item__pic set-bg" data-setbg="{images/modelCenterImage}">
+                                                    <xsl:if test="tag != 'regular'">
+                                                        <span class="label"><xsl:value-of select="tag" /></span>     
                                                     </xsl:if>
                                                     <ul class="product__hover">
                                                         <li>
@@ -421,7 +482,6 @@
                 <script src="../js/mixitup.min.js"></script>
                 <script src="../js/owl.carousel.min.js"></script>
                 <script src="../js/main.js"></script>
-                <script src="../js/shop.js"></script>
             </body>
         </html>
     </xsl:template>

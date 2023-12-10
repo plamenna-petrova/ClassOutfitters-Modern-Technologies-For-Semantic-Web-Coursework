@@ -81,7 +81,14 @@
                     <nav class="header__menu mobile-menu">
                         <ul>
                             <li><a href="./index.php">Home</a></li>
-                            <li><a href="./shop.php">Shop</a></li>
+                            <li>
+                                <a href="#">Shop</a>
+                                <ul class="dropdown">
+                                    <li><a href="./fallWinterClothingCollection.php">Clothing</a></li>
+                                    <li><a href="./shoesWinterCollection.php">Shoes</a></li>
+                                    <li><a href="./accessoriesFallCollection.php">Accessories</a></li>
+                                </ul>
+                            </li>
                             <li class="active"><a href="./blog.php">Blog</a></li>
                             <li><a href="./about.php">About Us</a></li>
                             <li><a href="./contact.php">Contacts</a></li>

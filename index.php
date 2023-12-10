@@ -99,7 +99,14 @@
                     <nav class="header__menu mobile-menu">
                         <ul>
                             <li class="active"><a href="./index.php">Home</a></li>
-                            <li><a href="./shop.php">Shop</a></li>
+                             <li>
+                                <a href="#">Shop</a>
+                                <ul class="dropdown">
+                                    <li><a href="./fallWinterClothingCollection.php">Clothing</a></li>
+                                    <li><a href="./shoesWinterCollection.php">Shoes</a></li>
+                                    <li><a href="./accessoriesFallCollection.php">Accessories</a></li>
+                                </ul>
+                            </li>
                             <li><a href="./blog.php">Blog</a></li>
                             <li><a href="./about.php">About Us</a></li>
                             <li><a href="./contact.php">Contacts</a></li>
@@ -123,20 +130,20 @@
     <section class="hero">
         <div class="hero__slider owl-carousel">
             <?php
-                $clothingCollection = $collections[0];
-                $clothingCollectionName = $clothingCollection->attributes()->name;
-                $clothingCollectionPresentationImage = $clothingCollection->presentationImage;
+                $fallWinterClothingCollection = $collections[0];
+                $fallWinterClothingCollectionName = $fallWinterClothingCollection->attributes()->name;
+                $fallWinterClothingCollectionPresentationImage = $fallWinterClothingCollection->presentationImage;
 
-                echo "<div class='hero__items set-bg' data-setbg='".$clothingCollectionPresentationImage."'>
+                echo "<div class='hero__items set-bg' data-setbg='".$fallWinterClothingCollectionPresentationImage."'>
                         <div class='container'>
                             <div class='row'>
                                 <div class='col-xl-5 col-lg-7 col-md-8'>
                                     <div class='hero__text'>
-                                        <h6 style='text-shadow: 1px 1px 1px black;'>".$clothingCollectionName."</h6>
-                                        <h2 style='color: white;'>Clothing</h2>
+                                        <h6 style='text-shadow: 1px 1px 1px black;'>".$fallWinterClothingCollectionName."</h6>
+                                        <h2 style='color: white; text-shadow: 2px 2px 2px black;'>Clothing</h2>
                                         <p style='color: white; text-shadow: 2px 2px 2px black;'>A specialist label creating luxury essentials. Ethically crafted with an unwavering
                                         commitment to exceptional quality.</p>
-                                        <a href='#' class='primary-btn'>Show now <span class='arrow_right'></span></a>
+                                        <a href='./fallWinterClothingCollection.php' class='primary-btn'>Shop now <span class='arrow_right'></span></a>
                                         <div class='hero__social'>
                                             <a href='".$shopNode->socials->facebook."'><i class='fa fa-facebook' style='color: white; text-shadow: 1px 1px 1px black;'></i></a>
                                             <a href='".$shopNode->socials->x."'><i class='fa fa-twitter' style='color: white; text-shadow: 1px 1px 1px black;'></i></a>
@@ -150,20 +157,20 @@
                     </div>"; 
             ?>
             <?php
-                $shoesCollection = $collections[1];
-                $shoesCollectionName = $shoesCollection->attributes()->name;
-                $shoesCollectionPresentationImage = $shoesCollection->presentationImage;
+                $shoesWinterCollection = $collections[1];
+                $shoesWinterCollectionName = $shoesWinterCollection->attributes()->name;
+                $shoesWinterCollectionPresentationImage = $shoesWinterCollection->presentationImage;
 
-                echo "<div class='hero__items set-bg' data-setbg='" . $shoesCollectionPresentationImage . "'>
+                echo "<div class='hero__items set-bg' data-setbg='" . $shoesWinterCollectionPresentationImage . "'>
                     <div class='container'>
                         <div class='row'>
                             <div class='col-xl-5 col-lg-7 col-md-8'>
                                 <div class='hero__text'>
-                                    <h6 style='text-shadow: 1px 1px 1px black;'>" . $shoesCollectionName . "</h6>
-                                    <h2 style='color: white;'>Shoes</h2>
+                                    <h6 style='text-shadow: 1px 1px 1px black;'>" . $shoesWinterCollectionName . "</h6>
+                                    <h2 style='color: white; text-shadow: 2px 2px 2px black;'>Shoes</h2>
                                     <p style='color: white; text-shadow: 2px 2px 2px black;'>A specialist label creating luxury essentials. Ethically crafted with an unwavering
                                     commitment to exceptional quality.</p>
-                                    <a href='#' class='primary-btn'>Show now <span class='arrow_right'></span></a>
+                                    <a href='./shoesWinterCollection.php' class='primary-btn'>Shop now <span class='arrow_right'></span></a>
                                     <div class='hero__social'>
                                         <a href='" . $shopNode->socials->facebook . "'><i class='fa fa-facebook' style='color: white; text-shadow: 1px 1px 1px black;'></i></a>
                                         <a href='" . $shopNode->socials->x . "'><i class='fa fa-twitter' style='color: white; text-shadow: 1px 1px 1px black;'></i></a>
@@ -193,9 +200,9 @@
                         </div>
                         <div class="banner__item__text">
                             <?php
-                                $clothingCollectionName = $collections[0]->attributes()->name;
-                                echo "<h2>$clothingCollectionName</h2>"; 
-                                echo "<a href='#'>Shop now</a>";
+                                $fallWinterClothingCollectionName = $collections[0]->attributes()->name;
+                                echo "<h2>$fallWinterClothingCollectionName</h2>"; 
+                                echo "<a href='./fallWinterClothingCollection.php'>Shop now</a>";
                             ?>
                         </div>
                     </div>
@@ -209,9 +216,9 @@
                         </div>
                         <div class="banner__item__text">
                             <?php
-                                $shoesCollectionName = $collections[1]->attributes()->name;
-                                echo "<h2>$shoesCollectionName</h2>";
-                                echo "<a href='#'>Shop now</a>"; 
+                                $shoesWinterCollectionName = $collections[1]->attributes()->name;
+                                echo "<h2>$shoesWinterCollectionName</h2>";
+                                echo "<a href='./shoesWinterCollection.php'>Shop now</a>"; 
                             ?>
                         </div>
                     </div>
@@ -225,9 +232,9 @@
                         </div>
                         <div class="banner__item__text">
                             <?php
-                                $accessoriesCollectionName = $collections[2]->attributes()->name;
-                                echo "<h2>$accessoriesCollectionName</h2>";
-                                echo "<a href='#'>Shop now</a>";
+                                $accessoriesFallCollectionName = $collections[2]->attributes()->name;
+                                echo "<h2>$accessoriesFallCollectionName</h2>";
+                                echo "<a href='./accessoriesFallCollection.php'>Shop now</a>";
                             ?>
                         </div>
                     </div>
@@ -243,7 +250,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <ul class="filter__controls">
-                        <li data-filter="*">All Trending</li>
+                        <li class="active" data-filter="*">All Trending</li>
                         <li data-filter=".best-sellers">Best Sellers</li>
                         <li data-filter=".new-arrivals">New Arrivals</li>
                         <li data-filter=".hot-sales">Hot Sales</li>
@@ -511,11 +518,6 @@
     <script src="js/mixitup.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
-
-    <script>
-        document.querySelector(".filter__controls li.active").click();
-        document.querySelector(".filter__controls li.active").click();
-    </script>
 </body>
 
 </html>
