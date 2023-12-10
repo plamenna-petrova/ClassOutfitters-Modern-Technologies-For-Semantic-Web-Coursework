@@ -154,13 +154,18 @@ if (file_exists('./xml/class-outfitters.xml')) {
                                             </div>
                                         </a>
                                     </li>
-                                    <li class='nav-item'>
-                                        <a class='nav-link' data-toggle='tab' href='#tabs-3' role='tab'>
-                                            <div class='product__thumb__pic set-bg' data-setbg='$productImages->productFocusImage'>
-                                            </div>
-                                        </a>
-                                    </li>
                                 ";
+
+                                if ($productImages->productFocusImage) {
+                                    echo "
+                                        <li class='nav-item'>
+                                            <a class='nav-link' data-toggle='tab' href='#tabs-3' role='tab'>
+                                                <div class='product__thumb__pic set-bg' data-setbg='$productImages->productFocusImage'>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    ";
+                                }
 
                                 if ($productImages->productZoomImage) {
                                     echo "
@@ -189,12 +194,17 @@ if (file_exists('./xml/class-outfitters.xml')) {
                                             <img src='$productImages->modelSideImage' alt=''>
                                         </div>
                                     </div>
-                                    <div class='tab-pane' id='tabs-3' role='tabpanel'>
-                                        <div class='product__details__pic__item'>
-                                            <img src='$productImages->productFocusImage' alt=''>
-                                        </div>
-                                    </div>
                                 ";
+
+                                if ($productImages->productFocusImage) {
+                                    echo "
+                                        <div class='tab-pane' id='tabs-3' role='tabpanel'>
+                                            <div class='product__details__pic__item'>
+                                                <img src='$productImages->productFocusImage' alt=''>
+                                            </div>
+                                        </div>
+                                    ";
+                                }
 
                                 if ($productImages->productZoomImage) {
                                     echo "
@@ -223,17 +233,22 @@ if (file_exists('./xml/class-outfitters.xml')) {
                                 ";
                             ?>
                             <div class="product__details__cart__option">
-                                <div class="product__details__option__size">
-                                    <span>Size:</span>
-                                    <?php
+                                <?php
+                                    if ($productAvailableSizes) {
+                                        echo "<div class='product__details__option__size'>";
+                                        echo "<span>Size:</span>";
+
                                         foreach ($productAvailableSizes->size as $sizeNode) {
                                             $sizeNodeValue = (string) $sizeNode;
+
                                             echo "<label for='$sizeNodeValue'>$sizeNodeValue
                                                 <input type='radio' id='$sizeNodeValue'>
-                                            </label>";
+                                                </label>";
                                         }
-                                    ?>
-                                </div>
+
+                                        echo "</div>";
+                                    }
+                                ?>
                                 <div class="quantity">
                                     <div class="pro-qty">
                                         <input type="text" value="1">

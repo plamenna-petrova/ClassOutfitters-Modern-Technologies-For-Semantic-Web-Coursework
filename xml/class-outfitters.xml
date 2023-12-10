@@ -2336,7 +2336,833 @@
         </product>
     </collection>
     <collection name="Accessories Fall Collection 2023">
-       
+        <product number="HID9b7b003000001" category="Hats">
+            <name>Navy blue knitted hat</name>
+            <price>$58.90</price>
+            <brand>Tommy Jeans</brand>
+            <images>
+                <modelCenterImage>../img/accessoriesFallCollection/1ffaa76684c9edf196800cd0d8b40bda.avif</modelCenterImage>
+                <modelSideImage>../img/accessoriesFallCollection/56568e8aa80b4a42c651437a278aa1ad.avif</modelSideImage>
+            </images>
+            <color>navyblue</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Cotton</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Grip</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>Coarse knit</material>
+                    <outerMaterial>50% Polyacrylic - RS, 50% Cotton</outerMaterial>
+                    <countryOfOrigin>China</countryOfOrigin>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="HID9b7b008000001" category="Hats">
+            <name>Red knitted hat</name>
+            <price>$58.90</price>
+            <brand>Tommy Jeans</brand>
+            <images>
+                <modelCenterImage>../img/accessoriesFallCollection/a1583928005752e7399e1ed52f0c5b1a.avif</modelCenterImage>
+                <modelSideImage>../img/accessoriesFallCollection/574d4ec3974ed92764f6c9e3ac0eaf34.avif</modelSideImage>
+            </images>
+            <color>red</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Cotton</feature>
+                    <feature>Elastic knit</feature>
+                    <feature>Turned hem</feature>
+                    <feature>Fully fashioned</feature>
+                    <feature>Label embroidery</feature>
+                    <feature>A soft touch</feature>
+                    <feature>Cotton (from organic farms)</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Grip</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>50% Cotton (from organic farms), 50% Polyacrylic</material>
+                    <outerMaterial>Coarse knit</outerMaterial>
+                    <countryOfOrigin>Turkey</countryOfOrigin>
+                    <careInstruction>Hand wash</careInstruction>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>No dry cleaning</careInstruction>
+                    <careInstruction>Do not iron</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="HID9b7b007000001" category="Hats">
+            <name>Green knitted hat</name>
+            <price>$58.90</price>
+            <brand>Tommy Jeans</brand>
+            <images>
+                <modelCenterImage>../img/accessoriesFallCollection/ef0e8f5136456f8b5fe79e2c54617e4d.avif</modelCenterImage>
+                <modelSideImage>../img/accessoriesFallCollection/c80beab364151562c06c277186ef9d41.avif</modelSideImage>
+            </images>
+            <color>green</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Cotton</feature>
+                    <feature>Straight hem</feature>
+                    <feature>Elastic knit</feature>
+                    <feature>Turned hem</feature>
+                    <feature>Label embroidery</feature>
+                    <feature>Textured to the touch</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Grip</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>50% Cotton, 50% Polyacrylic - RS</material>
+                    <outerMaterial>Coarse knit</outerMaterial>
+                    <countryOfOrigin>Turkey</countryOfOrigin>
+                    <careInstruction>Hand wash</careInstruction>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>No dry cleaning</careInstruction>
+                    <careInstruction>Do not iron</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                    <careInstruction>Not to be squeezed</careInstruction>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="HID9b7b006000001" category="Hats">
+            <name>Beige knitted hat</name>
+            <price>$58.90</price>
+            <brand>Tommy Jeans</brand>
+            <images>
+                <modelCenterImage>../img/accessoriesFallCollection/9fc8d661c10d290e9ee4b2242894e696.avif</modelCenterImage>
+                <modelSideImage>../img/accessoriesFallCollection/39d5a087031b17aaebc21fe07497e861.avif</modelSideImage>
+            </images>
+            <color>beige</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Cotton</feature>
+                    <feature>Straight hem</feature>
+                    <feature>Turned hem</feature>
+                    <feature>Label embroidery</feature>
+                    <feature>Textured to the touch</feature>
+                    <feature>Cotton (from organic farms)</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Grip</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>50% Cotton (from organic farms), 50% Polyacrylic - RS</material>
+                    <outerMaterial>Coarse knit</outerMaterial>
+                    <careInstruction>Hand wash</careInstruction>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>No dry cleaning</careInstruction>
+                    <careInstruction>Do not iron</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="HID9b7b002000001" category="Hats">
+            <name>Black knitted hat</name>
+            <price>$58.90</price>
+            <brand>Tommy Jeans</brand>
+            <images>
+                <modelCenterImage>../img/accessoriesFallCollection/ab455dfc8ab9c96e52b0d59f104533b5.avif</modelCenterImage>
+                <modelSideImage>../img/accessoriesFallCollection/dd670dcaa62b8163de19f0e4a17ef439.avif</modelSideImage>
+            </images>
+            <color>black</color>
+            <details>
+                <designAndExtras>
+                    <feature>Logo printr</feature>
+                    <feature>Cotton</feature>
+                    <feature>Turned hem</feature>
+                    <feature>Label embroidery</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Grip</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>50% Cotton, 50% Polyacrylic</material>
+                    <outerMaterial>Coarse knit</outerMaterial>
+                    <countryOfOrigin>Turkey</countryOfOrigin>
+                    <careInstruction>Hand wash</careInstruction>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>No dry cleaning</careInstruction>
+                    <careInstruction>Do not iron</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="HID9b7b001000001" category="Hats">
+            <name>White knitted hat</name>
+            <price>$58.90</price>
+            <brand>Tommy Jeans</brand>
+            <images>
+                <modelCenterImage>../img/accessoriesFallCollection/9a504fa8eaddd28e248ee90227b4b4b2.avif</modelCenterImage>
+                <modelSideImage>../img/accessoriesFallCollection/abe7c076b6f2981f3be2ac3cb703d924.avif</modelSideImage>
+            </images>
+            <color>white</color>
+            <details>
+                <designAndExtras>
+                    <feature>Logo printr</feature>
+                    <feature>Cotton</feature>
+                    <feature>Elastic knit</feature>
+                    <feature>Turned hem</feature>
+                    <feature>Label embroidery</feature>
+                    <feature>Textured to the touch</feature>
+                    <feature>A soft touch</feature>
+                    <feature>Cotton (from organic farms)</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Grip</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>50% Cotton (from organic farms), 50% Polyacrylic</material>
+                    <outerMaterial>Coarse knit</outerMaterial>
+                    <careInstruction>Hand wash</careInstruction>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>No dry cleaning</careInstruction>
+                    <careInstruction>Do not iron</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="HID9b7b005000001" category="Hats">
+            <name>Grey knitted hat</name>
+            <price>$58.90</price>
+            <brand>Tommy Jeans</brand>
+            <images>
+                <modelCenterImage>../img/accessoriesFallCollection/493c6df05c1a3c139ac41fb089a8037a.avif</modelCenterImage>
+                <modelSideImage>../img/accessoriesFallCollection/693f9382edbf971717cb1689d1cfc971.avif</modelSideImage>
+            </images>
+            <color>grey</color>
+            <details>
+                <designAndExtras>
+                    <feature>Logo printr</feature>
+                    <feature>Cotton</feature>
+                    <feature>Elastic knit</feature>
+                    <feature>Turned hem</feature>
+                    <feature>Label embroidery</feature>
+                    <feature>Textured to the touch</feature>
+                    <feature>A soft touch</feature>
+                    <feature>Cotton (from organic farms)</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Grip</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>50% Cotton (from organic farms), 50% Polyacrylic</material>
+                    <outerMaterial>Coarse knit</outerMaterial>
+                    <countryOfOrigin>Turkey</countryOfOrigin>
+                    <careInstruction>Hand wash</careInstruction>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>No dry cleaning</careInstruction>
+                    <careInstruction>Do not iron</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="HID9b7b004000001" category="Hats">
+            <name>Royal blue knitted hat</name>
+            <price>$58.90</price>
+            <brand>Tommy Jeans</brand>
+            <images>
+                <modelCenterImage>../img/accessoriesFallCollection/5af2aa85cdf98c910ceba57143785fb0.avif</modelCenterImage>
+                <modelSideImage>../img/accessoriesFallCollection/dfde0fcfca04beb6d31581c3791a866c.avif</modelSideImage>
+            </images>
+            <color>royalblue</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Cotton</feature>
+                    <feature>Straight hem</feature>
+                    <feature>Turned hem</feature>
+                    <feature>Label embroidery</feature>
+                    <feature>Textured to the touch</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Grip</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>50% Cotton, 50% Polyacrylic - RS</material>
+                    <outerMaterial>Coarse knit</outerMaterial>
+                    <countryOfOrigin>Turkey</countryOfOrigin>
+                    <careInstruction>Hand wash</careInstruction>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>No dry cleaning</careInstruction>
+                    <careInstruction>Do not iron</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="THS9h8b002000001" category="Hats">
+            <name>Dark blue knitted hat</name>
+            <price>$102.32</price>
+            <brand>Tommy Hilfiger</brand>
+            <images>
+                <modelCenterImage>../img/accessoriesFallCollection/9fccce6c8663257851aec7608b168496.avif</modelCenterImage>
+                <modelSideImage>../img/accessoriesFallCollection/6fb487923c3ae186b03536f71ecde433.avif</modelSideImage>
+            </images>
+            <color>darkblue</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Turned hem</feature>
+                    <feature>Patch/Brand Nameplate</feature>
+                    <feature>Textured to the touch</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Grip</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>47% Polyamide - RA, 35% Wool, 3% Elastane, 15% Alpaca</material>
+                    <outerMaterial>Coarse knit</outerMaterial>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="THS9h8b004000001" category="Hats">
+            <name>Gray Melange knitted hat</name>
+            <price>$102.32</price>
+            <brand>Tommy Hilfiger</brand>
+            <images>
+                <modelCenterImage>../img/accessoriesFallCollection/39330a2b22d4910579a7e4c4a1842016.avif</modelCenterImage>
+                <modelSideImage>../img/accessoriesFallCollection/12761af498bdb8bba73688f825f478b2.avif</modelSideImage>
+            </images>
+            <color>darkblue</color>
+            <details>
+                <designAndExtras>
+                    <feature>Melange</feature>
+                    <feature>Turned hem</feature>
+                    <feature>Fully fashioned</feature>
+                    <feature>Patch/Brand Nameplate</feature>
+                    <feature>A soft touch</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Grip</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>53% Polyamide - RA, 32% Wool, 11% Alpaca, 4% Elastane</material>
+                    <outerMaterial>Coarse knit</outerMaterial>
+                    <careInstruction>Do not wash</careInstruction>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>Dry cleaning with perchlorethylene</careInstruction>
+                    <careInstruction>Do not iron</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="BSB3918003000001" category="Hats">
+            <name>Dark Blue knitted hat 'Pedro'</name>
+            <price>$117.90</price>
+            <brand>Boss</brand>
+            <images>
+                <modelCenterImage>../img/accessoriesFallCollection/30d732d6a92319ae2331aa87b8b0a5d6.avif</modelCenterImage>
+                <modelSideImage>../img/accessoriesFallCollection/2054d56a38499d173738b4ea7e33389c.avif</modelSideImage>
+            </images>
+            <color>darkblue</color>
+            <details>
+                <designAndExtras>
+                    <feature>One color</feature>
+                    <feature>Wool</feature>
+                    <feature>Elastic knit</feature>
+                    <feature>Turned hem</feature>
+                    <feature>Textured to the touch</feature>
+                    <feature>A soft touch</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Grip</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>50% Sheep wool, 50% Polyacrylic</material>
+                    <outerMaterial>Coarse knit</outerMaterial>
+                    <careInstruction>Hand wash</careInstruction>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>Dry cleaning with perchlorethylene</careInstruction>
+                    <careInstruction>Do not iron</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="BSB3918002000001" category="Hats">
+            <name>Silver knitted hat 'Pedro'</name>
+            <price>$117.90</price>
+            <brand>Boss</brand>
+            <images>
+                <modelCenterImage>../img/accessoriesFallCollection/1163f6ad05afc5c42518755e5e594e6c.avif</modelCenterImage>
+                <modelSideImage>../img/accessoriesFallCollection/01646fae5d462e0b8ef86aef850ef2e6.avif</modelSideImage>
+            </images>
+            <color>silver</color>
+            <details>
+                <designAndExtras>
+                    <feature>Melange</feature>
+                    <feature>Wool</feature>
+                    <feature>Elastic knit</feature>
+                    <feature>Turned hem</feature>
+                    <feature>Patch/Brand Nameplate</feature>
+                    <feature>Textured to the touch</feature>
+                    <feature>A soft touch</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Grip</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>50% Sheep wool, 50% Polyacrylic</material>
+                    <outerMaterial>Coarse knit</outerMaterial>
+                    <careInstruction>Hand wash</careInstruction>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>No dry cleaning</careInstruction>
+                    <careInstruction>Do not iron</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="AYO2937001000001" category="Scarfs">
+            <name>Blackish scarf 'Joyce'</name>
+            <price>$53.01</price>
+            <brand>Criss</brand>
+            <images>
+                <modelCenterImage>../img/accessoriesFallCollection/30b871972cbcec33e7da9f93e53ffc70.avif</modelCenterImage>
+                <modelSideImage>../img/accessoriesFallCollection/9ec6a7936380de50d54c5eec5a880ae7.avif</modelSideImage>
+            </images>
+            <color>black</color>
+            <details>
+                <designAndExtras>
+                    <feature>Two colors</feature>
+                    <feature>For tying</feature>
+                    <feature>Fringe/Tassels</feature>
+                    <feature>A soft touch</feature>
+                    <feature>Patch/Brand Nameplate</feature>
+                    <feature>Rectangular</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Soft</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <outerMaterial>70% Polyacrylic, 30% Polyester</outerMaterial>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="AYO2937004000001" category="Scarfs">
+            <name>Dark brownish scarf 'Joyce'</name>
+            <price>$53.01</price>
+            <brand>Criss</brand>
+            <images>
+                <modelCenterImage>../img/accessoriesFallCollection/3d583150102d0b69bd5e0dafa00e8a67.avif</modelCenterImage>
+            </images>
+            <color>darkbrown</color>
+            <details>
+                <designAndExtras>
+                    <feature>Two colors</feature>
+                    <feature>Rectangular</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Soft</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <outerMaterial>70% Polyacrylic, 30% Polyester</outerMaterial>
+                    <countryOfOrigin>China</countryOfOrigin>
+                    <careInstruction>Wash at 30 °C</careInstruction>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>Dry cleaning with perchlorethylene</careInstruction>
+                    <careInstruction>Do not iron at a high temperature</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="AYO2937005000001" category="Scarfs">
+            <name>Light brownish scarf 'Joyce'</name>
+            <price>$53.01</price>
+            <brand>Criss</brand>
+            <images>
+                <modelCenterImage>../img/accessoriesFallCollection/6893a3dcbf62a6e4dccd1d2cda652535.avif</modelCenterImage>
+            </images>
+            <color>lightbrown</color>
+            <details>
+                <designAndExtras>
+                    <feature>Two colors</feature>
+                    <feature>Rectangular</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Soft</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <outerMaterial>70% Polyacrylic, 30% Polyester</outerMaterial>
+                    <countryOfOrigin>China</countryOfOrigin>
+                    <careInstruction>Wash at 30 °C</careInstruction>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>Dry cleaning with perchlorethylene</careInstruction>
+                    <careInstruction>Do not iron at a high temperature</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="AYO2937003000001" category="Scarfs">
+            <name>Greyish scarf 'Joyce'</name>
+            <price>$53.01</price>
+            <brand>Criss</brand>
+            <images>
+                <modelCenterImage>../img/accessoriesFallCollection/9a2332b5d13f58c5501c19cab956cf47.avif</modelCenterImage>
+            </images>
+            <color>grey</color>
+            <details>
+                <designAndExtras>
+                    <feature>Two colors</feature>
+                    <feature>Rectangular</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Soft</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <outerMaterial>70% Polyacrylic, 30% Polyester</outerMaterial>
+                    <countryOfOrigin>China</countryOfOrigin>
+                    <careInstruction>Wash at 30 °C</careInstruction>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>Dry cleaning with perchlorethylene</careInstruction>
+                    <careInstruction>Do not iron at a high temperature</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="AYO2937002000001" category="Scarfs">
+            <name>Pale pink scarf 'Joyce'</name>
+            <price>$53.01</price>
+            <brand>Criss</brand>
+            <images>
+                <modelCenterImage>../img/accessoriesFallCollection/6e88cde3e3992da27c2a2831b5e8d744.avif</modelCenterImage>
+            </images>
+            <color>pink</color>
+            <details>
+                <designAndExtras>
+                    <feature>Two colors</feature>
+                    <feature>Rectangular</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Soft</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <outerMaterial>70% Polyacrylic, 30% Polyester</outerMaterial>
+                    <countryOfOrigin>China</countryOfOrigin>
+                    <careInstruction>Wash at 30 °C</careInstruction>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>Dry cleaning with perchlorethylene</careInstruction>
+                    <careInstruction>Do not iron at a high temperature</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="THS9h89001000001" category="Scarfs">
+            <name>Red formal scarf</name>
+            <price>$170.32</price>
+            <brand>Tommy Hilfiger</brand>
+            <images>
+                <modelCenterImage>../img/accessoriesFallCollection/dbeef443c74de3dbcd24d0778c5b7b42.avif</modelCenterImage>
+            </images>
+            <color>pink</color>
+            <details>
+                <designAndExtras>
+                    <feature>Two colors</feature>
+                    <feature>Wool</feature>
+                    <feature>Fringe hem</feature>
+                    <feature>Seamless hems</feature>
+                    <feature>Brand plate</feature>
+                    <feature>A soft touch</feature>
+                    <feature>Rectangular</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Soft</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <outerMaterial>70% Polyacrylic, 30% Polyester</outerMaterial>
+                    <careInstruction>Wash at 30 °C</careInstruction>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>Dry cleaning with perchlorethylene</careInstruction>
+                    <careInstruction>Do not iron at a high temperature</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="GMK3834001000001" category="Scarfs">
+            <name>Light blue checked scarf</name>
+            <price>$58.74</price>
+            <brand>Guido Maria Kretschmer</brand>
+            <images>
+                <modelCenterImage>../img/accessoriesFallCollection/e841f9cf3eb1c9773f5f8ff5eccde04b.avif</modelCenterImage>
+            </images>
+            <color>lightblue</color>
+            <details>
+                <designAndExtras>
+                    <feature>Plaid</feature>
+                    <feature>Rectangular</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Soft</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <outerMaterial>77% Polyester, 23% Wool</outerMaterial>
+                    <careInstruction>Hand wash</careInstruction>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>No dry cleaning</careInstruction>
+                    <careInstruction>Do not iron at a high temperature</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="GMK3834003000001" category="Scarfs">
+            <name>Light brown checked scarf</name>
+            <price>$58.74</price>
+            <brand>Guido Maria Kretschmer</brand>
+            <images>
+                <modelCenterImage>../img/accessoriesFallCollection/fde2a8d1caca7daab7d9911586df6d9a.avif</modelCenterImage>
+            </images>
+            <color>lightbrown</color>
+            <details>
+                <designAndExtras>
+                    <feature>Plaid</feature>
+                    <feature>Rectangular</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Soft</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <outerMaterial>77% Polyester, 23% Wool</outerMaterial>
+                    <careInstruction>Hand wash</careInstruction>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>No dry cleaning</careInstruction>
+                    <careInstruction>Do not iron at a high temperature</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="GMK3834002000001" category="Scarfs">
+            <name>Pink and blue checked scarf</name>
+            <price>$58.74</price>
+            <brand>Guido Maria Kretschmer</brand>
+            <images>
+                <modelCenterImage>../img/accessoriesFallCollection/17725240b46dd175be1acf484e18b9b9.avif</modelCenterImage>
+            </images>
+            <color>pink</color>
+            <details>
+                <designAndExtras>
+                    <feature>Plaid</feature>
+                    <feature>Rectangular</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Soft</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <outerMaterial>48% Polyester, 22% Wool, 30% Polyester - PES (recycled)</outerMaterial>
+                    <countryOfOrigin>China</countryOfOrigin>
+                    <careInstruction>Hand wash</careInstruction>
+                    <careInstruction>Not suitable for tumble drying</careInstruction>
+                    <careInstruction>No dry cleaning</careInstruction>
+                    <careInstruction>Do not iron at a high temperature</careInstruction>
+                    <careInstruction>Do not use bleach</careInstruction>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="VAN0192001000001" category="Belts">
+            <name>White belt</name>
+            <price>$46.95</price>
+            <brand>Vanzetti</brand>
+            <images>
+                <modelCenterImage>../img/accessoriesFallCollection/19e6e82f6f3b46c04b7c60411c3821a1.avif</modelCenterImage>
+                <modelSideImage>../img/shoesWinterCollection/4c1d56a6ed8ad28113ce1d0080cbf3fd.avif</modelSideImage>
+                <productFocusImage>../img/shoesWinterCollection/7522234ff0132e172cb9420427b1fd8a.avif</productFocusImage>
+            </images>
+            <color>white</color>
+            <details>
+                <designAndExtras>
+                    <feature>Leather</feature>
+                    <feature>Smooth skin</feature>
+                    <feature>A buckle</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Sturdy</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>100% Leather</material>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="VAN0192004000001" category="Belts">
+            <name>Navy blue belt</name>
+            <price>$65.73</price>
+            <brand>Vanzetti</brand>
+            <images>
+                <modelCenterImage>../img/accessoriesFallCollection/53fedadccd9b8f76c9691800707cd7bf.avif</modelCenterImage>
+                <modelSideImage>../img/accessoriesFallCollection/929c53a46c749687a06306b1bdc79b80.avif</modelSideImage>
+                <productFocusImage>../img/accessoriesFallCollection/a133c16d1055ca24060e54b61142627a.avif</productFocusImage>
+                <productZoomImage>../img/accessoriesFallCollection/6d358f6f86910c8270fe91270721516a.avif</productZoomImage>
+            </images>
+            <color>navyblue</color>
+            <details>
+                <designAndExtras>
+                    <feature>Leather</feature>
+                    <feature>Smooth skin</feature>
+                    <feature>A buckle</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Sturdy</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>100% Leather</material>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="VAN0192003000001" category="Belts">
+            <name>Red belt</name>
+            <price>$46.95</price>
+            <brand>Vanzetti</brand>
+            <images>
+                <modelCenterImage>../img/accessoriesFallCollection/8c71914b5fabda9aeeeb9489a810e99a.avif</modelCenterImage>
+                <modelSideImage>../img/accessoriesFallCollection/514c986d1d6911f5ddfd295741489548.avif</modelSideImage>
+            </images>
+            <color>red</color>
+            <details>
+                <designAndExtras>
+                    <feature>Leather</feature>
+                    <feature>Coverage</feature>
+                    <feature>Smooth skin</feature>
+                    <feature>A buckle</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Sturdy</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>100% Leather</material>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="VAN0192002000001" category="Belts">
+            <name>Light brown belt</name>
+            <price>$36.72</price>
+            <brand>Vanzetti</brand>
+            <images>
+                <modelCenterImage>../img/accessoriesFallCollection/695031a4825c70a5a13075c4c4e064c7.avif</modelCenterImage>
+                <modelSideImage>../img/accessoriesFallCollection/e593b47f5e5716dbc198b49315095120.avif</modelSideImage>
+                <productFocusImage>../img/accessoriesFallCollection/a065d37f49eb24109cb1af7379e29a1f.avif</productFocusImage>
+                <productZoomImage>../img/accessoriesFallCollection/478b6bbc02983618c5347e7d3968452f.avif</productZoomImage>
+            </images>
+            <color>lightbrown</color>
+            <details>
+                <designAndExtras>
+                    <feature>Leather</feature>
+                    <feature>Structured surface</feature>
+                    <feature>With adjustable width</feature>
+                    <feature>Smooth skin</feature>
+                    <feature>A buckle</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Sturdy</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>100% Leather</material>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="VAN0192005000001" category="Belts">
+            <name>Black belt</name>
+            <price>$65.73</price>
+            <brand>Vanzetti</brand>
+            <images>
+                <modelCenterImage>../img/accessoriesFallCollection/0a3657f090b3d488e3f4c5d2158f3809.avif</modelCenterImage>
+                <modelSideImage>../img/accessoriesFallCollection/325bf418ecd699f8b284b387bd56817c.avif</modelSideImage>
+                <productFocusImage>../img/accessoriesFallCollection/0d90841e0fb20c18b975a913bf44a124.avif</productFocusImage>
+            </images>
+            <color>black</color>
+            <details>
+                <designAndExtras>
+                    <feature>Leather</feature>
+                    <feature>Saffiano leather</feature>
+                    <feature>Seamless workmanship</feature>
+                    <feature>Smooth skin</feature>
+                    <feature>A buckle</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Sturdy</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>100% Leather</material>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="LEV1470002000008" category="Belts">
+            <name>Black sturdy belt</name>
+            <price>$68.90</price>
+            <brand>Levi's</brand>
+            <images>
+                <modelCenterImage>../img/accessoriesFallCollection/fe15b54307c3d1990f0314554060f746.avif</modelCenterImage>
+            </images>
+            <color>brown</color>
+            <details>
+                <designAndExtras>
+                    <feature>Leather</feature>
+                    <feature>With wax</feature>
+                    <feature>With adjustable width</feature>
+                    <feature>Smooth skin</feature>
+                    <feature>A buckle</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Width: 4cm (size 100)</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>100% Leather</material>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
+        <product number="LEV1470001000008" category="Belts">
+            <name>Brown sturdy belt</name>
+            <price>$68.90</price>
+            <brand>Levi's</brand>
+            <images>
+                <modelCenterImage>../img/accessoriesFallCollection/1e5275c93a5f28b8ee92bee8cb799e1a.avif</modelCenterImage>
+            </images>
+            <color>brown</color>
+            <details>
+                <designAndExtras>
+                    <feature>Leather</feature>
+                    <feature>Soft touch handle</feature>
+                    <feature>With adjustable width</feature>
+                    <feature>Smooth skin</feature>
+                    <feature>A buckle</feature>
+                </designAndExtras>
+                <fit>
+                    <styleFit>Sturdy</styleFit>
+                </fit>
+                <materialAndCareInstructions>
+                    <material>100% Leather</material>
+                </materialAndCareInstructions>
+            </details>
+            <tag>regular</tag>
+        </product>
     </collection>
     <blog>
         <post>
