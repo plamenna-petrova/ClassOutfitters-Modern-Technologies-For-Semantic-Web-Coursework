@@ -46,9 +46,11 @@ you can use the generic selector below, but it's slower:
 }
 .arrow_left:before {
 	content: "\23";
+	color: white;
 }
 .arrow_right:before {
 	content: "\24";
+	color: white;
 }
 .arrow_left-up:before {
 	content: "\25";

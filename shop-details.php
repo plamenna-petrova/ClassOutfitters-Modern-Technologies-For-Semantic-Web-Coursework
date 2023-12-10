@@ -5,6 +5,7 @@ if (file_exists('./xml/class-outfitters.xml')) {
     $productCategory = $_GET['productCategory'];
     $productByXPathQuery = $shopNode->xpath("collection/product[@number='$productNumber']")[0];
     $productName = $productByXPathQuery->name;
+    $productBrand = $productByXPathQuery->brand;
     $productPrice = $productByXPathQuery->price;
     $productImages = $productByXPathQuery->images;
     $productAvailableSizes = $productByXPathQuery->availableSizes;
@@ -141,20 +142,27 @@ if (file_exists('./xml/class-outfitters.xml')) {
                     <div class="col-lg-3 col-md-3">
                         <ul class="nav nav-tabs" role="tablist">
                             <?php
-                                echo "
-                                    <li class='nav-item'>
-                                        <a class='nav-link active' data-toggle='tab' href='#tabs-1' role='tab'>
-                                            <div class='product__thumb__pic set-bg' data-setbg='$productImages->modelCenterImage'>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class='nav-item'>
-                                        <a class='nav-link' data-toggle='tab' href='#tabs-2' role='tab'>
-                                            <div class='product__thumb__pic set-bg' data-setbg='$productImages->modelSideImage'>
-                                            </div>
-                                        </a>
-                                    </li>
-                                ";
+                                if ($productImages->modelCenterImage) {
+                                    echo "
+                                        <li class='nav-item'>
+                                            <a class='nav-link active' data-toggle='tab' href='#tabs-1' role='tab'>
+                                                <div class='product__thumb__pic set-bg' data-setbg='$productImages->modelCenterImage'>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    ";
+                                }
+
+                                if ($productImages->modelSideImage) {
+                                    echo "
+                                        <li class='nav-item'>
+                                            <a class='nav-link' data-toggle='tab' href='#tabs-2' role='tab'>
+                                                <div class='product__thumb__pic set-bg' data-setbg='$productImages->modelSideImage'>
+                                                </div>
+                                            </a>
+                                        </li>   
+                                    ";
+                                }
 
                                 if ($productImages->productFocusImage) {
                                     echo "
@@ -183,18 +191,25 @@ if (file_exists('./xml/class-outfitters.xml')) {
                     <div class="col-lg-6 col-md-9">
                         <div class="tab-content">
                             <?php
-                                echo "
-                                    <div class='tab-pane active' id='tabs-1' role='tabpanel'>
-                                        <div class='product__details__pic__item'>
-                                            <img src='$productImages->modelCenterImage' alt=''>
+                                if ($productImages->modelCenterImage) {
+                                    echo "
+                                        <div class='tab-pane active' id='tabs-1' role='tabpanel'>
+                                            <div class='product__details__pic__item'>
+                                                <img src='$productImages->modelCenterImage' alt=''>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class='tab-pane' id='tabs-2' role='tabpanel'>
-                                        <div class='product__details__pic__item'>
-                                            <img src='$productImages->modelSideImage' alt=''>
+                                    ";
+                                }
+
+                                if ($productImages->modelSideImage) {
+                                    echo "
+                                        <div class='tab-pane' id='tabs-2' role='tabpanel'>
+                                            <div class='product__details__pic__item'>
+                                                <img src='$productImages->modelSideImage' alt=''>
+                                            </div>
                                         </div>
-                                    </div>
-                                ";
+                                    ";
+                                }
 
                                 if ($productImages->productFocusImage) {
                                     echo "
@@ -229,6 +244,7 @@ if (file_exists('./xml/class-outfitters.xml')) {
                             <?php
                                 echo "
                                     <h4>$productName</h4>
+                                    <h4>By: ".$productBrand."</h4>
                                     <h3>$productPrice</h3>
                                 ";
                             ?>

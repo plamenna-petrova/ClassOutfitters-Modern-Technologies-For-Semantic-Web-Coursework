@@ -6,10 +6,10 @@
     <address>57 Union Ave, Rutherford, NJ 07070, USA</address>
     <googleMapsLocation>https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d754.7225348367775!2d-74.10391923038213!3d40.83037669821098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f8bf76f3e069%3A0x67a31808798924b3!2zNTcgVW5pb24gQXZlLCBSdXRoZXJmb3JkLCBOSiAwNzA3MCwg0KHRitC10LTQuNC90LXQvdC4INGJ0LDRgtC4!5e0!3m2!1sbg!2sbg!4v1700392109585!5m2!1sbg!2sbg</googleMapsLocation>
     <socials>
-        <facebook></facebook>
-        <x></x>
-        <pinterest></pinterest>
-        <instagram></instagram>
+        <facebook>https://www.facebook.com/class-outfitters/</facebook>
+        <x>https://twitter.com/class-outfitters</x>
+        <pinterest>https://www.pinterest.com/class-outfitters</pinterest>
+        <instagram>https://www.instagram.com/class-outfitters/?hl=em</instagram>
     </socials>
     <whoAreWe>Contextual advertising programs sometimes have strict policies that need to be adhered too. 
         Let’s take Google as an example.
@@ -43,34 +43,35 @@
     <teamMember>
         <name>John Smith</name>
         <position>Fashion Design</position>
-        <image>../img/about/team-1.jpg</image>
+        <image>img/about/team-1.jpg</image>
     </teamMember>
     <teamMember>
         <name>Christine Wise</name>
         <position>C.E.O</position>
-        <image>../img/about/team-2.jpg</image>
+        <image>img/about/team-2.jpg</image>
     </teamMember>
     <teamMember>
         <name>Sean Robbins</name>
         <position>Manager</position>
-        <image>../img/about/team-3.jpg</image>
+        <image>img/about/team-3.jpg</image>
     </teamMember>
     <teamMember>
         <name>Lucca Myers</name>
         <position>Delivery</position>
-        <image>../img/about/team-4.jpg</image>
+        <image>img/about/team-4.jpg</image>
     </teamMember>
-    <collection name="Fall - Winter Clothing Collection 2023/2024">
-        <presentationImage></presentationImage>
+    <collection name="Fall-Winter Clothing Collection 2023/2024">
+        <presentationImage>img/hero/REDTAG-Winter-23-1-scaled.jpg</presentationImage>
+        <bannerImage>img/banner/clothingCollection.png</bannerImage>
         <product number="PIC4197006000001" category="Jackets and Blazers">
             <name>Blazer 'Bossy'</name>
             <price>$86.90</price>
             <brand>Pieces</brand>
             <images>
-                <modelCenterImage>../img/fallWinterClothingCollection/abdd5a2286b9dc59401194e816afa03a.avif</modelCenterImage>
-                <modelSideImage>../img/fallWinterClothingCollection/a94812e9e7f2ddf183f8027898a130d4.avif</modelSideImage>
-                <productFocusImage>../img/fallWinterClothingCollection/ce0471f447e9f5f2825feb8f707f0625.avif</productFocusImage>
-                <productZoomImage>../img/fallWinterClothingCollection/587655e88207a3be67b431e8d3ae0b49.avif</productZoomImage>
+                <modelCenterImage>img/fallWinterClothingCollection/abdd5a2286b9dc59401194e816afa03a.avif</modelCenterImage>
+                <modelSideImage>img/fallWinterClothingCollection/a94812e9e7f2ddf183f8027898a130d4.avif</modelSideImage>
+                <productFocusImage>img/fallWinterClothingCollection/ce0471f447e9f5f2825feb8f707f0625.avif</productFocusImage>
+                <productZoomImage>img/fallWinterClothingCollection/587655e88207a3be67b431e8d3ae0b49.avif</productZoomImage>
             </images>
             <availableSizes>
                 <size>XS</size>
@@ -106,17 +107,17 @@
                     <careInstruction>Dry at low temperature</careInstruction>
                 </materialAndCareInstructions>
             </details>
-            <tag>regular</tag>
+            <tag>best seller</tag>
         </product>
         <product number="MGObpss002000004" category="Jackets and Blazers">
             <name>Blazer 'Charlott'</name>
             <price>$230.90</price>
             <brand>Pieces</brand>
             <images>
-                <modelCenterImage>../img/fallWinterClothingCollection/b201e4bee57754d438e8d7b9a0789821.avif</modelCenterImage>
-                <modelSideImage>../img/fallWinterClothingCollection/a1b654edeaa5f01f84fb039d1e6773b7.avif</modelSideImage>
-                <productFocusImage>../img/fallWinterClothingCollection/1ed7a62a8e3a74c01ad8dec931f90144.avif</productFocusImage>
-                <productZoomImage>../img/fallWinterClothingCollection/7f4cc487814f3ad265bafa1373d4bd9f.avif</productZoomImage>
+                <modelCenterImage>img/fallWinterClothingCollection/b201e4bee57754d438e8d7b9a0789821.avif</modelCenterImage>
+                <modelSideImage>img/fallWinterClothingCollection/a1b654edeaa5f01f84fb039d1e6773b7.avif</modelSideImage>
+                <productFocusImage>img/fallWinterClothingCollection/1ed7a62a8e3a74c01ad8dec931f90144.avif</productFocusImage>
+                <productZoomImage>img/fallWinterClothingCollection/7f4cc487814f3ad265bafa1373d4bd9f.avif</productZoomImage>
             </images>
             <availableSizes>
                 <size>XS</size>
@@ -154,10 +155,10 @@
             <price>$62.90</price>
             <brand>Pieces</brand>
             <images>
-                <modelCenterImage>../img/fallWinterClothingCollection/568dfe8d502fdfc8667715360bb9244e.avif</modelCenterImage>
-                <modelSideImage>../img/fallWinterClothingCollection/77e4f746eafe9e26e38264e0e8859309.avif</modelSideImage>
-                <productFocusImage>../img/fallWinterClothingCollection/435724e06c04956bef465ad66661511d.avif</productFocusImage>
-                <productZoomImage>../img/fallWinterClothingCollection/76b254745ff6042a96479b2f1f870ee1.avif</productZoomImage>
+                <modelCenterImage>img/fallWinterClothingCollection/568dfe8d502fdfc8667715360bb9244e.avif</modelCenterImage>
+                <modelSideImage>img/fallWinterClothingCollection/77e4f746eafe9e26e38264e0e8859309.avif</modelSideImage>
+                <productFocusImage>img/fallWinterClothingCollection/435724e06c04956bef465ad66661511d.avif</productFocusImage>
+                <productZoomImage>img/fallWinterClothingCollection/76b254745ff6042a96479b2f1f870ee1.avif</productZoomImage>
             </images>
             <availableSizes>
                 <size>XS</size>
@@ -193,17 +194,17 @@
                     <careInstruction>30°C delicate wash</careInstruction>
                 </materialAndCareInstructions>
             </details>
-            <tag>regular</tag>
+            <tag>best seller</tag>
         </product>
         <product number="PIC4197027000001" category="Jackets and Blazers">
             <name>Blazer 'Sky Blue'</name>
             <price>$49.90</price>
             <brand>Pieces</brand>
             <images>
-                <modelCenterImage>../img/fallWinterClothingCollection/60a5e3df4a63db4309bf9e70931360de.avif</modelCenterImage>
-                <modelSideImage>../img/fallWinterClothingCollection/789e08dc29c1820c1a98a6e1ce6b5852.avif</modelSideImage>
-                <productFocusImage>../img/fallWinterClothingCollection/e72cdb5af17fd6708adca45fd806295f.avif</productFocusImage>
-                <productZoomImage>../img/fallWinterClothingCollection/4cded9b71ad1353dbac6ee62222242b4.avif</productZoomImage>
+                <modelCenterImage>img/fallWinterClothingCollection/60a5e3df4a63db4309bf9e70931360de.avif</modelCenterImage>
+                <modelSideImage>img/fallWinterClothingCollection/789e08dc29c1820c1a98a6e1ce6b5852.avif</modelSideImage>
+                <productFocusImage>img/fallWinterClothingCollection/e72cdb5af17fd6708adca45fd806295f.avif</productFocusImage>
+                <productZoomImage>img/fallWinterClothingCollection/4cded9b71ad1353dbac6ee62222242b4.avif</productZoomImage>
             </images>
             <availableSizes>
                 <size>XS</size>
@@ -240,17 +241,17 @@
                     <careInstruction>30°C easy-care wash</careInstruction>
                 </materialAndCareInstructions>
             </details>
-            <tag>regular</tag>
+            <tag>new</tag>
         </product>
         <product number="PIC4197008000001" category="Jackets and Blazers">
             <name>Blazer 'Light Blue'</name>
             <price>$54.90</price>
             <brand>Pieces</brand>
             <images>
-                <modelCenterImage>../img/fallWinterClothingCollection/64ae30b730a23ae30e6a4ae971fa33bd.avif</modelCenterImage>
-                <modelSideImage>../img/fallWinterClothingCollection/9bfd8b0ba0cadb13e0504705be6e366b.avif</modelSideImage>
-                <productFocusImage>../img/fallWinterClothingCollection/ce21c91c1bf1f9c101b2d83c40eacbd2.avif</productFocusImage>
-                <productZoomImage>../img/fallWinterClothingCollection/6afa3795140b0a4fe3627633d5494476.avif</productZoomImage>
+                <modelCenterImage>img/fallWinterClothingCollection/64ae30b730a23ae30e6a4ae971fa33bd.avif</modelCenterImage>
+                <modelSideImage>img/fallWinterClothingCollection/9bfd8b0ba0cadb13e0504705be6e366b.avif</modelSideImage>
+                <productFocusImage>img/fallWinterClothingCollection/ce21c91c1bf1f9c101b2d83c40eacbd2.avif</productFocusImage>
+                <productZoomImage>img/fallWinterClothingCollection/6afa3795140b0a4fe3627633d5494476.avif</productZoomImage>
             </images>
             <availableSizes>
                 <size>XS</size>
@@ -293,10 +294,10 @@
             <price>$356.90</price>
             <brand>Nasty Gal</brand>
             <images>
-                <modelCenterImage>../img/fallWinterClothingCollection/eb8d921136b8a7d9bb368d27d7482915.avif</modelCenterImage>
-                <modelSideImage>../img/fallWinterClothingCollection/8d8a633b31e2e690790283cc5a8bc18e.avif</modelSideImage>
-                <productFocusImage>../img/fallWinterClothingCollection/78ab96652d49167b1b7315fe5cb9dc62.avif</productFocusImage>
-                <productZoomImage>../img/fallWinterClothingCollection81ed3a5a8fccdde8b19b6ce7cd7237a8.avif</productZoomImage>
+                <modelCenterImage>img/fallWinterClothingCollection/eb8d921136b8a7d9bb368d27d7482915.avif</modelCenterImage>
+                <modelSideImage>img/fallWinterClothingCollection/8d8a633b31e2e690790283cc5a8bc18e.avif</modelSideImage>
+                <productFocusImage>img/fallWinterClothingCollection/78ab96652d49167b1b7315fe5cb9dc62.avif</productFocusImage>
+                <productZoomImage>img/fallWinterClothingCollection81ed3a5a8fccdde8b19b6ce7cd7237a8.avif</productZoomImage>
             </images>
             <availableSizes>
                 <size>XS</size>
@@ -342,10 +343,10 @@
             <price>$180.95</price>
             <brand>Pull and Bear</brand>
             <images>
-                <modelCenterImage>../img/fallWinterClothingCollection/02a62900a0598cfda6617a8f6239d5af.avif</modelCenterImage>
-                <modelSideImage>../img/fallWinterClothingCollection/4c4823be7660af6f1de16b4fac732e01.avif</modelSideImage>
-                <productFocusImage>../img/fallWinterClothingCollection/391283f5eb6efc06eceaf09319487b6c.avif</productFocusImage>
-                <productZoomImage>../img/fallWinterClothingCollection/57aa349151d706de194ccce66ce495d9.avif</productZoomImage>
+                <modelCenterImage>img/fallWinterClothingCollection/02a62900a0598cfda6617a8f6239d5af.avif</modelCenterImage>
+                <modelSideImage>img/fallWinterClothingCollection/4c4823be7660af6f1de16b4fac732e01.avif</modelSideImage>
+                <productFocusImage>img/fallWinterClothingCollection/391283f5eb6efc06eceaf09319487b6c.avif</productFocusImage>
+                <productZoomImage>img/fallWinterClothingCollection/57aa349151d706de194ccce66ce495d9.avif</productZoomImage>
             </images>
             <availableSizes>
                 <size>XS</size>
@@ -387,10 +388,10 @@
             <price>$199.99</price>
             <brand>Pull and Bear</brand>
             <images>
-                <modelCenterImage>../img/fallWinterClothingCollection/44b67ec205f941239d55e6602992a9d5.avif</modelCenterImage>
-                <modelSideImage>../img/fallWinterClothingCollection/d3eaf8c593d11ae7d56f411775d72a27.avif</modelSideImage>
-                <productFocusImage>../img/fallWinterClothingCollection/fbddfeac078415026cde86bc3ac56a4d.avif</productFocusImage>
-                <productZoomImage>../img/fallWinterClothingCollection/7f4cc487814f3ad265bafa1373d4bd9f.avif</productZoomImage>
+                <modelCenterImage>img/fallWinterClothingCollection/44b67ec205f941239d55e6602992a9d5.avif</modelCenterImage>
+                <modelSideImage>img/fallWinterClothingCollection/d3eaf8c593d11ae7d56f411775d72a27.avif</modelSideImage>
+                <productFocusImage>img/fallWinterClothingCollection/fbddfeac078415026cde86bc3ac56a4d.avif</productFocusImage>
+                <productZoomImage>img/fallWinterClothingCollection/7f4cc487814f3ad265bafa1373d4bd9f.avif</productZoomImage>
             </images>
             <availableSizes>
                 <size>XS</size>
@@ -425,17 +426,17 @@
                     <careInstruction>Do not use bleach</careInstruction>
                 </materialAndCareInstructions>
             </details>
-            <tag>regular</tag>
+            <tag>sale</tag>
         </product>
         <product number="GST5430001000003" category="Jackets and Blazers">
             <name>Blazer 'Dark Blue'</name>
             <price>$499.99</price>
             <brand>G-Star Raw</brand>
             <images>
-                <modelCenterImage>../img/fallWinterClothingCollection/cff9607743692c59a3ed646b67c6d0c1.avif</modelCenterImage>
-                <modelSideImage>../img/fallWinterClothingCollection/a634a64488965e03f7c0b4e1ea399ddb.avif</modelSideImage>
-                <productFocusImage>../img/fallWinterClothingCollection/8d5c327430ae900144541f9db851df11.avif</productFocusImage>
-                <productZoomImage>../img/fallWinterClothingCollection/8c367a6b1e1ad801b529485658d57089.avif</productZoomImage>
+                <modelCenterImage>img/fallWinterClothingCollection/cff9607743692c59a3ed646b67c6d0c1.avif</modelCenterImage>
+                <modelSideImage>img/fallWinterClothingCollection/a634a64488965e03f7c0b4e1ea399ddb.avif</modelSideImage>
+                <productFocusImage>img/fallWinterClothingCollection/8d5c327430ae900144541f9db851df11.avif</productFocusImage>
+                <productZoomImage>img/fallWinterClothingCollection/8c367a6b1e1ad801b529485658d57089.avif</productZoomImage>
             </images>
             <availableSizes>
                 <size>XS</size>
@@ -479,10 +480,10 @@
             <price>$77.90</price>
             <brand>Bershka</brand>
             <images>
-                <modelCenterImage>../img/fallWinterClothingCollection/4310d0884344258e55aac06e4d64621f.avif</modelCenterImage>
-                <modelSideImage>../img/fallWinterClothingCollection/964416aedbd0e51efbef4773eb182403.avif</modelSideImage>
-                <productFocusImage>../img/fallWinterClothingCollection/cd6202472b92dc55b259f1761e5b024a.avif</productFocusImage>
-                <productZoomImage>../img/fallWinterClothingCollection/881322dd51b795dbfbf04f0af2db3229.avif</productZoomImage>
+                <modelCenterImage>img/fallWinterClothingCollection/4310d0884344258e55aac06e4d64621f.avif</modelCenterImage>
+                <modelSideImage>img/fallWinterClothingCollection/964416aedbd0e51efbef4773eb182403.avif</modelSideImage>
+                <productFocusImage>img/fallWinterClothingCollection/cd6202472b92dc55b259f1761e5b024a.avif</productFocusImage>
+                <productZoomImage>img/fallWinterClothingCollection/881322dd51b795dbfbf04f0af2db3229.avif</productZoomImage>
             </images>
             <availableSizes>
                 <size>XS</size>
@@ -520,17 +521,17 @@
                     <careInstruction>Dry at low temperature</careInstruction>
                 </materialAndCareInstructions>
             </details>
-            <tag>regular</tag>
+            <tag>sale</tag>
         </product>
         <product number="BKA5353002000003" category="Coats">
             <name>Coat 'Light Brown'</name>
             <price>$139.00</price>
             <brand>Bershka</brand>
             <images>
-                <modelCenterImage>../img/fallWinterClothingCollection/900b7ddb9e4932c1add16d6149622711.avif</modelCenterImage>
-                <modelSideImage>../img/fallWinterClothingCollection/9a6f3a8f4d37306772e9cecd1d63d431.avif</modelSideImage>
-                <productFocusImage>../img/fallWinterClothingCollection/e326a0a5f94db5f15b65b59976c89380.avif</productFocusImage>
-                <productZoomImage>../img/fallWinterClothingCollection/e304fceb9dfa0d3397214f0f5e090dfe.avif</productZoomImage>
+                <modelCenterImage>img/fallWinterClothingCollection/900b7ddb9e4932c1add16d6149622711.avif</modelCenterImage>
+                <modelSideImage>img/fallWinterClothingCollection/9a6f3a8f4d37306772e9cecd1d63d431.avif</modelSideImage>
+                <productFocusImage>img/fallWinterClothingCollection/e326a0a5f94db5f15b65b59976c89380.avif</productFocusImage>
+                <productZoomImage>img/fallWinterClothingCollection/e304fceb9dfa0d3397214f0f5e090dfe.avif</productZoomImage>
             </images>
             <availableSizes>
                 <size>XS</size>
@@ -570,17 +571,17 @@
                     <careInstruction>Do not use bleach</careInstruction>
                 </materialAndCareInstructions>
             </details>
-            <tag>regular</tag>
+            <tag>new</tag>
         </product>
         <product number="BSB4326001000001" category="Coats">
             <name>Coat 'Captiva Black'</name>
             <price>$879.90</price>
             <brand>Boss</brand>
             <images>
-                <modelCenterImage>../img/fallWinterClothingCollection/0a7a3ae430957dc0405883f944bcc434.avif</modelCenterImage>
-                <modelSideImage>../img/fallWinterClothingCollection/592dc57e35a58340a2d2e51c2a048c21.avif</modelSideImage>
-                <productFocusImage>../img/fallWinterClothingCollection/96a90a2ebe1dbbf634f2b3bbb06232a1.avif</productFocusImage>
-                <productZoomImage>../img/fallWinterClothingCollection/c55daf66fed49041fac20e60857ddedd.avif</productZoomImage>
+                <modelCenterImage>img/fallWinterClothingCollection/0a7a3ae430957dc0405883f944bcc434.avif</modelCenterImage>
+                <modelSideImage>img/fallWinterClothingCollection/592dc57e35a58340a2d2e51c2a048c21.avif</modelSideImage>
+                <productFocusImage>img/fallWinterClothingCollection/96a90a2ebe1dbbf634f2b3bbb06232a1.avif</productFocusImage>
+                <productZoomImage>img/fallWinterClothingCollection/c55daf66fed49041fac20e60857ddedd.avif</productZoomImage>
             </images>
             <availableSizes>
                 <size>XS</size>
@@ -625,10 +626,10 @@
             <price>$879.90</price>
             <brand>Boss</brand>
             <images>
-                <modelCenterImage>../img/fallWinterClothingCollection/489a38eccda82d99d71b3a58993f6507.avif</modelCenterImage>
-                <modelSideImage>../img/fallWinterClothingCollection/e9fb9af2493225a91726610905dca696.avif</modelSideImage>
-                <productFocusImage>../img/fallWinterClothingCollection/f51d88ddde57cc4a185f1c9b33c1a2d9.avif</productFocusImage>
-                <productZoomImage>../img/fallWinterClothingCollection/cdc3304814460839af0a954a63182c0a.avif</productZoomImage>
+                <modelCenterImage>img/fallWinterClothingCollection/489a38eccda82d99d71b3a58993f6507.avif</modelCenterImage>
+                <modelSideImage>img/fallWinterClothingCollection/e9fb9af2493225a91726610905dca696.avif</modelSideImage>
+                <productFocusImage>img/fallWinterClothingCollection/f51d88ddde57cc4a185f1c9b33c1a2d9.avif</productFocusImage>
+                <productZoomImage>img/fallWinterClothingCollection/cdc3304814460839af0a954a63182c0a.avif</productZoomImage>
             </images>
             <availableSizes>
                 <size>XS</size>
@@ -665,17 +666,17 @@
                     <careInstruction>Gentle cleaning with perchlorethylene</careInstruction>
                 </materialAndCareInstructions>
             </details>
-            <tag>regular</tag>
+            <tag>best seller</tag>
         </product>
         <product number="PUB9aiw002000001" category="Coats">
             <name>Coat 'Dark Gray'</name>
             <price>$139.00 </price>
             <brand>Pull and Bear</brand>
             <images>
-                <modelCenterImage>../img/fallWinterClothingCollection/c84541aa7eec63490926b2551104d0de.avif</modelCenterImage>
-                <modelSideImage>../img/fallWinterClothingCollection/b0f54274ec567bfc344bbfaf77770f44.avif</modelSideImage>
-                <productFocusImage>../img/fallWinterClothingCollection/533e68c5e0476f71f22cf1aa1c50b21f.avif</productFocusImage>
-                <productZoomImage>../img/fallWinterClothingCollection/3d35b4a5575ee27de510ea12ba324ad8.avif</productZoomImage>
+                <modelCenterImage>img/fallWinterClothingCollection/c84541aa7eec63490926b2551104d0de.avif</modelCenterImage>
+                <modelSideImage>img/fallWinterClothingCollection/b0f54274ec567bfc344bbfaf77770f44.avif</modelSideImage>
+                <productFocusImage>img/fallWinterClothingCollection/533e68c5e0476f71f22cf1aa1c50b21f.avif</productFocusImage>
+                <productZoomImage>img/fallWinterClothingCollection/3d35b4a5575ee27de510ea12ba324ad8.avif</productZoomImage>
             </images>
             <availableSizes>
                 <size>XS</size>
@@ -721,10 +722,10 @@
             <price>$107.90 </price>
             <brand>Only</brand>
             <images>
-                <modelCenterImage>../img/fallWinterClothingCollection/cb0b5eadd7d2f0df40531fca81639eb7.avif</modelCenterImage>
-                <modelSideImage>../img/fallWinterClothingCollection/850c22819b0942b9311b8a28ae300f29.avif</modelSideImage>
-                <productFocusImage>../img/fallWinterClothingCollection/0e04379155cb24bf28ee41edd853eaf1.avif</productFocusImage>
-                <productZoomImage>../img/fallWinterClothingCollection/42c77988a8fa2cba9120be7c7bf64048.avif</productZoomImage>
+                <modelCenterImage>img/fallWinterClothingCollection/cb0b5eadd7d2f0df40531fca81639eb7.avif</modelCenterImage>
+                <modelSideImage>img/fallWinterClothingCollection/850c22819b0942b9311b8a28ae300f29.avif</modelSideImage>
+                <productFocusImage>img/fallWinterClothingCollection/0e04379155cb24bf28ee41edd853eaf1.avif</productFocusImage>
+                <productZoomImage>img/fallWinterClothingCollection/42c77988a8fa2cba9120be7c7bf64048.avif</productZoomImage>
             </images>
             <availableSizes>
                 <size>XS</size>
@@ -762,17 +763,17 @@
                     <careInstruction>Do not use bleach</careInstruction>
                 </materialAndCareInstructions>
             </details>
-            <tag>regular</tag>
+            <tag>new</tag>
         </product>
         <product number="GMK3725001000003" category="Coats">
             <name>Coat 'Romina'</name>
             <price>$272.90</price>
             <brand>Guido Maria Kretschmer</brand>
             <images>
-                <modelCenterImage>../img/fallWinterClothingCollection/87d73e832a669d9862a4e5449cade54a.avif</modelCenterImage>
-                <modelSideImage>../img/fallWinterClothingCollection/c5452f79417e1f6b4fe3f6feb1f49c23.avif</modelSideImage>
-                <productFocusImage>../img/fallWinterClothingCollection/8c574945471b8f850b098a02744ca6a6.avif</productFocusImage>
-                <productZoomImage>../img/fallWinterClothingCollection/d585868a1921f283e9b2d3fe333b386a.avif</productZoomImage>
+                <modelCenterImage>img/fallWinterClothingCollection/87d73e832a669d9862a4e5449cade54a.avif</modelCenterImage>
+                <modelSideImage>img/fallWinterClothingCollection/c5452f79417e1f6b4fe3f6feb1f49c23.avif</modelSideImage>
+                <productFocusImage>img/fallWinterClothingCollection/8c574945471b8f850b098a02744ca6a6.avif</productFocusImage>
+                <productZoomImage>img/fallWinterClothingCollection/d585868a1921f283e9b2d3fe333b386a.avif</productZoomImage>
             </images>
             <availableSizes>
                 <size>XS</size>
@@ -809,10 +810,10 @@
             <price>$45.95</price>
             <brand>Bershka</brand>
             <images>
-                <modelCenterImage>../img/fallWinterClothingCollection/e0493db509f3b5a999b0dbf596aaaa50.avif</modelCenterImage>
-                <modelSideImage>../img/fallWinterClothingCollection/0980adbb3ed9806b801ad5c819bfcf8e.avif</modelSideImage>
-                <productFocusImage>../img/fallWinterClothingCollection/ff41b7673afd6302550ac239d9f00969.avif</productFocusImage>
-                <productZoomImage>../img/fallWinterClothingCollection/a2db0c25f935265f6561c1ad2e290cc3.avif</productZoomImage>
+                <modelCenterImage>img/fallWinterClothingCollection/e0493db509f3b5a999b0dbf596aaaa50.avif</modelCenterImage>
+                <modelSideImage>img/fallWinterClothingCollection/0980adbb3ed9806b801ad5c819bfcf8e.avif</modelSideImage>
+                <productFocusImage>img/fallWinterClothingCollection/ff41b7673afd6302550ac239d9f00969.avif</productFocusImage>
+                <productZoomImage>img/fallWinterClothingCollection/a2db0c25f935265f6561c1ad2e290cc3.avif</productZoomImage>
             </images>
             <availableSizes>
                 <size>XS</size>
@@ -855,10 +856,10 @@
             <price>$45.95</price>
             <brand>Bershka</brand>
             <images>
-                <modelCenterImage>../img/fallWinterClothingCollection/8b7b662b9120018246db554d01f584a3.avif</modelCenterImage>
-                <modelSideImage>../img/fallWinterClothingCollection/682a559c61097551a96dbd494e98a112.avif</modelSideImage>
-                <productFocusImage>../img/fallWinterClothingCollection/0e63eb1d0259980e5646ec2ce34b3828.avif</productFocusImage>
-                <productZoomImage>../img/fallWinterClothingCollection/41697817568ac4a4b8c8fe0d0b62b69e.avif</productZoomImage>
+                <modelCenterImage>img/fallWinterClothingCollection/8b7b662b9120018246db554d01f584a3.avif</modelCenterImage>
+                <modelSideImage>img/fallWinterClothingCollection/682a559c61097551a96dbd494e98a112.avif</modelSideImage>
+                <productFocusImage>img/fallWinterClothingCollection/0e63eb1d0259980e5646ec2ce34b3828.avif</productFocusImage>
+                <productZoomImage>img/fallWinterClothingCollection/41697817568ac4a4b8c8fe0d0b62b69e.avif</productZoomImage>
             </images>
             <availableSizes>
                 <size>M</size>
@@ -899,10 +900,10 @@
             <price>$45.95</price>
             <brand>Bershka</brand>
             <images>
-                <modelCenterImage>../img/fallWinterClothingCollection/d158deee4fb6a075bd33dd21f02bf4ca.avif</modelCenterImage>
-                <modelSideImage>../img/fallWinterClothingCollection/3218a09469123693d85dfb47f0419ce9.avif</modelSideImage>
-                <productFocusImage>../img/fallWinterClothingCollection/9cb0da762f485fc3b3024eee890b1b4c.avif</productFocusImage>
-                <productZoomImage>../img/fallWinterClothingCollection/41697817568ac4a4b8c8fe0d0b62b69e.avif</productZoomImage>
+                <modelCenterImage>img/fallWinterClothingCollection/d158deee4fb6a075bd33dd21f02bf4ca.avif</modelCenterImage>
+                <modelSideImage>img/fallWinterClothingCollection/3218a09469123693d85dfb47f0419ce9.avif</modelSideImage>
+                <productFocusImage>img/fallWinterClothingCollection/9cb0da762f485fc3b3024eee890b1b4c.avif</productFocusImage>
+                <productZoomImage>img/fallWinterClothingCollection/41697817568ac4a4b8c8fe0d0b62b69e.avif</productZoomImage>
             </images>
             <availableSizes>
                 <size>M</size>
@@ -934,17 +935,17 @@
                     <careInstruction>Delicate wash 30°C</careInstruction>
                 </materialAndCareInstructions>
             </details>
-            <tag>regular</tag>
+            <tag>sale</tag>
         </product>
         <product number="BKA6396003000003" category="Jumpers">
             <name>Jumper 'Gray Melange'</name>
             <price>$45.95</price>
             <brand>Bershka</brand>
             <images>
-                <modelCenterImage>../img/fallWinterClothingCollection/d85e678a71fd5315cd35a841d17e6024.avif</modelCenterImage>
-                <modelSideImage>../img/fallWinterClothingCollection/ff9722b402db3e20a7204b9083d50d59.avif</modelSideImage>
-                <productFocusImage>../img/fallWinterClothingCollection/9434df2eea593fb407653b93048c924b.avif</productFocusImage>
-                <productZoomImage>../img/fallWinterClothingCollection/008bff40f1367f2aa7fd78294915fc72.avif</productZoomImage>
+                <modelCenterImage>img/fallWinterClothingCollection/d85e678a71fd5315cd35a841d17e6024.avif</modelCenterImage>
+                <modelSideImage>img/fallWinterClothingCollection/ff9722b402db3e20a7204b9083d50d59.avif</modelSideImage>
+                <productFocusImage>img/fallWinterClothingCollection/9434df2eea593fb407653b93048c924b.avif</productFocusImage>
+                <productZoomImage>img/fallWinterClothingCollection/008bff40f1367f2aa7fd78294915fc72.avif</productZoomImage>
             </images>
             <availableSizes>
                 <size>XS</size>
@@ -981,17 +982,17 @@
                     <careInstruction>Delicate wash 30°C</careInstruction>
                 </materialAndCareInstructions>
             </details>
-            <tag>regular</tag>
+            <tag>best seller</tag>
         </product>
         <product number="GAP9b18005000001" category="Jumpers">
             <name>Jumper 'Gray Polka Dot'</name>
             <price>$104.90</price>
             <brand>Gap</brand>
             <images>
-                <modelCenterImage>../img/fallWinterClothingCollection/82f53aa1199d800a711dad5202dfc997.avif</modelCenterImage>
-                <modelSideImage>../img/fallWinterClothingCollection/dd08e9f009beb018ce9e5dbc5f5cf9e3.avif</modelSideImage>
-                <productFocusImage>../img/fallWinterClothingCollection/480d6c5ae08809043f4ac8edf3f28c24.avif</productFocusImage>
-                <productZoomImage>../img/fallWinterClothingCollection/8b5b6af24f29d588f02994468402bc00.avif</productZoomImage>
+                <modelCenterImage>img/fallWinterClothingCollection/82f53aa1199d800a711dad5202dfc997.avif</modelCenterImage>
+                <modelSideImage>img/fallWinterClothingCollection/dd08e9f009beb018ce9e5dbc5f5cf9e3.avif</modelSideImage>
+                <productFocusImage>img/fallWinterClothingCollection/480d6c5ae08809043f4ac8edf3f28c24.avif</productFocusImage>
+                <productZoomImage>img/fallWinterClothingCollection/8b5b6af24f29d588f02994468402bc00.avif</productZoomImage>
             </images>
             <availableSizes>
                 <size>XS</size>
@@ -1035,10 +1036,10 @@
             <price>$104.90</price>
             <brand>Gap</brand>
             <images>
-                <modelCenterImage>../img/fallWinterClothingCollection/38df248b9ff2f3a784d2455e64b32734.avif</modelCenterImage>
-                <modelSideImage>../img/fallWinterClothingCollection/659afd33013738055bce3745acc564b9.avif</modelSideImage>
-                <productFocusImage>../img/fallWinterClothingCollection/abc89d77db3656b14d31468eb0981aa8.avif</productFocusImage>
-                <productZoomImage>../img/fallWinterClothingCollection/1e6b277cca11ec682e89a0b33e7be036.avif</productZoomImage>
+                <modelCenterImage>img/fallWinterClothingCollection/38df248b9ff2f3a784d2455e64b32734.avif</modelCenterImage>
+                <modelSideImage>img/fallWinterClothingCollection/659afd33013738055bce3745acc564b9.avif</modelSideImage>
+                <productFocusImage>img/fallWinterClothingCollection/abc89d77db3656b14d31468eb0981aa8.avif</productFocusImage>
+                <productZoomImage>img/fallWinterClothingCollection/1e6b277cca11ec682e89a0b33e7be036.avif</productZoomImage>
             </images>
             <availableSizes>
                 <size>XS</size>
@@ -1076,17 +1077,17 @@
                     <careInstruction>Oxygen bleaching</careInstruction>
                 </materialAndCareInstructions>
             </details>
-            <tag>regular</tag>
+            <tag>sale</tag>
         </product>
         <product number="THS9f95001000003" category="Jumpers">
             <name>Jumper 'Gray with Red, White and Blue Accents'</name>
             <price>$329.90</price>
             <brand>Tommy Hilfiger</brand>
             <images>
-                <modelCenterImage>../img/fallWinterClothingCollection/064392ff3927786f37d93c747c906756.avif</modelCenterImage>
-                <modelSideImage>../img/fallWinterClothingCollection/905cf2a7f473ebaffe5472ddfcbc22ba.avif</modelSideImage>
-                <productFocusImage>../img/fallWinterClothingCollection/371951cbf836950f25870b38e7e2f2d6.avif</productFocusImage>
-                <productZoomImage>../img/fallWinterClothingCollection/bab4a914e3106bd0eff7572791ddd5cd.avif</productZoomImage>
+                <modelCenterImage>img/fallWinterClothingCollection/064392ff3927786f37d93c747c906756.avif</modelCenterImage>
+                <modelSideImage>img/fallWinterClothingCollection/905cf2a7f473ebaffe5472ddfcbc22ba.avif</modelSideImage>
+                <productFocusImage>img/fallWinterClothingCollection/371951cbf836950f25870b38e7e2f2d6.avif</productFocusImage>
+                <productZoomImage>img/fallWinterClothingCollection/bab4a914e3106bd0eff7572791ddd5cd.avif</productZoomImage>
             </images>
             <availableSizes>
                 <size>S</size>
@@ -1123,17 +1124,17 @@
                     <careInstruction>Oxygen bleaching</careInstruction>
                 </materialAndCareInstructions>
             </details>
-            <tag>regular</tag>
+            <tag>new</tag>
         </product>
         <product number="THS9f95002000003" category="Jumpers">
             <name>Jumper 'White with Red and Blue Accents'</name>
             <price>$329.90</price>
             <brand>Tommy Hilfiger</brand>
             <images>
-                <modelCenterImage>../img/fallWinterClothingCollection/9705346aa881800e6d93e966531f9850.avif</modelCenterImage>
-                <modelSideImage>../img/fallWinterClothingCollection/de7ecee998e4d6bd40e28fd7a963a820.avif</modelSideImage>
-                <productFocusImage>../img/fallWinterClothingCollection/4b9597314ad93267ad722e1b01d6b199.avif</productFocusImage>
-                <productZoomImage>../img/fallWinterClothingCollection/de7ecee998e4d6bd40e28fd7a963a820.avif</productZoomImage>
+                <modelCenterImage>img/fallWinterClothingCollection/9705346aa881800e6d93e966531f9850.avif</modelCenterImage>
+                <modelSideImage>img/fallWinterClothingCollection/de7ecee998e4d6bd40e28fd7a963a820.avif</modelSideImage>
+                <productFocusImage>img/fallWinterClothingCollection/4b9597314ad93267ad722e1b01d6b199.avif</productFocusImage>
+                <productZoomImage>img/fallWinterClothingCollection/de7ecee998e4d6bd40e28fd7a963a820.avif</productZoomImage>
             </images>
             <availableSizes>
                 <size>XS</size>
@@ -1170,17 +1171,17 @@
                     <careInstruction>Oxygen bleaching</careInstruction>
                 </materialAndCareInstructions>
             </details>
-            <tag>regular</tag>
+            <tag>new</tag>
         </product>
         <product number="UCB3406001000001" category="Pants">
             <name>Black wide fit pants with a set</name>
             <price>$157.90</price>
             <brand>United Colors of Beneton</brand>
             <images>
-                <modelCenterImage>../img/fallWinterClothingCollection/f35567c8d74f9d7622579eeefe9c30bf.avif</modelCenterImage>
-                <modelSideImage>../img/fallWinterClothingCollection/4b6901476a6f63bd35f62703174a75d5.avif</modelSideImage>
-                <productFocusImage>../img/fallWinterClothingCollection/b616b5aa4899bae933767034495a535a.avif</productFocusImage>
-                <productZoomImage>../img/fallWinterClothingCollection/4c5e8651478abd7e25010122dec55105.avif</productZoomImage>
+                <modelCenterImage>img/fallWinterClothingCollection/f35567c8d74f9d7622579eeefe9c30bf.avif</modelCenterImage>
+                <modelSideImage>img/fallWinterClothingCollection/4b6901476a6f63bd35f62703174a75d5.avif</modelSideImage>
+                <productFocusImage>img/fallWinterClothingCollection/b616b5aa4899bae933767034495a535a.avif</productFocusImage>
+                <productZoomImage>img/fallWinterClothingCollection/4c5e8651478abd7e25010122dec55105.avif</productZoomImage>
             </images>
             <availableSizes>
                 <size>XS</size>
@@ -1222,15 +1223,15 @@
             </details>
             <tag>regular</tag>
         </product>
-        <product number="UCB3406001000001" category="Pants">
+        <product number="UCB3406002000001" category="Pants">
             <name>Beige wide fit pants with a set</name>
             <price>$157.90</price>
             <brand>United Colors of Beneton</brand>
             <images>
-                <modelCenterImage>../img/fallWinterClothingCollection/8041305bc7d6ee331979745cec64b3be.avif</modelCenterImage>
-                <modelSideImage>../img/fallWinterClothingCollection/5942ea7ae5e9e68e48702ef5ebfc28cf.avif</modelSideImage>
-                <productFocusImage>../img/fallWinterClothingCollection/af1d29792f257865c769a35e227fd7c1.avif</productFocusImage>
-                <productZoomImage>../img/fallWinterClothingCollection/d6fd171f1a97dd0e08d912a9d790bafd.avif</productZoomImage>
+                <modelCenterImage>img/fallWinterClothingCollection/8041305bc7d6ee331979745cec64b3be.avif</modelCenterImage>
+                <modelSideImage>img/fallWinterClothingCollection/5942ea7ae5e9e68e48702ef5ebfc28cf.avif</modelSideImage>
+                <productFocusImage>img/fallWinterClothingCollection/af1d29792f257865c769a35e227fd7c1.avif</productFocusImage>
+                <productZoomImage>img/fallWinterClothingCollection/d6fd171f1a97dd0e08d912a9d790bafd.avif</productZoomImage>
             </images>
             <availableSizes>
                 <size>XS</size>
@@ -1261,17 +1262,17 @@
                     <careInstruction>Gentle cleaning with perchlorethylene</careInstruction>
                 </materialAndCareInstructions>
             </details>
-            <tag>regular</tag>
+            <tag>best seller</tag>
         </product>
         <product number="HOL7688001000003" category="Pants">
             <name>Navy wide leg pants with a set</name>
             <price>$88.11</price>
             <brand>Hollister</brand>
             <images>
-                <modelCenterImage>../img/fallWinterClothingCollection/a8009326a807066606c4de92bb6300da.avif</modelCenterImage>
-                <modelSideImage>../img/fallWinterClothingCollection/61914fe535b58d4cf6551192cf68566c.avif</modelSideImage>
-                <productFocusImage>../img/fallWinterClothingCollection/f00a910e61ee7d14ef56a14238cec21f.avif</productFocusImage>
-                <productZoomImage>../img/fallWinterClothingCollection/2b2677f15eb5385b26cd90cf4cbdaeba.avif</productZoomImage>
+                <modelCenterImage>img/fallWinterClothingCollection/a8009326a807066606c4de92bb6300da.avif</modelCenterImage>
+                <modelSideImage>img/fallWinterClothingCollection/61914fe535b58d4cf6551192cf68566c.avif</modelSideImage>
+                <productFocusImage>img/fallWinterClothingCollection/f00a910e61ee7d14ef56a14238cec21f.avif</productFocusImage>
+                <productZoomImage>img/fallWinterClothingCollection/2b2677f15eb5385b26cd90cf4cbdaeba.avif</productZoomImage>
             </images>
             <availableSizes>
                 <size>XS</size>
@@ -1313,10 +1314,10 @@
             <price>$69.90</price>
             <brand>Bershka</brand>
             <images>
-                <modelCenterImage>../img/fallWinterClothingCollection/13c59d1cb0e135dd665584e0c21b2b7f.avif</modelCenterImage>
-                <modelSideImage>../img/fallWinterClothingCollection/5f9b8df35fb67b973c4283caa8763e72.avif</modelSideImage>
-                <productFocusImage>../img/fallWinterClothingCollection/f99408ccc4ed8fac110af6afb52f24b2.avif</productFocusImage>
-                <productZoomImage>../img/fallWinterClothingCollection/bf1225fd2e46db289a3848048925fa22.avif</productZoomImage>
+                <modelCenterImage>img/fallWinterClothingCollection/13c59d1cb0e135dd665584e0c21b2b7f.avif</modelCenterImage>
+                <modelSideImage>img/fallWinterClothingCollection/5f9b8df35fb67b973c4283caa8763e72.avif</modelSideImage>
+                <productFocusImage>img/fallWinterClothingCollection/f99408ccc4ed8fac110af6afb52f24b2.avif</productFocusImage>
+                <productZoomImage>img/fallWinterClothingCollection/bf1225fd2e46db289a3848048925fa22.avif</productZoomImage>
             </images>
             <availableSizes>
                 <size>XS</size>
@@ -1361,10 +1362,10 @@
             <price>$41.36</price>
             <brand>Pull and Bear</brand>
             <images>
-                <modelCenterImage>../img/fallWinterClothingCollection/ade14f4fa67cdefddc41ec9bec32563d.avif</modelCenterImage>
-                <modelSideImage>../img/fallWinterClothingCollection/6a8054d0419178b5e1557bb9c0b32668.avif</modelSideImage>
-                <productFocusImage>../img/fallWinterClothingCollection/c2730e152428d599b29e3ebaaf170033.avif</productFocusImage>
-                <productZoomImage>../img/fallWinterClothingCollection/fd7e441dafb89c152b9b49518f6f6337.avif</productZoomImage>
+                <modelCenterImage>img/fallWinterClothingCollection/ade14f4fa67cdefddc41ec9bec32563d.avif</modelCenterImage>
+                <modelSideImage>img/fallWinterClothingCollection/6a8054d0419178b5e1557bb9c0b32668.avif</modelSideImage>
+                <productFocusImage>img/fallWinterClothingCollection/c2730e152428d599b29e3ebaaf170033.avif</productFocusImage>
+                <productZoomImage>img/fallWinterClothingCollection/fd7e441dafb89c152b9b49518f6f6337.avif</productZoomImage>
             </images>
             <availableSizes>
                 <size>XS</size>
@@ -1410,10 +1411,10 @@
             <price>$173.61</price>
             <brand>Gestuz</brand>
             <images>
-                <modelCenterImage>../img/fallWinterClothingCollection/6fd51e3736a2b5f97be9831c909244ae.avif</modelCenterImage>
-                <modelSideImage>../img/fallWinterClothingCollection/71bd1a2d231aa37c1294ae39f5000707.avif</modelSideImage>
-                <productFocusImage>../img/fallWinterClothingCollection/bd0a5cd2e1075709371e12165fcf0742.avif</productFocusImage>
-                <productZoomImage>../img/fallWinterClothingCollection/7d8cf9763bd8051cfdf20bfa838f3c61.avif</productZoomImage>
+                <modelCenterImage>img/fallWinterClothingCollection/6fd51e3736a2b5f97be9831c909244ae.avif</modelCenterImage>
+                <modelSideImage>img/fallWinterClothingCollection/71bd1a2d231aa37c1294ae39f5000707.avif</modelSideImage>
+                <productFocusImage>img/fallWinterClothingCollection/bd0a5cd2e1075709371e12165fcf0742.avif</productFocusImage>
+                <productZoomImage>img/fallWinterClothingCollection/7d8cf9763bd8051cfdf20bfa838f3c61.avif</productZoomImage>
             </images>
             <availableSizes>
                 <size>XS</size>
@@ -1455,10 +1456,10 @@
             <price>$46.71</price>
             <brand>Monki</brand>
             <images>
-                <modelCenterImage>../img/fallWinterClothingCollection/35cf1f9da8569932ea297eb9f69707cd.avif</modelCenterImage>
-                <modelSideImage>../img/fallWinterClothingCollection/99b37a461cf5b39a94844237e429a858.avif</modelSideImage>
-                <productFocusImage>../img/fallWinterClothingCollection/7765135d2e495d00cb4bf7053b4a2b65.avif</productFocusImage>
-                <productZoomImage>../img/fallWinterClothingCollection/d888d8d7cb94761ad5228856adbe2059.avif</productZoomImage>
+                <modelCenterImage>img/fallWinterClothingCollection/35cf1f9da8569932ea297eb9f69707cd.avif</modelCenterImage>
+                <modelSideImage>img/fallWinterClothingCollection/99b37a461cf5b39a94844237e429a858.avif</modelSideImage>
+                <productFocusImage>img/fallWinterClothingCollection/7765135d2e495d00cb4bf7053b4a2b65.avif</productFocusImage>
+                <productZoomImage>img/fallWinterClothingCollection/d888d8d7cb94761ad5228856adbe2059.avif</productZoomImage>
             </images>
             <availableSizes>
                 <size>XS</size>
@@ -1502,10 +1503,10 @@
             <price>$69.21</price>
             <brand>.Object</brand>
             <images>
-                <modelCenterImage>../img/fallWinterClothingCollection/137fe89b7a9368de560e9bdfa4ca45c6.avif</modelCenterImage>
-                <modelSideImage>../img/fallWinterClothingCollection/00d9c67b2746793380e9df355e40231e.avif</modelSideImage>
-                <productFocusImage>../img/fallWinterClothingCollection/8664fa1276fa571aae4006dd4e9cdb72.avif</productFocusImage>
-                <productZoomImage>../img/fallWinterClothingCollection/e6739b3648ded5ab67a80d20b9ee821a.avif</productZoomImage>
+                <modelCenterImage>img/fallWinterClothingCollection/137fe89b7a9368de560e9bdfa4ca45c6.avif</modelCenterImage>
+                <modelSideImage>img/fallWinterClothingCollection/00d9c67b2746793380e9df355e40231e.avif</modelSideImage>
+                <productFocusImage>img/fallWinterClothingCollection/8664fa1276fa571aae4006dd4e9cdb72.avif</productFocusImage>
+                <productZoomImage>img/fallWinterClothingCollection/e6739b3648ded5ab67a80d20b9ee821a.avif</productZoomImage>
             </images>
             <availableSizes>
                 <size>XS</size>
@@ -1550,10 +1551,10 @@
             <price>$167.90</price>
             <brand>Abercrombie and Fitch</brand>
             <images>
-                <modelCenterImage>../img/fallWinterClothingCollection/58248061bb9f45da7b1fb78a015b1a65.avif</modelCenterImage>
-                <modelSideImage>../img/fallWinterClothingCollection/6c35fe7eb141df34a15e03134d96374b.avif</modelSideImage>
-                <productFocusImage>../img/fallWinterClothingCollection/2fa47a3ca752489565ef340f75d7a2e0.avif</productFocusImage>
-                <productZoomImage>../img/fallWinterClothingCollection/2801be98083a128d5b6a6da6b62c4e75.avif</productZoomImage>
+                <modelCenterImage>img/fallWinterClothingCollection/58248061bb9f45da7b1fb78a015b1a65.avif</modelCenterImage>
+                <modelSideImage>img/fallWinterClothingCollection/6c35fe7eb141df34a15e03134d96374b.avif</modelSideImage>
+                <productFocusImage>img/fallWinterClothingCollection/2fa47a3ca752489565ef340f75d7a2e0.avif</productFocusImage>
+                <productZoomImage>img/fallWinterClothingCollection/2801be98083a128d5b6a6da6b62c4e75.avif</productZoomImage>
             </images>
             <availableSizes>
                 <size>XS</size>
@@ -1594,14 +1595,16 @@
         </product>
     </collection>
     <collection name="Shoes Winter Collection 2023/2024">
+        <presentationImage>img/hero/P221893_ft_trends.avif</presentationImage>
+        <bannerImage>img/banner/shoesCollection.webp</bannerImage>
         <product number="GUE9b8d001000001" category="Low Boots">
             <name>'BISSONN' lace-up ankle boots</name>
             <price>$283.41</price>
             <brand>Guess</brand>
             <images>
-                <modelCenterImage>../img/shoesWinterCollection/cbce8778e32b7da26de3a03d443cfaab.avif</modelCenterImage>
-                <modelSideImage>../img/shoesWinterCollection/23e4932207d3478ba1a309ed7ce01562.avif</modelSideImage>
-                <productFocusImage>../img/shoesWinterCollection/a256c4579e1a2de5f8789a8986bdd4dc.avif</productFocusImage>
+                <modelCenterImage>img/shoesWinterCollection/cbce8778e32b7da26de3a03d443cfaab.avif</modelCenterImage>
+                <modelSideImage>img/shoesWinterCollection/23e4932207d3478ba1a309ed7ce01562.avif</modelSideImage>
+                <productFocusImage>img/shoesWinterCollection/a256c4579e1a2de5f8789a8986bdd4dc.avif</productFocusImage>
             </images>
             <availableSizes>
                 <size>36</size>
@@ -1644,9 +1647,9 @@
             <price>$263.61</price>
             <brand>Tommy Hilfiger</brand>
             <images>
-                <modelCenterImage>../img/shoesWinterCollection/37946ea940c83f9d8671d710128b4038.avif</modelCenterImage>
-                <modelSideImage>../img/shoesWinterCollection/424d964e19f38e1dd60e8220cd84f4d0.avif</modelSideImage>
-                <productFocusImage>../img/shoesWinterCollection/5f71b1d779c61dff54243444b766e564.avif</productFocusImage>
+                <modelCenterImage>img/shoesWinterCollection/37946ea940c83f9d8671d710128b4038.avif</modelCenterImage>
+                <modelSideImage>img/shoesWinterCollection/424d964e19f38e1dd60e8220cd84f4d0.avif</modelSideImage>
+                <productFocusImage>img/shoesWinterCollection/5f71b1d779c61dff54243444b766e564.avif</productFocusImage>
             </images>
             <availableSizes>
                 <size>36</size>
@@ -1692,9 +1695,9 @@
             <price>$209.61</price>
             <brand>Nike Sportswear</brand>
             <images>
-                <modelCenterImage>../img/shoesWinterCollection/6a2ad3341d69757b8b1622fec751e7ab.avif</modelCenterImage>
-                <modelSideImage>../img/shoesWinterCollection/b51c1ed309b05054bfde65fa6496a075.avif</modelSideImage>
-                <productFocusImage>../img/shoesWinterCollection/a256c4579e1a2de5f8789a8986bdd4dc.avif</productFocusImage>
+                <modelCenterImage>img/shoesWinterCollection/6a2ad3341d69757b8b1622fec751e7ab.avif</modelCenterImage>
+                <modelSideImage>img/shoesWinterCollection/b51c1ed309b05054bfde65fa6496a075.avif</modelSideImage>
+                <productFocusImage>img/shoesWinterCollection/a256c4579e1a2de5f8789a8986bdd4dc.avif</productFocusImage>
             </images>
             <availableSizes>
                 <size>36</size>
@@ -1743,9 +1746,9 @@
             <price>$161.10</price>
             <brand>Tamaris</brand>
             <images>
-                <modelCenterImage>../img/shoesWinterCollection/bae5bc5e85daca78fc845edfbca31d89.avif</modelCenterImage>
-                <modelSideImage>../img/shoesWinterCollection/89a2a2f330cef83f56fb31bb12401f2c.avif</modelSideImage>
-                <productFocusImage>../img/shoesWinterCollection/cee2b560e6752ef0d1832767f4d860ca.avif</productFocusImage>
+                <modelCenterImage>img/shoesWinterCollection/bae5bc5e85daca78fc845edfbca31d89.avif</modelCenterImage>
+                <modelSideImage>img/shoesWinterCollection/89a2a2f330cef83f56fb31bb12401f2c.avif</modelSideImage>
+                <productFocusImage>img/shoesWinterCollection/cee2b560e6752ef0d1832767f4d860ca.avif</productFocusImage>
             </images>
             <availableSizes>
                 <size>36</size>
@@ -1786,9 +1789,9 @@
             <price>$139.30</price>
             <brand>Tamaris</brand>
             <images>
-                <modelCenterImage>../img/shoesWinterCollection/8f0c5f16dca8652e56a7d4e59bba44ca.avif</modelCenterImage>
-                <modelSideImage>../img/shoesWinterCollection/893323893e7c8027dcf23671b5400719.avif</modelSideImage>
-                <productFocusImage>../img/shoesWinterCollection/a2fc62077922c4a21b79774037e9fb0d.avif</productFocusImage>
+                <modelCenterImage>img/shoesWinterCollection/8f0c5f16dca8652e56a7d4e59bba44ca.avif</modelCenterImage>
+                <modelSideImage>img/shoesWinterCollection/893323893e7c8027dcf23671b5400719.avif</modelSideImage>
+                <productFocusImage>img/shoesWinterCollection/a2fc62077922c4a21b79774037e9fb0d.avif</productFocusImage>
             </images>
             <availableSizes>
                 <size>36</size>
@@ -1829,9 +1832,9 @@
             <price>$98.95</price>
             <brand>Lascana</brand>
             <images>
-                <modelCenterImage>../img/shoesWinterCollection/ea7c2b707e5f859ac7a5f87024d891bc.avif</modelCenterImage>
-                <modelSideImage>../img/shoesWinterCollection/0b75b54781afdda4caebc5d27555174b.avif</modelSideImage>
-                <productFocusImage>../img/shoesWinterCollection/fe60f5417395e4ceeb99506fd17527a6.avif</productFocusImage>
+                <modelCenterImage>img/shoesWinterCollection/ea7c2b707e5f859ac7a5f87024d891bc.avif</modelCenterImage>
+                <modelSideImage>img/shoesWinterCollection/0b75b54781afdda4caebc5d27555174b.avif</modelSideImage>
+                <productFocusImage>img/shoesWinterCollection/fe60f5417395e4ceeb99506fd17527a6.avif</productFocusImage>
             </images>
             <availableSizes>
                 <size>36</size>
@@ -1864,9 +1867,9 @@
             <price>$75.53</price>
             <brand>Tom Tailor</brand>
             <images>
-                <modelCenterImage>../img/shoesWinterCollection/490b96eb71e0936d8cb8d6924b1703a9.avif</modelCenterImage>
-                <modelSideImage>../img/shoesWinterCollection/b0238614967d4e1960acf40bb628e19a.avif</modelSideImage>
-                <productFocusImage>../img/shoesWinterCollection/8ef2c9c69e9a4edbc5fc46db2ee9c660.avif</productFocusImage>
+                <modelCenterImage>img/shoesWinterCollection/490b96eb71e0936d8cb8d6924b1703a9.avif</modelCenterImage>
+                <modelSideImage>img/shoesWinterCollection/b0238614967d4e1960acf40bb628e19a.avif</modelSideImage>
+                <productFocusImage>img/shoesWinterCollection/8ef2c9c69e9a4edbc5fc46db2ee9c660.avif</productFocusImage>
             </images>
             <availableSizes>
                 <size>36</size>
@@ -1903,9 +1906,9 @@
             <price>$98.95</price>
             <brand>Lascana</brand>
             <images>
-                <modelCenterImage>../img/shoesWinterCollection/7a60d63b7aa9d2d0c4da9ca66cc58466.avif</modelCenterImage>
-                <modelSideImage>../img/shoesWinterCollection/140ac4fd358bf4d3bef0dc04c4210581.avif</modelSideImage>
-                <productFocusImage>../img/shoesWinterCollection/8bf9c49bae1335e70625b81b09e7d125.avif</productFocusImage>
+                <modelCenterImage>img/shoesWinterCollection/7a60d63b7aa9d2d0c4da9ca66cc58466.avif</modelCenterImage>
+                <modelSideImage>img/shoesWinterCollection/140ac4fd358bf4d3bef0dc04c4210581.avif</modelSideImage>
+                <productFocusImage>img/shoesWinterCollection/8bf9c49bae1335e70625b81b09e7d125.avif</productFocusImage>
             </images>
             <availableSizes>
                 <size>36</size>
@@ -1936,9 +1939,9 @@
             <price>$98.95</price>
             <brand>Lascana</brand>
             <images>
-                <modelCenterImage>../img/shoesWinterCollection/01a0f336a872f64d61063e5f27f9dd97.avif</modelCenterImage>
-                <modelSideImage>../img/shoesWinterCollection/51d12bc7ea7dd13cd9a1d8e5875de6dd.avif</modelSideImage>
-                <productFocusImage>../img/shoesWinterCollection/6b7bef259edd1c4e624ed2856675e5cf.avif</productFocusImage>
+                <modelCenterImage>img/shoesWinterCollection/01a0f336a872f64d61063e5f27f9dd97.avif</modelCenterImage>
+                <modelSideImage>img/shoesWinterCollection/51d12bc7ea7dd13cd9a1d8e5875de6dd.avif</modelSideImage>
+                <productFocusImage>img/shoesWinterCollection/6b7bef259edd1c4e624ed2856675e5cf.avif</productFocusImage>
             </images>
             <availableSizes>
                 <size>37</size>
@@ -1961,16 +1964,16 @@
                     <outerSole>Synthetics</outerSole>
                 </materialAndCareInstructions>
             </details>
-            <tag>regular</tag>
+            <tag>best seller</tag>
         </product>
         <product number="LAS6410001000003" category="Tall Boots">
             <name>Light brown tall boots</name>
             <price>$187.92</price>
             <brand>Lascana</brand>
             <images>
-                <modelCenterImage>../img/shoesWinterCollection/d1815ad79420cd9dcab66eecda196173.avif</modelCenterImage>
-                <modelSideImage>../img/shoesWinterCollection/bebb323d6fa89b3c4014b4477823ac66.avif</modelSideImage>
-                <productFocusImage>../img/shoesWinterCollection/e906d1b1e3ea013115d447540fa69b8d.avif</productFocusImage>
+                <modelCenterImage>img/shoesWinterCollection/d1815ad79420cd9dcab66eecda196173.avif</modelCenterImage>
+                <modelSideImage>img/shoesWinterCollection/bebb323d6fa89b3c4014b4477823ac66.avif</modelSideImage>
+                <productFocusImage>img/shoesWinterCollection/e906d1b1e3ea013115d447540fa69b8d.avif</productFocusImage>
             </images>
             <availableSizes>
                 <size>36</size>
@@ -1998,16 +2001,16 @@
                     <outerSole>Synthetics</outerSole>
                 </materialAndCareInstructions>
             </details>
-            <tag>regular</tag>
+            <tag>new</tag>
         </product>
         <product number="LAS6480002000003" category="Tall Boots">
             <name>Dark brown tall boots</name>
             <price>$197.90</price>
             <brand>Lascana</brand>
             <images>
-                <modelCenterImage>../img/shoesWinterCollection/86e62f6c3a0108a49ffd29fcb5bbda9f.avif</modelCenterImage>
-                <modelSideImage>../img/shoesWinterCollection/d2e0faa09112425ab017d82c4e196fdb.avif</modelSideImage>
-                <productFocusImage>../img/shoesWinterCollection/6d4f10f371d452993b7f9c4f85de1e90.avif</productFocusImage>
+                <modelCenterImage>img/shoesWinterCollection/86e62f6c3a0108a49ffd29fcb5bbda9f.avif</modelCenterImage>
+                <modelSideImage>img/shoesWinterCollection/d2e0faa09112425ab017d82c4e196fdb.avif</modelSideImage>
+                <productFocusImage>img/shoesWinterCollection/6d4f10f371d452993b7f9c4f85de1e90.avif</productFocusImage>
             </images>
             <availableSizes>
                 <size>36</size>
@@ -2034,16 +2037,16 @@
                     <outerSole>Synthetics</outerSole>
                 </materialAndCareInstructions>
             </details>
-            <tag>regular</tag>
+            <tag>sale</tag>
         </product>
         <product number="LAS6480004000001" category="Tall Boots">
             <name>Black tall boots</name>
             <price>$98.95</price>
             <brand>Lascana</brand>
             <images>
-                <modelCenterImage>../img/shoesWinterCollection/56154eabd6a4f56533303ab59263f50e.avif</modelCenterImage>
-                <modelSideImage>../img/shoesWinterCollection/a9e2674e8dc548fc479ca1ecff07b13c.avif</modelSideImage>
-                <productFocusImage>../img/shoesWinterCollection/7d541be77a338e9ac02db5d3d4859921.avif</productFocusImage>
+                <modelCenterImage>img/shoesWinterCollection/56154eabd6a4f56533303ab59263f50e.avif</modelCenterImage>
+                <modelSideImage>img/shoesWinterCollection/a9e2674e8dc548fc479ca1ecff07b13c.avif</modelSideImage>
+                <productFocusImage>img/shoesWinterCollection/7d541be77a338e9ac02db5d3d4859921.avif</productFocusImage>
             </images>
             <availableSizes>
                 <size>37</size>
@@ -2073,9 +2076,9 @@
             <price>$98.95</price>
             <brand>Lascana</brand>
             <images>
-                <modelCenterImage>../img/shoesWinterCollection/8adf789474b0355788c4e8168cedf8de.avif</modelCenterImage>
-                <modelSideImage>../img/shoesWinterCollection/5ddde3fc3008e1245256cb616a1d36cf.avif</modelSideImage>
-                <productFocusImage>../img/shoesWinterCollection/1afe94dfe7432330e6cea7bf8e987356.avif</productFocusImage>
+                <modelCenterImage>img/shoesWinterCollection/8adf789474b0355788c4e8168cedf8de.avif</modelCenterImage>
+                <modelSideImage>img/shoesWinterCollection/5ddde3fc3008e1245256cb616a1d36cf.avif</modelSideImage>
+                <productFocusImage>img/shoesWinterCollection/1afe94dfe7432330e6cea7bf8e987356.avif</productFocusImage>
             </images>
             <availableSizes>
                 <size>39</size>
@@ -2105,9 +2108,9 @@
             <price>$98.95</price>
             <brand>Lascana</brand>
             <images>
-                <modelCenterImage>../img/shoesWinterCollection/4f2c9951f607e68c8bf03c5f9ef25da1.avif</modelCenterImage>
-                <modelSideImage>../img/shoesWinterCollection/e1d406743f4673eb280c50960d0527c9.avif</modelSideImage>
-                <productFocusImage>../img/shoesWinterCollection/a78e54c9622e8e46888ea201765ff154.avif</productFocusImage>
+                <modelCenterImage>img/shoesWinterCollection/4f2c9951f607e68c8bf03c5f9ef25da1.avif</modelCenterImage>
+                <modelSideImage>img/shoesWinterCollection/e1d406743f4673eb280c50960d0527c9.avif</modelSideImage>
+                <productFocusImage>img/shoesWinterCollection/a78e54c9622e8e46888ea201765ff154.avif</productFocusImage>
             </images>
             <availableSizes>
                 <size>38</size>
@@ -2131,16 +2134,16 @@
                     <outerSole>Synthetics</outerSole>
                 </materialAndCareInstructions>
             </details>
-            <tag>regular</tag>
+            <tag>new</tag>
         </product>
         <product number="MUT0838002000001" category="Tall Boots">
             <name>Saddle brown tall boots with laces</name>
             <price>$151.22</price>
             <brand>Mustang</brand>
             <images>
-                <modelCenterImage>../img/shoesWinterCollection/5aee8903ec92d686a23a6843c05bcdfe.avif</modelCenterImage>
-                <modelSideImage>../img/shoesWinterCollection/6c71a73b88de0f76d5e5cebae3cd85cb.avif</modelSideImage>
-                <productFocusImage>../img/shoesWinterCollection/3c6c2ab7be856bc2e2b58ee1e2c4337f.avif</productFocusImage>
+                <modelCenterImage>img/shoesWinterCollection/5aee8903ec92d686a23a6843c05bcdfe.avif</modelCenterImage>
+                <modelSideImage>img/shoesWinterCollection/6c71a73b88de0f76d5e5cebae3cd85cb.avif</modelSideImage>
+                <productFocusImage>img/shoesWinterCollection/3c6c2ab7be856bc2e2b58ee1e2c4337f.avif</productFocusImage>
             </images>
             <availableSizes>
                 <size>36</size>
@@ -2172,16 +2175,16 @@
                     <outerSole>Rubber</outerSole>
                 </materialAndCareInstructions>
             </details>
-            <tag>regular</tag>
+            <tag>sale</tag>
         </product>
         <product number="MUT0309004000001" category="Tall Boots">
             <name>Black tall boots with laces</name>
             <price>$133.43</price>
             <brand>Mustang</brand>
             <images>
-                <modelCenterImage>../img/shoesWinterCollection/ce0671a376c948a7c644c092829cdaff.avif</modelCenterImage>
-                <modelSideImage>../img/shoesWinterCollection/1514ee91affa39f75e07fe4310f05a0d.avif</modelSideImage>
-                <productFocusImage>../img/shoesWinterCollection/940c2989780c3fbd90f9c1b37cf61568.avif</productFocusImage>
+                <modelCenterImage>img/shoesWinterCollection/ce0671a376c948a7c644c092829cdaff.avif</modelCenterImage>
+                <modelSideImage>img/shoesWinterCollection/1514ee91affa39f75e07fe4310f05a0d.avif</modelSideImage>
+                <productFocusImage>img/shoesWinterCollection/940c2989780c3fbd90f9c1b37cf61568.avif</productFocusImage>
             </images>
             <availableSizes>
                 <size>36</size>
@@ -2213,16 +2216,16 @@
                     <outerSole>Rubber</outerSole>
                 </materialAndCareInstructions>
             </details>
-            <tag>regular</tag>
+            <tag>best seller</tag>
         </product>
         <product number="EDT4794002000001" category="Tall Boots">
             <name>White Tall boots 'Gilberta'</name>
             <price>$194.95</price>
             <brand>Edited</brand>
             <images>
-                <modelCenterImage>../img/shoesWinterCollection/da36c3f9f1716939aebcae4e3ead2500.avif</modelCenterImage>
-                <modelSideImage>../img/shoesWinterCollection/90b4a2d7c40854bcdc6d8415c1f9da99.avif</modelSideImage>
-                <productFocusImage>../img/shoesWinterCollection/28e6abc493cf3fb59134423786dfe494.avif</productFocusImage>
+                <modelCenterImage>img/shoesWinterCollection/da36c3f9f1716939aebcae4e3ead2500.avif</modelCenterImage>
+                <modelSideImage>img/shoesWinterCollection/90b4a2d7c40854bcdc6d8415c1f9da99.avif</modelSideImage>
+                <productFocusImage>img/shoesWinterCollection/28e6abc493cf3fb59134423786dfe494.avif</productFocusImage>
             </images>
             <availableSizes>
                 <size>36</size>
@@ -2253,16 +2256,16 @@
                     <outerSole>Rubber</outerSole>
                 </materialAndCareInstructions>
             </details>
-            <tag>regular</tag>
+            <tag>best seller</tag>
         </product>
         <product number="EDT4794001000001" category="Tall Boots">
             <name>Black Tall boots 'Gilberta'</name>
             <price>$331.42</price>
             <brand>Edited</brand>
             <images>
-                <modelCenterImage>../img/shoesWinterCollection/949cf309f3382090dac83986ae944f00.avif</modelCenterImage>
-                <modelSideImage>../img/shoesWinterCollection/d1ab423706c656af89e329db7d6e830b.avif</modelSideImage>
-                <productFocusImage>../img/shoesWinterCollection/49ea61901f13810d7f53fbfae0b4b344.avif</productFocusImage>
+                <modelCenterImage>img/shoesWinterCollection/949cf309f3382090dac83986ae944f00.avif</modelCenterImage>
+                <modelSideImage>img/shoesWinterCollection/d1ab423706c656af89e329db7d6e830b.avif</modelSideImage>
+                <productFocusImage>img/shoesWinterCollection/49ea61901f13810d7f53fbfae0b4b344.avif</productFocusImage>
             </images>
             <availableSizes>
                 <size>36</size>
@@ -2299,9 +2302,9 @@
             <price>$194.95</price>
             <brand>Edited</brand>
             <images>
-                <modelCenterImage>../img/shoesWinterCollection/9bb2f3ee9fa33dbc34e3c8bc9398d8b1.avif</modelCenterImage>
-                <modelSideImage>../img/shoesWinterCollection/7261419c6871735051529e139f23e755.avif</modelSideImage>
-                <productFocusImage>../img/shoesWinterCollection/4a20db20ab0a6a9d354a932fcdbaa96c.avif</productFocusImage>
+                <modelCenterImage>img/shoesWinterCollection/9bb2f3ee9fa33dbc34e3c8bc9398d8b1.avif</modelCenterImage>
+                <modelSideImage>img/shoesWinterCollection/7261419c6871735051529e139f23e755.avif</modelSideImage>
+                <productFocusImage>img/shoesWinterCollection/4a20db20ab0a6a9d354a932fcdbaa96c.avif</productFocusImage>
             </images>
             <availableSizes>
                 <size>36</size>
@@ -2336,13 +2339,14 @@
         </product>
     </collection>
     <collection name="Accessories Fall Collection 2023">
+        <bannerImage>img/banner/accessoriesCollection.jpg</bannerImage>
         <product number="HID9b7b003000001" category="Hats">
             <name>Navy blue knitted hat</name>
             <price>$58.90</price>
             <brand>Tommy Jeans</brand>
             <images>
-                <modelCenterImage>../img/accessoriesFallCollection/1ffaa76684c9edf196800cd0d8b40bda.avif</modelCenterImage>
-                <modelSideImage>../img/accessoriesFallCollection/56568e8aa80b4a42c651437a278aa1ad.avif</modelSideImage>
+                <modelCenterImage>img/accessoriesFallCollection/1ffaa76684c9edf196800cd0d8b40bda.avif</modelCenterImage>
+                <modelSideImage>img/accessoriesFallCollection/56568e8aa80b4a42c651437a278aa1ad.avif</modelSideImage>
             </images>
             <color>navyblue</color>
             <details>
@@ -2359,15 +2363,15 @@
                     <countryOfOrigin>China</countryOfOrigin>
                 </materialAndCareInstructions>
             </details>
-            <tag>regular</tag>
+            <tag>sale</tag>
         </product>
         <product number="HID9b7b008000001" category="Hats">
             <name>Red knitted hat</name>
             <price>$58.90</price>
             <brand>Tommy Jeans</brand>
             <images>
-                <modelCenterImage>../img/accessoriesFallCollection/a1583928005752e7399e1ed52f0c5b1a.avif</modelCenterImage>
-                <modelSideImage>../img/accessoriesFallCollection/574d4ec3974ed92764f6c9e3ac0eaf34.avif</modelSideImage>
+                <modelCenterImage>img/accessoriesFallCollection/a1583928005752e7399e1ed52f0c5b1a.avif</modelCenterImage>
+                <modelSideImage>img/accessoriesFallCollection/574d4ec3974ed92764f6c9e3ac0eaf34.avif</modelSideImage>
             </images>
             <color>red</color>
             <details>
@@ -2402,8 +2406,8 @@
             <price>$58.90</price>
             <brand>Tommy Jeans</brand>
             <images>
-                <modelCenterImage>../img/accessoriesFallCollection/ef0e8f5136456f8b5fe79e2c54617e4d.avif</modelCenterImage>
-                <modelSideImage>../img/accessoriesFallCollection/c80beab364151562c06c277186ef9d41.avif</modelSideImage>
+                <modelCenterImage>img/accessoriesFallCollection/ef0e8f5136456f8b5fe79e2c54617e4d.avif</modelCenterImage>
+                <modelSideImage>img/accessoriesFallCollection/c80beab364151562c06c277186ef9d41.avif</modelSideImage>
             </images>
             <color>green</color>
             <details>
@@ -2431,15 +2435,15 @@
                     <careInstruction>Not to be squeezed</careInstruction>
                 </materialAndCareInstructions>
             </details>
-            <tag>regular</tag>
+            <tag>sale</tag>
         </product>
         <product number="HID9b7b006000001" category="Hats">
             <name>Beige knitted hat</name>
             <price>$58.90</price>
             <brand>Tommy Jeans</brand>
             <images>
-                <modelCenterImage>../img/accessoriesFallCollection/9fc8d661c10d290e9ee4b2242894e696.avif</modelCenterImage>
-                <modelSideImage>../img/accessoriesFallCollection/39d5a087031b17aaebc21fe07497e861.avif</modelSideImage>
+                <modelCenterImage>img/accessoriesFallCollection/9fc8d661c10d290e9ee4b2242894e696.avif</modelCenterImage>
+                <modelSideImage>img/accessoriesFallCollection/39d5a087031b17aaebc21fe07497e861.avif</modelSideImage>
             </images>
             <color>beige</color>
             <details>
@@ -2465,15 +2469,15 @@
                     <careInstruction>Do not use bleach</careInstruction>
                 </materialAndCareInstructions>
             </details>
-            <tag>regular</tag>
+            <tag>sale</tag>
         </product>
         <product number="HID9b7b002000001" category="Hats">
             <name>Black knitted hat</name>
             <price>$58.90</price>
             <brand>Tommy Jeans</brand>
             <images>
-                <modelCenterImage>../img/accessoriesFallCollection/ab455dfc8ab9c96e52b0d59f104533b5.avif</modelCenterImage>
-                <modelSideImage>../img/accessoriesFallCollection/dd670dcaa62b8163de19f0e4a17ef439.avif</modelSideImage>
+                <modelCenterImage>img/accessoriesFallCollection/ab455dfc8ab9c96e52b0d59f104533b5.avif</modelCenterImage>
+                <modelSideImage>img/accessoriesFallCollection/dd670dcaa62b8163de19f0e4a17ef439.avif</modelSideImage>
             </images>
             <color>black</color>
             <details>
@@ -2504,8 +2508,8 @@
             <price>$58.90</price>
             <brand>Tommy Jeans</brand>
             <images>
-                <modelCenterImage>../img/accessoriesFallCollection/9a504fa8eaddd28e248ee90227b4b4b2.avif</modelCenterImage>
-                <modelSideImage>../img/accessoriesFallCollection/abe7c076b6f2981f3be2ac3cb703d924.avif</modelSideImage>
+                <modelCenterImage>img/accessoriesFallCollection/9a504fa8eaddd28e248ee90227b4b4b2.avif</modelCenterImage>
+                <modelSideImage>img/accessoriesFallCollection/abe7c076b6f2981f3be2ac3cb703d924.avif</modelSideImage>
             </images>
             <color>white</color>
             <details>
@@ -2539,8 +2543,8 @@
             <price>$58.90</price>
             <brand>Tommy Jeans</brand>
             <images>
-                <modelCenterImage>../img/accessoriesFallCollection/493c6df05c1a3c139ac41fb089a8037a.avif</modelCenterImage>
-                <modelSideImage>../img/accessoriesFallCollection/693f9382edbf971717cb1689d1cfc971.avif</modelSideImage>
+                <modelCenterImage>img/accessoriesFallCollection/493c6df05c1a3c139ac41fb089a8037a.avif</modelCenterImage>
+                <modelSideImage>img/accessoriesFallCollection/693f9382edbf971717cb1689d1cfc971.avif</modelSideImage>
             </images>
             <color>grey</color>
             <details>
@@ -2575,8 +2579,8 @@
             <price>$58.90</price>
             <brand>Tommy Jeans</brand>
             <images>
-                <modelCenterImage>../img/accessoriesFallCollection/5af2aa85cdf98c910ceba57143785fb0.avif</modelCenterImage>
-                <modelSideImage>../img/accessoriesFallCollection/dfde0fcfca04beb6d31581c3791a866c.avif</modelSideImage>
+                <modelCenterImage>img/accessoriesFallCollection/5af2aa85cdf98c910ceba57143785fb0.avif</modelCenterImage>
+                <modelSideImage>img/accessoriesFallCollection/dfde0fcfca04beb6d31581c3791a866c.avif</modelSideImage>
             </images>
             <color>royalblue</color>
             <details>
@@ -2602,15 +2606,15 @@
                     <careInstruction>Do not use bleach</careInstruction>
                 </materialAndCareInstructions>
             </details>
-            <tag>regular</tag>
+            <tag>new</tag>
         </product>
         <product number="THS9h8b002000001" category="Hats">
             <name>Dark blue knitted hat</name>
             <price>$102.32</price>
             <brand>Tommy Hilfiger</brand>
             <images>
-                <modelCenterImage>../img/accessoriesFallCollection/9fccce6c8663257851aec7608b168496.avif</modelCenterImage>
-                <modelSideImage>../img/accessoriesFallCollection/6fb487923c3ae186b03536f71ecde433.avif</modelSideImage>
+                <modelCenterImage>img/accessoriesFallCollection/9fccce6c8663257851aec7608b168496.avif</modelCenterImage>
+                <modelSideImage>img/accessoriesFallCollection/6fb487923c3ae186b03536f71ecde433.avif</modelSideImage>
             </images>
             <color>darkblue</color>
             <details>
@@ -2635,8 +2639,8 @@
             <price>$102.32</price>
             <brand>Tommy Hilfiger</brand>
             <images>
-                <modelCenterImage>../img/accessoriesFallCollection/39330a2b22d4910579a7e4c4a1842016.avif</modelCenterImage>
-                <modelSideImage>../img/accessoriesFallCollection/12761af498bdb8bba73688f825f478b2.avif</modelSideImage>
+                <modelCenterImage>img/accessoriesFallCollection/39330a2b22d4910579a7e4c4a1842016.avif</modelCenterImage>
+                <modelSideImage>img/accessoriesFallCollection/12761af498bdb8bba73688f825f478b2.avif</modelSideImage>
             </images>
             <color>darkblue</color>
             <details>
@@ -2660,15 +2664,15 @@
                     <careInstruction>Do not use bleach</careInstruction>
                 </materialAndCareInstructions>
             </details>
-            <tag>regular</tag>
+            <tag>new</tag>
         </product>
         <product number="BSB3918003000001" category="Hats">
             <name>Dark Blue knitted hat 'Pedro'</name>
             <price>$117.90</price>
             <brand>Boss</brand>
             <images>
-                <modelCenterImage>../img/accessoriesFallCollection/30d732d6a92319ae2331aa87b8b0a5d6.avif</modelCenterImage>
-                <modelSideImage>../img/accessoriesFallCollection/2054d56a38499d173738b4ea7e33389c.avif</modelSideImage>
+                <modelCenterImage>img/accessoriesFallCollection/30d732d6a92319ae2331aa87b8b0a5d6.avif</modelCenterImage>
+                <modelSideImage>img/accessoriesFallCollection/2054d56a38499d173738b4ea7e33389c.avif</modelSideImage>
             </images>
             <color>darkblue</color>
             <details>
@@ -2700,8 +2704,8 @@
             <price>$117.90</price>
             <brand>Boss</brand>
             <images>
-                <modelCenterImage>../img/accessoriesFallCollection/1163f6ad05afc5c42518755e5e594e6c.avif</modelCenterImage>
-                <modelSideImage>../img/accessoriesFallCollection/01646fae5d462e0b8ef86aef850ef2e6.avif</modelSideImage>
+                <modelCenterImage>img/accessoriesFallCollection/1163f6ad05afc5c42518755e5e594e6c.avif</modelCenterImage>
+                <modelSideImage>img/accessoriesFallCollection/01646fae5d462e0b8ef86aef850ef2e6.avif</modelSideImage>
             </images>
             <color>silver</color>
             <details>
@@ -2734,8 +2738,8 @@
             <price>$53.01</price>
             <brand>Criss</brand>
             <images>
-                <modelCenterImage>../img/accessoriesFallCollection/30b871972cbcec33e7da9f93e53ffc70.avif</modelCenterImage>
-                <modelSideImage>../img/accessoriesFallCollection/9ec6a7936380de50d54c5eec5a880ae7.avif</modelSideImage>
+                <modelCenterImage>img/accessoriesFallCollection/30b871972cbcec33e7da9f93e53ffc70.avif</modelCenterImage>
+                <modelSideImage>img/accessoriesFallCollection/9ec6a7936380de50d54c5eec5a880ae7.avif</modelSideImage>
             </images>
             <color>black</color>
             <details>
@@ -2761,7 +2765,7 @@
             <price>$53.01</price>
             <brand>Criss</brand>
             <images>
-                <modelCenterImage>../img/accessoriesFallCollection/3d583150102d0b69bd5e0dafa00e8a67.avif</modelCenterImage>
+                <modelCenterImage>img/accessoriesFallCollection/3d583150102d0b69bd5e0dafa00e8a67.avif</modelCenterImage>
             </images>
             <color>darkbrown</color>
             <details>
@@ -2782,14 +2786,14 @@
                     <careInstruction>Do not use bleach</careInstruction>
                 </materialAndCareInstructions>
             </details>
-            <tag>regular</tag>
+            <tag>best seller</tag>
         </product>
         <product number="AYO2937005000001" category="Scarfs">
             <name>Light brownish scarf 'Joyce'</name>
             <price>$53.01</price>
             <brand>Criss</brand>
             <images>
-                <modelCenterImage>../img/accessoriesFallCollection/6893a3dcbf62a6e4dccd1d2cda652535.avif</modelCenterImage>
+                <modelCenterImage>img/accessoriesFallCollection/6893a3dcbf62a6e4dccd1d2cda652535.avif</modelCenterImage>
             </images>
             <color>lightbrown</color>
             <details>
@@ -2817,7 +2821,7 @@
             <price>$53.01</price>
             <brand>Criss</brand>
             <images>
-                <modelCenterImage>../img/accessoriesFallCollection/9a2332b5d13f58c5501c19cab956cf47.avif</modelCenterImage>
+                <modelCenterImage>img/accessoriesFallCollection/9a2332b5d13f58c5501c19cab956cf47.avif</modelCenterImage>
             </images>
             <color>grey</color>
             <details>
@@ -2845,7 +2849,7 @@
             <price>$53.01</price>
             <brand>Criss</brand>
             <images>
-                <modelCenterImage>../img/accessoriesFallCollection/6e88cde3e3992da27c2a2831b5e8d744.avif</modelCenterImage>
+                <modelCenterImage>img/accessoriesFallCollection/6e88cde3e3992da27c2a2831b5e8d744.avif</modelCenterImage>
             </images>
             <color>pink</color>
             <details>
@@ -2866,14 +2870,14 @@
                     <careInstruction>Do not use bleach</careInstruction>
                 </materialAndCareInstructions>
             </details>
-            <tag>regular</tag>
+            <tag>best seller</tag>
         </product>
         <product number="THS9h89001000001" category="Scarfs">
             <name>Red formal scarf</name>
             <price>$170.32</price>
             <brand>Tommy Hilfiger</brand>
             <images>
-                <modelCenterImage>../img/accessoriesFallCollection/dbeef443c74de3dbcd24d0778c5b7b42.avif</modelCenterImage>
+                <modelCenterImage>img/accessoriesFallCollection/dbeef443c74de3dbcd24d0778c5b7b42.avif</modelCenterImage>
             </images>
             <color>pink</color>
             <details>
@@ -2905,7 +2909,7 @@
             <price>$58.74</price>
             <brand>Guido Maria Kretschmer</brand>
             <images>
-                <modelCenterImage>../img/accessoriesFallCollection/e841f9cf3eb1c9773f5f8ff5eccde04b.avif</modelCenterImage>
+                <modelCenterImage>img/accessoriesFallCollection/e841f9cf3eb1c9773f5f8ff5eccde04b.avif</modelCenterImage>
             </images>
             <color>lightblue</color>
             <details>
@@ -2925,14 +2929,14 @@
                     <careInstruction>Do not use bleach</careInstruction>
                 </materialAndCareInstructions>
             </details>
-            <tag>regular</tag>
+            <tag>best seller</tag>
         </product>
         <product number="GMK3834003000001" category="Scarfs">
             <name>Light brown checked scarf</name>
             <price>$58.74</price>
             <brand>Guido Maria Kretschmer</brand>
             <images>
-                <modelCenterImage>../img/accessoriesFallCollection/fde2a8d1caca7daab7d9911586df6d9a.avif</modelCenterImage>
+                <modelCenterImage>img/accessoriesFallCollection/fde2a8d1caca7daab7d9911586df6d9a.avif</modelCenterImage>
             </images>
             <color>lightbrown</color>
             <details>
@@ -2959,7 +2963,7 @@
             <price>$58.74</price>
             <brand>Guido Maria Kretschmer</brand>
             <images>
-                <modelCenterImage>../img/accessoriesFallCollection/17725240b46dd175be1acf484e18b9b9.avif</modelCenterImage>
+                <modelCenterImage>img/accessoriesFallCollection/17725240b46dd175be1acf484e18b9b9.avif</modelCenterImage>
             </images>
             <color>pink</color>
             <details>
@@ -2987,9 +2991,9 @@
             <price>$46.95</price>
             <brand>Vanzetti</brand>
             <images>
-                <modelCenterImage>../img/accessoriesFallCollection/19e6e82f6f3b46c04b7c60411c3821a1.avif</modelCenterImage>
-                <modelSideImage>../img/shoesWinterCollection/4c1d56a6ed8ad28113ce1d0080cbf3fd.avif</modelSideImage>
-                <productFocusImage>../img/shoesWinterCollection/7522234ff0132e172cb9420427b1fd8a.avif</productFocusImage>
+                <modelCenterImage>img/accessoriesFallCollection/19e6e82f6f3b46c04b7c60411c3821a1.avif</modelCenterImage>
+                <modelSideImage>img/shoesWinterCollection/4c1d56a6ed8ad28113ce1d0080cbf3fd.avif</modelSideImage>
+                <productFocusImage>img/shoesWinterCollection/7522234ff0132e172cb9420427b1fd8a.avif</productFocusImage>
             </images>
             <color>white</color>
             <details>
@@ -3012,10 +3016,10 @@
             <price>$65.73</price>
             <brand>Vanzetti</brand>
             <images>
-                <modelCenterImage>../img/accessoriesFallCollection/53fedadccd9b8f76c9691800707cd7bf.avif</modelCenterImage>
-                <modelSideImage>../img/accessoriesFallCollection/929c53a46c749687a06306b1bdc79b80.avif</modelSideImage>
-                <productFocusImage>../img/accessoriesFallCollection/a133c16d1055ca24060e54b61142627a.avif</productFocusImage>
-                <productZoomImage>../img/accessoriesFallCollection/6d358f6f86910c8270fe91270721516a.avif</productZoomImage>
+                <modelCenterImage>img/accessoriesFallCollection/53fedadccd9b8f76c9691800707cd7bf.avif</modelCenterImage>
+                <modelSideImage>img/accessoriesFallCollection/929c53a46c749687a06306b1bdc79b80.avif</modelSideImage>
+                <productFocusImage>img/accessoriesFallCollection/a133c16d1055ca24060e54b61142627a.avif</productFocusImage>
+                <productZoomImage>img/accessoriesFallCollection/6d358f6f86910c8270fe91270721516a.avif</productZoomImage>
             </images>
             <color>navyblue</color>
             <details>
@@ -3031,15 +3035,15 @@
                     <material>100% Leather</material>
                 </materialAndCareInstructions>
             </details>
-            <tag>regular</tag>
+            <tag>best seller</tag>
         </product>
         <product number="VAN0192003000001" category="Belts">
             <name>Red belt</name>
             <price>$46.95</price>
             <brand>Vanzetti</brand>
             <images>
-                <modelCenterImage>../img/accessoriesFallCollection/8c71914b5fabda9aeeeb9489a810e99a.avif</modelCenterImage>
-                <modelSideImage>../img/accessoriesFallCollection/514c986d1d6911f5ddfd295741489548.avif</modelSideImage>
+                <modelCenterImage>img/accessoriesFallCollection/8c71914b5fabda9aeeeb9489a810e99a.avif</modelCenterImage>
+                <modelSideImage>img/accessoriesFallCollection/514c986d1d6911f5ddfd295741489548.avif</modelSideImage>
             </images>
             <color>red</color>
             <details>
@@ -3063,10 +3067,10 @@
             <price>$36.72</price>
             <brand>Vanzetti</brand>
             <images>
-                <modelCenterImage>../img/accessoriesFallCollection/695031a4825c70a5a13075c4c4e064c7.avif</modelCenterImage>
-                <modelSideImage>../img/accessoriesFallCollection/e593b47f5e5716dbc198b49315095120.avif</modelSideImage>
-                <productFocusImage>../img/accessoriesFallCollection/a065d37f49eb24109cb1af7379e29a1f.avif</productFocusImage>
-                <productZoomImage>../img/accessoriesFallCollection/478b6bbc02983618c5347e7d3968452f.avif</productZoomImage>
+                <modelCenterImage>img/accessoriesFallCollection/695031a4825c70a5a13075c4c4e064c7.avif</modelCenterImage>
+                <modelSideImage>img/accessoriesFallCollection/e593b47f5e5716dbc198b49315095120.avif</modelSideImage>
+                <productFocusImage>img/accessoriesFallCollection/a065d37f49eb24109cb1af7379e29a1f.avif</productFocusImage>
+                <productZoomImage>img/accessoriesFallCollection/478b6bbc02983618c5347e7d3968452f.avif</productZoomImage>
             </images>
             <color>lightbrown</color>
             <details>
@@ -3091,9 +3095,9 @@
             <price>$65.73</price>
             <brand>Vanzetti</brand>
             <images>
-                <modelCenterImage>../img/accessoriesFallCollection/0a3657f090b3d488e3f4c5d2158f3809.avif</modelCenterImage>
-                <modelSideImage>../img/accessoriesFallCollection/325bf418ecd699f8b284b387bd56817c.avif</modelSideImage>
-                <productFocusImage>../img/accessoriesFallCollection/0d90841e0fb20c18b975a913bf44a124.avif</productFocusImage>
+                <modelCenterImage>img/accessoriesFallCollection/0a3657f090b3d488e3f4c5d2158f3809.avif</modelCenterImage>
+                <modelSideImage>img/accessoriesFallCollection/325bf418ecd699f8b284b387bd56817c.avif</modelSideImage>
+                <productFocusImage>img/accessoriesFallCollection/0d90841e0fb20c18b975a913bf44a124.avif</productFocusImage>
             </images>
             <color>black</color>
             <details>
@@ -3118,7 +3122,7 @@
             <price>$68.90</price>
             <brand>Levi's</brand>
             <images>
-                <modelCenterImage>../img/accessoriesFallCollection/fe15b54307c3d1990f0314554060f746.avif</modelCenterImage>
+                <modelCenterImage>img/accessoriesFallCollection/fe15b54307c3d1990f0314554060f746.avif</modelCenterImage>
             </images>
             <color>brown</color>
             <details>
@@ -3136,14 +3140,14 @@
                     <material>100% Leather</material>
                 </materialAndCareInstructions>
             </details>
-            <tag>regular</tag>
+            <tag>sale</tag>
         </product>
         <product number="LEV1470001000008" category="Belts">
             <name>Brown sturdy belt</name>
             <price>$68.90</price>
             <brand>Levi's</brand>
             <images>
-                <modelCenterImage>../img/accessoriesFallCollection/1e5275c93a5f28b8ee92bee8cb799e1a.avif</modelCenterImage>
+                <modelCenterImage>img/accessoriesFallCollection/1e5275c93a5f28b8ee92bee8cb799e1a.avif</modelCenterImage>
             </images>
             <color>brown</color>
             <details>
@@ -3161,7 +3165,7 @@
                     <material>100% Leather</material>
                 </materialAndCareInstructions>
             </details>
-            <tag>regular</tag>
+            <tag>new</tag>
         </product>
     </collection>
     <blog>

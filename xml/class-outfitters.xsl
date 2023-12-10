@@ -297,6 +297,9 @@
                                         <div class="col-lg-4 col-md-6 col-sm-6 product__item__col">
                                             <div class="product__item">
                                                 <div class="product__item__pic set-bg" data-setbg="{images/modelCenterImage}">
+                                                    <xsl:if test="tag != 'regular'">
+                                                       <span class="label"><xsl:value-of select="tag" /></span>     
+                                                    </xsl:if>
                                                     <ul class="product__hover">
                                                         <li>
                                                             <form method="get" action="shop-details.php">

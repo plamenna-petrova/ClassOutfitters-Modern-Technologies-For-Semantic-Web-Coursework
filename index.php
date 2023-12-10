@@ -1,3 +1,21 @@
+<?php
+    if (file_exists('./xml/class-outfitters.xml')) {
+        $shopNode = simplexml_load_file('./xml/class-outfitters.xml');
+        $collections = $shopNode->collection;
+        $bestSellers = $shopNode->xpath("collection/product[tag='best seller']");
+        $newArrivals = $shopNode->xpath("collection/product[tag='new']");
+        $hotSales = $shopNode->xpath("collection/product[tag='sale']");
+        shuffle($bestSellers);
+        $bestSellers = array_slice($bestSellers, 0, 8);
+        shuffle($newArrivals);
+        $newArrivals = array_slice($newArrivals, 0, 4);
+        shuffle($hotSales);
+        $hotSales = array_slice($hotSales, 0, 4);
+    } else {
+        exit('Failed to open class-outfitters.xml');
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -104,48 +122,60 @@
     <!-- Hero Section Begin -->
     <section class="hero">
         <div class="hero__slider owl-carousel">
-            <div class="hero__items set-bg" data-setbg="img/hero/hero-1.jpg">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-5 col-lg-7 col-md-8">
-                            <div class="hero__text">
-                                <h6>Summer Collection</h6>
-                                <h2>Fall - Winter Collections 2030</h2>
-                                <p>A specialist label creating luxury essentials. Ethically crafted with an unwavering
-                                commitment to exceptional quality.</p>
-                                <a href="#" class="primary-btn">Shop now <span class="arrow_right"></span></a>
-                                <div class="hero__social">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-pinterest"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
+            <?php
+                $clothingCollection = $collections[0];
+                $clothingCollectionName = $clothingCollection->attributes()->name;
+                $clothingCollectionPresentationImage = $clothingCollection->presentationImage;
+
+                echo "<div class='hero__items set-bg' data-setbg='".$clothingCollectionPresentationImage."'>
+                        <div class='container'>
+                            <div class='row'>
+                                <div class='col-xl-5 col-lg-7 col-md-8'>
+                                    <div class='hero__text'>
+                                        <h6 style='text-shadow: 1px 1px 1px black;'>".$clothingCollectionName."</h6>
+                                        <h2 style='color: white;'>Clothing</h2>
+                                        <p style='color: white; text-shadow: 2px 2px 2px black;'>A specialist label creating luxury essentials. Ethically crafted with an unwavering
+                                        commitment to exceptional quality.</p>
+                                        <a href='#' class='primary-btn'>Show now <span class='arrow_right'></span></a>
+                                        <div class='hero__social'>
+                                            <a href='".$shopNode->socials->facebook."'><i class='fa fa-facebook' style='color: white; text-shadow: 1px 1px 1px black;'></i></a>
+                                            <a href='".$shopNode->socials->x."'><i class='fa fa-twitter' style='color: white; text-shadow: 1px 1px 1px black;'></i></a>
+                                            <a href='".$shopNode->socials->pinterest."'><i class='fa fa-pinterest' style='color: white; text-shadow: 1px 1px 1px black;'></i></a>
+                                            <a href='".$shopNode->socials->instagram."'><i class='fa fa-instagram' style='color: white; text-shadow: 1px 1px 1px black;'></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>"; 
+            ?>
+            <?php
+                $shoesCollection = $collections[1];
+                $shoesCollectionName = $shoesCollection->attributes()->name;
+                $shoesCollectionPresentationImage = $shoesCollection->presentationImage;
+
+                echo "<div class='hero__items set-bg' data-setbg='" . $shoesCollectionPresentationImage . "'>
+                    <div class='container'>
+                        <div class='row'>
+                            <div class='col-xl-5 col-lg-7 col-md-8'>
+                                <div class='hero__text'>
+                                    <h6 style='text-shadow: 1px 1px 1px black;'>" . $shoesCollectionName . "</h6>
+                                    <h2 style='color: white;'>Shoes</h2>
+                                    <p style='color: white; text-shadow: 2px 2px 2px black;'>A specialist label creating luxury essentials. Ethically crafted with an unwavering
+                                    commitment to exceptional quality.</p>
+                                    <a href='#' class='primary-btn'>Show now <span class='arrow_right'></span></a>
+                                    <div class='hero__social'>
+                                        <a href='" . $shopNode->socials->facebook . "'><i class='fa fa-facebook' style='color: white; text-shadow: 1px 1px 1px black;'></i></a>
+                                        <a href='" . $shopNode->socials->x . "'><i class='fa fa-twitter' style='color: white; text-shadow: 1px 1px 1px black;'></i></a>
+                                        <a href='" . $shopNode->socials->pinterest . "'><i class='fa fa-pinterest' style='color: white; text-shadow: 1px 1px 1px black;'></i></a>
+                                        <a href='" . $shopNode->socials->instagram . "'><i class='fa fa-instagram' style='color: white; text-shadow: 1px 1px 1px black;'></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="hero__items set-bg" data-setbg="img/hero/hero-2.jpg">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-5 col-lg-7 col-md-8">
-                            <div class="hero__text">
-                                <h6>Summer Collection</h6>
-                                <h2>Fall - Winter Collections 2030</h2>
-                                <p>A specialist label creating luxury essentials. Ethically crafted with an unwavering
-                                commitment to exceptional quality.</p>
-                                <a href="#" class="primary-btn">Shop now <span class="arrow_right"></span></a>
-                                <div class="hero__social">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-pinterest"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                </div>";
+            ?>
         </div>
     </section>
     <!-- Hero Section End -->
@@ -157,33 +187,48 @@
                 <div class="col-lg-7 offset-lg-4">
                     <div class="banner__item">
                         <div class="banner__item__pic">
-                            <img src="img/banner/banner-1.jpg" alt="">
+                            <?php
+                                echo "<img src='". $collections[0]->bannerImage ."' alt=''/>"; 
+                            ?>
                         </div>
                         <div class="banner__item__text">
-                            <h2>Clothing Collections 2030</h2>
-                            <a href="#">Shop now</a>
+                            <?php
+                                $clothingCollectionName = $collections[0]->attributes()->name;
+                                echo "<h2>$clothingCollectionName</h2>"; 
+                                echo "<a href='#'>Shop now</a>";
+                            ?>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5">
+                <div class="col-lg-5 mt-2">
                     <div class="banner__item banner__item--middle">
                         <div class="banner__item__pic">
-                            <img src="img/banner/banner-2.jpg" alt="">
+                            <?php
+                                echo "<img src='". $collections[1]->bannerImage ."' alt=''>"; 
+                            ?>
                         </div>
                         <div class="banner__item__text">
-                            <h2>Accessories</h2>
-                            <a href="#">Shop now</a>
+                            <?php
+                                $shoesCollectionName = $collections[1]->attributes()->name;
+                                echo "<h2>$shoesCollectionName</h2>";
+                                echo "<a href='#'>Shop now</a>"; 
+                            ?>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-7">
                     <div class="banner__item banner__item--last">
                         <div class="banner__item__pic">
-                            <img src="img/banner/banner-3.jpg" alt="">
+                            <?php
+                                echo "<img src='". $collections[2]->bannerImage ."'>"; 
+                            ?>
                         </div>
                         <div class="banner__item__text">
-                            <h2>Shoes Spring 2030</h2>
-                            <a href="#">Shop now</a>
+                            <?php
+                                $accessoriesCollectionName = $collections[2]->attributes()->name;
+                                echo "<h2>$accessoriesCollectionName</h2>";
+                                echo "<a href='#'>Shop now</a>";
+                            ?>
                         </div>
                     </div>
                 </div>
@@ -198,128 +243,110 @@
             <div class="row">
                 <div class="col-lg-12">
                     <ul class="filter__controls">
-                        <li class="active" data-filter="*">Best Sellers</li>
+                        <li data-filter="*">All Trending</li>
+                        <li data-filter=".best-sellers">Best Sellers</li>
                         <li data-filter=".new-arrivals">New Arrivals</li>
                         <li data-filter=".hot-sales">Hot Sales</li>
                     </ul>
                 </div>
             </div>
             <div class="row product__filter">
-                <div class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix new-arrivals">
-                    <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/product/product-1.jpg">
-                            <span class="label">New</span>
-                            <ul class="product__hover">
-                                <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
-                            </ul>
-                        </div>
-                        <div class="product__item__text">
-                            <h6>Piqué Biker Jacket</h6>
-                            <a href="#" class="add-cart">+ Add To Cart</a>
-                            <h5>$67.24</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix hot-sales">
-                    <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/product/product-2.jpg">
-                            <ul class="product__hover">
-                                <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
-                            </ul>
-                        </div>
-                        <div class="product__item__text">
-                            <h6>Piqué Biker Jacket</h6>
-                            <a href="#" class="add-cart">+ Add To Cart</a>
-                            <h5>$67.24</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix new-arrivals">
-                    <div class="product__item sale">
-                        <div class="product__item__pic set-bg" data-setbg="img/product/product-3.jpg">
-                            <span class="label">Sale</span>
-                            <ul class="product__hover">
-                                <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
-                            </ul>
-                        </div>
-                        <div class="product__item__text">
-                            <h6>Multi-pocket Chest Bag</h6>
-                            <a href="#" class="add-cart">+ Add To Cart</a>
-                            <h5>$43.48</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix hot-sales">
-                    <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/product/product-4.jpg">
-                            <ul class="product__hover">
-                                <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
-                            </ul>
-                        </div>
-                        <div class="product__item__text">
-                            <h6>Diagonal Textured Cap</h6>
-                            <a href="#" class="add-cart">+ Add To Cart</a>
-                            <h5>$60.9</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix new-arrivals">
-                    <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/product/product-5.jpg">
-                            <ul class="product__hover">
-                                <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
-                            </ul>
-                        </div>
-                        <div class="product__item__text">
-                            <h6>Lether Backpack</h6>
-                            <a href="#" class="add-cart">+ Add To Cart</a>
-                            <h5>$31.37</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix hot-sales">
-                    <div class="product__item sale">
-                        <div class="product__item__pic set-bg" data-setbg="img/product/product-6.jpg">
-                            <span class="label">Sale</span>
-                            <ul class="product__hover">
-                                <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
-                            </ul>
-                        </div>
-                        <div class="product__item__text">
-                            <h6>Ankle Boots</h6>
-                            <a href="#" class="add-cart">+ Add To Cart</a>
-                            <h5>$98.49</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix new-arrivals">
-                    <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/product/product-7.jpg">
-                            <ul class="product__hover">
-                                <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
-                            </ul>
-                        </div>
-                        <div class="product__item__text">
-                            <h6>T-shirt Contrast Pocket</h6>
-                            <a href="#" class="add-cart">+ Add To Cart</a>
-                            <h5>$49.66</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix hot-sales">
-                    <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/product/product-8.jpg">
-                            <ul class="product__hover">
-                                <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
-                            </ul>
-                        </div>
-                        <div class="product__item__text">
-                            <h6>Basic Flowing Scarf</h6>
-                            <a href="#" class="add-cart">+ Add To Cart</a>
-                            <h5>$26.28</h5>
-                        </div>
-                    </div>
-                </div>
+                <?php
+                    foreach ($bestSellers as $bestSeller) {
+                        $bestSellerProductNumber = $bestSeller->attributes()->number;
+                        $bestSellerCategory = $bestSeller->attributes()->category;
+
+                        echo "
+                            <div class='col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix best-sellers'>
+                                <div class='product__item'>
+                                    <div class='product__item__pic set-bg' data-setbg=".$bestSeller->images->modelCenterImage.">
+                                        <span class='label'>Best Seller</span>
+                                        <ul class='product__hover'>
+                                            <li>
+                                                <form method='get' action='shop-details.php'>
+                                                    <input type='hidden' name='productNumber' value='".$bestSellerProductNumber."'/>
+                                                    <input type='hidden' name='productCategory' value='".$bestSellerCategory."'/>
+                                                    <button type='submit'>
+                                                        <img src='img/icon/search.png' alt=''>
+                                                    </button>
+                                                </form>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class='product__item__text'>
+                                        <h6>" . $bestSeller->name . "</h6>
+                                        <a href='#' class='add-cart'>+ Add To Cart</a>
+                                        <h5>" . $bestSeller->price . "</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        ";
+                    } 
+                ?>
+                <?php
+                    foreach ($newArrivals as $newArrival) {
+                        $newArrivalProductNumber = $newArrival->attributes()->number;
+                        $newArrivalCategory = $newArrival->attributes()->category;
+
+                        echo "
+                            <div class='col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix new-arrivals'>
+                                <div class='product__item'>
+                                    <div class='product__item__pic set-bg' data-setbg=".$newArrival->images->modelCenterImage.">
+                                        <span class='label'>New</span>
+                                        <ul class='product__hover'>
+                                             <li>
+                                                <form method='get' action='shop-details.php'>
+                                                    <input type='hidden' name='productNumber' value='".$newArrivalProductNumber."'/>
+                                                    <input type='hidden' name='productCategory' value='".$newArrivalCategory."'/>
+                                                    <button type='submit'>
+                                                        <img src='img/icon/search.png' alt=''>
+                                                    </button>
+                                                </form>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class='product__item__text'>
+                                        <h6>".$newArrival->name."</h6>
+                                        <a href='#' class='add-cart'>+ Add To Cart</a>
+                                        <h5>".$newArrival->price."</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        ";
+                    } 
+                ?>
+                <?php
+                    foreach ($hotSales as $hotSale) {
+                        $hotSaleProductNumber = $hotSale->attributes()->number;
+                        $hotSaleCategory = $hotSale->attributes()->category;
+
+                        echo "
+                            <div class='col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix hot-sales'>
+                                <div class='product__item'>
+                                    <div class='product__item__pic set-bg' data-setbg=".$hotSale->images->modelCenterImage.">
+                                        <span class='label'>Sale</span>
+                                        <ul class='product__hover'>
+                                            <li>
+                                                <form method='get' action='shop-details.php'>
+                                                    <input type='hidden' name='productNumber' value='".$hotSaleProductNumber."'/>
+                                                    <input type='hidden' name='productCategory' value='".$hotSaleCategory."'/>
+                                                    <button type='submit'>
+                                                        <img src='img/icon/search.png' alt=''>
+                                                    </button>
+                                                </form>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class='product__item__text'>
+                                        <h6>".$hotSale->name."</h6>
+                                        <a href='#' class='add-cart'>+ Add To Cart</a>
+                                        <h5>".$hotSale->price."</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        ";
+                    } 
+                ?>
             </div>
         </div>
     </section>
@@ -484,6 +511,11 @@
     <script src="js/mixitup.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+
+    <script>
+        document.querySelector(".filter__controls li.active").click();
+        document.querySelector(".filter__controls li.active").click();
+    </script>
 </body>
 
 </html>
