@@ -34,6 +34,6 @@
     }
 </script>
 
-<script src="js/shop.js"></script>
+<script src="js/pagination.js"></script>
 </body>
 </html>

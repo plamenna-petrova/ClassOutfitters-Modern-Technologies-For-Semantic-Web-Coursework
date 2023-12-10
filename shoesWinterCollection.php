@@ -27,13 +27,13 @@
         fallWinterClothingCollectionColumns[i].remove();
     }
 
-    let accessoiresFallCollectionColumns = document.querySelectorAll('.product__item__col.accessories-fall-collection');
-    
-    for (let i = 0; i < accessoiresFallCollectionColumns.length; i++) {
-        accessoiresFallCollectionColumns[i].remove();
+    let accessoriesFallCollectionColumns = document.querySelectorAll('.product__item__col.accessories-fall-collection');
+
+    for (let i = 0; i < accessoriesFallCollectionColumns.length; i++) {
+        accessoriesFallCollectionColumns[i].remove();
     }
 </script>
 
-<script src="js/shop.js"></script>
+<script src="js/pagination.js"></script>
 </body>
 </html>

@@ -1297,6 +1297,11 @@ ol {
 	cursor: pointer;
 }
 
+.shop__sidebar__size label:hover {
+	background: #000;
+	color: white;
+}
+
 .shop__sidebar__size label.active {
 	background: #111111;
 	color: #ffffff;

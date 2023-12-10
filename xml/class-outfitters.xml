@@ -126,7 +126,7 @@
                 <size>L</size>
                 <size>XL</size>
             </availableSizes>
-            <color>darkbrown</color>
+            <color>brown</color>
             <details>
                 <designAndExtras>
                     <feature>Melange</feature>
@@ -167,7 +167,7 @@
                 <size>L</size>
                 <size>XL</size>
             </availableSizes>
-            <color>lightbrown</color>
+            <color>brown</color>
             <details>
                 <designAndExtras>
                     <feature>Plain colored</feature>
@@ -260,7 +260,7 @@
                 <size>L</size>
                 <size>XL</size>
             </availableSizes>
-            <color>lighblue</color>
+            <color>lightblue</color>
             <details>
                 <designAndExtras>
                     <feature>Plain colored</feature>
@@ -354,7 +354,7 @@
                 <size>L</size>
                 <size>XL</size>
             </availableSizes>
-            <color>lightbrown</color>
+            <color>brown</color>
             <details>
                 <designAndExtras>
                     <feature>Lapel collar</feature>
@@ -539,7 +539,7 @@
                 <size>M</size>
                 <size>L</size>
             </availableSizes>
-            <color>lightbrown</color>
+            <color>brown</color>
             <details>
                 <designAndExtras>
                     <feature>One color</feature>
@@ -638,7 +638,7 @@
                 <size>L</size>
                 <size>XL</size>
             </availableSizes>
-            <color>camel</color>
+            <color>sandybrown</color>
             <details>
                 <designAndExtras>
                     <feature>One color</feature>
@@ -1280,7 +1280,7 @@
                 <size>M</size>
                 <size>XL</size>
             </availableSizes>
-            <color>navyblue</color>
+            <color>navy</color>
             <details>
                 <designAndExtras>
                     <feature>Plaid pinstripes</feature>
@@ -1374,7 +1374,7 @@
                 <size>L</size>
                 <size>XL</size>
             </availableSizes>
-            <color>wine</color>
+            <color>darkred</color>
             <details>
                 <designAndExtras>
                     <feature>One color</feature>
@@ -1563,7 +1563,7 @@
                 <size>L</size>
                 <size>XL</size>
             </availableSizes>
-            <color>ligthgray</color>
+            <color>lightgray</color>
             <details>
                 <designAndExtras>
                     <feature>Melange</feature>
@@ -2028,7 +2028,7 @@
                 <size>39</size>
                 <size>40</size>
             </availableSizes>
-            <color>lightbrown</color>
+            <color>brown</color>
             <details>
                 <designAndExtras>
                     <feature>One color</feature>
@@ -2065,7 +2065,7 @@
                 <size>39</size>
                 <size>40</size>
             </availableSizes>
-            <color>darkbrown</color>
+            <color>brown</color>
             <details>
                 <designAndExtras>
                     <feature>One color</feature>
@@ -2394,7 +2394,7 @@
                 <modelCenterImage>img/accessoriesFallCollection/1ffaa76684c9edf196800cd0d8b40bda.avif</modelCenterImage>
                 <modelSideImage>img/accessoriesFallCollection/56568e8aa80b4a42c651437a278aa1ad.avif</modelSideImage>
             </images>
-            <color>navyblue</color>
+            <color>navy</color>
             <details>
                 <designAndExtras>
                     <feature>One color</feature>
@@ -2813,7 +2813,7 @@
             <images>
                 <modelCenterImage>img/accessoriesFallCollection/3d583150102d0b69bd5e0dafa00e8a67.avif</modelCenterImage>
             </images>
-            <color>darkbrown</color>
+            <color>brown</color>
             <details>
                 <designAndExtras>
                     <feature>Two colors</feature>
@@ -2841,7 +2841,7 @@
             <images>
                 <modelCenterImage>img/accessoriesFallCollection/6893a3dcbf62a6e4dccd1d2cda652535.avif</modelCenterImage>
             </images>
-            <color>lightbrown</color>
+            <color>brown</color>
             <details>
                 <designAndExtras>
                     <feature>Two colors</feature>
@@ -2984,7 +2984,7 @@
             <images>
                 <modelCenterImage>img/accessoriesFallCollection/fde2a8d1caca7daab7d9911586df6d9a.avif</modelCenterImage>
             </images>
-            <color>lightbrown</color>
+            <color>brown</color>
             <details>
                 <designAndExtras>
                     <feature>Plaid</feature>
@@ -3067,7 +3067,7 @@
                 <productFocusImage>img/accessoriesFallCollection/a133c16d1055ca24060e54b61142627a.avif</productFocusImage>
                 <productZoomImage>img/accessoriesFallCollection/6d358f6f86910c8270fe91270721516a.avif</productZoomImage>
             </images>
-            <color>navyblue</color>
+            <color>navy</color>
             <details>
                 <designAndExtras>
                     <feature>Leather</feature>
@@ -3118,7 +3118,7 @@
                 <productFocusImage>img/accessoriesFallCollection/a065d37f49eb24109cb1af7379e29a1f.avif</productFocusImage>
                 <productZoomImage>img/accessoriesFallCollection/478b6bbc02983618c5347e7d3968452f.avif</productZoomImage>
             </images>
-            <color>lightbrown</color>
+            <color>brown</color>
             <details>
                 <designAndExtras>
                     <feature>Leather</feature>
