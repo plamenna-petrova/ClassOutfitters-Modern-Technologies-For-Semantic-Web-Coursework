@@ -20,6 +20,6 @@
     echo $processedAndTransformedXML;
 ?>
 
-<script src="js/fallWinterClothingCollection.js"></script>
+<script src="js/fallWinterClothingCollection.js" type="module"></script>
 </body>
 </html>
