@@ -1,4 +1,8 @@
 
+const UPPERCASE_ALPHABET_LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
+const LOWERCASE_ALPHABET_LETTERS = 'abcdefghijklmnopqrstuvwxyz';
+
 export const applyFiltersByCategory = (displayProductsCallback, xmlDocument, collectionName) => {
     const shopSidebarCategoriesDiv = document.querySelector(".shop__sidebar__categories");
     shopSidebarCategoriesDiv.innerHTML = createProductCategoriesUnorderedList(xmlDocument, collectionName);
@@ -15,7 +19,7 @@ export const applyFiltersByCategory = (displayProductsCallback, xmlDocument, col
 
         toggleHTMLElementActiveClass(event.target);
 
-        displayProductsCallback(filterProductsWithXPathExpression(xmlDocument, collectionName));
+        displayProductsCallback(filterProductsWithXPathExpression({ xmlDocument, collectionName }));
     });
 }
 
@@ -35,7 +39,7 @@ export const applyFiltersByBrand = (displayProductsCallback, xmlDocument, collec
 
         toggleHTMLElementActiveClass(event.target);
 
-        displayProductsCallback(filterProductsWithXPathExpression(xmlDocument, collectionName));
+        displayProductsCallback(filterProductsWithXPathExpression({ xmlDocument, collectionName }));
     });
 }
 
@@ -54,7 +58,7 @@ export const applyFiltersByPriceRange = (displayProductsCallback, xmlDocument, c
 
         toggleHTMLElementActiveClass(event.target);
 
-        displayProductsCallback(filterProductsWithXPathExpression(xmlDocument, collectionName));
+        displayProductsCallback(filterProductsWithXPathExpression({ xmlDocument, collectionName }));
     });
 }
 
@@ -73,7 +77,7 @@ export const applyFiltersBySize = (displayProductsCallback, xmlDocument, collect
 
         toggleHTMLElementActiveClass(event.target);
 
-        displayProductsCallback(filterProductsWithXPathExpression(xmlDocument, collectionName));
+        displayProductsCallback(filterProductsWithXPathExpression({ xmlDocument, collectionName }));
     });
 }
 
@@ -92,7 +96,7 @@ export const applyFiltersByColor = (displayProductsCallback, xmlDocument, collec
 
         toggleHTMLElementActiveClass(event.target);
 
-        displayProductsCallback(filterProductsWithXPathExpression(xmlDocument, collectionName));
+        displayProductsCallback(filterProductsWithXPathExpression({ xmlDocument, collectionName }));
     });
 }
 
@@ -111,11 +115,35 @@ export const applyFiltersByTag = (displayProductsCallback, xmlDocument, collecti
 
         toggleHTMLElementActiveClass(event.target);
 
-        displayProductsCallback(filterProductsWithXPathExpression(xmlDocument, collectionName));
+        displayProductsCallback(filterProductsWithXPathExpression({ xmlDocument, collectionName }));
     });
 }
 
-export const filterProductsWithXPathExpression = (xmlDocument, collectionName) => {
+export const applyFiltersBySearchTerm = (displayProductsCallback, xmlDocument, collectionName) => {
+    const shopSidebarSearchForm = document.querySelector(".shop__sidebar__search form");
+
+    shopSidebarSearchForm.addEventListener("submit", (event) => {
+        event.preventDefault();
+        const eventTargetInput = event.target.querySelector("input");
+        displayProductsCallback(filterProductsWithXPathExpression({ xmlDocument, collectionName, searchTerm: eventTargetInput.value }));
+    });
+}
+
+export const sortProducts = (displayProductsCallback, xmlDocument, collectionName) => {
+    const shopProductOptionRight = document.querySelector(".shop__product__option__right");
+    const sortProductsByPriceSelect = shopProductOptionRight.querySelector(".nice-select");
+    const shopSidebarSearchForm = document.querySelector(".shop__sidebar__search form");
+    const searchTermInput = shopSidebarSearchForm.querySelector("input");
+
+    sortProductsByPriceSelect.addEventListener("click", (event) => {
+        event.preventDefault();
+        displayProductsCallback(filterProductsWithXPathExpression({
+            xmlDocument, collectionName, searchTerm: searchTermInput.value, sortingOption: event.target.textContent
+        }));
+    });
+}
+
+export const filterProductsWithXPathExpression = ({ xmlDocument, collectionName, searchTerm, sortingOption }) => {
     let baseXPathClothingExpression = `//collection[@name='${collectionName}']/product`;
     let xpathClothingFilteringExpression = baseXPathClothingExpression;
 
@@ -189,6 +217,14 @@ export const filterProductsWithXPathExpression = (xmlDocument, collectionName) =
         }
     }
 
+    if (searchTerm) {
+        if (xpathClothingFilteringExpression.length === baseXPathClothingExpression.length) {
+            xpathClothingFilteringExpression += `[name[contains(translate(., '${UPPERCASE_ALPHABET_LETTERS}', '${LOWERCASE_ALPHABET_LETTERS}'), '${searchTerm}')]`;
+        } else {
+            xpathClothingFilteringExpression += ` and name[contains(translate(., '${UPPERCASE_ALPHABET_LETTERS}', '${LOWERCASE_ALPHABET_LETTERS}'), '${searchTerm}')]`;
+        }
+    }
+
     if (xpathClothingFilteringExpression.length !== baseXPathClothingExpression.length) {
         xpathClothingFilteringExpression += ']';
     }
@@ -206,6 +242,28 @@ export const filterProductsWithXPathExpression = (xmlDocument, collectionName) =
     for (let i = 0; i < filteredProductsByCategoryXPathResult.snapshotLength; i++) {
         const filteredProductSnapshotItem = filteredProductsByCategoryXPathResult.snapshotItem(i);
         filteredProducts.push(filteredProductSnapshotItem);
+    }
+
+    const shopProductOptionRight = document.querySelector(".shop__product__option__right");
+    const currentlySelectedSortingOption = shopProductOptionRight.querySelector(".nice-select .current");
+
+    if (sortingOption) {
+        sortingOption = sortingOption.slice(0, 11).trim();
+    } else {
+        sortingOption = currentlySelectedSortingOption.textContent;
+    }
+
+    switch (sortingOption) {
+        case "Low To High":
+            filteredProducts = filteredProducts.sort((a, b) =>
+                parseFloat(a.getElementsByTagName("price")[0].textContent) - parseFloat(b.getElementsByTagName("price")[0].textContent)
+            );
+            break;
+        case "High To Low":
+            filteredProducts = filteredProducts.sort((a, b) =>
+                parseFloat(b.getElementsByTagName("price")[0].textContent) - parseFloat(a.getElementsByTagName("price")[0].textContent)
+            );
+            break;
     }
 
     return filteredProducts;
@@ -315,8 +373,7 @@ export const createProductSizesLabels = (xmlDocument, collectionName) => {
             `<label for="${productSize}">${productSize}
                 <input type="radio" id="${productSize}" />
             </label>`)
-        .join('')
-        }`;
+        .join('')}`;
 }
 
 export const createProductColorsLabels = (xmlDocument, collectionName) => {
@@ -344,8 +401,7 @@ export const createProductColorsLabels = (xmlDocument, collectionName) => {
                 <input type="radio" id="${productColor}" />
             </label>`
         )
-        .join('')
-        }`;
+        .join('')}`;
 }
 
 export const createProductTagsLinks = (xmlDocument, collectionName) => {

@@ -220,6 +220,7 @@
                                             <div class="shop__product__option__right">
                                                 <p>Sort by Price:</p>
                                                 <select>
+                                                    <option value="">Neutral</option>
                                                     <option value="">Low To High</option>
                                                     <option value="">High To Low</option>
                                                 </select>

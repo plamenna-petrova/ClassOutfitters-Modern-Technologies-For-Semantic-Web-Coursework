@@ -6,7 +6,12 @@
     <meta name="keywords" content="Male_Fashion, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Fall-Winter Cloting Collection 2023 / 2024</title>
+    <title>Accessories Fall Collection 2023</title>
+    <style>
+        .card:nth-child(4) {
+            display: none;
+        }
+    </style>
 </head>
 <body>
 <?php
@@ -34,6 +39,6 @@
     }
 </script>
 
-<script src="js/pagination.js"></script>
+<script src="js/accessoriesFallCollection.js" type="module"></script>
 </body>
 </html>

@@ -11,10 +11,10 @@ import {
     sortProducts
 } from "./shopFilters.js";
 
-let shoesWinterCollectionColumns = document.querySelectorAll('.product__item__col.shoes-winter-collection');
+let fallWinterClothingCollectionColumns = document.querySelectorAll('.product__item__col.fall-winter-clothing-collection');
 
-for (let i = 0; i < shoesWinterCollectionColumns.length; i++) {
-    shoesWinterCollectionColumns[i].remove();
+for (let i = 0; i < fallWinterClothingCollectionColumns.length; i++) {
+    fallWinterClothingCollectionColumns[i].remove();
 }
 
 let accessoriesFallCollectionColumns = document.querySelectorAll('.product__item__col.accessories-fall-collection');
@@ -49,25 +49,25 @@ fetch('./xml/class-outfitters.xml')
     })
     .then(classOutfittersXMLString => {
         const classOutfittersXMLDocument = new DOMParser().parseFromString(classOutfittersXMLString, "application/xml");
-        const fallWinterClothingCollectionName = 'Fall-Winter Clothing Collection 2023/2024';
+        const fallWinterClothingCollectionName = 'Shoes Winter Collection 2023/2024';
 
-        applyFiltersByCategory(displayClothing, classOutfittersXMLDocument, fallWinterClothingCollectionName);
-        applyFiltersByBrand(displayClothing, classOutfittersXMLDocument, fallWinterClothingCollectionName);
-        applyFiltersByPriceRange(displayClothing, classOutfittersXMLDocument, fallWinterClothingCollectionName);
-        applyFiltersBySize(displayClothing, classOutfittersXMLDocument, fallWinterClothingCollectionName);
-        applyFiltersByColor(displayClothing, classOutfittersXMLDocument, fallWinterClothingCollectionName);
-        applyFiltersByTag(displayClothing, classOutfittersXMLDocument, fallWinterClothingCollectionName);
+        applyFiltersByCategory(displayShoes, classOutfittersXMLDocument, fallWinterClothingCollectionName);
+        applyFiltersByBrand(displayShoes, classOutfittersXMLDocument, fallWinterClothingCollectionName);
+        applyFiltersByPriceRange(displayShoes, classOutfittersXMLDocument, fallWinterClothingCollectionName);
+        applyFiltersBySize(displayShoes, classOutfittersXMLDocument, fallWinterClothingCollectionName);
+        applyFiltersByColor(displayShoes, classOutfittersXMLDocument, fallWinterClothingCollectionName);
+        applyFiltersByTag(displayShoes, classOutfittersXMLDocument, fallWinterClothingCollectionName);
 
-        applyFiltersBySearchTerm(displayClothing, classOutfittersXMLDocument, fallWinterClothingCollectionName);
+        applyFiltersBySearchTerm(displayShoes, classOutfittersXMLDocument, fallWinterClothingCollectionName);
 
-        sortProducts(displayClothing, classOutfittersXMLDocument, fallWinterClothingCollectionName);
+        sortProducts(displayShoes, classOutfittersXMLDocument, fallWinterClothingCollectionName);
     })
     .catch((error) => {
         console.log('An error occurred', error);
     })
 
-const displayClothing = (clothingItems) => {
-    const filteredProductsHTML = generateFilteredProductsHTML(clothingItems, 'fall-winter-clothing-collection');
+const displayShoes = (clothingItems) => {
+    const filteredProductsHTML = generateFilteredProductsHTML(clothingItems, 'winter-shoes-collection');
 
     document.querySelector("#paginated-list").innerHTML = filteredProductsHTML !== ''
         ? filteredProductsHTML
