@@ -51,21 +51,21 @@ fetch('./xml/class-outfitters.xml')
         const classOutfittersXMLDocument = new DOMParser().parseFromString(classOutfittersXMLString, "application/xml");
         const fallWinterClothingCollectionName = 'Accessories Fall Collection 2023';
 
-        applyFiltersByCategory(displayShoes, classOutfittersXMLDocument, fallWinterClothingCollectionName);
-        applyFiltersByBrand(displayShoes, classOutfittersXMLDocument, fallWinterClothingCollectionName);
-        applyFiltersByPriceRange(displayShoes, classOutfittersXMLDocument, fallWinterClothingCollectionName);
-        applyFiltersByColor(displayShoes, classOutfittersXMLDocument, fallWinterClothingCollectionName);
-        applyFiltersByTag(displayShoes, classOutfittersXMLDocument, fallWinterClothingCollectionName);
+        applyFiltersByCategory(displayAccessories, classOutfittersXMLDocument, fallWinterClothingCollectionName);
+        applyFiltersByBrand(displayAccessories, classOutfittersXMLDocument, fallWinterClothingCollectionName);
+        applyFiltersByPriceRange(displayAccessories, classOutfittersXMLDocument, fallWinterClothingCollectionName);
+        applyFiltersByColor(displayAccessories, classOutfittersXMLDocument, fallWinterClothingCollectionName);
+        applyFiltersByTag(displayAccessories, classOutfittersXMLDocument, fallWinterClothingCollectionName);
 
-        applyFiltersBySearchTerm(displayShoes, classOutfittersXMLDocument, fallWinterClothingCollectionName);
+        applyFiltersBySearchTerm(displayAccessories, classOutfittersXMLDocument, fallWinterClothingCollectionName);
 
-        sortProducts(displayShoes, classOutfittersXMLDocument, fallWinterClothingCollectionName);
+        sortProducts(displayAccessories, classOutfittersXMLDocument, fallWinterClothingCollectionName);
     })
     .catch((error) => {
         console.log('An error occurred', error);
     })
 
-const displayShoes = (clothingItems) => {
+const displayAccessories = (clothingItems) => {
     const filteredProductsHTML = generateFilteredProductsHTML(clothingItems, 'winter-shoes-collection');
 
     document.querySelector("#paginated-list").innerHTML = filteredProductsHTML !== ''
