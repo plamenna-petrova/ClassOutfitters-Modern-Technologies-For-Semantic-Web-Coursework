@@ -4,6 +4,7 @@ if (file_exists('./xml/class-outfitters.xml')) {
     $productNumber = $_GET['productNumber'];
     $productCategory = $_GET['productCategory'];
     $productByXPathQuery = $shopNode->xpath("collection/product[@number='$productNumber']")[0];
+    $productCollectionName = $productByXPathQuery->xpath("parent::*")[0]->attributes()->name;
     $productName = $productByXPathQuery->name;
     $productBrand = $productByXPathQuery->brand;
     $productPrice = $productByXPathQuery->price;
@@ -121,7 +122,6 @@ if (file_exists('./xml/class-outfitters.xml')) {
                 <div class="col-lg-3 col-md-3">
                     <div class="header__nav__option">
                         <a href="#" class="search-switch"><img src="img/icon/search.png" alt=""></a>
-                        <a href="#"><img src="img/icon/heart.png" alt=""></a>
                         <a href="#"><img src="img/icon/cart.png" alt=""> <span>0</span></a>
                         <div class="price">$0.00</div>
                     </div>
@@ -140,7 +140,19 @@ if (file_exists('./xml/class-outfitters.xml')) {
                     <div class="col-lg-12">
                         <div class="product__details__breadcrumb">
                             <a href="./index.php">Home</a>
-                            <a href="./shop.php">Shop</a>
+                            <?php
+                                switch ($productCollectionName) {
+                                    case 'Fall-Winter Clothing Collection 2023/2024':
+                                        echo "<a href='./fallWinterClothingCollection.php'>".$productCollectionName."</a>";
+                                        break;
+                                    case 'Shoes Winter Collection 2023/2024':
+                                        echo "<a href='./shoesWinterCollection.php'>".$productCollectionName."</a>";
+                                        break;
+                                    case 'Accessories Fall Collection 2023':
+                                        echo "<a href='./accessoriesFallCollection.php'>".$productCollectionName."</a>";
+                                        break;
+                                }
+                            ?>
                             <span>Product Details</span>
                         </div>
                     </div>
@@ -252,7 +264,7 @@ if (file_exists('./xml/class-outfitters.xml')) {
                                 echo "
                                     <h4>$productName</h4>
                                     <h4>By: ".$productBrand."</h4>
-                                    <h3>$productPrice</h3>
+                                    <h3>$$productPrice</h3>
                                 ";
                             ?>
                             <div class="product__details__cart__option">
@@ -442,7 +454,7 @@ if (file_exists('./xml/class-outfitters.xml')) {
                                 <div class='product__item__text'>
                                     <h6>$relatedProduct->name</h6>
                                     <a href='#' class='add-cart'>+ Add To Cart</a>
-                                    <h5>$relatedProduct->price</h5>
+                                    <h5>$$relatedProduct->price</h5>
                                 </div>
                             </div>
                         </div>";
@@ -469,20 +481,19 @@ if (file_exists('./xml/class-outfitters.xml')) {
                     <div class="footer__widget">
                         <h6>Shopping</h6>
                         <ul>
-                            <li><a href="#">Clothing Store</a></li>
-                            <li><a href="#">Trending Shoes</a></li>
-                            <li><a href="#">Accessories</a></li>
-                            <li><a href="#">Sale</a></li>
+                            <li><a href="./fallWinterClothingCollection.php">Clothing Store</a></li>
+                            <li><a href="./shoesWinterCollection.php">Trending Shoes</a></li>
+                            <li><a href="./accessoriesFallCollection.php">Accessories</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6">
                     <div class="footer__widget">
-                        <h6>Shopping</h6>
+                        <h6>Info</h6>
                         <ul>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="./contact.php">Contact Us</a></li>
                             <li><a href="#">Payment Methods</a></li>
-                            <li><a href="#">Delivary</a></li>
+                            <li><a href="#">Delivery</a></li>
                             <li><a href="#">Return & Exchanges</a></li>
                         </ul>
                     </div>

@@ -105,7 +105,6 @@ if (file_exists('./xml/class-outfitters.xml')) {
                 <div class="col-lg-3 col-md-3">
                     <div class="header__nav__option">
                         <a href="#" class="search-switch"><img src="img/icon/search.png" alt=""></a>
-                        <a href="#"><img src="img/icon/heart.png" alt=""></a>
                         <a href="#"><img src="img/icon/cart.png" alt=""> <span>0</span></a>
                         <div class="price">$0.00</div>
                     </div>
@@ -182,14 +181,14 @@ if (file_exists('./xml/class-outfitters.xml')) {
                     <div class="testimonial__text">
                         <span class="icon_quotations"></span>
                         <?php
-                            echo '<p>' . $shopNode->quote->content . '</p>' . 
+                            echo '<p>' . $shopNode->testimonial->content . '</p>' . 
                                 '<div class="testimonial__author">' .
                                     '<div class="testimonial__author__pic">' . 
                                         '<img src="img/about/testimonial-author.jpg" alt="">' .
                                     '</div>' .
                                     '<div class="testimonial__author__text">' .
-                                        '<h5>' . $shopNode->quote->author . '</h5>' .
-                                        '<p>' . $shopNode->quote->are . '</p>' . 
+                                        '<h5>' . $shopNode->testimonial->author . '</h5>' .
+                                        '<p>' . $shopNode->testimonial->area . '</p>' . 
                                     '</div>' .
                                 '</div>'; 
                         ?>
@@ -297,20 +296,19 @@ if (file_exists('./xml/class-outfitters.xml')) {
                     <div class="footer__widget">
                         <h6>Shopping</h6>
                         <ul>
-                            <li><a href="#">Clothing Store</a></li>
-                            <li><a href="#">Trending Shoes</a></li>
-                            <li><a href="#">Accessories</a></li>
-                            <li><a href="#">Sale</a></li>
+                            <li><a href="./fallWinterClothingCollection.php">Clothing Store</a></li>
+                            <li><a href="./shoesWinterCollection.php">Trending Shoes</a></li>
+                            <li><a href="./accessoriesFallCollection.php">Accessories</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6">
                     <div class="footer__widget">
-                        <h6>Shopping</h6>
+                        <h6>Info</h6>
                         <ul>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="./contact.php">Contact Us</a></li>
                             <li><a href="#">Payment Methods</a></li>
-                            <li><a href="#">Delivary</a></li>
+                            <li><a href="#">Delivery</a></li>
                             <li><a href="#">Return & Exchanges</a></li>
                         </ul>
                     </div>

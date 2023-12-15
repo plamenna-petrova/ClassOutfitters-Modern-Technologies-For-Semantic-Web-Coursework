@@ -4,7 +4,6 @@ import {
     applyFiltersByCategory,
     applyFiltersByBrand,
     applyFiltersByPriceRange,
-    applyFiltersBySize,
     applyFiltersByColor,
     applyFiltersByTag,
     applyFiltersBySearchTerm,
@@ -30,7 +29,7 @@ let paginationItemsColumns = paginatedList.querySelectorAll(".product__item__col
 
 const shownPaginationResultsParagraph = document.querySelector("div.shop__product__option__left p");
 
-const paginationLimit = 12;
+const paginationLimit = 9;
 
 let pagesCount = Math.ceil(paginationItemsColumns.length / paginationLimit);
 let currentPage = 1;
@@ -49,17 +48,19 @@ fetch('./xml/class-outfitters.xml')
     })
     .then(classOutfittersXMLString => {
         const classOutfittersXMLDocument = new DOMParser().parseFromString(classOutfittersXMLString, "application/xml");
-        const fallWinterClothingCollectionName = 'Accessories Fall Collection 2023';
+        const accessoriesFallCollectionName = 'Accessories Fall Collection 2023';
+        let breadCrumbLinksSpan = document.querySelector(".breadcrumb__links span");
+        breadCrumbLinksSpan.innerHTML = accessoriesFallCollectionName;
 
-        applyFiltersByCategory(displayAccessories, classOutfittersXMLDocument, fallWinterClothingCollectionName);
-        applyFiltersByBrand(displayAccessories, classOutfittersXMLDocument, fallWinterClothingCollectionName);
-        applyFiltersByPriceRange(displayAccessories, classOutfittersXMLDocument, fallWinterClothingCollectionName);
-        applyFiltersByColor(displayAccessories, classOutfittersXMLDocument, fallWinterClothingCollectionName);
-        applyFiltersByTag(displayAccessories, classOutfittersXMLDocument, fallWinterClothingCollectionName);
+        applyFiltersByCategory(displayAccessories, classOutfittersXMLDocument, accessoriesFallCollectionName);
+        applyFiltersByBrand(displayAccessories, classOutfittersXMLDocument, accessoriesFallCollectionName);
+        applyFiltersByPriceRange(displayAccessories, classOutfittersXMLDocument, accessoriesFallCollectionName);
+        applyFiltersByColor(displayAccessories, classOutfittersXMLDocument, accessoriesFallCollectionName);
+        applyFiltersByTag(displayAccessories, classOutfittersXMLDocument, accessoriesFallCollectionName);
 
-        applyFiltersBySearchTerm(displayAccessories, classOutfittersXMLDocument, fallWinterClothingCollectionName);
+        applyFiltersBySearchTerm(displayAccessories, classOutfittersXMLDocument, accessoriesFallCollectionName);
 
-        sortProducts(displayAccessories, classOutfittersXMLDocument, fallWinterClothingCollectionName);
+        sortProducts(displayAccessories, classOutfittersXMLDocument, accessoriesFallCollectionName);
     })
     .catch((error) => {
         console.log('An error occurred', error);

@@ -139,16 +139,16 @@
                             <div class='row'>
                                 <div class='col-xl-5 col-lg-7 col-md-8'>
                                     <div class='hero__text'>
-                                        <h6 style='text-shadow: 1px 1px 1px black;'>".$fallWinterClothingCollectionName."</h6>
-                                        <h2 style='color: white; text-shadow: 2px 2px 2px black;'>Clothing</h2>
-                                        <p style='color: white; text-shadow: 2px 2px 2px black;'>A specialist label creating luxury essentials. Ethically crafted with an unwavering
+                                        <h6>".$fallWinterClothingCollectionName."</h6>
+                                        <h2>Clothing</h2>
+                                        <p>A specialist label creating luxury essentials. Ethically crafted with an unwavering
                                         commitment to exceptional quality.</p>
                                         <a href='./fallWinterClothingCollection.php' class='primary-btn'>Shop now <span class='arrow_right'></span></a>
                                         <div class='hero__social'>
-                                            <a href='".$shopNode->socials->facebook."'><i class='fa fa-facebook' style='color: white; text-shadow: 1px 1px 1px black;'></i></a>
-                                            <a href='".$shopNode->socials->x."'><i class='fa fa-twitter' style='color: white; text-shadow: 1px 1px 1px black;'></i></a>
-                                            <a href='".$shopNode->socials->pinterest."'><i class='fa fa-pinterest' style='color: white; text-shadow: 1px 1px 1px black;'></i></a>
-                                            <a href='".$shopNode->socials->instagram."'><i class='fa fa-instagram' style='color: white; text-shadow: 1px 1px 1px black;'></i></a>
+                                            <a href='".$shopNode->socials->facebook."'><i class='fa fa-facebook socials-icon'></i></a>
+                                            <a href='".$shopNode->socials->x."'><i class='fa fa-twitter socials-icon'></i></a>
+                                            <a href='".$shopNode->socials->pinterest."'><i class='fa fa-pinterest socials-icon'></i></a>
+                                            <a href='".$shopNode->socials->instagram."'><i class='fa fa-instagram socials-icon'></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -166,16 +166,16 @@
                         <div class='row'>
                             <div class='col-xl-5 col-lg-7 col-md-8'>
                                 <div class='hero__text'>
-                                    <h6 style='text-shadow: 1px 1px 1px black;'>" . $shoesWinterCollectionName . "</h6>
-                                    <h2 style='color: white; text-shadow: 2px 2px 2px black;'>Shoes</h2>
-                                    <p style='color: white; text-shadow: 2px 2px 2px black;'>A specialist label creating luxury essentials. Ethically crafted with an unwavering
+                                    <h6>" . $shoesWinterCollectionName . "</h6>
+                                    <h2>Shoes</h2>
+                                    <p>A specialist label creating luxury essentials. Ethically crafted with an unwavering
                                     commitment to exceptional quality.</p>
                                     <a href='./shoesWinterCollection.php' class='primary-btn'>Shop now <span class='arrow_right'></span></a>
                                     <div class='hero__social'>
-                                        <a href='" . $shopNode->socials->facebook . "'><i class='fa fa-facebook' style='color: white; text-shadow: 1px 1px 1px black;'></i></a>
-                                        <a href='" . $shopNode->socials->x . "'><i class='fa fa-twitter' style='color: white; text-shadow: 1px 1px 1px black;'></i></a>
-                                        <a href='" . $shopNode->socials->pinterest . "'><i class='fa fa-pinterest' style='color: white; text-shadow: 1px 1px 1px black;'></i></a>
-                                        <a href='" . $shopNode->socials->instagram . "'><i class='fa fa-instagram' style='color: white; text-shadow: 1px 1px 1px black;'></i></a>
+                                        <a href='" . $shopNode->socials->facebook . "'><i class='fa fa-facebook socials-icon'></i></a>
+                                        <a href='" . $shopNode->socials->x . "'><i class='fa fa-twitter socials-icon''></i></a>
+                                        <a href='" . $shopNode->socials->pinterest . "'><i class='fa fa-pinterest socials-icon'></i></a>
+                                        <a href='" . $shopNode->socials->instagram . "'><i class='fa fa-instagram socials-icon'></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -376,8 +376,8 @@
                 <div class="col-lg-4">
                     <div class="instagram__text">
                         <h2>Instagram</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.</p>
+                        <p>Class Outfitters is a lifestyle retailer dedicated to inspiring customers through 
+                            a unique combination of product, creativity and cultural trends.</p>
                         <h3>#Class_Outfitters</h3>
                     </div>
                 </div>
@@ -449,18 +449,17 @@
                     <div class="footer__widget">
                         <h6>Shopping</h6>
                         <ul>
-                            <li><a href="#">Clothing Store</a></li>
-                            <li><a href="#">Trending Shoes</a></li>
-                            <li><a href="#">Accessories</a></li>
-                            <li><a href="#">Sale</a></li>
+                            <li><a href="./fallWinterClothingCollection.php">Clothing Store</a></li>
+                            <li><a href="./shoesWinterCollection.php">Trending Shoes</a></li>
+                            <li><a href="./accessoriesFallCollection.php">Accessories</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6">
                     <div class="footer__widget">
-                        <h6>Shopping</h6>
+                        <h6>Info</h6>
                         <ul>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="./contact.php">Contact Us</a></li>
                             <li><a href="#">Payment Methods</a></li>
                             <li><a href="#">Delivery</a></li>
                             <li><a href="#">Return & Exchanges</a></li>
@@ -469,7 +468,7 @@
                 </div>
                 <div class="col-lg-3 offset-lg-1 col-md-6 col-sm-6">
                     <div class="footer__widget">
-                        <h6>NewLetter</h6>
+                        <h6>NewsLetter</h6>
                         <div class="footer__newslatter">
                             <p>Be the first to know about new arrivals, look books, sales & promos!</p>
                             <form action="#">

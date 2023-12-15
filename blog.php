@@ -1,3 +1,12 @@
+<?php
+if (file_exists('./xml/class-outfitters.xml')) {
+    $shopNode = simplexml_load_file('./xml/class-outfitters.xml');
+    $blog = $shopNode->blog;
+} else {
+    exit('Failed to open class-outfitters.xml');
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -123,96 +132,49 @@
     <!-- Blog Section Begin -->
     <section class="blog spad">
         <div class="container">
+            <div class="row" id="paginated-list">
+                <?php
+                    $blogPosts = array();
+
+                    foreach ($blog->post as $blogPost) {
+                        $blogPosts[] = $blogPost;
+                    }
+
+                    usort($blogPosts, function ($firstPost, $secondPost) {
+                        $firstPostDate = "" . $firstPost->createdOn->year . "-" . $firstPost->createdOn->month . "-" . $firstPost->createdOn->day . "";
+                        $secondPostDate = "" . $secondPost->createdOn->year . "-" . $secondPost->createdOn->month . "-" . $secondPost->createdOn->day . "";
+                        return strtotime($secondPostDate) - strtotime($firstPostDate);
+                    });
+
+                    foreach ($blogPosts as $blogPost) {
+                        $blogPostMonthObject = DateTime::createFromFormat('!m', $blogPost->createdOn->month);
+                        $formattedBlogPostMonthName = $blogPostMonthObject->format('F');
+
+                        echo "<div class='col-lg-4 col-md-6 col-sm-6 blog__post__col'>
+                                <div class='blog__item'>
+                                    <div class='blog__item__pic set-bg' data-setbg='".$blogPost->image."'></div>
+                                    <div class='blog__item__text'>
+                                        <span>
+                                            <img src='img/icon/calendar.png'/>
+                                            ".$blogPost->createdOn->day." ".$formattedBlogPostMonthName." ".$blogPost->createdOn->year."
+                                        </span>
+                                        <h5>".$blogPost->title."</h5>
+                                        <form method='get' action='blog-details.php'>
+                                            <input type='hidden' name='slug' value='".$blogPost->attributes()->slug."' />
+                                            <a href='#' onclick='this.parentNode.submit(); return false;'>Read More</a>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        ";
+                    }
+                ?>
+            </div>
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="blog__item">
-                        <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-1.jpg"></div>
-                        <div class="blog__item__text">
-                            <span><img src="img/icon/calendar.png" alt=""> 16 February 2020</span>
-                            <h5>What Curling Irons Are The Best Ones</h5>
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="blog__item">
-                        <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-2.jpg"></div>
-                        <div class="blog__item__text">
-                            <span><img src="img/icon/calendar.png" alt=""> 21 February 2020</span>
-                            <h5>Eternity Bands Do Last Forever</h5>
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="blog__item">
-                        <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-3.jpg"></div>
-                        <div class="blog__item__text">
-                            <span><img src="img/icon/calendar.png" alt=""> 28 February 2020</span>
-                            <h5>The Health Benefits Of Sunglasses</h5>
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="blog__item">
-                        <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-4.jpg"></div>
-                        <div class="blog__item__text">
-                            <span><img src="img/icon/calendar.png" alt=""> 16 February 2020</span>
-                            <h5>Aiming For Higher The Mastopexy</h5>
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="blog__item">
-                        <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-5.jpg"></div>
-                        <div class="blog__item__text">
-                            <span><img src="img/icon/calendar.png" alt=""> 21 February 2020</span>
-                            <h5>Wedding Rings A Gift For A Lifetime</h5>
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="blog__item">
-                        <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-6.jpg"></div>
-                        <div class="blog__item__text">
-                            <span><img src="img/icon/calendar.png" alt=""> 28 February 2020</span>
-                            <h5>The Different Methods Of Hair Removal</h5>
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="blog__item">
-                        <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-7.jpg"></div>
-                        <div class="blog__item__text">
-                            <span><img src="img/icon/calendar.png" alt=""> 16 February 2020</span>
-                            <h5>Hoop Earrings A Style From History</h5>
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="blog__item">
-                        <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-8.jpg"></div>
-                        <div class="blog__item__text">
-                            <span><img src="img/icon/calendar.png" alt=""> 21 February 2020</span>
-                            <h5>Lasik Eye Surgery Are You Ready</h5>
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="blog__item">
-                        <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-9.jpg"></div>
-                        <div class="blog__item__text">
-                            <span><img src="img/icon/calendar.png" alt=""> 28 February 2020</span>
-                            <h5>Lasik Eye Surgery Are You Ready</h5>
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
+                <div class="col-lg-12">
+                    <nav class="pagination-container product__pagination">
+                        <div id="pagination-numbers"></div>
+                    </nav>
                 </div>
             </div>
         </div>
@@ -235,20 +197,19 @@
                     <div class="footer__widget">
                         <h6>Shopping</h6>
                         <ul>
-                            <li><a href="#">Clothing Store</a></li>
-                            <li><a href="#">Trending Shoes</a></li>
-                            <li><a href="#">Accessories</a></li>
-                            <li><a href="#">Sale</a></li>
+                            <li><a href="./fallWinterClothingCollection.php">Clothing Store</a></li>
+                            <li><a href="./shoesWinterCollection.php">Trending Shoes</a></li>
+                            <li><a href="./accessoriesFallCollection.php">Accessories</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6">
                     <div class="footer__widget">
-                        <h6>Shopping</h6>
+                        <h6>Info</h6>
                         <ul>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="./contact.php">Contact Us</a></li>
                             <li><a href="#">Payment Methods</a></li>
-                            <li><a href="#">Delivary</a></li>
+                            <li><a href="#">Delivery</a></li>
                             <li><a href="#">Return & Exchanges</a></li>
                         </ul>
                     </div>
@@ -304,6 +265,7 @@
     <script src="js/mixitup.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/blog.js"></script>
 </body>
 
 </html>

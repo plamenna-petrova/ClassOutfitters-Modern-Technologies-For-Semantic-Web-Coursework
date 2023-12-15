@@ -3,6 +3,10 @@ const UPPERCASE_ALPHABET_LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
 const LOWERCASE_ALPHABET_LETTERS = 'abcdefghijklmnopqrstuvwxyz';
 
+const LOW_TO_HIGH_SORTING_TYPE = 'Low To High';
+
+const HIGH_TO_LOW_SORTING_TYPE = 'High To Low';
+
 export const applyFiltersByCategory = (displayProductsCallback, xmlDocument, collectionName) => {
     const shopSidebarCategoriesDiv = document.querySelector(".shop__sidebar__categories");
     shopSidebarCategoriesDiv.innerHTML = createProductCategoriesUnorderedList(xmlDocument, collectionName);
@@ -125,7 +129,10 @@ export const applyFiltersBySearchTerm = (displayProductsCallback, xmlDocument, c
     shopSidebarSearchForm.addEventListener("submit", (event) => {
         event.preventDefault();
         const eventTargetInput = event.target.querySelector("input");
-        displayProductsCallback(filterProductsWithXPathExpression({ xmlDocument, collectionName, searchTerm: eventTargetInput.value }));
+
+        displayProductsCallback(filterProductsWithXPathExpression({
+            xmlDocument, collectionName, searchTerm: eventTargetInput.value
+        }));
     });
 }
 
@@ -254,12 +261,12 @@ export const filterProductsWithXPathExpression = ({ xmlDocument, collectionName,
     }
 
     switch (sortingOption) {
-        case "Low To High":
+        case LOW_TO_HIGH_SORTING_TYPE:
             filteredProducts = filteredProducts.sort((a, b) =>
                 parseFloat(a.getElementsByTagName("price")[0].textContent) - parseFloat(b.getElementsByTagName("price")[0].textContent)
             );
             break;
-        case "High To Low":
+        case HIGH_TO_LOW_SORTING_TYPE:
             filteredProducts = filteredProducts.sort((a, b) =>
                 parseFloat(b.getElementsByTagName("price")[0].textContent) - parseFloat(a.getElementsByTagName("price")[0].textContent)
             );
@@ -294,7 +301,7 @@ export const generateFilteredProductsHTML = (products, collectionClassName) => {
                     <div class="product__item__text">
                         <h6>${product.getElementsByTagName('name')[0].textContent}</h6>
                         <a href="#" class="add-cart">+ Add To Cart</a>
-                        <h5>${product.getElementsByTagName('price')[0].textContent}</h5>
+                        <h5>$${product.getElementsByTagName('price')[0].textContent}</h5>
                     </div>
                 </div>
             </div>`

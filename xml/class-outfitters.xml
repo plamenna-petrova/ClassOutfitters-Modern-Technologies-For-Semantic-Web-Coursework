@@ -22,12 +22,14 @@
         A two or three storey house is the ideal way to maximise the 
         piece of earth on which our home sits, but for older or infirm people.
     </whyChooseUs>
-    <quote>
+    <testimonial>
         <author>Augusta Schultz</author>
         <area>Fashion Design</area>
-        <content>“Going out after work? Take your butane curling iron with you to the office, heat it up, 
-            style your hair before you leave the office and you won’t have to make a trip back home.”</content>
-    </quote>
+        <content>
+            “Going out after work? Take your butane curling iron with you to the office, heat it up, 
+            style your hair before you leave the office and you won’t have to make a trip back home.”
+        </content>
+    </testimonial>
     <internationalClients>102</internationalClients>
     <nationalClients>50</nationalClients>
     <totalCategories>30</totalCategories>
@@ -3215,7 +3217,352 @@
         </product>
     </collection>
     <blog>
-        <post>
+        <post slug="perpetual-pleating">
+            <title>Perpetual Pleating</title>
+            <author>Charlie Teather</author>
+            <createdOn>
+                <day>14</day>
+                <month>12</month>
+                <year>2023</year>
+            </createdOn>
+            <image>img/blog/autumn-winter-2023-fashion-trends-306656-1693245853709-main.2000x0c.jpg</image>
+            <content>
+                As the winter 2023/2024 collections prove time and again, it is often the quieter looks 
+                that make the biggest impression. Quiet luxury remains this year's most coveted aesthetic, 
+                and although there is growing controversy surrounding the term and its close links to elitism, 
+                designers are leaning into it and embracing it in ways previously unseen. 
+                From vest-top-and-jeans outfits to simple jersey dresses, looks such as this give the well-worn phrase 
+                "less is more" heightened meaning. Coats from Khaite, Gucci and Erdem [and] turtleneck dresses from Tove, 
+                Carolina Herrera and Bottega Veneta are some of the recent fashion trend must-haves. 
+                We're excited to be kicking off this trend with Maximilian Davis's debut collection at Ferragamo for 
+                last season's collections."
+            </content>
+            <quote>
+                <designer>Page</designer>
+                <note>
+                    Wearable, elevated dressing was definitely the highlight of the season. 
+                    We saw some immaculate tailoring and focus on wardrobe basics.
+                </note>
+            </quote>
+            <tag>Fashion</tag>
+            <tag>Trending</tag>
+            <tag>Blazers</tag>
+        </post>
+        <post slug="butter-me-up">
+            <title>Butter Me Up</title>
+            <author>Jessica Davis</author>
+            <createdOn>
+                <day>15</day>
+                <month>12</month>
+                <year>2023</year>
+            </createdOn>
+            <image>img/blog/autumn-winter-2023-fashion-trends-306656-1693248742498-main.2000x0c.jpg</image>
+            <content>
+                When it comes to compiling a report such as this, I insist on looking through the photography from each show afresh. 
+                Of course, some trends I've already earmarked, having witnessed them in real time during the shows themselves. 
+                Others, however, require a second look to discover, and one trend that practically jumped off the screen when 
+                I was doing so was butter yellow. Forget punchy mustards, and leave neon to the '80s. 
+                This autumn/winter encourages us to mellow out in soft shades of buttermilk yellow, 
+                one of the more luxurious shades in the pastel palette. After all, what other colour makes us feel instantly 
+                happier just by looking at it? As soon as the sun sets on another summer, we need the instant pick-me-up 
+                that yellow delivers, and as Christopher Kane and Cecilie Bahnsen prove, dressing up in vanilla-steeped layers 
+                helps us to hold onto the joy of the warm-weather season that much longer 
+                (that is, until spring rolls around again). Move over, maroon and predictable beige. 
+                This year, quiet luxury is served sunny side up.
+            </content>
+            <quote>
+                <designer>Remy Farrell, shopping editor at Who What Wear UK</designer>
+                <note>
+                    Every season, we get a colour trend so divisive it's the equivalent of 
+                    sartorial Marmite, and if you weren't on board with last year's Barbiecore, you might want to look away now. 
+                    Yellow is having a moment, and it's as sugary sweet as it comes.
+                </note>
+            </quote>
+            <tag>Fashion</tag>
+            <tag>Trending</tag>
+            <tag>Shirts</tag>
+        </post>
+        <post slug="check-yourself">
+            <title>Check Yourself</title>
+            <author>Jessica Davis</author>
+            <createdOn>
+                <day>14</day>
+                <month>12</month>
+                <year>2023</year>
+            </createdOn>
+            <image>img/blog/autumn-winter-2023-fashion-trends-306656-1693246597328-main.2000x0c.jpg</image>
+            <content>
+                While there's an excitement in unearthing a new trend you know is going to change the face of fashion 
+                for a season, as I get older, I've come to appreciate the sound reliability of others. I would assume that 
+                checks have featured on every winter trend report that has ever been published on Who What Wear. 
+                However, for 2024, they're significantly punchier than their predecessors. At Emilia Wickstead, 
+                green grid-like motifs stole the show, while one of my favourite looks of the season is 
+                the deep-mustard coat and leather trousers at Zimmermann. 
+            </content>
+            <quote>
+                <designer>Gramston</designer>
+                <note>
+                    Heritage weaves are still very much a thing—but in bright and unusual colour mixes.
+                </note>
+            </quote>
+            <tag>Fashion</tag>
+            <tag>Trending</tag>
+            <tag>Shirts</tag>
+        </post>
+        <post slug="hide-and-seek">
+            <title>Hide and Seek</title>
+            <author>Calvin Harris</author>
+            <createdOn>
+                <day>12</day>
+                <month>12</month>
+                <year>2023</year>
+            </createdOn>
+            <image>img/blog/autumn-winter-2023-fashion-trends-306656-1682525865106-main.2000x0c.jpg</image>
+            <content>
+                When it comes to materials to take note of next season, there's one that stands out from the rest: leather. 
+                From shirts and skirts to dresses and trousers to jackets and coats, leather dominated across all four fashion 
+                capitals. We saw a lot more of leather this season compared to the previous, and it had a moment this season 
+                with the styling," confirms Page. If that's not enough to convince you, perhaps the numbers will. 
+                Lyst reports that post–fashion month searches for leather clothing 
+                spiked by 25%—an early indicator of the prevalence it'll have on our wardrobes next season. 
+            </content>
+            <quote>
+                <designer>Page</designer>
+                <note>
+                    I loved the skirts from Proenza Schouler and Bottega Veneta and the leather 
+                    coats from Khaite, Ferragamo and Gabriela Hearst, especially in red and burgundy.
+                </note>
+            </quote>
+            <tag>Leather</tag>
+            <tag>Trending</tag>
+            <tag>Jackets</tag>
+        </post>
+        <post slug="soft-to-the-touch">
+            <title>Soft To The Touch</title>
+            <author>Spike Spiegel</author>
+            <createdOn>
+                <day>15</day>
+                <month>12</month>
+                <year>2023</year>
+            </createdOn>
+            <image>img/blog/autumn-winter-2023-fashion-trends-306656-1693246878178-main.2000x0c.jpg</image>
+            <content>
+                Comfort is more than a trend. It's a state of mind. For many of us, the cosy vibes you get from wearing your 
+                favourite loungewear is something we'd very much like to carry into other aspects of our wardrobes, 
+                and autumn/winter's exploration of toasty, sumptuous fabrications in swathing silhouettes will allow us 
+                cold girls to do just that. "Luxe textures, especially shearling, featured heavily on outerwear and accessories 
+                this season, adding a soft touch to the clean lines and elevated ready-to-wear styling that dominated the runway," 
+                says Gramston. "We especially loved Bally's deep-blue velvet boots alongside the pale-blue shearling-lined mules 
+                from Khaite and Loewe's textured, oversized totes which featured the brand's signature doughnut-chain link." 
+                Personally, I'd like to start and end the season in A.W.A.K.E. Mode's divine cream bouclé creation. 
+            </content>
+            <quote>
+                <designer>Gramston</designer>
+                <note>
+                    Luxe textures, especially shearling, featured heavily on outerwear and accessories 
+                    this season, adding a soft touch to the clean lines and elevated ready-to-wear styling that dominated the runway.
+                </note>
+            </quote>
+            <tag>Fashion</tag>
+            <tag>Trending</tag>
+            <tag>Textures</tag>
+        </post>
+        <post slug="business-class">
+            <title>Business Class</title>
+            <author>Shirou Emiya</author>
+            <createdOn>
+                <day>10</day>
+                <month>12</month>
+                <year>2023</year>
+            </createdOn>
+            <image>img/blog/autumn-winter-2023-fashion-trends-306656-1693249793557-main.2000x0c.jpg</image>
+            <content>
+                It's not just wardrobe building blocks that have surged in popularity since the quiet-luxury aesthetic went viral. 
+                Going against the Y2K grain, there's a discernible need and want to dress elegantly for work, too. 
+                Oversized blazers at Saint Laurent and pencil skirts from the likes of Tove and Burberry led the way 
+                for this trend. We also loved the suiting from Max Mara and 
+                Gabriela Hearst, taking power dressing to the next level. 
+            </content>
+            <quote>
+                <designer>Page</designer>
+                <note>
+                    Business-style dressing by the likes of The Row, Valentino and Loewe and my favourite of this season, Ferragamo, 
+                    really set the mood for the next few months.
+                </note>
+            </quote>
+            <tag>Fashion</tag>
+            <tag>Classy</tag>
+            <tag>Blazers</tag>
+        </post>
+        <post slug="silver-linings">
+            <title>Silver Linings</title>
+            <author>Bradley Cooper</author>
+            <createdOn>
+                <day>5</day>
+                <month>12</month>
+                <year>2023</year>
+            </createdOn>
+            <image>img/blog/autumn-winter-2023-fashion-trends-306656-1693247399512-main.2000x0c.jpg</image>
+            <content>
+                I was impressed at the display of metallics we saw in the spring/summer collections—it's not a 
+                trend you necessarily expect for the warmer months. However, right on cue, the recent runways lit up with 
+                high-shine finishes. Only this time, the focus is solely on silver. 
+                From sparkling sequins at 16 Arlington to molten lamé at Ferragamo and Proenza Schouler, the metallic hue is 
+                breathing a breath of fresh air into our wardrobes. And it's trickling down into jewellery and accessories, too. 
+                I've sworn by gold jewellery for years now, but I'm ready to dip a toe in silver tones that give any 
+                outfit a clean look. In the weeks after the shows, Lyst can attest that silver was one of the key 
+                trend takeaways, as searches for the hue peaked by 24% in the four weeks following fashion month. 
+            </content>
+            <quote>
+                <designer>Eleanor Vousden, beauty editor at Who What Wear UK</designer>
+                <note>
+                    I'm blaming it on Beyoncé's Renaissance album, but silver is everywhere right now.
+                </note>
+            </quote>
+            <tag>Fashion</tag>
+            <tag>Trending</tag>
+            <tag>Hues</tag>
+        </post>
+        <post slug="under-wraps">
+            <title>Under Wraps</title>
+            <author>Shirou Emiya</author>
+            <createdOn>
+                <day>11</day>
+                <month>12</month>
+                <year>2023</year>
+            </createdOn>
+            <image>img/blog/autumn-winter-2023-fashion-trends-306656-1693247861547-main.2000x0c.jpg</image>
+            <content>
+                After spending 365 days weighing up every single pro and con, last winter I treated myself to Toteme's scarf-coat. 
+                Assuming you've spent more than five seconds on either Instagram or TikTok in the same time frame, 
+                then you'll know the coat of which I speak. Its built-in scarf, which I still take delight in tossing nonchalantly 
+                over my shoulder, has inspired a new outerwear trend for winter 2023/2024. 
+                Be it a blanket cape or a woollen coat with lengths to the shoulders, the notion of bundling up has become literal. 
+            </content>
+            <quote>
+                <designer>Gramston</designer>
+                <note>
+                    As seen at The Row and Daniel Lee's Burberry debut, 
+                    outerwear was sumptuous this season with capes and scarves layered over coats for ultimate cosiness.
+                </note>
+            </quote>
+            <tag>Fashion</tag>
+            <tag>Trending</tag>
+            <tag>Scarfs</tag>
+        </post>
+        <post slug="pointed-response">
+            <title>Pointed Response</title>
+            <author>John Evans</author>
+            <createdOn>
+                <day>15</day>
+                <month>12</month>
+                <year>2023</year>
+            </createdOn>
+            <image>img/blog/autumn-winter-2023-fashion-trends-306656-1693250294293-main.2000x0c.jpg</image>
+            <content>
+                An admirable facet of the winter collections was the appreciation of what could be politely described as 
+                unassuming garments, and the button-down shirt was one of them.
+                One key note from the winter 2023/2024 collections was that shirting is and always will be a hero staple. 
+                Often overlooked as a basic, the likes of Yuzefi, Bottega Veneta and Eudon Choi have added splashes of colour 
+                or impactful details like waist belts and XXL cuffs to elevate the once humble shirt's status as a statement. 
+                If, like me, you're into your earthy tones, look to Akris and Prada, who have options in mud brown and moss green 
+                that are a change from failsafe black.
+            </content>
+            <quote>
+                <designer>Rebecca Rhys-Evans, branded content editor at Who What Wear UK</designer>
+                <note>
+                    Where summer feels all about soft, curved silhouettes from puffed sleeves and ruffled edges, 
+                    winter for me is all about the clean cuts and sharp tailoring.
+                </note>
+            </quote>
+            <tag>Fashion</tag>
+            <tag>Trending</tag>
+            <tag>Shirts</tag>
+        </post>
+        <post slug="against-the-elements">
+            <title>Against The Elements</title>
+            <author>Charlie Teather</author>
+            <createdOn>
+                <day>12</day>
+                <month>12</month>
+                <year>2023</year>
+            </createdOn>
+            <image>img/blog/autumn-winter-2023-fashion-trends-306656-1693250827064-main.2000x0c.jpg</image>
+            <content>
+                Practical coats have undergone a metamorphosis to become very chic things indeed. 
+                The past few years meant that daily walks became habitual for many of us, and our penchant for outwear that's up 
+                to the task, even in the depths of winter, endures. Rain macs, puffers and shearling-trimmed coats were prevalent 
+                on the runways of even the most refined fashion houses—think Christian Dior, Chloé and Burberry.
+                My selection will be torn between puffers in neutral hues and fun shearling—something tells me I can make 
+                room in my wardrobe (and on my IG feed) for both.
+            </content>
+            <quote>
+                <designer>Joy Ejaria, social media editor at Who What Wear UK</designer>
+                <note>
+                    I'm done with being cold and over not dressing appropriately for the forecast, so the piece I know I'll be 
+                    investing in this season is going to be a weatherproof coat.
+                </note>
+            </quote>
+            <tag>Fashion</tag>
+            <tag>Winter</tag>
+            <tag>Jackets</tag>
+        </post>
+        <post slug="dash-of-saffron">
+            <title>Dash Of Saffron</title>
+            <author>Spike Spiegel</author>
+            <createdOn>
+                <day>14</day>
+                <month>12</month>
+                <year>2023</year>
+            </createdOn>
+            <image>img/blog/autumn-winter-2023-fashion-trends-306656-1693251009454-main.2000x0c.jpg</image>
+            <content>
+                Some trends are simply too impactful to be relegated to one season, and saffron is one of them. 
+                A predominant colour trend for spring/summer, any investment you've made in red tones will carry you through to 2024, 
+                too. I shouldn't be surprised—this specific shade of postbox red is classic and a constant in the fashion cycle, 
+                making it a great option should you be looking to add more colour to your looks but want 
+                the assurance it won't date them.  
+            </content>
+            <quote>
+                <designer>Page</designer>
+                <note>
+                    Red was a consistent theme in the shows by the likes of Stella McCartney and Valentino, giving a strong, 
+                    high-impact look. The Row was a highlight for me.
+                </note>
+            </quote>
+            <tag>Fashion</tag>
+            <tag>Trending</tag>
+            <tag>Hues</tag>
+        </post>
+        <post slug="clutch-control">
+            <title>Clutch Control</title>
+            <author>John Evans</author>
+            <createdOn>
+                <day>10</day>
+                <month>12</month>
+                <year>2023</year>
+            </createdOn>
+            <image>img/blog/autumn-winter-2023-fashion-trends-306656-1693245930784-main.2000x0c.jpg</image>
+            <content>
+                Fashion is often at odds with itself, moving from one trend extreme to the next between 
+                seasons as designers seek to offer something fresh. This is evident in winter's bag selection. 
+                Totes were the order of the day for spring/summer, so naturally, the industry has switched things up for 
+                the next few months, instead bringing clutch bags to the fore. We all know that clutch bags aren't practical, 
+                but there's clearly enough of that in fashion circles right now—some things just need to be chic and a little bit 
+                fabulous. Handbag trends come and go, but a pared-back, elegant clutch for day or night 
+                is surprisingly timeless and has been popular for more than the past century. For 2024, scale, form or texture are 
+                often exaggerated, but a very plain iteration will look just as current. In short, a good clutch will 
+                add extra polish to smart, tailored ensembles, which this season has in abundance.
+            </content>
+            <quote>
+                <designer>Hannah Almassi, editor in chief at Who What Wear UK</designer>
+                <note>
+                    That's where these jumbo clutches from Miu Miu, Jil Sander and Givenchy come in.
+                </note>
+            </quote>
+            <tag>Fashion</tag>
+            <tag>Trending</tag>
+            <tag>Clutches</tag>
         </post>
     </blog>
 </shop>

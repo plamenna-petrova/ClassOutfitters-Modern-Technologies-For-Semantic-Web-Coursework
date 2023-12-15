@@ -30,7 +30,7 @@ let paginationItemsColumns = paginatedList.querySelectorAll(".product__item__col
 
 const shownPaginationResultsParagraph = document.querySelector("div.shop__product__option__left p");
 
-const paginationLimit = 12;
+const paginationLimit = 9;
 
 let pagesCount = Math.ceil(paginationItemsColumns.length / paginationLimit);
 let currentPage = 1;
@@ -50,6 +50,8 @@ fetch('./xml/class-outfitters.xml')
     .then(classOutfittersXMLString => {
         const classOutfittersXMLDocument = new DOMParser().parseFromString(classOutfittersXMLString, "application/xml");
         const fallWinterClothingCollectionName = 'Fall-Winter Clothing Collection 2023/2024';
+        let breadCrumbLinksSpan = document.querySelector(".breadcrumb__links span");
+        breadCrumbLinksSpan.innerHTML = fallWinterClothingCollectionName;
 
         applyFiltersByCategory(displayClothing, classOutfittersXMLDocument, fallWinterClothingCollectionName);
         applyFiltersByBrand(displayClothing, classOutfittersXMLDocument, fallWinterClothingCollectionName);

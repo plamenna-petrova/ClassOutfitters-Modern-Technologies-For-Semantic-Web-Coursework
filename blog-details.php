@@ -1,3 +1,36 @@
+<?php
+if (file_exists('./xml/class-outfitters.xml')) {
+    $shopNode = simplexml_load_file('./xml/class-outfitters.xml');
+    $slug = $_GET['slug'];
+    $blogPostByXPathQuery = $shopNode->xpath("blog/post[@slug='$slug']")[0];
+    $blogPostTitle = $blogPostByXPathQuery->title;
+    $blogPostAuthor = $blogPostByXPathQuery->author;
+    $blogPostCreatedOn = $blogPostByXPathQuery->createdOn;
+    $blogPostCreatedOnDay = $blogPostCreatedOn->day;
+    $blogPostMonthObject = DateTime::createFromFormat('!m', $blogPostCreatedOn->month);
+    $formattedBlogPostMonthName = $blogPostMonthObject->format('F');
+    $blogPostCreatedOnYear = $blogPostCreatedOn->year;
+    $blogPostImage = $blogPostByXPathQuery->image;
+    $blogPostContent = $blogPostByXPathQuery->content;
+    $blogPostQuote = $blogPostByXPathQuery->quote;
+    $blogPostTags = $blogPostByXPathQuery->tag;
+
+    $blogPosts = array();
+
+    foreach ($shopNode->blog->post as $blogPost) {
+        $blogPosts[] = $blogPost;
+    }
+
+    usort($blogPosts, function ($firstPost, $secondPost) {
+        $firstPostDate = "" . $firstPost->createdOn->year . "-" . $firstPost->createdOn->month . "-" . $firstPost->createdOn->day . "";
+        $secondPostDate = "" . $secondPost->createdOn->year . "-" . $secondPost->createdOn->month . "-" . $secondPost->createdOn->day . "";
+        return strtotime($secondPostDate) - strtotime($firstPostDate);
+    });
+} else {
+    exit('Failed to open class-outfitters.xml');
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -89,7 +122,7 @@
                                     <li><a href="./accessoriesFallCollection.php">Accessories</a></li>
                                 </ul>
                             </li>
-                            <li class="active"><a href="./blog.php">Blog</a></li>
+                            <li><a href="./blog.php">Blog</a></li>
                             <li><a href="./about.php">About Us</a></li>
                             <li><a href="./contact.php">Contacts</a></li>
                         </ul>
@@ -114,12 +147,15 @@
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-9 text-center">
                     <div class="blog__hero__text">
-                        <h2>Are you one of the thousands of Iphone owners who has no idea</h2>
-                        <ul>
-                            <li>By Deercreative</li>
-                            <li>February 21, 2019</li>
-                            <li>8 Comments</li>
-                        </ul>
+                        <?php
+                            echo "
+                                <h2>".$blogPostTitle."</h2>
+                                <ul>
+                                    <li>".$blogPostAuthor."</li>
+                                    <li>".$formattedBlogPostMonthName." ".$blogPostCreatedOnDay.", ".$blogPostCreatedOnYear."</li>
+                                </ul>
+                            "; 
+                        ?>
                     </div>
                 </div>
             </div>
@@ -131,10 +167,14 @@
     <section class="blog-details spad">
         <div class="container">
             <div class="row d-flex justify-content-center">
-                <div class="col-lg-12">
-                    <div class="blog__details__pic">
-                        <img src="img/blog/details/blog-details.jpg" alt="">
-                    </div>
+                <div class="col-lg-6">
+                    <?php
+                        echo "
+                            <div class='blog__details__pic'>
+                                <img src='".$blogPostImage."' />
+                            </div>
+                        "; 
+                    ?>
                 </div>
                 <div class="col-lg-8">
                     <div class="blog__details__content">
@@ -147,88 +187,82 @@
                                 <li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
-                        <div class="blog__details__text">
-                            <p>Hydroderm is the highly desired anti-aging cream on the block. This serum restricts the
-                                occurrence of early aging sings on the skin and keeps the skin younger, tighter and
-                                healthier. It reduces the wrinkles and loosening of skin. This cream nourishes the skin
-                                and brings back the glow that had lost in the run of hectic years.</p>
-                            <p>The most essential ingredient that makes hydroderm so effective is Vyo-Serum, which is a
-                                product of natural selected proteins. This concentrate works actively in bringing about
-                                the natural youthful glow of the skin. It tightens the skin along with its moisturizing
-                                effect on the skin. The other important ingredient, making hydroderm so effective is
-                                “marine collagen” which along with Vyo-Serum helps revitalize the skin.</p>
-                        </div>
-                        <div class="blog__details__quote">
-                            <i class="fa fa-quote-left"></i>
-                            <p>“When designing an advertisement for a particular product many things should be
-                                researched like where it should be displayed.”</p>
-                            <h6>_ John Smith _</h6>
-                        </div>
-                        <div class="blog__details__text">
-                            <p>Vyo-Serum along with tightening the skin also reduces the fine lines indicating aging of
-                                skin. Problems like dark circles, puffiness, and crow’s feet can be control from the
-                                strong effects of this serum.</p>
-                            <p>Hydroderm is a multi-functional product that helps in reducing the cellulite and giving
-                                the body a toned shape, also helps in cleansing the skin from the root and not letting
-                                the pores clog, nevertheless also let’s sweeps out the wrinkles and all signs of aging
-                                from the sensitive near the eyes.</p>
+                        <?php
+                            echo "
+                                <div class='blog__details__text'>
+                                    <p>".$blogPostContent."</p>
+                                </div>
+                                <div class='blog__details__quote'>
+                                    <i class='fa fa-quote-left'></i>
+                                    <p>\"$blogPostQuote->note\"</p>
+                                    <h6>$blogPostQuote->designer</h6>
+                                </div>
+                            "; 
+                        ?>
                         </div>
                         <div class="blog__details__option">
                             <div class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <div class="blog__details__author">
-                                        <div class="blog__details__author__pic">
-                                            <img src="img/blog/details/blog-author.jpg" alt="">
+                                <?php
+                                    echo "
+                                        <div class='col-lg-6 col-md-6 col-sm-6'>
+                                            <div class='blog__details__author'>
+                                                <div class='blog__details__author__text'>
+                                                    <h5>".$blogPostAuthor."</h5>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="blog__details__author__text">
-                                            <h5>Aiden Blair</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <div class="blog__details__tags">
-                                        <a href="#">#Fashion</a>
-                                        <a href="#">#Trending</a>
-                                        <a href="#">#2020</a>
-                                    </div>
-                                </div>
+                                    "; 
+
+                                    echo "<div class='col-lg-6 col-md-6 col-sm-6'>";
+                                    echo "<div class='blog__details__tags'>";
+
+                                    foreach ($blogPostTags as $blogPostTag) {
+                                        echo "<a>#$blogPostTag</a>";
+                                    }
+
+                                    echo "</div>";
+                                    echo "</div>";
+                                ?>
                             </div>
                         </div>
                         <div class="blog__details__btns">
                             <div class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <a href="" class="blog__details__btns__item">
-                                        <p><span class="arrow_left"></span> Previous Pod</p>
-                                        <h5>It S Classified How To Utilize Free Classified Ad Sites</h5>
-                                    </a>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <a href="" class="blog__details__btns__item blog__details__btns__item--next">
-                                        <p>Next Pod <span class="arrow_right"></span></p>
-                                        <h5>Tips For Choosing The Perfect Gloss For Your Lips</h5>
-                                    </a>
-                                </div>
+                                <?php
+                                    $currentBlogPostIndex = array_search($blogPostByXPathQuery, $blogPosts);
+                                    
+                                    echo "<div class='col-lg-6 col-md-6 col-sm-6'>";
+
+                                    if ($currentBlogPostIndex > 0) {
+                                        echo "
+                                            <form method='get' action='blog-details.php'>
+                                                <input type='hidden' name='slug' value='".$blogPosts[$currentBlogPostIndex - 1]->attributes()->slug."' />
+                                                <a href='#' class='blog__details__btns__item' onclick='this.parentNode.submit(); return false;'>
+                                                    <p><span class='arrow_left'></span>Previous Post</p>
+                                                    <h5>".$blogPosts[$currentBlogPostIndex - 1]->title."</h5>
+                                                </a>
+                                            </form>
+                                        ";
+                                    }
+
+                                    echo "</div>";
+
+                                    echo "<div class='col-lg-6 col-md-6 col-sm-6'>";
+
+                                    if ($currentBlogPostIndex < count($blogPosts) - 1) {
+                                        echo "
+                                            <form method='get' action='blog-details.php'>
+                                                <input type='hidden' name='slug' value='".$blogPosts[$currentBlogPostIndex + 1]->attributes()->slug."' />
+                                                <a href='#' class='blog__details__btns__item blog__details__btns__item--next' onclick='this.parentNode.submit(); return false;'>
+                                                    <p>Next Post<span class='arrow_right'></span></p>
+                                                    <h5>".$blogPosts[$currentBlogPostIndex + 1]->title."</h5>
+                                                </a>
+                                            </form>
+                                        ";
+                                    }
+
+                                    echo "</div>";
+                                ?>
                             </div>
-                        </div>
-                        <div class="blog__details__comment">
-                            <h4>Leave A Comment</h4>
-                            <form action="#">
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-4">
-                                        <input type="text" placeholder="Name">
-                                    </div>
-                                    <div class="col-lg-4 col-md-4">
-                                        <input type="text" placeholder="Email">
-                                    </div>
-                                    <div class="col-lg-4 col-md-4">
-                                        <input type="text" placeholder="Phone">
-                                    </div>
-                                    <div class="col-lg-12 text-center">
-                                        <textarea placeholder="Comment"></textarea>
-                                        <button type="submit" class="site-btn">Post Comment</button>
-                                    </div>
-                                </div>
-                            </form>
                         </div>
                     </div>
                 </div>
@@ -244,7 +278,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="footer__about">
                         <div class="logo">
-                            <a href="#"><img src="img/footer-logo.png" alt=""></a>
+                            <a href="#"><img src="img/logo.png" alt=""></a>
                         </div>
                         <p>The customer is at the heart of our unique business model, which includes design.</p>
                     </div>
@@ -253,20 +287,19 @@
                     <div class="footer__widget">
                         <h6>Shopping</h6>
                         <ul>
-                            <li><a href="#">Clothing Store</a></li>
-                            <li><a href="#">Trending Shoes</a></li>
-                            <li><a href="#">Accessories</a></li>
-                            <li><a href="#">Sale</a></li>
+                            <li><a href="./fallWinterClothingCollection.php">Clothing Store</a></li>
+                            <li><a href="./shoesWinterCollection.php">Trending Shoes</a></li>
+                            <li><a href="./accessoriesFallCollection.php">Accessories</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6">
                     <div class="footer__widget">
-                        <h6>Shopping</h6>
+                        <h6>Info</h6>
                         <ul>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="./contact.php">Contact Us</a></li>
                             <li><a href="#">Payment Methods</a></li>
-                            <li><a href="#">Delivary</a></li>
+                            <li><a href="#">Delivery</a></li>
                             <li><a href="#">Return & Exchanges</a></li>
                         </ul>
                     </div>

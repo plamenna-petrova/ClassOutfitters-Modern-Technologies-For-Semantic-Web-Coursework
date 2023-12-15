@@ -1,11 +1,8 @@
-// pagination logic
-
 const paginationNumbers = document.getElementById("pagination-numbers");
 const paginatedList = document.getElementById("paginated-list");
-const paginationItemsColumns = paginatedList.querySelectorAll(".product__item__col");
-const shownPaginationResultsParagraph = document.querySelector("div.shop__product__option__left p");
+const paginationItemsColumns = paginatedList.querySelectorAll(".blog__post__col");
 
-const paginationLimit = 12;
+const paginationLimit = 6;
 const pagesCount = Math.ceil(paginationItemsColumns.length / paginationLimit);
 
 let currentPage = 1;
@@ -48,17 +45,15 @@ const setCurrentPage = (pageNumber) => {
     const previousPagesRange = (pageNumber - 1) * paginationLimit;
     const nextPagesRange = pageNumber * paginationLimit;
 
+    console.log(paginationItemsColumns);
+
     paginationItemsColumns.forEach((paginationListItem, index) => {
         paginationListItem.classList.add("hidden");
-        
+
         if (index >= previousPagesRange && index < nextPagesRange) {
             paginationListItem.classList.remove("hidden");
         }
     });
-
-    shownPaginationResultsParagraph.innerHTML = `Showing ${previousPagesRange + 1}-` +
-        `${nextPagesRange > paginationItemsColumns.length ? paginationItemsColumns.length : nextPagesRange } ` +
-        `results out of ${paginationItemsColumns.length}`;
 }
 
 const handleActivePageNumber = () => {

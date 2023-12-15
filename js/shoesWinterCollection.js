@@ -30,7 +30,7 @@ let paginationItemsColumns = paginatedList.querySelectorAll(".product__item__col
 
 const shownPaginationResultsParagraph = document.querySelector("div.shop__product__option__left p");
 
-const paginationLimit = 12;
+const paginationLimit = 9;
 
 let pagesCount = Math.ceil(paginationItemsColumns.length / paginationLimit);
 let currentPage = 1;
@@ -49,18 +49,20 @@ fetch('./xml/class-outfitters.xml')
     })
     .then(classOutfittersXMLString => {
         const classOutfittersXMLDocument = new DOMParser().parseFromString(classOutfittersXMLString, "application/xml");
-        const fallWinterClothingCollectionName = 'Shoes Winter Collection 2023/2024';
+        const shoesWinterCollectionName = 'Shoes Winter Collection 2023/2024';
+        let breadCrumbLinksSpan = document.querySelector(".breadcrumb__links span");
+        breadCrumbLinksSpan.innerHTML = shoesWinterCollectionName;
 
-        applyFiltersByCategory(displayShoes, classOutfittersXMLDocument, fallWinterClothingCollectionName);
-        applyFiltersByBrand(displayShoes, classOutfittersXMLDocument, fallWinterClothingCollectionName);
-        applyFiltersByPriceRange(displayShoes, classOutfittersXMLDocument, fallWinterClothingCollectionName);
-        applyFiltersBySize(displayShoes, classOutfittersXMLDocument, fallWinterClothingCollectionName);
-        applyFiltersByColor(displayShoes, classOutfittersXMLDocument, fallWinterClothingCollectionName);
-        applyFiltersByTag(displayShoes, classOutfittersXMLDocument, fallWinterClothingCollectionName);
+        applyFiltersByCategory(displayShoes, classOutfittersXMLDocument, shoesWinterCollectionName);
+        applyFiltersByBrand(displayShoes, classOutfittersXMLDocument, shoesWinterCollectionName);
+        applyFiltersByPriceRange(displayShoes, classOutfittersXMLDocument, shoesWinterCollectionName);
+        applyFiltersBySize(displayShoes, classOutfittersXMLDocument, shoesWinterCollectionName);
+        applyFiltersByColor(displayShoes, classOutfittersXMLDocument, shoesWinterCollectionName);
+        applyFiltersByTag(displayShoes, classOutfittersXMLDocument, shoesWinterCollectionName);
 
-        applyFiltersBySearchTerm(displayShoes, classOutfittersXMLDocument, fallWinterClothingCollectionName);
+        applyFiltersBySearchTerm(displayShoes, classOutfittersXMLDocument, shoesWinterCollectionName);
 
-        sortProducts(displayShoes, classOutfittersXMLDocument, fallWinterClothingCollectionName);
+        sortProducts(displayShoes, classOutfittersXMLDocument, shoesWinterCollectionName);
     })
     .catch((error) => {
         console.log('An error occurred', error);

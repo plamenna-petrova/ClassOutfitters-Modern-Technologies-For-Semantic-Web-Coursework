@@ -25,20 +25,6 @@
     echo $processedAndTransformedXML;
 ?>
 
-<script>
-    let fallWinterClothingCollectionColumns = document.querySelectorAll('.product__item__col.fall-winter-clothing-collection');
-
-    for (let i = 0; i < fallWinterClothingCollectionColumns.length; i++) {
-        fallWinterClothingCollectionColumns[i].remove();
-    }
-    
-    let shoesWinterCollectionColumns = document.querySelectorAll('.product__item__col.shoes-winter-collection');
-
-    for (let i = 0; i < shoesWinterCollectionColumns.length; i++) {
-        shoesWinterCollectionColumns[i].remove();
-    }
-</script>
-
 <script src="js/accessoriesFallCollection.js" type="module"></script>
 </body>
 </html>

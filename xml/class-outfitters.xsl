@@ -1,7 +1,5 @@
 <?xml version="1.0" ?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-    <xsl:key name="category" match="*[@category]" use="@category"/>
-    <xsl:key name="brand" match="*[brand]" use="brand" />
     <xsl:template match="/">
         <html>
             <head>
@@ -134,7 +132,7 @@
                                                 <div class="card-heading">
                                                     <a data-toggle="collapse" data-target="#collapseOne">Categories</a>
                                                 </div>
-                                                <div id="collapseOne" class="collapse show" data-parent="#accordionExample">
+                                                <div id="collapseOne" class="collapse" data-parent="#accordionExample">
                                                     <div class="card-body">
                                                         <div class="shop__sidebar__categories">
                                                         </div>
@@ -145,7 +143,7 @@
                                                 <div class="card-heading">
                                                     <a data-toggle="collapse" data-target="#collapseTwo">Branding</a>
                                                 </div>
-                                                <div id="collapseTwo" class="collapse show" data-parent="#accordionExample">
+                                                <div id="collapseTwo" class="collapse" data-parent="#accordionExample">
                                                     <div class="card-body">
                                                         <div class="shop__sidebar__brand">
                                                         </div>
@@ -156,7 +154,7 @@
                                                 <div class="card-heading">
                                                     <a data-toggle="collapse" data-target="#collapseThree">Filter Price</a>
                                                 </div>
-                                                <div id="collapseThree" class="collapse show" data-parent="#accordionExample">
+                                                <div id="collapseThree" class="collapse" data-parent="#accordionExample">
                                                     <div class="card-body">
                                                         <div class="shop__sidebar__price">
                                                             <ul>
@@ -175,7 +173,7 @@
                                                 <div class="card-heading">
                                                     <a data-toggle="collapse" data-target="#collapseFour">Size</a>
                                                 </div>
-                                                <div id="collapseFour" class="collapse show" data-parent="#accordionExample">
+                                                <div id="collapseFour" class="collapse" data-parent="#accordionExample">
                                                     <div class="card-body">
                                                         <div class="shop__sidebar__size">
                                                         </div>
@@ -186,7 +184,7 @@
                                                 <div class="card-heading">
                                                     <a data-toggle="collapse" data-target="#collapseFive">Colors</a>
                                                 </div>
-                                                <div id="collapseFive" class="collapse show" data-parent="#accordionExample">
+                                                <div id="collapseFive" class="collapse" data-parent="#accordionExample">
                                                     <div class="card-body">
                                                         <div class="shop__sidebar__color ml-1">
                                                         </div>
@@ -197,7 +195,7 @@
                                                 <div class="card-heading">
                                                     <a data-toggle="collapse" data-target="#collapseSix">Tags</a>
                                                 </div>
-                                                <div id="collapseSix" class="collapse show" data-parent="#accordionExample">
+                                                <div id="collapseSix" class="collapse" data-parent="#accordionExample">
                                                     <div class="card-body">
                                                         <div class="shop__sidebar__tags">
                                                         </div>
@@ -251,7 +249,7 @@
                                                 <div class="product__item__text">
                                                     <h6><xsl:value-of select="name" /></h6>
                                                     <a href="#" class="add-cart">+ Add To Cart</a>
-                                                    <h5><xsl:value-of select="price" /></h5>
+                                                    <h5>$<xsl:value-of select="price" /></h5>
                                                 </div>
                                             </div>
                                         </div>
@@ -296,7 +294,7 @@
                                                                 <input type="hidden" name="productNumber" value="{@number}" />
                                                                 <input type="hidden" name="productCategory" value="{@category}" />
                                                                 <button type="submit">
-                                                                    <img src="../img/icon/search.png" alt="" />
+                                                                    <img src="img/icon/search.png" alt="" />
                                                                 </button>
                                                             </form>
                                                         </li>
@@ -314,9 +312,7 @@
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <nav class="pagination-container product__pagination">
-                                            <div id="pagination-numbers">
-                                                
-                                            </div>
+                                            <div id="pagination-numbers"></div>
                                         </nav>
                                     </div>
                                 </div>
@@ -342,21 +338,20 @@
                                 <div class="footer__widget">
                                     <h6>Shopping</h6>
                                     <ul>
-                                        <li><a href="#">Clothing Store</a></li>
-                                        <li><a href="#">Trending Shoes</a></li>
-                                        <li><a href="#">Accessories</a></li>
-                                        <li><a href="#">Sale</a></li>
+                                        <li><a href="./fallWinterClothingCollection.php">Clothing Store</a></li>
+                                        <li><a href="./shoesWinterCollection.php">Trending Shoes</a></li>
+                                        <li><a href="./accessoriesFallCollection.php">Accessories</a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-md-3 col-sm-6">
                                 <div class="footer__widget">
-                                    <h6>Shopping</h6>
+                                    <h6>Info</h6>
                                     <ul>
-                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="./contact.php">Contact Us</a></li>
                                         <li><a href="#">Payment Methods</a></li>
-                                        <li><a href="#">Delivary</a></li>
-                                        <li><a href="#">Return &amp; Exchanges</a></li>
+                                        <li><a href="#">Delivery</a></li>
+                                        <li><a href="#"><xsl:text disable-output-escaping="yes">Return &amp; Exchanges</xsl:text></a></li>
                                     </ul>
                                 </div>
                             </div>
