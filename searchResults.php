@@ -1,31 +1,13 @@
 <?php
 if (file_exists('./xml/class-outfitters.xml')) {
     $shopNode = simplexml_load_file('./xml/class-outfitters.xml');
-    $slug = $_GET['slug'];
-    $blogPostByXPathQuery = $shopNode->xpath("blog/post[@slug='$slug']")[0];
-    $blogPostTitle = $blogPostByXPathQuery->title;
-    $blogPostAuthor = $blogPostByXPathQuery->author;
-    $blogPostCreatedOn = $blogPostByXPathQuery->createdOn;
-    $blogPostCreatedOnDay = $blogPostCreatedOn->day;
-    $blogPostMonthObject = DateTime::createFromFormat('!m', $blogPostCreatedOn->month);
-    $formattedBlogPostMonthName = $blogPostMonthObject->format('F');
-    $blogPostCreatedOnYear = $blogPostCreatedOn->year;
-    $blogPostImage = $blogPostByXPathQuery->image;
-    $blogPostContent = $blogPostByXPathQuery->content;
-    $blogPostQuote = $blogPostByXPathQuery->quote;
-    $blogPostTags = $blogPostByXPathQuery->tag;
+    $searchTerm = $_GET['search'];
 
-    $blogPosts = array();
+    $UPPERCASE_ALPHABET_LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
-    foreach ($shopNode->blog->post as $blogPost) {
-        $blogPosts[] = $blogPost;
-    }
+    $LOWERCASE_ALPHABET_LETTERS = 'abcdefghijklmnopqrstuvwxyz';
 
-    usort($blogPosts, function ($firstPost, $secondPost) {
-        $firstPostDate = "" . $firstPost->createdOn->year . "-" . $firstPost->createdOn->month . "-" . $firstPost->createdOn->day . "";
-        $secondPostDate = "" . $secondPost->createdOn->year . "-" . $secondPost->createdOn->month . "-" . $secondPost->createdOn->day . "";
-        return strtotime($secondPostDate) - strtotime($firstPostDate);
-    });
+    $foundProducts = $shopNode->xpath("collection/product[@category[contains(translate(., '".$UPPERCASE_ALPHABET_LETTERS."', '".$LOWERCASE_ALPHABET_LETTERS."'), '".$searchTerm."')] or name[contains(translate(., '".$UPPERCASE_ALPHABET_LETTERS."', '".$LOWERCASE_ALPHABET_LETTERS."'), '".$searchTerm."')] or brand[contains(translate(., '".$UPPERCASE_ALPHABET_LETTERS."', '".$LOWERCASE_ALPHABET_LETTERS."'), '".$searchTerm."')]]");
 } else {
     exit('Failed to open class-outfitters.xml');
 }
@@ -141,135 +123,66 @@ if (file_exists('./xml/class-outfitters.xml')) {
     </header>
     <!-- Header Section End -->
 
-    <!-- Blog Details Hero Begin -->
-    <section class="blog-hero spad">
+    <!-- Breadcrumb Section Begin -->
+    <section class="breadcrumb-blog set-bg" data-setbg="img/breadcrumb-bg.jpg">
         <div class="container">
-            <div class="row d-flex justify-content-center">
-                <div class="col-lg-9 text-center">
-                    <div class="blog__hero__text">
-                        <?php
-                            echo "
-                                <h2>".$blogPostTitle."</h2>
-                                <ul>
-                                    <li>".$blogPostAuthor."</li>
-                                    <li>".$formattedBlogPostMonthName." ".$blogPostCreatedOnDay.", ".$blogPostCreatedOnYear."</li>
-                                </ul>
-                            "; 
-                        ?>
-                    </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Search Results</h2>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Blog Details Hero End -->
+    <!-- Breadcrumb Section End -->
 
-    <!-- Blog Details Section Begin -->
-    <section class="blog-details spad">
-        <div class="container">
-            <div class="row d-flex justify-content-center">
-                <div class="col-lg-6">
-                    <?php
-                        echo "
-                            <div class='blog__details__pic'>
-                                <img src='".$blogPostImage."' />
-                            </div>
-                        "; 
-                    ?>
-                </div>
-                <div class="col-lg-8">
-                    <div class="blog__details__content">
-                        <div class="blog__details__share">
-                            <span>share</span>
-                            <ul>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#" class="youtube"><i class="fa fa-youtube-play"></i></a></li>
-                                <li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
-                            </ul>
-                        </div>
-                        <?php
-                            echo "
-                                <div class='blog__details__text'>
-                                    <p>".$blogPostContent."</p>
-                                </div>
-                                <div class='blog__details__quote'>
-                                    <i class='fa fa-quote-left'></i>
-                                    <p>\"$blogPostQuote->note\"</p>
-                                    <h6>$blogPostQuote->designer</h6>
-                                </div>
-                            "; 
-                        ?>
-                        </div>
-                        <div class="blog__details__option">
-                            <div class="row">
-                                <?php
-                                    echo "
-                                        <div class='col-lg-6 col-md-6 col-sm-6'>
-                                            <div class='blog__details__author'>
-                                                <div class='blog__details__author__text'>
-                                                    <h5>".$blogPostAuthor."</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    "; 
+    <!-- Product Results Section Begin -->
 
-                                    echo "<div class='col-lg-6 col-md-6 col-sm-6'>";
-                                    echo "<div class='blog__details__tags'>";
+    <?php
+        if ($foundProducts) {
+            echo "<div class='pt-5'><h3 class='text-center'>You searched for '" . $searchTerm . "'</h3></div>";
+            echo "<div class='pt-5'><h2 class='text-center'>".count($foundProducts)." products found</h2></div>";
 
-                                    foreach ($blogPostTags as $blogPostTag) {
-                                        echo "<a>#$blogPostTag</a>";
-                                    }
+            echo "<section class='blog spad'>";
+            echo "<div class='container'>";
+            echo "<div class='row' id='paginated-list'>";
 
-                                    echo "</div>";
-                                    echo "</div>";
-                                ?>
-                            </div>
-                        </div>
-                        <div class="blog__details__btns">
-                            <div class="row">
-                                <?php
-                                    $currentBlogPostIndex = array_search($blogPostByXPathQuery, $blogPosts);
-                                    
-                                    echo "<div class='col-lg-6 col-md-6 col-sm-6'>";
-
-                                    if ($currentBlogPostIndex > 0) {
-                                        echo "
-                                            <form method='get' action='blog-details.php'>
-                                                <input type='hidden' name='slug' value='".$blogPosts[$currentBlogPostIndex - 1]->attributes()->slug."' />
-                                                <a href='#' class='blog__details__btns__item' onclick='this.parentNode.submit(); return false;'>
-                                                    <p><span class='arrow_left'></span>Previous Post</p>
-                                                    <h5>".$blogPosts[$currentBlogPostIndex - 1]->title."</h5>
-                                                </a>
-                                            </form>
-                                        ";
-                                    }
-
-                                    echo "</div>";
-
-                                    echo "<div class='col-lg-6 col-md-6 col-sm-6'>";
-
-                                    if ($currentBlogPostIndex < count($blogPosts) - 1) {
-                                        echo "
-                                            <form method='get' action='blog-details.php'>
-                                                <input type='hidden' name='slug' value='".$blogPosts[$currentBlogPostIndex + 1]->attributes()->slug."' />
-                                                <a href='#' class='blog__details__btns__item blog__details__btns__item--next' onclick='this.parentNode.submit(); return false;'>
-                                                    <p>Next Post<span class='arrow_right'></span></p>
-                                                    <h5>".$blogPosts[$currentBlogPostIndex + 1]->title."</h5>
-                                                </a>
-                                            </form>
-                                        ";
-                                    }
-
-                                    echo "</div>";
-                                ?>
+            foreach ($foundProducts as $foundProduct) {
+                echo "
+                    <div class='col-lg-4 col-md-6 col-sm-6 result_item__col'>
+                        <div class='blog__item'>
+                            <div class='blog__item__pic set-bg' data-setbg='".$foundProduct->images->modelCenterImage."'></div>
+                            <div class='blog__item__text'>
+                                <h5>".$foundProduct->name."</h5>
+                                <form method='get' action='shopDetails.php'>
+                                    <input type='hidden' name='productNumber' value='".$foundProduct->attributes()->number."' />
+                                    <input type='hidden' name='productCategory' value='".$foundProduct->attributes()->category."' />
+                                    <a href='#' onclick='this.parentNode.submit(); return false;'>View</a>
+                                </form>
                             </div>
                         </div>
                     </div>
+                ";
+            }
+
+            echo "</div>";
+            
+            echo "
+                <div class='row'>
+                    <div class='col-lg-12'>
+                        <nav class='pagination-container product__pagination'>
+                            <div id='pagination-numbers'></div>
+                        </nav>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <!-- Blog Details Section End -->
+            ";
+
+            echo "</div>";
+            echo "</section";
+        } else {
+            echo "<div class='py-5'><h3 class='text-center'>You searched for '" . $searchTerm . "'</h3></div>";
+            echo "<div class='pt-3 pb-5'><h2 class='text-center'>No products found</h2></div>";
+        }
+    ?>
 
     <!-- Footer Section Begin -->
     <footer class="footer">
@@ -319,7 +232,7 @@ if (file_exists('./xml/class-outfitters.xml')) {
             </div>
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <div class="footer__copyright__text">
+                     <div class="footer__copyright__text">
                         <p>Copyright ©
                             <script>
                                 document.write(new Date().getFullYear());
@@ -337,8 +250,9 @@ if (file_exists('./xml/class-outfitters.xml')) {
     <div class="search-model">
         <div class="h-100 d-flex align-items-center justify-content-center">
             <div class="search-close-switch">+</div>
-            <form class="search-model-form">
-                <input type="text" id="search-input" placeholder="Search here.....">
+            <form method="get" class="search-model-form" action="searchResults.php">
+                <input type="text" id="search-input" name="search" placeholder="Search here.....">
+                <input type="submit" hidden />
             </form>
         </div>
     </div>
@@ -355,6 +269,7 @@ if (file_exists('./xml/class-outfitters.xml')) {
     <script src="js/mixitup.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/pagination.js"></script>
 </body>
 
 </html>

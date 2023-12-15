@@ -288,7 +288,7 @@ export const generateFilteredProductsHTML = (products, collectionClassName) => {
                         }
                         <ul class="product__hover">
                             <li>
-                                <form method="get" action="shop-details.php">
+                                <form method="get" action="shopDetails.php">
                                     <input type="hidden" name="productNumber" value="${product.getAttribute('number')}" />
                                         <input type="hidden" name="productCategory" value="${product.getAttribute('category')}" />
                                         <button type="submit">

@@ -150,7 +150,7 @@ if (file_exists('./xml/class-outfitters.xml')) {
                         $blogPostMonthObject = DateTime::createFromFormat('!m', $blogPost->createdOn->month);
                         $formattedBlogPostMonthName = $blogPostMonthObject->format('F');
 
-                        echo "<div class='col-lg-4 col-md-6 col-sm-6 blog__post__col'>
+                        echo "<div class='col-lg-4 col-md-6 col-sm-6 result_item__col'>
                                 <div class='blog__item'>
                                     <div class='blog__item__pic set-bg' data-setbg='".$blogPost->image."'></div>
                                     <div class='blog__item__text'>
@@ -159,7 +159,7 @@ if (file_exists('./xml/class-outfitters.xml')) {
                                             ".$blogPost->createdOn->day." ".$formattedBlogPostMonthName." ".$blogPost->createdOn->year."
                                         </span>
                                         <h5>".$blogPost->title."</h5>
-                                        <form method='get' action='blog-details.php'>
+                                        <form method='get' action='blogDetails.php'>
                                             <input type='hidden' name='slug' value='".$blogPost->attributes()->slug."' />
                                             <a href='#' onclick='this.parentNode.submit(); return false;'>Read More</a>
                                         </form>
@@ -247,8 +247,9 @@ if (file_exists('./xml/class-outfitters.xml')) {
     <div class="search-model">
         <div class="h-100 d-flex align-items-center justify-content-center">
             <div class="search-close-switch">+</div>
-            <form class="search-model-form">
-                <input type="text" id="search-input" placeholder="Search here.....">
+            <form method="get" class="search-model-form" action="searchResults.php">
+                <input type="text" id="search-input" name="search" placeholder="Search here.....">
+                <input type="submit" hidden />
             </form>
         </div>
     </div>
@@ -265,7 +266,7 @@ if (file_exists('./xml/class-outfitters.xml')) {
     <script src="js/mixitup.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/blog.js"></script>
+    <script src="js/pagination.js"></script>
 </body>
 
 </html>

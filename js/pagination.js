@@ -1,6 +1,6 @@
 const paginationNumbers = document.getElementById("pagination-numbers");
 const paginatedList = document.getElementById("paginated-list");
-const paginationItemsColumns = paginatedList.querySelectorAll(".blog__post__col");
+const paginationItemsColumns = paginatedList.querySelectorAll(".result_item__col");
 
 const paginationLimit = 6;
 const pagesCount = Math.ceil(paginationItemsColumns.length / paginationLimit);
@@ -44,8 +44,6 @@ const setCurrentPage = (pageNumber) => {
 
     const previousPagesRange = (pageNumber - 1) * paginationLimit;
     const nextPagesRange = pageNumber * paginationLimit;
-
-    console.log(paginationItemsColumns);
 
     paginationItemsColumns.forEach((paginationListItem, index) => {
         paginationListItem.classList.add("hidden");
