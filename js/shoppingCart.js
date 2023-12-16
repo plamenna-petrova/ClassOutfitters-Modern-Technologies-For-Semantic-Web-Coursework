@@ -13,7 +13,7 @@ window.addEventListener("load", () => {
     productsInShoppingCart = localStorage.getItem("productsInShoppingCart");
     parsedProductsInShoppingCart = JSON.parse(productsInShoppingCart);
 
-    if (parsedProductsInShoppingCart.length) {
+    if (parsedProductsInShoppingCart && parsedProductsInShoppingCart.length) {
         const shoppingCartSectionHTML = `
             <section class="shopping-cart spad">
                 <div class="container">
@@ -24,6 +24,7 @@ window.addEventListener("load", () => {
                                     <thead>
                                         <tr>
                                             <th>Product</th>
+                                            <th style="text-align: center;">Size</th>
                                             <th>Quantity</th>
                                             <th>Total</th>
                                             <th></th>
@@ -41,11 +42,12 @@ window.addEventListener("load", () => {
                                                     <h5>$${product.price}</h5>
                                                 </div>
                                             </td>
+                                            <td style="padding: 50px; 0px; text-align: left;">${product.size}</td>
                                             <td class="quantity__item">
                                             <div class="quantity">
                                                 <div class="pro-qty-2">
                                                     <span class="fa fa-angle-left dec qtybtn"></span>
-                                                    <input type="text" value="1">
+                                                    <input type="text" value="${product.quantity}">
                                                     <span class="fa fa-angle-right inc qtybtn"></span>
                                                 </div>
                                             </div>
@@ -68,9 +70,9 @@ window.addEventListener("load", () => {
                             <div class="cart__total">
                                 <h6>Cart total</h6>
                                 <ul>
-                                    <li>Total <span>${getShoppingCartTotal(parsedProductsInShoppingCart)}</span></li>
+                                    <li>Total <span>$ ${getShoppingCartTotal(parsedProductsInShoppingCart)}</span></li>
                                 </ul>
-                                <a href="#" class="primary-btn">Proceed to checkout</a>
+                                <a href="./checkout.php" class="primary-btn">Proceed to checkout</a>
                             </div>
                         </div>
                     </div>
@@ -86,10 +88,8 @@ window.addEventListener("load", () => {
             const quantityButtons = proQuantityElement.querySelectorAll(".qtybtn");
 
             quantityButtons.forEach((quantityButton) => {
-                quantityButton.addEventListener('click', (event) => {
-                    console.log(event.target);
+                quantityButton.addEventListener('click', () => {
                     const quantityInput = proQuantityElement.querySelector("input");
-                    console.log(quantityInput);
                     const currentQuantityInputValue = quantityInput.value;
 
                     if (quantityButton.classList.contains("inc")) {
@@ -101,6 +101,39 @@ window.addEventListener("load", () => {
                             quantityInput.value = 1;
                         }
                     }
+
+                    productsInShoppingCart = localStorage.getItem("productsInShoppingCart");
+                    parsedProductsInShoppingCart = JSON.parse(productsInShoppingCart);
+
+                    const quantityInnerWrapper = proQuantityElement.parentElement;
+
+                    const quantityItemOuterWrapper = quantityInnerWrapper.parentElement;
+                    const editedShoppingItemTableRow = quantityItemOuterWrapper.parentElement;
+                    const editedShoppingItemProductNumberTableDataTextContent = editedShoppingItemTableRow.querySelectorAll("td")[0].textContent;
+
+                    let updatedProductsInShoppingCart = parsedProductsInShoppingCart
+                        .map((product) => {
+                            if (product.number === editedShoppingItemProductNumberTableDataTextContent) {
+                                const editedShoppingItemTotalTableData = editedShoppingItemTableRow.querySelector("td.cart__price");
+                                const productTotal = (Number(product.price) * Number(quantityInput.value)).toFixed(2);
+
+                                editedShoppingItemTotalTableData.textContent = `$ ${productTotal}`;
+
+                                return {
+                                    ...product,
+                                    price: Number(product.price).toFixed(2),
+                                    quantity: Number(quantityInput.value),
+                                    total: productTotal
+                                }
+                            } else {
+                                return product;
+                            }
+                        });
+                                        
+                    localStorage.setItem("productsInShoppingCart", JSON.stringify(updatedProductsInShoppingCart));
+
+                    const cartTotalSpan = document.querySelector(".cart__total ul li span");
+                    cartTotalSpan.textContent = getShoppingCartTotal(updatedProductsInShoppingCart);
                 });
             });
         });
@@ -108,7 +141,6 @@ window.addEventListener("load", () => {
         const removeItemFromShoppingCartIcons = document.querySelectorAll(".cart__close i");
 
         removeItemFromShoppingCartIcons.forEach((removeItemFromShoppingCartIcon) => {
-            console.log(removeItemFromShoppingCart);
             removeItemFromShoppingCartIcon.addEventListener('click', (event) => removeItemFromShoppingCart(event));
         });
 
@@ -117,16 +149,6 @@ window.addEventListener("load", () => {
         insertNoProductsInCartAdjacentHTML();
     }
 });
-
-const getShoppingCartTotal = (productsInShoppingCart) => {
-    if (productsInShoppingCart.length) {
-        return productsInShoppingCart
-            .map(p => p.total)
-            .reduce((accumulator, currentValue) => Number(accumulator) + Number(currentValue));
-    } else {
-        return '$0.00';
-    }
-}
 
 const removeItemFromShoppingCart = (event) => {
     const itemInShoppingCartRow = event.target.parentElement.parentElement;
@@ -141,7 +163,6 @@ const removeItemFromShoppingCart = (event) => {
     tbody.removeChild(itemInShoppingCartRow);
 
     if (filteredProductsInShoppingCart.length) {
-        console.log(filteredProductsInShoppingCart);
         localStorage.setItem("productsInShoppingCart", JSON.stringify([...filteredProductsInShoppingCart]));
     } else {
         localStorage.setItem("productsInShoppingCart", JSON.stringify([]));
@@ -149,6 +170,18 @@ const removeItemFromShoppingCart = (event) => {
         document.body.removeChild(shoppingCartSection);
         shoppingCartTotalPrice.textContent = '$0.00';
         insertNoProductsInCartAdjacentHTML();
+    }
+}
+
+const getShoppingCartTotal = (productsInShoppingCart) => {
+    if (productsInShoppingCart.length) {
+        const shoppingCartTotal = productsInShoppingCart
+            .map(p => p.total)
+            .reduce((accumulator, currentValue) => Number(accumulator) + Number(currentValue));
+
+        return Number(shoppingCartTotal).toFixed(2);
+    } else {
+        return '$0.00';
     }
 }
 
