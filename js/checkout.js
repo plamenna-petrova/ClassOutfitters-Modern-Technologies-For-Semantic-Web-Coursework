@@ -48,7 +48,6 @@ window.addEventListener("load", () => {
         shoppingCartTotalPrice.textContent = shoppingCartTotal;
 
         const placeOrderButton = document.querySelector(".checkout__order button");
-        console.log(placeOrderButton);
 
         placeOrderButton.addEventListener('click', (event) => {
             event.preventDefault();
@@ -61,16 +60,19 @@ window.addEventListener("load", () => {
                 const orderHTMLForPDFDocument = `
                     <h2>Order Details</h2>
                     <div class="order-personal-details">
-                        ${Array.from(document.querySelectorAll(".checkout__input")).map(orderDetailsInputField => {
-                        const inputFieldDescriptiveParagraph = orderDetailsInputField.querySelector("p");
-                        const inputValue = orderDetailsInputField.querySelector("input").value;
+                        ${Array.from(document.querySelectorAll(".checkout__input"))
+                            .map(orderDetailsInputField => {
+                                const inputFieldDescriptiveParagraph = orderDetailsInputField.querySelector("p");
+                                const inputValue = orderDetailsInputField.querySelector("input").value;
 
-                        return `
-                            <h3>
-                                ${inputFieldDescriptiveParagraph.textContent.replace(/[&\\\#,+()$~%.'":*?<>{}]/g, '')}: ${inputValue}
-                            </h3>
-                            <br />`;
-                        }).join('')}
+                                return `
+                                    <h3>
+                                        ${inputFieldDescriptiveParagraph.textContent.replace(/[&\\\#,+()$~%.'":*?<>{}]/g, '')}: ${inputValue}
+                                    </h3>
+                                    <br />`;
+                            })
+                            .join('')
+                    }            
                     </div>
                     <div class="billing-details">
                         <div class="checkout__order__products">Ordered Products:</div>
@@ -81,7 +83,7 @@ window.addEventListener("load", () => {
                                 .join('')
                             }
                         </ul>
-                        <h3>Total For Order <span>$${shoppingCartTotal}</span></h3>
+                        <h3>Total For Order: <span>$${shoppingCartTotal}</span></h3>
                     </div>
                     </div>
                 `;
@@ -131,7 +133,7 @@ const validateOrderDetailsInputFields = () => {
         if (inputValue.trim() === '') {
             fireToast(
                 "error",
-                `${inputFieldDescriptiveParagraph.textContent.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '')} is a required field!`
+                `The ${inputFieldDescriptiveParagraph.textContent.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '')} is a required field!`
             );
 
             areOrderDetailsInputFieldsValid = false;
@@ -141,7 +143,7 @@ const validateOrderDetailsInputFields = () => {
         if (inputValue.length < Number(inputMinLength)) {
             fireToast(
                 "error",
-                `${inputFieldDescriptiveParagraph.textContent.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '')} must be at least ${inputMinLength} symbols`
+                `The ${inputFieldDescriptiveParagraph.textContent.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '')} must be at least ${inputMinLength} symbols`
             );
 
             areOrderDetailsInputFieldsValid = false;
@@ -151,7 +153,7 @@ const validateOrderDetailsInputFields = () => {
         if (inputValue.length > Number(inputMaxLength)) {
             fireToast(
                 "error",
-                `${inputFieldDescriptiveParagraph.textContent.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '')} cannot be longer than ${inputMaxLength} symbols`
+                `The ${inputFieldDescriptiveParagraph.textContent.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '')} cannot be longer than ${inputMaxLength} symbols`
             );
             
             areOrderDetailsInputFieldsValid = false;

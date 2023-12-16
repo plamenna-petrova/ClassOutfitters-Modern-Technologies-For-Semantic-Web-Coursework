@@ -1,3 +1,4 @@
+
 const paginationNumbers = document.getElementById("pagination-numbers");
 const paginatedList = document.getElementById("paginated-list");
 const paginationItemsColumns = paginatedList.querySelectorAll(".result_item__col");
