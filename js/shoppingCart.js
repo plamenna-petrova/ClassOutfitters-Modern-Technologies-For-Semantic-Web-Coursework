@@ -42,7 +42,7 @@ window.addEventListener("load", () => {
                                                     <h5>$${product.price}</h5>
                                                 </div>
                                             </td>
-                                            <td style="padding: 50px; 0px; text-align: left;">${product.size}</td>
+                                            <td style="padding: 50px; 0px; text-align: left;">${product.size ? product.size : ''}</td>
                                             <td class="quantity__item">
                                             <div class="quantity">
                                                 <div class="pro-qty-2">
@@ -164,6 +164,9 @@ const removeItemFromShoppingCart = (event) => {
 
     if (filteredProductsInShoppingCart.length) {
         localStorage.setItem("productsInShoppingCart", JSON.stringify([...filteredProductsInShoppingCart]));
+        shoppingCartTotalPrice.textContent = getShoppingCartTotal(filteredProductsInShoppingCart);
+        const cartTotalSpan = document.querySelector(".cart__total ul li span");
+        cartTotalSpan.textContent = getShoppingCartTotal(filteredProductsInShoppingCart);
     } else {
         localStorage.setItem("productsInShoppingCart", JSON.stringify([]));
         const shoppingCartSection = document.querySelector(".shopping-cart.spad");

@@ -52,52 +52,134 @@ window.addEventListener("load", () => {
         placeOrderButton.addEventListener('click', (event) => {
             event.preventDefault();
             
-            if (validateOrderDetailsInputFields()) {
-                fireToast("success", "Order created");
+            if (validateOrderDetailsInputFields()) {                
+                const orderDetailsHiddenSectionHTML = `
+                    <section class="shopping-cart spad order-details" style="display: none; width: 800px;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="order-personal-details">
+                                    <h3 class="mb-5">Personal Information: </h3>
+                                    <br/>
+                                    ${Array.from(document.querySelectorAll(".checkout__input"))
+                                        .map((orderDetailsInputField) => {
+                                            const inputFieldDescriptiveParagraph = orderDetailsInputField.querySelector("p");
+                                            const inputValue = orderDetailsInputField.querySelector("input").value;
 
-                const doc = new jsPDF();
-
-                const orderHTMLForPDFDocument = `
-                    <h2>Order Details</h2>
-                    <div class="order-personal-details">
-                        ${Array.from(document.querySelectorAll(".checkout__input"))
-                            .map(orderDetailsInputField => {
-                                const inputFieldDescriptiveParagraph = orderDetailsInputField.querySelector("p");
-                                const inputValue = orderDetailsInputField.querySelector("input").value;
-
-                                return `
-                                    <h3>
-                                        ${inputFieldDescriptiveParagraph.textContent.replace(/[&\\\#,+()$~%.'":*?<>{}]/g, '')}: ${inputValue}
-                                    </h3>
-                                    <br />`;
-                            })
-                            .join('')
-                    }            
-                    </div>
-                    <div class="billing-details">
-                        <div class="checkout__order__products">Ordered Products:</div>
-                        <br />
-                        <ul class="checkout__total__products">
-                            ${parsedProductsInShoppingCart
-                                .map((product, index) => `<li>0${index + 1}. ${product.name} <span>$ ${product.total}</span></li>`)
-                                .join('')
-                            }
-                        </ul>
-                        <h3>Total For Order: <span>$${shoppingCartTotal}</span></h3>
-                    </div>
-                    </div>
+                                            return `
+                                               <h5>
+                                                    ${inputFieldDescriptiveParagraph.textContent.replace(/[&\\\#,+()$~%.'":*?<>{}]/g, '')}: ${inputValue}
+                                                </h5>
+                                                <br />`;
+                                        })
+                                    .join('')
+                                }   
+                            </div>
+                            <div class="row">
+                                <h3 class="mb-5">Billing Details: </h3>
+                                <div class="col-lg-12">
+                                    <div class="shopping__cart__table">
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Product</th>
+                                                    <th style="text-align: center;">Size</th>
+                                                    <th>Quantity</th>
+                                                    <th>Total</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                ${parsedProductsInShoppingCart.map(product => `<tr>
+                                                    <td class="product__cart__item">
+                                                        <div class="product__cart__item__pic">
+                                                            <img src="${product.image}" alt="" style="height: 150px; width: 150px;">
+                                                        </div>
+                                                        <div class="product__cart__item__text">
+                                                            <h6>${product.name}</h6>
+                                                            <h5>$${product.price}</h5>
+                                                        </div>
+                                                    </td>
+                                                    <td style="padding: 50px; 0px; text-align: left;">${product.size ? product.size : ''}</td>
+                                                    <td class="quantity__item">
+                                                    <div class="quantity">
+                                                        <div class="pro-qty-2">
+                                                            <h5>${product.quantity}</h5>
+                                                        </div>
+                                                    </div>
+                                                    </td>
+                                                    <td class="cart__price">$ ${product.total}</td>
+                                                </tr>`).join('')}
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="cart__total">
+                                        <h6>Cart total</h6>
+                                        <ul>
+                                            <li>Total <span>$ ${getShoppingCartTotal(parsedProductsInShoppingCart)}</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 `;
+                
+                const checkoutSection = document.querySelector('.checkout.spad');
 
-                doc.fromHTML(orderHTMLForPDFDocument, 15, 15, {
-                    'width': 300
+                checkoutSection.insertAdjacentHTML('afterend', orderDetailsHiddenSectionHTML);
+
+                const orderDetails = document.querySelector(".order-details");
+                orderDetails.style.display = "initial";
+
+                html2canvas(orderDetails, {
+                    onrendered: function (canvas) {
+                        let jsPDFInstance = new jsPDF('p', 'pt', 'letter');
+
+                        for (let i = 0; i <= orderDetails.clientHeight / 980; i++) {
+                            let srcImg = canvas;
+                            let sX = 0;
+                            let sY = 980 * i;
+                            let sWidth = 900;
+                            let sHeight = 980;
+                            let dX = 0;
+                            let dY = 0;
+                            let dWidth = 900;
+                            let dHeight = 980;
+
+                            window.onePageCanvas = document.createElement("canvas");
+                            onePageCanvas.setAttribute('width', 900);
+                            onePageCanvas.setAttribute('height', 980);
+                            
+                            let canvas2DContext = onePageCanvas.getContext('2d');
+
+                            canvas2DContext.drawImage(srcImg, sX, sY, sWidth, sHeight, dX, dY, dWidth, dHeight);
+
+                            let canvasDataURL = onePageCanvas.toDataURL("image/png", 1.0);
+
+                            let width = onePageCanvas.width;
+                            let height = onePageCanvas.clientHeight;
+
+                            if (i > 0) {
+                                jsPDFInstance.addPage(612, 791);
+                            }
+
+                            jsPDFInstance.setPage(i + 1);
+                            jsPDFInstance.addImage(canvasDataURL, 'PNG', 20, 40, (width * .62), (height * .62));
+                        }
+
+                        jsPDFInstance.save(`ClassOutfittersOrder_${generateOrderUUID()}.pdf`);
+
+                        document.body.removeChild(orderDetails);
+
+                        fireToast("success", "Order created");
+
+                        setTimeout(() => {
+                            localStorage.removeItem("productsInShoppingCart");
+                            window.location.href = 'index.php';
+                        }, 2000);
+                    }
                 });
-
-                doc.save('class-outfitter-order.pdf');
-
-                setTimeout(() => {
-                    localStorage.removeItem("productsInShoppingCart");
-                    window.location.href = 'index.php';
-                }, 2000);
             } 
         });
     } else {
@@ -133,7 +215,8 @@ const validateOrderDetailsInputFields = () => {
         if (inputValue.trim() === '') {
             fireToast(
                 "error",
-                `The ${inputFieldDescriptiveParagraph.textContent.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '')} is a required field!`
+                `The ${inputFieldDescriptiveParagraph.textContent.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '')}` +
+                    ` is a required field!`
             );
 
             areOrderDetailsInputFieldsValid = false;
@@ -143,7 +226,8 @@ const validateOrderDetailsInputFields = () => {
         if (inputValue.length < Number(inputMinLength)) {
             fireToast(
                 "error",
-                `The ${inputFieldDescriptiveParagraph.textContent.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '')} must be at least ${inputMinLength} symbols`
+                `The ${inputFieldDescriptiveParagraph.textContent.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '')}`
+                    + ` must be at least ${inputMinLength} symbols`
             );
 
             areOrderDetailsInputFieldsValid = false;
@@ -153,7 +237,8 @@ const validateOrderDetailsInputFields = () => {
         if (inputValue.length > Number(inputMaxLength)) {
             fireToast(
                 "error",
-                `The ${inputFieldDescriptiveParagraph.textContent.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '')} cannot be longer than ${inputMaxLength} symbols`
+                `The ${inputFieldDescriptiveParagraph.textContent.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '')}`
+                    + `cannot be longer than ${inputMaxLength} symbols`
             );
             
             areOrderDetailsInputFieldsValid = false;
@@ -162,6 +247,25 @@ const validateOrderDetailsInputFields = () => {
     }
 
     return areOrderDetailsInputFieldsValid;
+}
+
+const generateOrderUUID = () => { 
+    let currentTimeStamp = new Date().getTime();
+    let generationPerformance = ((typeof performance !== 'undefined') && performance.now && (performance.now() * 1000)) || 0;
+
+    return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+        let random = Math.random() * 16;
+
+        if (currentTimeStamp > 0) {
+            random = (currentTimeStamp + random) % 16 | 0;
+            currentTimeStamp = Math.floor(currentTimeStamp / 16);
+        } else {
+            random = (generationPerformance + random) % 16 | 0;
+            generationPerformance = Math.floor(generationPerformance / 16);
+        }
+
+        return (c === 'x' ? random : (random & 0x3 | 0x8)).toString(16);
+    });
 }
 
 const fireToast = (icon, title) => Toast.fire({ icon, title });

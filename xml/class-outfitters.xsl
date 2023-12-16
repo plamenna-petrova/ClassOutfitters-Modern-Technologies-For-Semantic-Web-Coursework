@@ -288,7 +288,7 @@
                                                             + Add To Cart
                                                         </a>
                                                     </form>
-                                                    <h5><xsl:value-of select="price" /></h5>
+                                                    <h5>$<xsl:value-of select="price" /></h5>
                                                 </div>
                                             </div>
                                         </div>
@@ -321,7 +321,7 @@
                                                             + Add To Cart
                                                         </a>
                                                     </form>
-                                                    <h5><xsl:value-of select="price" /></h5>
+                                                    <h5>$<xsl:value-of select="price" /></h5>
                                                 </div>
                                             </div>
                                         </div>

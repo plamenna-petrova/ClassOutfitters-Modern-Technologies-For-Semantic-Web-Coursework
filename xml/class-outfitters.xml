@@ -32,7 +32,7 @@
     </testimonial>
     <internationalClients>102</internationalClients>
     <nationalClients>50</nationalClients>
-    <totalCategories>30</totalCategories>
+    <totalCategories>9</totalCategories>
     <happyCustomersPercentage>98%</happyCustomersPercentage>
     <shippingAndReturnsPolicy>
         For orders over $60.90, delivery is free. If the value of the order is lower, 
@@ -905,7 +905,7 @@
                 <modelCenterImage>img/fallWinterClothingCollection/d158deee4fb6a075bd33dd21f02bf4ca.avif</modelCenterImage>
                 <modelSideImage>img/fallWinterClothingCollection/3218a09469123693d85dfb47f0419ce9.avif</modelSideImage>
                 <productFocusImage>img/fallWinterClothingCollection/9cb0da762f485fc3b3024eee890b1b4c.avif</productFocusImage>
-                <productZoomImage>img/fallWinterClothingCollection/41697817568ac4a4b8c8fe0d0b62b69e.avif</productZoomImage>
+                <productZoomImage>img/fallWinterClothingCollection/9399f1bfc646a85ed5968c071a4d3428.avif</productZoomImage>
             </images>
             <availableSizes>
                 <size>M</size>
@@ -2152,7 +2152,7 @@
             <tag>regular</tag>
         </product>
         <product number="LAS6480003000001" category="Tall Boots">
-            <name>Saddle brown tall boots</name>
+            <name>Dark blue tall boots</name>
             <price>98.95</price>
             <brand>Lascana</brand>
             <images>

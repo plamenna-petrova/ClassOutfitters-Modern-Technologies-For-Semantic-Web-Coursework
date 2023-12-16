@@ -58,18 +58,22 @@ addToCartButton.addEventListener('click', (event) => {
     productDetailsCartOption = event.target.parentElement;
     const productDetailsText = productDetailsCartOption.parentElement;
 
-    const selectedAvailableSizeLabel = productDetailsCartOption.querySelector("label.active");
+    let selectedAvailableSizeLabel;
 
-    if (!selectedAvailableSizeLabel) {
-        fireToast("error", "Select a size in order to proceed!");
-        return;
+    if (productDetailsCartOption.querySelector("label")) {
+        selectedAvailableSizeLabel = productDetailsCartOption.querySelector("label.active");
+
+        if (!selectedAvailableSizeLabel) {
+            fireToast("error", "Select a size in order to proceed!");
+            return;
+        }
     }
 
     const productQuantityInput = productDetailsCartOption.querySelector(".quantity .pro-qty input");
     const productQuantityValue = productQuantityInput.value;
     const productName = productDetailsText.querySelectorAll("h4")[0].textContent;
     const productPrice = productDetailsText.querySelector("h3").textContent.slice(1);
-    const selectedAvailableSizeValue = selectedAvailableSizeLabel.getAttribute('for');
+    const selectedAvailableSizeValue = selectedAvailableSizeLabel ? selectedAvailableSizeLabel.getAttribute('for') : undefined;
     const productDetailsPicItemImg = document.querySelector(".product__details__pic__item img");
     const productImageSrc = productDetailsPicItemImg.getAttribute("src");
 
