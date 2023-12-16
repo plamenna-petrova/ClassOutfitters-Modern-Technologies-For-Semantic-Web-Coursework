@@ -66,7 +66,7 @@ window.addEventListener("load", () => {
                                             const inputValue = orderDetailsInputField.querySelector("input").value;
 
                                             return `
-                                               <h5>
+                                                <h5>
                                                     ${inputFieldDescriptiveParagraph.textContent.replace(/[&\\\#,+()$~%.'":*?<>{}]/g, '')}: ${inputValue}
                                                 </h5>
                                                 <br />`;
@@ -150,7 +150,7 @@ window.addEventListener("load", () => {
                             window.onePageCanvas = document.createElement("canvas");
                             onePageCanvas.setAttribute('width', 900);
                             onePageCanvas.setAttribute('height', 980);
-                            
+
                             let canvas2DContext = onePageCanvas.getContext('2d');
 
                             canvas2DContext.drawImage(srcImg, sX, sY, sWidth, sHeight, dX, dY, dWidth, dHeight);
