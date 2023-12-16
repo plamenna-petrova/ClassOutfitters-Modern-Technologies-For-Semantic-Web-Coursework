@@ -47,7 +47,7 @@ if (file_exists('./xml/class-outfitters.xml')) {
         </div>
         <div class="offcanvas__nav__option">
             <a href="#" class="search-switch"><img src="img/icon/search.png" alt=""></a>
-            <a href="#"><img src="img/icon/cart.png" alt=""> <span>0</span></a>
+            <a href="./shoppingCart.php"><img src="img/icon/cart.png" alt=""> <span>0</span></a>
             <div class="price">$0.00</div>
         </div>
         <div id="mobile-menu-wrap"></div>
@@ -365,6 +365,7 @@ if (file_exists('./xml/class-outfitters.xml')) {
     <script src="js/mixitup.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/shoppingCartTotal.js"></script>
 </body>
 
 </html>

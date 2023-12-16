@@ -3,14 +3,14 @@
     <xsl:template match="/">
         <html>
             <head>
-                <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css" />
-                <link rel="stylesheet" href="../css/font-awesome.min.css" type="text/css" />
-                <link rel="stylesheet" href="../css/elegant-icons.css" type="text/css" />
-                <link rel="stylesheet" href="../css/magnific-popup.css" type="text/css" />
-                <link rel="stylesheet" href="../css/nice-select.css" type="text/css" />
-                <link rel="stylesheet" href="../css/owl.carousel.min.css" type="text/css" />
-                <link rel="stylesheet" href="../css/slicknav.min.css" type="text/css" />
-                <link rel="stylesheet" href="../css/style.css" type="text/css" />
+                <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+                <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+                <link rel="stylesheet" href="css/elegant-icons.css" type="text/css" />
+                <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+                <link rel="stylesheet" href="css/nice-select.css" type="text/css" />
+                <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css" />
+                <link rel="stylesheet" href="css/slicknav.min.css" type="text/css" />
+                <link rel="stylesheet" href="css/style.css" type="text/css" />
             </head>
             <body>
                 <!-- Page Preloder -->
@@ -86,7 +86,7 @@
                             <div class="col-lg-3 col-md-3">
                                 <div class="header__nav__option">
                                     <a href="#" class="search-switch"><img src="../img/icon/search.png" alt="" /></a>
-                                    <a href="#"><img src="../img/icon/cart.png" alt="" /> <span>0</span></a>
+                                    <a href="./shoppingCart.php"><img src="../img/icon/cart.png" alt="" /> <span>0</span></a>
                                     <div class="price">$0.00</div>
                                 </div>
                             </div>
@@ -248,7 +248,13 @@
                                                 </div>
                                                 <div class="product__item__text">
                                                     <h6><xsl:value-of select="name" /></h6>
-                                                    <a href="#" class="add-cart">+ Add To Cart</a>
+                                                    <form method='get' action='shopDetails.php'>
+                                                        <input type="hidden" name="productNumber" value="{@number}" />
+                                                        <input type="hidden" name="productCategory" value="{@category}" />
+                                                        <a href='#' class='add-cart' onclick='this.parentNode.submit(); return false;'>
+                                                            + Add To Cart
+                                                        </a>
+                                                    </form>
                                                     <h5>$<xsl:value-of select="price" /></h5>
                                                 </div>
                                             </div>
@@ -275,7 +281,13 @@
                                                 </div>
                                                 <div class="product__item__text">
                                                     <h6><xsl:value-of select="name" /></h6>
-                                                    <a href="#" class="add-cart">+ Add To Cart</a>
+                                                    <form method='get' action='shopDetails.php'>
+                                                        <input type="hidden" name="productNumber" value="{@number}" />
+                                                        <input type="hidden" name="productCategory" value="{@category}" />
+                                                        <a href='#' class='add-cart' onclick='this.parentNode.submit(); return false;'>
+                                                            + Add To Cart
+                                                        </a>
+                                                    </form>
                                                     <h5><xsl:value-of select="price" /></h5>
                                                 </div>
                                             </div>
@@ -302,7 +314,13 @@
                                                 </div>
                                                 <div class="product__item__text">
                                                     <h6><xsl:value-of select="name" /></h6>
-                                                    <a href="#" class="add-cart">+ Add To Cart</a>
+                                                    <form method='get' action='shopDetails.php'>
+                                                        <input type="hidden" name="productNumber" value="{@number}" />
+                                                        <input type="hidden" name="productCategory" value="{@category}" />
+                                                        <a href='#' class='add-cart' onclick='this.parentNode.submit(); return false;'>
+                                                            + Add To Cart
+                                                        </a>
+                                                    </form>
                                                     <h5><xsl:value-of select="price" /></h5>
                                                 </div>
                                             </div>
@@ -397,16 +415,17 @@
                 <!-- Search End -->
                 
                 <!-- Js Plugins -->
-                <script src="../js/jquery-3.3.1.min.js"></script>
-                <script src="../js/bootstrap.min.js"></script>
-                <script src="../js/jquery.nice-select.min.js"></script>
-                <script src="../js/jquery.nicescroll.min.js"></script>
-                <script src="../js/jquery.magnific-popup.min.js"></script>
-                <script src="../js/jquery.countdown.min.js"></script>
-                <script src="../js/jquery.slicknav.js"></script>
-                <script src="../js/mixitup.min.js"></script>
-                <script src="../js/owl.carousel.min.js"></script>
-                <script src="../js/main.js"></script>
+                <script src="js/jquery-3.3.1.min.js"></script>
+                <script src="js/bootstrap.min.js"></script>
+                <script src="js/jquery.nice-select.min.js"></script>
+                <script src="js/jquery.nicescroll.min.js"></script>
+                <script src="js/jquery.magnific-popup.min.js"></script>
+                <script src="js/jquery.countdown.min.js"></script>
+                <script src="js/jquery.slicknav.js"></script>
+                <script src="js/mixitup.min.js"></script>
+                <script src="js/owl.carousel.min.js"></script>
+                <script src="js/main.js"></script>
+                <script src="js/shoppingCartTotal.js"></script>
             </body>
         </html>
     </xsl:template>

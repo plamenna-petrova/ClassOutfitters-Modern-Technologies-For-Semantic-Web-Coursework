@@ -98,8 +98,7 @@
                 <div class="col-lg-3 col-md-3">
                     <div class="header__nav__option">
                         <a href="#" class="search-switch"><img src="img/icon/search.png" alt=""></a>
-                        <a href="#"><img src="img/icon/heart.png" alt=""></a>
-                        <a href="#"><img src="img/icon/cart.png" alt=""> <span>0</span></a>
+                        <a href="./shoppingCart.php"><img src="img/icon/cart.png" alt=""> <span>0</span></a>
                         <div class="price">$0.00</div>
                     </div>
                 </div>
@@ -118,7 +117,6 @@
                         <h4>Shopping Cart</h4>
                         <div class="breadcrumb__links">
                             <a href="./index.php">Home</a>
-                            <a href="./shop.php">Shop</a>
                             <span>Shopping Cart</span>
                         </div>
                     </div>
@@ -129,7 +127,7 @@
     <!-- Breadcrumb Section End -->
 
     <!-- Shopping Cart Section Begin -->
-    <section class="shopping-cart spad">
+    <!-- <section class="shopping-cart spad">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
@@ -230,28 +228,15 @@
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-6">
                             <div class="continue__btn">
-                                <a href="#">Continue Shopping</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6">
-                            <div class="continue__btn update__btn">
-                                <a href="#"><i class="fa fa-spinner"></i> Update cart</a>
+                                <a href="./index.php">Continue Shopping</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="cart__discount">
-                        <h6>Discount codes</h6>
-                        <form action="#">
-                            <input type="text" placeholder="Coupon code">
-                            <button type="submit">Apply</button>
-                        </form>
-                    </div>
                     <div class="cart__total">
                         <h6>Cart total</h6>
                         <ul>
-                            <li>Subtotal <span>$ 169.50</span></li>
                             <li>Total <span>$ 169.50</span></li>
                         </ul>
                         <a href="#" class="primary-btn">Proceed to checkout</a>
@@ -259,7 +244,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Shopping Cart Section End -->
 
     <!-- Footer Section Begin -->
@@ -346,6 +331,7 @@
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/mixitup.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+    <script src="js/shoppingCart.js"></script>
     <script src="js/main.js"></script>
 </body>
 
