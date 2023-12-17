@@ -1,6 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="./class-outfitters.xsl"?>
-<shop yearOfEstablishment="2018" phoneNumber="+1 (646) 555-3890">
+
+<!DOCTYPE shop [
+<!ELEMENT shop (name, email, address, googleMapsLocation, socials, whoAreWe, whatWeDo, whyChooseUs, testimonial, internationalClients, nationalClients, totalCategories, happyCustomersPercentage, shippingAndReturnsPolicy, teamMember+, collection+, blog)>
+<!ATTLIST shop yearOfEstablishment CDATA #FIXED "2018">
+<!ATTLIST shop phoneNumber CDATA #FIXED "+1 (646) 555-3890">
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT address (#PCDATA)>
+    <!ELEMENT googleMapsLocation (#PCDATA)>
+    <!ELEMENT socials (facebook, x, pinterest, instagram)>
+    <!ELEMENT facebook (#PCDATA)>
+    <!ELEMENT x (#PCDATA)>
+    <!ELEMENT pinterest (#PCDATA)>
+    <!ELEMENT instagram (#PCDATA)>
+    <!ELEMENT whoAreWe (#PCDATA)>
+    <!ELEMENT whatWeDo (#PCDATA)>
+    <!ELEMENT whyChooseUs (#PCDATA)>
+    <!ELEMENT testimonial (author, area, content)>
+        <!ELEMENT author (#PCDATA)>
+        <!ELEMENT area (#PCDATA)>
+        <!ELEMENT content (#PCDATA)>
+    <!ELEMENT internationalClients (#PCDATA)>
+    <!ELEMENT nationalClients (#PCDATA)>
+    <!ELEMENT totalCategories (#PCDATA)>
+    <!ELEMENT happyCustomersPercentage (#PCDATA)>
+    <!ELEMENT shippingAndReturnsPolicy (#PCDATA)>
+    <!ELEMENT teamMember (name, position, image)>
+        <!ELEMENT position (#PCDATA)>
+        <!ELEMENT image (#PCDATA)>
+    <!ELEMENT collection (presentationImage*, bannerImage*, product+)>
+    <!ATTLIST collection name CDATA #REQUIRED>
+        <!ELEMENT presentationImage (#PCDATA)>
+        <!ELEMENT bannerImage (#PCDATA)>
+        <!ELEMENT product (name, price, brand, images, availableSizes*, color, details, tag)>
+        <!ATTLIST product number CDATA #REQUIRED>
+        <!ATTLIST product category CDATA #REQUIRED>
+            <!ELEMENT price (#PCDATA)>
+            <!ELEMENT brand (#PCDATA)>
+            <!ELEMENT images (modelCenterImage*, modelSideImage*, productFocusImage*, productZoomImage*)>
+                <!ELEMENT modelCenterImage (#PCDATA)>
+                <!ELEMENT modelSideImage (#PCDATA)>
+                <!ELEMENT productFocusImage (#PCDATA)>
+                <!ELEMENT productZoomImage (#PCDATA)>
+            <!ELEMENT availableSizes (size+)>
+                <!ELEMENT size (#PCDATA)>
+            <!ELEMENT color (#PCDATA)>
+            <!ELEMENT details (designAndExtras, fit, materialAndCareInstructions)>
+                <!ELEMENT designAndExtras (feature+)>
+                    <!ELEMENT feature (#PCDATA)>
+                <!ELEMENT fit (sleeveLength*, length*, styleFit, waistline*)>
+                    <!ELEMENT sleeveLength (#PCDATA)>
+                    <!ELEMENT length (#PCDATA)>
+                    <!ELEMENT styleFit (#PCDATA)>
+                    <!ELEMENT waistline (#PCDATA)>
+            <!ELEMENT materialAndCareInstructions (material*, lining*, countryOfOrigin*, outerMaterial*, innerMaterial*, outerSole*, careInstruction*)>
+                    <!ELEMENT material (#PCDATA)>
+                    <!ELEMENT lining (#PCDATA)>
+                    <!ELEMENT countryOfOrigin (#PCDATA)>
+                    <!ELEMENT outerMaterial (#PCDATA)>
+                    <!ELEMENT innerMaterial (#PCDATA)>
+                    <!ELEMENT outerSole (#PCDATA)>
+                    <!ELEMENT careInstruction (#PCDATA)>
+            <!ELEMENT tag (#PCDATA)>
+    <!ELEMENT blog (post+)>
+        <!ELEMENT post (title, author, createdOn, image, content, quote, tag+)>
+        <!ATTLIST post slug CDATA #REQUIRED>
+        <!ELEMENT title (#PCDATA)>
+        <!ELEMENT createdOn (day, month, year)>
+            <!ELEMENT day (#PCDATA)>
+            <!ELEMENT month (#PCDATA)>
+            <!ELEMENT year (#PCDATA)>
+        <!ELEMENT quote (designer, note)>
+            <!ELEMENT designer (#PCDATA)>
+            <!ELEMENT note (#PCDATA)>
+]>
+
+<shop yearOfEstablishment="2018" phoneNumber="+1 (646) 555-3890" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./class-outfitters.xsd"> 
     <name>Class Outfitters</name>
     <email>class_outfitters@gmail.com</email>
     <address>57 Union Ave, Rutherford, NJ 07070, USA</address>
@@ -89,7 +165,7 @@
                     <feature>Lapel collar</feature>
                     <feature>Flap pocket</feature>
                     <feature>Without fastening</feature>
-                    <featute>Tonal seams</featute>
+                    <feature>Tonal seams</feature>
                     <feature>Sleek fabric</feature>
                     <feature>Lightly lined</feature>
                 </designAndExtras>
@@ -135,7 +211,7 @@
                     <feature>Straight hem</feature>
                     <feature>Welted pockets</feature>
                     <feature>Without fastening</feature>
-                    <featute>Lightly padded</featute>
+                    <feature>Lightly padded</feature>
                     <feature>With buttons</feature>
                 </designAndExtras>
                 <fit>
@@ -176,7 +252,7 @@
                     <feature>Back slit</feature>
                     <feature>Flap pocket</feature>
                     <feature>Without fastening</feature>
-                    <featute>Tonal seams</featute>
+                    <feature>Tonal seams</feature>
                     <feature>Soft feel</feature>
                     <feature>Lightly lined</feature>
                 </designAndExtras>
@@ -221,7 +297,7 @@
                     <feature>Straight hem</feature>
                     <feature>Back slit</feature>
                     <feature>Flap pocket</feature>
-                    <featute>Without fastening</featute>
+                    <feature>Without fastening</feature>
                     <feature>Tonal seams</feature>
                     <feature>Cool feel</feature>
                     <feature>Lightly lined</feature>
@@ -267,7 +343,7 @@
                     <feature>Plain colored</feature>
                     <feature>Lapel collar</feature>
                     <feature>Flap pocket</feature>
-                    <featute>Without fastening</featute>
+                    <feature>Without fastening</feature>
                     <feature>Tonal seams</feature>
                     <feature>Sleek fabric</feature>
                     <feature>Lightly lined</feature>
@@ -313,7 +389,7 @@
                     <feature>Melange</feature>
                     <feature>Cuffs with 1 button</feature>
                     <feature>Straight cuffs</feature>
-                    <featute>Lapel collar</featute>
+                    <feature>Lapel collar</feature>
                     <feature>Chest pocket</feature>
                     <feature>Flap pockets</feature>
                     <feature>Solid colored tiles</feature>
@@ -360,7 +436,7 @@
                 <designAndExtras>
                     <feature>Lapel collar</feature>
                     <feature>Stitched pockets</feature>
-                    <featute>Full pattern</featute>
+                    <feature>Full pattern</feature>
                     <feature>Chest pocket</feature>
                     <feature>Fixed handle</feature>
                     <feature>Lightly padded</feature>
@@ -406,7 +482,7 @@
                     <feature>Plaid</feature>
                     <feature>Lapel collar</feature>
                     <feature>Flap pockets</feature>
-                    <featute>Full pattern</featute>
+                    <feature>Full pattern</feature>
                     <feature>Soft touch handle</feature>
                     <feature>Light material</feature>
                     <feature>Lightly padded</feature>
@@ -450,7 +526,7 @@
                     <feature>One color</feature>
                     <feature>Lapel collar</feature>
                     <feature>Chest pocket</feature>
-                    <featute>Flap pockets</featute>
+                    <feature>Flap pockets</feature>
                     <feature>Free cut</feature>
                     <feature>Patch/Brand Nameplate</feature>
                     <feature>Prototypically produced</feature>
@@ -498,7 +574,7 @@
                     <feature>One color</feature>
                     <feature>Classic coat</feature>
                     <feature>Straight hem</feature>
-                    <featute>Ribbon with buttons</featute>
+                    <feature>Ribbon with buttons</feature>
                     <feature>Lapel collar</feature>
                     <feature>Dropped shoulders</feature>
                     <feature>Side pockets</feature>
@@ -546,7 +622,7 @@
                     <feature>One color</feature>
                     <feature>Trench coats</feature>
                     <feature>Straight hem</feature>
-                    <featute>Back slit</featute>
+                    <feature>Back slit</feature>
                     <feature>High lapel</feature>
                     <feature>Inverted collar</feature>
                     <feature>Welted pockets</feature>
@@ -596,7 +672,7 @@
                     <feature>One color</feature>
                     <feature>Wool</feature>
                     <feature>Classic coat</feature>
-                    <featute>Machine hem</featute>
+                    <feature>Machine hem</feature>
                     <feature>Stitches on the back</feature>
                     <feature>Inverted collar</feature>
                     <feature>Side pockets</feature>
@@ -645,7 +721,7 @@
                     <feature>One color</feature>
                     <feature>Wool</feature>
                     <feature>Classic coat</feature>
-                    <featute>Inverted collar</featute>
+                    <feature>Inverted collar</feature>
                     <feature>Side pockets</feature>
                     <feature>Kashmir</feature>
                     <feature>Heavy fabrics</feature>
@@ -691,7 +767,7 @@
                     <feature>One color</feature>
                     <feature>Classic coat</feature>
                     <feature>Ribbon with buttons</feature>
-                    <featute>Lapel collar</featute>
+                    <feature>Lapel collar</feature>
                     <feature>Belt</feature>
                     <feature>Dropped shoulders</feature>
                     <feature>Side pockets</feature>
@@ -741,7 +817,7 @@
                     <feature>One color</feature>
                     <feature>Classic coat</feature>
                     <feature>Straight hem</feature>
-                    <featute>Straight cut</featute>
+                    <feature>Straight cut</feature>
                     <feature>Lapel collar</feature>
                     <feature>Side pockets</feature>
                     <feature>Solid colored tiles</feature>
@@ -1823,10 +1899,10 @@
                     <styleFit>Heel/Sole Height: Medium Heel/Sole (3-7cm)</styleFit>
                 </fit>
                 <materialAndCareInstructions>
+                    <countryOfOrigin>China</countryOfOrigin>    
                     <outerMaterial>Synthetics</outerMaterial>
                     <innerMaterial>Synthetic, Textile</innerMaterial>
                     <outerSole>Synthetics</outerSole>
-                    <countryOfOrigin>China</countryOfOrigin>
                 </materialAndCareInstructions>
             </details>
             <tag>regular</tag>
@@ -2406,8 +2482,8 @@
                 </fit>
                 <materialAndCareInstructions>
                     <material>Coarse knit</material>
-                    <outerMaterial>50% Polyacrylic - RS, 50% Cotton</outerMaterial>
                     <countryOfOrigin>China</countryOfOrigin>
+                    <outerMaterial>50% Polyacrylic - RS, 50% Cotton</outerMaterial>
                 </materialAndCareInstructions>
             </details>
             <tag>sale</tag>
@@ -2437,8 +2513,8 @@
                 </fit>
                 <materialAndCareInstructions>
                     <material>50% Cotton (from organic farms), 50% Polyacrylic</material>
-                    <outerMaterial>Coarse knit</outerMaterial>
                     <countryOfOrigin>Turkey</countryOfOrigin>
+                    <outerMaterial>Coarse knit</outerMaterial>
                     <careInstruction>Hand wash</careInstruction>
                     <careInstruction>Not suitable for tumble drying</careInstruction>
                     <careInstruction>No dry cleaning</careInstruction>
@@ -2472,8 +2548,8 @@
                 </fit>
                 <materialAndCareInstructions>
                     <material>50% Cotton, 50% Polyacrylic - RS</material>
-                    <outerMaterial>Coarse knit</outerMaterial>
                     <countryOfOrigin>Turkey</countryOfOrigin>
+                    <outerMaterial>Coarse knit</outerMaterial>
                     <careInstruction>Hand wash</careInstruction>
                     <careInstruction>Not suitable for tumble drying</careInstruction>
                     <careInstruction>No dry cleaning</careInstruction>
@@ -2539,8 +2615,8 @@
                 </fit>
                 <materialAndCareInstructions>
                     <material>50% Cotton, 50% Polyacrylic</material>
-                    <outerMaterial>Coarse knit</outerMaterial>
                     <countryOfOrigin>Turkey</countryOfOrigin>
+                    <outerMaterial>Coarse knit</outerMaterial>
                     <careInstruction>Hand wash</careInstruction>
                     <careInstruction>Not suitable for tumble drying</careInstruction>
                     <careInstruction>No dry cleaning</careInstruction>
@@ -2610,8 +2686,8 @@
                 </fit>
                 <materialAndCareInstructions>
                     <material>50% Cotton (from organic farms), 50% Polyacrylic</material>
+                    <countryOfOrigin>Turkey</countryOfOrigin>    
                     <outerMaterial>Coarse knit</outerMaterial>
-                    <countryOfOrigin>Turkey</countryOfOrigin>
                     <careInstruction>Hand wash</careInstruction>
                     <careInstruction>Not suitable for tumble drying</careInstruction>
                     <careInstruction>No dry cleaning</careInstruction>
@@ -2644,8 +2720,8 @@
                 </fit>
                 <materialAndCareInstructions>
                     <material>50% Cotton, 50% Polyacrylic - RS</material>
-                    <outerMaterial>Coarse knit</outerMaterial>
                     <countryOfOrigin>Turkey</countryOfOrigin>
+                    <outerMaterial>Coarse knit</outerMaterial>
                     <careInstruction>Hand wash</careInstruction>
                     <careInstruction>Not suitable for tumble drying</careInstruction>
                     <careInstruction>No dry cleaning</careInstruction>
@@ -2824,8 +2900,8 @@
                     <styleFit>Soft</styleFit>
                 </fit>
                 <materialAndCareInstructions>
-                    <outerMaterial>70% Polyacrylic, 30% Polyester</outerMaterial>
                     <countryOfOrigin>China</countryOfOrigin>
+                    <outerMaterial>70% Polyacrylic, 30% Polyester</outerMaterial>
                     <careInstruction>Wash at 30 °C</careInstruction>
                     <careInstruction>Not suitable for tumble drying</careInstruction>
                     <careInstruction>Dry cleaning with perchlorethylene</careInstruction>
@@ -2852,8 +2928,8 @@
                     <styleFit>Soft</styleFit>
                 </fit>
                 <materialAndCareInstructions>
-                    <outerMaterial>70% Polyacrylic, 30% Polyester</outerMaterial>
                     <countryOfOrigin>China</countryOfOrigin>
+                    <outerMaterial>70% Polyacrylic, 30% Polyester</outerMaterial>
                     <careInstruction>Wash at 30 °C</careInstruction>
                     <careInstruction>Not suitable for tumble drying</careInstruction>
                     <careInstruction>Dry cleaning with perchlorethylene</careInstruction>
@@ -2880,8 +2956,8 @@
                     <styleFit>Soft</styleFit>
                 </fit>
                 <materialAndCareInstructions>
-                    <outerMaterial>70% Polyacrylic, 30% Polyester</outerMaterial>
                     <countryOfOrigin>China</countryOfOrigin>
+                    <outerMaterial>70% Polyacrylic, 30% Polyester</outerMaterial>
                     <careInstruction>Wash at 30 °C</careInstruction>
                     <careInstruction>Not suitable for tumble drying</careInstruction>
                     <careInstruction>Dry cleaning with perchlorethylene</careInstruction>
@@ -2908,8 +2984,8 @@
                     <styleFit>Soft</styleFit>
                 </fit>
                 <materialAndCareInstructions>
-                    <outerMaterial>70% Polyacrylic, 30% Polyester</outerMaterial>
                     <countryOfOrigin>China</countryOfOrigin>
+                    <outerMaterial>70% Polyacrylic, 30% Polyester</outerMaterial>
                     <careInstruction>Wash at 30 °C</careInstruction>
                     <careInstruction>Not suitable for tumble drying</careInstruction>
                     <careInstruction>Dry cleaning with perchlorethylene</careInstruction>
@@ -3022,8 +3098,8 @@
                     <styleFit>Soft</styleFit>
                 </fit>
                 <materialAndCareInstructions>
-                    <outerMaterial>48% Polyester, 22% Wool, 30% Polyester - PES (recycled)</outerMaterial>
                     <countryOfOrigin>China</countryOfOrigin>
+                    <outerMaterial>48% Polyester, 22% Wool, 30% Polyester - PES (recycled)</outerMaterial>
                     <careInstruction>Hand wash</careInstruction>
                     <careInstruction>Not suitable for tumble drying</careInstruction>
                     <careInstruction>No dry cleaning</careInstruction>

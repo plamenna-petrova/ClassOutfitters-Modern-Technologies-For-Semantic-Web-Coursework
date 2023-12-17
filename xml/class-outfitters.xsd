@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">        
+    <xs:element name="shop">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="name" type="xs:string" />
+                <xs:element name="email" type="xs:string" />
+                <xs:element name="address" type="xs:string" />
+                <xs:element name="googleMapsLocation" type="xs:string" />
+                <xs:element name="socials" type="socialsType"></xs:element>
+                <xs:element name="whoAreWe" type="xs:string" />
+                <xs:element name="whatWeDo" type="xs:string" />
+                <xs:element name="whyChooseUs" type="xs:string" />
+                <xs:element name="testimonial" type="testimonialType"></xs:element>
+                <xs:element name="internationalClients" type="xs:string" />
+                <xs:element name="nationalClients" type="xs:string" />
+                <xs:element name="totalCategories" type="xs:integer" />
+                <xs:element name="happyCustomersPercentage" type="xs:string" />
+                <xs:element name="shippingAndReturnsPolicy" type="xs:string" />
+                <xs:element name="teamMember" maxOccurs="4" type="teamMemberType"></xs:element>
+                <xs:element name="collection" maxOccurs="4" type="collectionType"></xs:element>
+                <xs:element name="blog" minOccurs="1" maxOccurs="1" type="blogType"></xs:element>
+            </xs:sequence>
+            <xs:attribute name="yearOfEstablishment" type="xs:integer" />
+            <xs:attribute name="phoneNumber" type="xs:string" />
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:complexType name="socialsType">
+        <xs:sequence>
+            <xs:element name="facebook" type="xs:string"></xs:element>
+            <xs:element name="x" type="xs:string"></xs:element>
+            <xs:element name="pinterest" type="xs:string"></xs:element>
+            <xs:element name="instagram" type="xs:string"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="testimonialType">
+        <xs:sequence>
+            <xs:element name="author" type="xs:string"></xs:element>
+            <xs:element name="area" type="xs:string"></xs:element>
+            <xs:element name="content" type="xs:string"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="teamMemberType">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"></xs:element>
+            <xs:element name="position" type="xs:string"></xs:element>
+            <xs:element name="image" type="xs:string"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="collectionType">
+        <xs:sequence>
+            <xs:element name="presentationImage" type="xs:string" minOccurs="0"></xs:element>
+            <xs:element name="bannerImage" type="xs:string" minOccurs="0"></xs:element>
+            <xs:element name="product" maxOccurs="unbounded" type="productType"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="name" type="xs:string" />
+    </xs:complexType>
+        
+    <xs:complexType name="productType">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"></xs:element>
+            <xs:element name="price" type="xs:decimal"></xs:element>
+            <xs:element name="brand" type="xs:string"></xs:element>
+            <xs:element name="images" type="imagesType"></xs:element>
+            <xs:element name="availableSizes" minOccurs="0" type="availableSizesType"></xs:element>
+            <xs:element name="color" type="xs:string"></xs:element>
+            <xs:element name="details" type="detailsType"></xs:element>
+            <xs:element name="tag" type="xs:string"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="number" type="xs:string" />
+        <xs:attribute name="category" type="xs:string" />
+    </xs:complexType>
+    
+    <xs:complexType name="imagesType">
+        <xs:sequence>
+            <xs:sequence>
+                <xs:element name="modelCenterImage" type="xs:string" minOccurs="0"></xs:element>
+                <xs:element name="modelSideImage" type="xs:string" minOccurs="0"></xs:element>
+                <xs:element name="productFocusImage" type="xs:string" minOccurs="0"></xs:element>
+                <xs:element name="productZoomImage" type="xs:string" minOccurs="0"></xs:element>
+            </xs:sequence>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="availableSizesType">
+        <xs:sequence>
+            <xs:element name="size" type="xs:string" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="detailsType">
+        <xs:sequence>
+            <xs:element name="designAndExtras" type="designAndExtrasType"></xs:element>
+            <xs:element name="fit" type="fitType"></xs:element>
+            <xs:element name="materialAndCareInstructions" type="materialAndCareInstructionsType"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="designAndExtrasType">
+        <xs:sequence>
+            <xs:element name="feature" type="xs:string" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="fitType">
+        <xs:sequence>
+            <xs:element name="sleeveLength" type="xs:string" minOccurs="0"></xs:element>
+            <xs:element name="length" type="xs:string" minOccurs="0"></xs:element>
+            <xs:element name="styleFit" type="xs:string"></xs:element>
+            <xs:element name="waistline" type="xs:string" minOccurs="0"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="materialAndCareInstructionsType">
+        <xs:sequence>
+            <xs:element name="material" type="xs:string" minOccurs="0"></xs:element>
+            <xs:element name="lining" type="xs:string" minOccurs="0"></xs:element>
+            <xs:element name="countryOfOrigin" type="xs:string" minOccurs="0"></xs:element>
+            <xs:element name="outerMaterial" type="xs:string" minOccurs="0"></xs:element>
+            <xs:element name="innerMaterial" type="xs:string" minOccurs="0"></xs:element>
+            <xs:element name="outerSole" type="xs:string" minOccurs="0"></xs:element>
+            <xs:element name="careInstruction" type="xs:string" minOccurs="0" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="blogType">
+        <xs:sequence>
+            <xs:element name="post" maxOccurs="unbounded" type="postType"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="postType">
+        <xs:sequence>
+            <xs:element name="title" type="xs:string"></xs:element>
+            <xs:element name="author" type="xs:string"></xs:element>
+            <xs:element name="createdOn" type="createdOnType"></xs:element>
+            <xs:element name="image" type="xs:string"></xs:element>
+            <xs:element name="content" type="xs:string"></xs:element>
+            <xs:element name="quote" type="quoteType"></xs:element>
+            <xs:element name="tag" type="xs:string" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="slug" type="xs:string" />
+    </xs:complexType>
+    
+    <xs:complexType name="createdOnType">
+        <xs:sequence>
+            <xs:element name="day" type="xs:integer"></xs:element>
+            <xs:element name="month" type="xs:integer"></xs:element>
+            <xs:element name="year" type="xs:integer"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="quoteType">
+        <xs:sequence>
+            <xs:element name="designer" type="xs:string"></xs:element>
+            <xs:element name="note" type="xs:string"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
