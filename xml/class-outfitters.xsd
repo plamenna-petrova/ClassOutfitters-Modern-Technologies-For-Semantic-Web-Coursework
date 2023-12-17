@@ -3,26 +3,68 @@
     <xs:element name="shop">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="name" type="xs:string" />
-                <xs:element name="email" type="xs:string" />
-                <xs:element name="address" type="xs:string" />
+                <xs:element name="name">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:maxLength value="20" />
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="email">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:maxLength value="30" />
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="address">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
                 <xs:element name="googleMapsLocation" type="xs:string" />
                 <xs:element name="socials" type="socialsType"></xs:element>
-                <xs:element name="whoAreWe" type="xs:string" />
-                <xs:element name="whatWeDo" type="xs:string" />
-                <xs:element name="whyChooseUs" type="xs:string" />
+                <xs:element name="whoAreWe">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:maxLength value="200" />
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="whatWeDo">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:maxLength value="200" />
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="whyChooseUs">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:maxLength value="200" />
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
                 <xs:element name="testimonial" type="testimonialType"></xs:element>
-                <xs:element name="internationalClients" type="xs:string" />
-                <xs:element name="nationalClients" type="xs:string" />
+                <xs:element name="internationalClients" type="xs:integer" />
+                <xs:element name="nationalClients" type="xs:integer" />
                 <xs:element name="totalCategories" type="xs:integer" />
                 <xs:element name="happyCustomersPercentage" type="xs:string" />
-                <xs:element name="shippingAndReturnsPolicy" type="xs:string" />
+                <xs:element name="shippingAndReturnsPolicy">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:maxLength value="750" />
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
                 <xs:element name="teamMember" maxOccurs="4" type="teamMemberType"></xs:element>
                 <xs:element name="collection" maxOccurs="4" type="collectionType"></xs:element>
                 <xs:element name="blog" minOccurs="1" maxOccurs="1" type="blogType"></xs:element>
             </xs:sequence>
-            <xs:attribute name="yearOfEstablishment" type="xs:integer" />
-            <xs:attribute name="phoneNumber" type="xs:string" />
+            <xs:attribute name="yearOfEstablishment" type="xs:gYear" fixed="2018" use="required" />
+            <xs:attribute name="phoneNumber" type="xs:string" use="required" />
         </xs:complexType>
     </xs:element>
     
@@ -37,16 +79,46 @@
     
     <xs:complexType name="testimonialType">
         <xs:sequence>
-            <xs:element name="author" type="xs:string"></xs:element>
-            <xs:element name="area" type="xs:string"></xs:element>
-            <xs:element name="content" type="xs:string"></xs:element>
+            <xs:element name="author">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="area">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="content">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:maxLength value="250" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
         </xs:sequence>
     </xs:complexType>
     
     <xs:complexType name="teamMemberType">
         <xs:sequence>
-            <xs:element name="name" type="xs:string"></xs:element>
-            <xs:element name="position" type="xs:string"></xs:element>
+            <xs:element name="name">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="position">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:maxLength value="25" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
             <xs:element name="image" type="xs:string"></xs:element>
         </xs:sequence>
     </xs:complexType>
@@ -57,28 +129,49 @@
             <xs:element name="bannerImage" type="xs:string" minOccurs="0"></xs:element>
             <xs:element name="product" maxOccurs="unbounded" type="productType"></xs:element>
         </xs:sequence>
-        <xs:attribute name="name" type="xs:string" />
+        <xs:attribute name="name" type="xs:string" use="required" />
     </xs:complexType>
         
     <xs:complexType name="productType">
         <xs:sequence>
-            <xs:element name="name" type="xs:string"></xs:element>
-            <xs:element name="price" type="xs:decimal"></xs:element>
-            <xs:element name="brand" type="xs:string"></xs:element>
+            <xs:element name="name">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="5" />
+                        <xs:maxLength value="80" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="price">
+                <xs:simpleType>
+                    <xs:restriction base="xs:decimal">
+                        <xs:minInclusive value="5.00" />
+                        <xs:maxInclusive value="2000.00" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="brand">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="2" />
+                        <xs:maxLength value="50" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
             <xs:element name="images" type="imagesType"></xs:element>
             <xs:element name="availableSizes" minOccurs="0" type="availableSizesType"></xs:element>
             <xs:element name="color" type="xs:string"></xs:element>
             <xs:element name="details" type="detailsType"></xs:element>
             <xs:element name="tag" type="xs:string"></xs:element>
         </xs:sequence>
-        <xs:attribute name="number" type="xs:string" />
-        <xs:attribute name="category" type="xs:string" />
+        <xs:attribute name="number" type="xs:string" use="required" />
+        <xs:attribute name="category" type="xs:string" use="required" />
     </xs:complexType>
     
     <xs:complexType name="imagesType">
         <xs:sequence>
             <xs:sequence>
-                <xs:element name="modelCenterImage" type="xs:string" minOccurs="0"></xs:element>
+                <xs:element name="modelCenterImage" type="xs:string"></xs:element>
                 <xs:element name="modelSideImage" type="xs:string" minOccurs="0"></xs:element>
                 <xs:element name="productFocusImage" type="xs:string" minOccurs="0"></xs:element>
                 <xs:element name="productZoomImage" type="xs:string" minOccurs="0"></xs:element>
@@ -88,7 +181,14 @@
 
     <xs:complexType name="availableSizesType">
         <xs:sequence>
-            <xs:element name="size" type="xs:string" maxOccurs="unbounded"></xs:element>
+            <xs:element name="size" maxOccurs="unbounded">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="1" />
+                        <xs:maxLength value="4" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
         </xs:sequence>
     </xs:complexType>
     
@@ -143,7 +243,7 @@
             <xs:element name="quote" type="quoteType"></xs:element>
             <xs:element name="tag" type="xs:string" maxOccurs="unbounded"></xs:element>
         </xs:sequence>
-        <xs:attribute name="slug" type="xs:string" />
+        <xs:attribute name="slug" type="xs:string" use="required" />
     </xs:complexType>
     
     <xs:complexType name="createdOnType">

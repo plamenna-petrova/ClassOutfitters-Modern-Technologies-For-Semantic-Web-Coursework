@@ -54,7 +54,7 @@ window.addEventListener("load", () => {
             
             if (validateOrderDetailsInputFields()) {                
                 const orderDetailsHiddenSectionHTML = `
-                    <section class="shopping-cart spad order-details" style="display: none; width: 800px;">
+                    <section class="shopping-cart spad order-details">
                         <div class="container">
                             <div class="row">
                                 <div class="order-personal-details">
@@ -98,7 +98,7 @@ window.addEventListener("load", () => {
                                                             <h5>$${product.price}</h5>
                                                         </div>
                                                     </td>
-                                                    <td style="padding: 50px; 0px; text-align: left;">${product.size ? product.size : ''}</td>
+                                                    <td style="padding: 50px; 0px; text-align: center;">${product.size ? product.size : ''}</td>
                                                     <td class="quantity__item">
                                                     <div class="quantity">
                                                         <div class="pro-qty-2">
@@ -136,11 +136,11 @@ window.addEventListener("load", () => {
                     onrendered: function (canvas) {
                         let jsPDFInstance = new jsPDF('p', 'pt', 'letter');
 
-                        for (let i = 0; i <= orderDetails.clientHeight / 980; i++) {
+                        for (let i = 0; i <= Math.trunc(orderDetails.getBoundingClientRect().height) / 980; i++) {
                             let srcImg = canvas;
                             let sX = 0;
                             let sY = 980 * i;
-                            let sWidth = 900;
+                            let sWidth = 1400;
                             let sHeight = 980;
                             let dX = 0;
                             let dY = 0;
@@ -148,7 +148,7 @@ window.addEventListener("load", () => {
                             let dHeight = 980;
 
                             window.onePageCanvas = document.createElement("canvas");
-                            onePageCanvas.setAttribute('width', 900);
+                            onePageCanvas.setAttribute('width', 1400);
                             onePageCanvas.setAttribute('height', 980);
 
                             let canvas2DContext = onePageCanvas.getContext('2d');
@@ -183,7 +183,6 @@ window.addEventListener("load", () => {
             } 
         });
     } else {
-        console.log('here');
         window.location.href = 'index.php';
     }
 });

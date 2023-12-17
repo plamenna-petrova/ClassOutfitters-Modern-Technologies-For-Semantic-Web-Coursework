@@ -255,7 +255,8 @@ export const filterProductsWithXPathExpression = ({ xmlDocument, collectionName,
     const currentlySelectedSortingOption = shopProductOptionRight.querySelector(".nice-select .current");
 
     if (sortingOption) {
-        sortingOption = sortingOption.slice(0, 11).trim();
+        console.log('here');
+        sortingOption = sortingOption.slice(0, Math.max(LOW_TO_HIGH_SORTING_TYPE.length, HIGH_TO_LOW_SORTING_TYPE.length)).trim();
     } else {
         sortingOption = currentlySelectedSortingOption.textContent;
     }
