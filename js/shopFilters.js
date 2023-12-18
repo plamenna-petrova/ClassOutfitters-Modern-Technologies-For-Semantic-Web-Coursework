@@ -285,7 +285,7 @@ export const generateFilteredProductsHTML = (products, collectionClassName) => {
                     data-setbg="${product.getElementsByTagName("images")[0].getElementsByTagName("modelCenterImage")[0].textContent}"
                     style="background-image: url(&quot;${product.getElementsByTagName("images")[0].getElementsByTagName("modelCenterImage")[0].textContent}&quot;);">
                     ${product.getElementsByTagName('tag')[0].textContent !== 'regular'
-                        ? `<span class="label">${product.getElementsByTagName('tag')[0].textContent}</span>` : ''
+                            ? `<span class="label">${product.getElementsByTagName('tag')[0].textContent}</span>` : ''
                     }
                     <ul class="product__hover">
                         <li>
@@ -301,7 +301,13 @@ export const generateFilteredProductsHTML = (products, collectionClassName) => {
                 </div>
                 <div class="product__item__text">
                     <h6>${product.getElementsByTagName('name')[0].textContent}</h6>
-                    <a href="#" class="add-cart">+ Add To Cart</a>
+                        <form method='get' action='shopDetails.php'>
+                            <input type="hidden" name="productNumber" value="${product.getAttribute('number')}" />
+                            <input type="hidden" name="productCategory" value="${product.getAttribute('category')}" />
+                            <a href='#' class='add-cart' onclick='this.parentNode.submit(); return false;'>
+                                + Add To Cart
+                            </a>
+                        </form>
                     <h5>$${product.getElementsByTagName('price')[0].textContent}</h5>
                </div>
             </div>

@@ -251,7 +251,7 @@
                                                     <form method='get' action='shopDetails.php'>
                                                         <input type="hidden" name="productNumber" value="{@number}" />
                                                         <input type="hidden" name="productCategory" value="{@category}" />
-                                                        <a href='#' class='add-cart' onclick='this.parentNode.submit(); return false;'>
+                                                        <a href='#' class='add-cart' onclick='event.preventDefault(); this.parentNode.submit();'>
                                                             + Add To Cart
                                                         </a>
                                                     </form>
@@ -284,7 +284,7 @@
                                                     <form method='get' action='shopDetails.php'>
                                                         <input type="hidden" name="productNumber" value="{@number}" />
                                                         <input type="hidden" name="productCategory" value="{@category}" />
-                                                        <a href='#' class='add-cart' onclick='this.parentNode.submit(); return false;'>
+                                                        <a href='#' class='add-cart' onclick='event.preventDefault(); this.parentNode.submit();'>
                                                             + Add To Cart
                                                         </a>
                                                     </form>
@@ -317,7 +317,7 @@
                                                     <form method='get' action='shopDetails.php'>
                                                         <input type="hidden" name="productNumber" value="{@number}" />
                                                         <input type="hidden" name="productCategory" value="{@category}" />
-                                                        <a href='#' class='add-cart' onclick='this.parentNode.submit(); return false;'>
+                                                        <a href='#' class='add-cart' onclick='event.preventDefault(); this.parentNode.submit();'>
                                                             + Add To Cart
                                                         </a>
                                                     </form>
