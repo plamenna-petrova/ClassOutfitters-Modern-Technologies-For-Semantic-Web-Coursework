@@ -27,8 +27,8 @@
                         </div>
                     </div>
                     <div class="offcanvas__nav__option">
-                        <a href="#" class="search-switch"><img src="../img/icon/search.png" alt="" /></a>
-                        <a href="#"><img src="../img/icon/cart.png" alt="" /> <span>0</span></a>
+                        <a href="#" class="search-switch"><img src="img/icon/search.png" alt="" /></a>
+                        <a href="#"><img src="img/icon/cart.png" alt="" /> <span>0</span></a>
                         <div class="price">$0.00</div>
                     </div>
                     <div id="mobile-menu-wrap"></div>
@@ -62,13 +62,13 @@
                         <div class="row">
                             <div class="col-lg-3 col-md-3">
                                 <div class="header__logo">
-                                    <a href="../../index.php"><img src="../img/logo.png" alt="" /></a>
+                                    <a href="./index.php"><img src="img/logo.png" alt="" /></a>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <nav class="header__menu mobile-menu">
                                     <ul>
-                                        <li><a href="../../index.php">Home</a></li>
+                                        <li><a href="./index.php">Home</a></li>
                                         <li>
                                             <a href="#">Shop</a>
                                             <ul class="dropdown">
@@ -77,16 +77,16 @@
                                                 <li><a href="./accessoriesFallCollection.php">Accessories</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="../../blog.php">Blog</a></li>
-                                        <li><a href="../../about.php">About Us</a></li>
-                                        <li><a href="../../contact.php">Contacts</a></li>
+                                        <li><a href="./blog.php">Blog</a></li>
+                                        <li><a href="./about.php">About Us</a></li>
+                                        <li><a href="./contact.php">Contacts</a></li>
                                     </ul>
                                 </nav>
                             </div>
                             <div class="col-lg-3 col-md-3">
                                 <div class="header__nav__option">
-                                    <a href="#" class="search-switch"><img src="../img/icon/search.png" alt="" /></a>
-                                    <a href="./shoppingCart.php"><img src="../img/icon/cart.png" alt="" /> <span>0</span></a>
+                                    <a href="#" class="search-switch"><img src="img/icon/search.png" alt="" /></a>
+                                    <a href="./shoppingCart.php"><img src="img/icon/cart.png" alt="" /> <span>0</span></a>
                                     <div class="price">$0.00</div>
                                 </div>
                             </div>
@@ -273,7 +273,7 @@
                                                                 <input type="hidden" name="productNumber" value="{@number}" />
                                                                 <input type="hidden" name="productCategory" value="{@category}" />
                                                                 <button type="submit">
-                                                                    <img src="../img/icon/search.png" alt="" />
+                                                                    <img src="img/icon/search.png" alt="" />
                                                                 </button>
                                                             </form>
                                                         </li>
@@ -347,7 +347,7 @@
                             <div class="col-lg-3 col-md-6 col-sm-6">
                                 <div class="footer__about">
                                     <div class="footer__logo">
-                                        <a href="#"><img src="../img/logo.png" alt="" /></a>
+                                        <a href="#"><img src="img/logo.png" alt="" /></a>
                                     </div>
                                     <p>The customer is at the heart of our unique business model, which includes design.</p>
                                 </div>
