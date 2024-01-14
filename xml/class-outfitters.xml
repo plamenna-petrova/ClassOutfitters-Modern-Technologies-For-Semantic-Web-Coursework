@@ -76,7 +76,7 @@
             <!ELEMENT note (#PCDATA)>
 ]>
 
-<shop yearOfEstablishment="2018" phoneNumber="+1 (646) 555-3890" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./class-outfitters.xsd"> 
+<shop yearOfEstablishment="2018" phoneNumber="+1 (646) 555-3890"> 
     <name>Class Outfitters</name>
     <email>class_outfitters@gmail.com</email>
     <address>57 Union Ave, Rutherford, NJ 07070, USA</address>
