@@ -161,7 +161,7 @@ if (file_exists('./xml/class-outfitters.xml')) {
                                         <h5>".$blogPost->title."</h5>
                                         <form method='get' action='blogDetails.php'>
                                             <input type='hidden' name='slug' value='".$blogPost->attributes()->slug."' />
-                                            <a href='#' onclick='this.parentNode.submit(); return false;'>Read More</a>
+                                            <a href='#' onclick='event.preventDefault(); this.parentNode.submit();'>Read More</a>
                                         </form>
                                     </div>
                                 </div>

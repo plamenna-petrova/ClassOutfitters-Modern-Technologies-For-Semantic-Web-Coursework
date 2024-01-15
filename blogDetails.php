@@ -236,7 +236,7 @@ if (file_exists('./xml/class-outfitters.xml')) {
                                         echo "
                                             <form method='get' action='blogDetails.php'>
                                                 <input type='hidden' name='slug' value='".$blogPosts[$currentBlogPostIndex - 1]->attributes()->slug."' />
-                                                <a href='#' class='blog__details__btns__item' onclick='this.parentNode.submit(); return false;'>
+                                                <a href='#' class='blog__details__btns__item' onclick='event.preventDefault(); this.parentNode.submit();'>
                                                     <p><span class='arrow_left'></span>Previous Post</p>
                                                     <h5>".$blogPosts[$currentBlogPostIndex - 1]->title."</h5>
                                                 </a>
@@ -252,7 +252,7 @@ if (file_exists('./xml/class-outfitters.xml')) {
                                         echo "
                                             <form method='get' action='blogDetails.php'>
                                                 <input type='hidden' name='slug' value='".$blogPosts[$currentBlogPostIndex + 1]->attributes()->slug."' />
-                                                <a href='#' class='blog__details__btns__item blog__details__btns__item--next' onclick='this.parentNode.submit(); return false;'>
+                                                <a href='#' class='blog__details__btns__item blog__details__btns__item--next' onclick='event.preventDefault(); this.parentNode.submit();'>
                                                     <p>Next Post<span class='arrow_right'></span></p>
                                                     <h5>".$blogPosts[$currentBlogPostIndex + 1]->title."</h5>
                                                 </a>

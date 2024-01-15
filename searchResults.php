@@ -156,7 +156,7 @@ if (file_exists('./xml/class-outfitters.xml')) {
                                 <form method='get' action='shopDetails.php'>
                                     <input type='hidden' name='productNumber' value='".$foundProduct->attributes()->number."' />
                                     <input type='hidden' name='productCategory' value='".$foundProduct->attributes()->category."' />
-                                    <a href='#' onclick='this.parentNode.submit(); return false;'>View</a>
+                                    <a href='#' onclick='event.preventDefault(); this.parentNode.submit();'>View</a>
                                 </form>
                             </div>
                         </div>

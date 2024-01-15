@@ -432,20 +432,20 @@ if (file_exists('./xml/class-outfitters.xml')) {
             <div class="row">
                 <?php
                     foreach ($relatedProducts as $relatedProduct) {
-                      $currentProductImages = $relatedProduct->images;
-                      $currentProductTagValue = (string) $relatedProduct->tag;
-                      $currentProductNumber = $relatedProduct->attributes()->number;
-                      $currentProductCategory = $relatedProduct->attributes()->category;
+                      $relatedProductImages = $relatedProduct->images;
+                      $relatedProductTagValue = (string) $relatedProduct->tag;
+                      $relatedProductNumber = $relatedProduct->attributes()->number;
+                      $relatedProductCategory = $relatedProduct->attributes()->category;
 
                        echo "<div class='col-lg-3 col-md-6 col-sm-6 col-sm-6'>
                             <div class='product__item'>
-                                <div class='product__item__pic set-bg' data-setbg='$currentProductImages->modelCenterImage'>
-                                    " . ($currentProductTagValue != 'regular' ? "<span class='label'>$currentProductTagValue</span>" : '') . "
+                                <div class='product__item__pic set-bg' data-setbg='$relatedProductImages->modelCenterImage'>
+                                    " . ($relatedProductTagValue != 'regular' ? "<span class='label'>$relatedProductTagValue</span>" : '') . "
                                     <ul class='product__hover'>
                                         <li>
                                             <form method='get' action='shopDetails.php'>
-                                                <input type='hidden' name='productNumber' value='$currentProductNumber' />
-                                                <input type='hidden' name='productCategory' value='$currentProductCategory' />
+                                                <input type='hidden' name='productNumber' value='$relatedProductNumber' />
+                                                <input type='hidden' name='productCategory' value='$relatedProductCategory' />
                                                 <button type='submit'>
                                                     <img src='img/icon/search.png' alt='' />
                                                 </button>
@@ -456,6 +456,13 @@ if (file_exists('./xml/class-outfitters.xml')) {
                                 <div class='product__item__text'>
                                     <h6>$relatedProduct->name</h6>
                                     <a href='#' class='add-cart'>+ Add To Cart</a>
+                                    <form method='get' action='shopDetails.php'>
+                                        <input type='hidden' name='productNumber' value='".$relatedProductNumber."' />
+                                        <input type='hidden' name='productCategory' value='".$relatedProductCategory."' />
+                                        <a href='#' class='add-cart' onclick='event.preventDefault(); this.parentNode.submit();'>
+                                            + Add To Cart
+                                        </a>
+                                    </form>
                                     <h5>$$relatedProduct->price</h5>
                                 </div>
                             </div>

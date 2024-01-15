@@ -255,7 +255,6 @@ export const filterProductsWithXPathExpression = ({ xmlDocument, collectionName,
     const currentlySelectedSortingOption = shopProductOptionRight.querySelector(".nice-select .current");
 
     if (sortingOption) {
-        console.log('here');
         sortingOption = sortingOption.slice(0, Math.max(LOW_TO_HIGH_SORTING_TYPE.length, HIGH_TO_LOW_SORTING_TYPE.length)).trim();
     } else {
         sortingOption = currentlySelectedSortingOption.textContent;
@@ -304,7 +303,7 @@ export const generateFilteredProductsHTML = (products, collectionClassName) => {
                         <form method='get' action='shopDetails.php'>
                             <input type="hidden" name="productNumber" value="${product.getAttribute('number')}" />
                             <input type="hidden" name="productCategory" value="${product.getAttribute('category')}" />
-                            <a href='#' class='add-cart' onclick='this.parentNode.submit(); return false;'>
+                            <a href='#' class='add-cart' onclick='event.preventDefault(); this.parentNode.submit();'>
                                 + Add To Cart
                             </a>
                         </form>

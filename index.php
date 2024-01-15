@@ -296,7 +296,13 @@
                                     </div>
                                     <div class='product__item__text'>
                                         <h6>".$bestSeller->name."</h6>
-                                        <a href='#' class='add-cart'>+ Add To Cart</a>
+                                        <form method='get' action='shopDetails.php'>
+                                            <input type='hidden' name='productNumber' value='".$bestSellerProductNumber."' />
+                                            <input type='hidden' name='productCategory' value='".$bestSellerCategory."' />
+                                            <a href='#' class='add-cart' onclick='event.preventDefault(); this.parentNode.submit();'>
+                                                + Add To Cart
+                                            </a>
+                                        </form>
                                         <h5>$".$bestSeller->price."</h5>
                                     </div>
                                 </div>
@@ -329,6 +335,13 @@
                                     <div class='product__item__text'>
                                         <h6>".$newArrival->name."</h6>
                                         <a href='#' class='add-cart'>+ Add To Cart</a>
+                                        <form method='get' action='shopDetails.php'>
+                                            <input type='hidden' name='productNumber' value='".$newArrivalProductNumber."' />
+                                            <input type='hidden' name='productCategory' value='".$newArrivalCategory."' />
+                                            <a href='#' class='add-cart' onclick='event.preventDefault(); this.parentNode.submit();'>
+                                                + Add To Cart
+                                            </a>
+                                        </form>
                                         <h5>$".$newArrival->price."</h5>
                                     </div>
                                 </div>
@@ -360,7 +373,13 @@
                                     </div>
                                     <div class='product__item__text'>
                                         <h6>".$hotSale->name."</h6>
-                                        <a href='#' class='add-cart'>+ Add To Cart</a>
+                                        <form method='get' action='shopDetails.php'>
+                                            <input type='hidden' name='productNumber' value='".$hotSaleProductNumber."' />
+                                            <input type='hidden' name='productCategory' value='".$hotSaleCategory."' />
+                                            <a href='#' class='add-cart' onclick='event.preventDefault(); this.parentNode.submit();'>
+                                                + Add To Cart
+                                            </a>
+                                        </form>
                                         <h5>$".$hotSale->price."</h5>
                                     </div>
                                 </div>
@@ -428,7 +447,7 @@
                                         <h5>" . $latestBlogPost->title . "</h5>
                                         <form method='get' action='blogDetails.php'>
                                             <input type='hidden' name='slug' value='" . $latestBlogPost->attributes()->slug . "' />
-                                            <a href='#' onclick='this.parentNode.submit(); return false;'>Read More</a>
+                                            <a href='#' onclick='event.preventDefault(); this.parentNode.submit();'>Read More</a>
                                         </form>
                                     </div>
                                 </div>
