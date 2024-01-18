@@ -144,6 +144,7 @@ export const sortProducts = (displayProductsCallback, xmlDocument, collectionNam
 
     sortProductsByPriceSelect.addEventListener("click", (event) => {
         event.preventDefault();
+        
         displayProductsCallback(filterProductsWithXPathExpression({
             xmlDocument, collectionName, searchTerm: searchTermInput.value, sortingOption: event.target.textContent
         }));
