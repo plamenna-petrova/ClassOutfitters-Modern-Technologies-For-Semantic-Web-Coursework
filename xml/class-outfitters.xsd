@@ -60,7 +60,7 @@
                     </xs:simpleType>
                 </xs:element>
                 <xs:element name="teamMember" maxOccurs="4" type="teamMemberType"></xs:element>
-                <xs:element name="collection" maxOccurs="4" type="collectionType"></xs:element>
+                <xs:element name="collection" maxOccurs="3" type="collectionType"></xs:element>
                 <xs:element name="blog" minOccurs="1" maxOccurs="1" type="blogType"></xs:element>
             </xs:sequence>
             <xs:attribute name="yearOfEstablishment" type="xs:gYear" fixed="2018" use="required" />
