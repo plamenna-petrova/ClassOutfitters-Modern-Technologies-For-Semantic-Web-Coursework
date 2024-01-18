@@ -170,6 +170,7 @@
                         </div>
                     </div>"; 
             ?>
+            
             <?php
                 $shoesWinterCollection = $collections[1];
                 $shoesWinterCollectionName = $shoesWinterCollection->attributes()->name;

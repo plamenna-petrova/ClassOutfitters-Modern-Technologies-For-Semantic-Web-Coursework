@@ -50,6 +50,7 @@ fetch('./xml/class-outfitters.xml')
     .then(classOutfittersXMLString => {
         const classOutfittersXMLDocument = new DOMParser().parseFromString(classOutfittersXMLString, "application/xml");
         const fallWinterClothingCollectionName = 'Fall-Winter Clothing Collection 2023/2024';
+        
         let breadCrumbLinksSpan = document.querySelector(".breadcrumb__links span");
         breadCrumbLinksSpan.innerHTML = fallWinterClothingCollectionName;
 
