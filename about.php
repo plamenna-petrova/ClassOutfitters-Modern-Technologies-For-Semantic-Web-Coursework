@@ -306,6 +306,9 @@ if (file_exists('./xml/class-outfitters.xml')) {
                                         <mn>2</mn>
                                     </msup>
                                     <mo>+</mo>
+                                    <mn>2</mn>
+                                    <mi>x</mi>
+                                    <mo>+</mo>
                                     <mn>1</mn>
                                 </msqrt>
                                 <mo>-</mo>

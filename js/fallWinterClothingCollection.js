@@ -129,9 +129,13 @@ const setCurrentPage = (pageNumber) => {
         }
     });
 
-    shownPaginationResultsParagraph.innerHTML = `Showing ${previousPagesRange + 1}-` +
-        `${nextPagesRange > paginationItemsColumns.length ? paginationItemsColumns.length : nextPagesRange} ` +
-        `results out of ${paginationItemsColumns.length}`;
+    if (paginationItemsColumns.length === 0) {
+        shownPaginationResultsParagraph.innerHTML = '';
+    } else {
+        shownPaginationResultsParagraph.innerHTML = `Showing ${previousPagesRange + 1}-` +
+            `${nextPagesRange > paginationItemsColumns.length ? paginationItemsColumns.length : nextPagesRange} ` +
+            `results out of ${paginationItemsColumns.length}`;
+    }
 }
 
 const handleActivePageNumber = () => {
