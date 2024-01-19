@@ -2,6 +2,7 @@
 if (file_exists('./xml/class-outfitters.xml')) {
     $shopNode = simplexml_load_file('./xml/class-outfitters.xml');
     $searchTerm = $_GET['search'];
+    $searchTerm = preg_replace('/\s+/', '', $searchTerm);
 
     $UPPERCASE_ALPHABET_LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
@@ -139,7 +140,12 @@ if (file_exists('./xml/class-outfitters.xml')) {
 
     <?php
         if ($foundProducts) {
-            echo "<div class='pt-5'><h3 class='text-center'>You searched for '" . $searchTerm . "'</h3></div>";
+            if ($searchTerm == '') {
+                echo "<div class='pt-5'><h3 class='text-center'>All Products</h3></div>";   
+            } else {
+                echo "<div class='pt-5'><h3 class='text-center'>You searched for '" . $searchTerm . "'</h3></div>";
+            }
+
             echo "<div class='pt-5'><h2 class='text-center'>".count($foundProducts)." products found</h2></div>";
 
             echo "<section class='blog spad'>";
